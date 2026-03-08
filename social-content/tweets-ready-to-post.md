@@ -1,26 +1,26 @@
-﻿# @NCLEXPrePro ΓÇö 14 Tweets Ready to Paste into Buffer
-# Copy each tweet block ΓåÆ paste into Buffer ΓåÆ queue for 7pm CST daily
+# @NCLEXPrePro — 14 Tweets Ready to Paste into Buffer
+# Copy each tweet block → paste into Buffer → queue for 7pm CST daily
 # Takes ~5 minutes total
 
 ---
 
-## TWEET 1 ΓÇö Monday
+## TWEET 1 — Monday
 ```
 ABCs save lives on NCLEX and in real life.
 
 Every prioritization question: ask yourself who's dying first.
 
-Airway ΓåÆ Breathing ΓåÆ Circulation
+Airway → Breathing → Circulation
 
-If an answer involves any of those 3 ΓÇö that's your pick.
+If an answer involves any of those 3 — that's your pick.
 
-≡ƒ⌐║ Test your clinical judgment free ΓåÆ https://nclexprepro.com/sample
+🩺 Test your clinical judgment free → https://nclexprepro.com/sample
 #NCLEX #NursingStudents
 ```
 
 ---
 
-## TWEET 2 ΓÇö Tuesday
+## TWEET 2 — Tuesday
 ```
 NCLEX pharm tip that changed everything:
 
@@ -32,13 +32,13 @@ Learn the SUFFIX instead.
 -statin = cholesterol (watch for muscle pain)
 -mycin = antibiotic (watch for ototoxicity)
 
-12 suffixes covers 80% of NCLEX pharm. ≡ƒÆè
+12 suffixes covers 80% of NCLEX pharm. 💊
 #NCLEX #Pharmacology
 ```
 
 ---
 
-## TWEET 3 ΓÇö Wednesday
+## TWEET 3 — Wednesday
 ```
 The real reason people fail NCLEX:
 
@@ -53,7 +53,7 @@ That shift alone moves the needle more than 100 extra practice questions.
 
 ---
 
-## TWEET 4 ΓÇö Thursday
+## TWEET 4 — Thursday
 ```
 SATA tip: treat each option like true/false.
 
@@ -63,20 +63,20 @@ Then B. Then C.
 
 They're independent questions, not a group puzzle.
 
-This mindset shift = more SATA correct answers. Γ£à
+This mindset shift = more SATA correct answers. ✅
 #NCLEX
 ```
 
 ---
 
-## TWEET 5 ΓÇö Friday
+## TWEET 5 — Friday
 ```
 Fluid & electrolytes made simple:
 
 SALT = Sodium
 
-LOW sodium ΓåÆ water moves INTO cells ΓåÆ brain swells
-HIGH sodium ΓåÆ water moves OUT of cells ΓåÆ confusion/seizure
+LOW sodium → water moves INTO cells → brain swells
+HIGH sodium → water moves OUT of cells → confusion/seizure
 
 All the symptoms flow from that one principle.
 #NCLEX #NursingStudents
@@ -84,39 +84,39 @@ All the symptoms flow from that one principle.
 
 ---
 
-## TWEET 6 ΓÇö Saturday
+## TWEET 6 — Saturday
 ```
 Quick poll for nursing students:
 
 What's your hardest NCLEX topic?
 
-≡ƒö┤ Prioritization
-≡ƒƒí Pharmacology
-≡ƒƒó SATA
-≡ƒö╡ Mental Health
+🔴 Prioritization
+🟡 Pharmacology
+🟢 SATA
+🔵 Mental Health
 
-Drop your answer below ≡ƒæç
+Drop your answer below 👇
 #NCLEX #NursingSchool
 ```
 
 ---
 
-## TWEET 7 ΓÇö Sunday
+## TWEET 7 — Sunday
 ```
 If you're studying for NCLEX right now, you're already doing the hard part.
 
 The exam is hard. Nursing school is hard.
 But you didn't come this far to only come this far.
 
-Free 10-question practice ΓåÆ https://nclexprepro.com/sample
+Free 10-question practice → https://nclexprepro.com/sample
 
-You've got this. ≡ƒ⌐║
+You've got this. 🩺
 #NursingStudents #NCLEX
 ```
 
 ---
 
-## TWEET 8 ΓÇö Monday Week 2
+## TWEET 8 — Monday Week 2
 ```
 Therapeutic communication on NCLEX = 4 rules:
 
@@ -125,13 +125,13 @@ Therapeutic communication on NCLEX = 4 rules:
 3. Never use yes/no questions
 4. Always reflect the patient's feelings back
 
-When stuck ΓåÆ pick the answer that makes the patient feel heard.
+When stuck → pick the answer that makes the patient feel heard.
 #NCLEX #MentalHealth
 ```
 
 ---
 
-## TWEET 9 ΓÇö Tuesday Week 2
+## TWEET 9 — Tuesday Week 2
 ```
 Most underrated NCLEX study strategy:
 
@@ -147,54 +147,54 @@ The last line tells you exactly what kind of answer to look for.
 
 ---
 
-## TWEET 10 ΓÇö Wednesday Week 2
+## TWEET 10 — Wednesday Week 2
 ```
 Delegation rules for NCLEX:
 
-RN ΓåÆ complex assessments, unstable patients, teaching
-LPN ΓåÆ stable patients, routine care
-CNA ΓåÆ basic ADLs, vital signs on stable patients
+RN → complex assessments, unstable patients, teaching
+LPN → stable patients, routine care
+CNA → basic ADLs, vital signs on stable patients
 
-When in doubt: if it requires judgment ΓåÆ RN only.
+When in doubt: if it requires judgment → RN only.
 #NCLEX #Prioritization
 ```
 
 ---
 
-## TWEET 11 ΓÇö Thursday Week 2
+## TWEET 11 — Thursday Week 2
 ```
 Labs you MUST know for NCLEX:
 
-Na+ ΓåÆ 135-145
-K+ ΓåÆ 3.5-5.0 (dangerous outside this range)
-Glucose ΓåÆ 70-110 fasting
-INR ΓåÆ 2-3 therapeutic (warfarin)
-PTT ΓåÆ 60-100 therapeutic (heparin)
+Na+ → 135-145
+K+ → 3.5-5.0 (dangerous outside this range)
+Glucose → 70-110 fasting
+INR → 2-3 therapeutic (warfarin)
+PTT → 60-100 therapeutic (heparin)
 
-Screenshot this. Γ£à
+Screenshot this. ✅
 #NCLEX #LabValues
 ```
 
 ---
 
-## TWEET 12 ΓÇö Friday Week 2
+## TWEET 12 — Friday Week 2
 ```
 Signs of increased ICP:
 
-≡ƒö┤ Cushing's Triad:
+🔴 Cushing's Triad:
 - Rising BP
 - Slowing heart rate
 - Irregular respirations
 
 This is a neurological emergency.
 
-See these 3 together on NCLEX ΓåÆ call the doctor immediately.
+See these 3 together on NCLEX → call the doctor immediately.
 #NCLEX #MedSurg
 ```
 
 ---
 
-## TWEET 13 ΓÇö Saturday Week 2
+## TWEET 13 — Saturday Week 2
 ```
 Honest take: the best NCLEX prep isn't more content.
 
@@ -208,30 +208,19 @@ Quality of review > quantity of questions.
 
 ---
 
-## TWEET 14 ΓÇö Sunday Week 2
+## TWEET 14 — Sunday Week 2
 ```
 2 weeks of NCLEX tips.
 
-If even one of these helped ΓÇö share this with a nursing student who needs it.
+If even one of these helped — share this with a nursing student who needs it.
 
-When you pass, come back and tell me. I love hearing those stories. ≡ƒÄë
+When you pass, come back and tell me. I love hearing those stories. 🎉
 
-Free 10-question practice ΓåÆ https://nclexprepro.com/sample
+Free 10-question practice → https://nclexprepro.com/sample
 #NCLEX #NursingStudents #YouGotThis
 ```
 
 ---
-
-# HOW TO QUEUE IN BUFFER (5 minutes)
-1. Go to app.buffer.com
-2. Click "New Post" ΓåÆ select @NCLEXPrePro Twitter
-3. Copy/paste each tweet above
-4. Set time: 7:00 PM CST
-5. Click "Add to Queue"
-6. Repeat for all 14
-
-Buffer free = 10 posts in queue at a time.
-Queue the first 10 now, add the last 4 after some post.
 
 ---
 
@@ -313,7 +302,7 @@ Better review = better score.
 
 Know *why* each answer is wrong. That's the entire game.
 
-🏥 Free 10-question sample with rationales → https://nclexprepro.com/sample
+🏥 Free 10-question sample → https://nclexprepro.com/sample
 
 #NCLEX #NursingStudents
 ```
@@ -358,7 +347,7 @@ Insulin types — fastest to slowest:
 
 ⚡ Lispro/Aspart → 15 min onset (mealtime)
 🔵 Regular → 30-60 min onset
-🟡 NPH → peaks 6-14 hrs (overnight hypoglycemia risk)
+🟡 NPH → peaks 6-14 hrs (overnight hypo risk)
 🟢 Glargine → no peak (basal)
 
 The one with a peak = hypoglycemia risk while sleeping.
@@ -372,7 +361,7 @@ The one with a peak = hypoglycemia risk while sleeping.
 ```
 What "delegate to the UAP" means on NCLEX:
 
-✅ Vital signs (stable)
+✅ Vital signs (stable patient)
 ✅ Ambulation assistance
 ✅ Bathing and hygiene
 
@@ -428,7 +417,7 @@ Cardiac meds cheat sheet:
 
 -olol (beta blockers) → slow HR, lower BP
 -pril (ACE inhibitors) → vasodilate, watch for cough
--sartan (ARBs) → like ACE, no cough
+-sartan (ARBs) → like ACE but no cough
 Nitrates → vasodilate, watch for hypotension
 Digoxin → slow + strengthen (toxic > 2.0)
 
@@ -441,12 +430,12 @@ Hold cardiac meds if HR < 60 unless ordered.
 
 ## TWEET 27 — Week 4 Saturday
 ```
-The 5 rights of delegation (NCLEX version):
+The 5 rights of delegation:
 
 1. Right task
 2. Right circumstance
 3. Right person
-4. Right direction/communication
+4. Right direction and communication
 5. Right supervision
 
 All 5 must be met. Miss one → don't delegate.
@@ -496,7 +485,7 @@ Answer that — every time.
 
 If you've been following along — you're more prepared than you think.
 
-The full 497-question bank → https://nclexprepro.com
+Full 497-question bank → https://nclexprepro.com
 One-time $19. No subscription. Instant access.
 
 Pass NCLEX. Change lives. 💙🏥
@@ -506,9 +495,16 @@ Pass NCLEX. Change lives. 💙🏥
 
 ---
 
-# REMAINING QUEUE NOTES
-- Tweets 1-5: Already posted ✅
-- Tweets 6-14: Ready to queue (Week 1 Sat - Week 2 Sun)
-- Tweets 15-30: New content — queue after 14 posts
-- Post time: 7:00 PM CST daily
-- Buffer free = 10 posts max in queue — refill every 10 days
+# HOW TO QUEUE IN BUFFER (5 minutes)
+1. Go to app.buffer.com
+2. Click "New Post" → select @NCLEXPrePro Twitter
+3. Copy/paste each tweet
+4. Set time: 7:00 PM CST daily
+5. Click "Add to Queue" — repeat for all 30
+
+**Status:**
+- Tweets 1–5: Already posted ✅
+- Tweets 6–14: Queue next (Week 1 Sat → Week 2 Sun)
+- Tweets 15–30: Written Mar 8 2026 — queue after 14 posts
+
+Buffer free = 10 posts max in queue. Refill every ~10 days.

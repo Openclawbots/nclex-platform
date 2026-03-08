@@ -1,4 +1,4 @@
-﻿# Twitter/X ΓÇö 2-Week Content Schedule
+# Twitter/X — 2-Week Content Schedule
 Account: @NCLEXPrepPro (create this)
 Post time: 7pm CT daily (nurses studying in the evening)
 Hashtags to rotate: #NCLEX #NursingStudents #NursingSchool #NextGenNCLEX #NursingLife
@@ -12,11 +12,11 @@ ABCs save lives on NCLEX and in real life.
 
 Every prioritization question: ask yourself who's dying first.
 
-Airway ΓåÆ Breathing ΓåÆ Circulation
+Airway → Breathing → Circulation
 
-If an answer involves any of those 3 ΓÇö that's your pick.
+If an answer involves any of those 3 — that's your pick.
 
-≡ƒ⌐║ Test your clinical judgment free ΓåÆ [link]
+🩺 Test your clinical judgment free → [link]
 #NCLEX #NursingStudents
 
 ---
@@ -32,7 +32,7 @@ Learn the SUFFIX instead.
 -statin = cholesterol (watch for muscle pain)
 -mycin = antibiotic (watch for ototoxicity)
 
-12 suffixes covers 80% of NCLEX pharm. ≡ƒÆè
+12 suffixes covers 80% of NCLEX pharm. 💊
 #NCLEX #Pharmacology
 
 ---
@@ -60,7 +60,7 @@ Then B. Then C.
 They're independent questions, not a group puzzle.
 
 This single mindset shift = more SATA correct answers.
-Γ£à #NCLEX
+✅ #NCLEX
 
 ---
 
@@ -70,8 +70,8 @@ Fluid & electrolytes made simple:
 SALT = Sodium
 Think SALT when you think dehydration
 
-LOW sodium ΓåÆ water moves INTO cells ΓåÆ brain swells
-HIGH sodium ΓåÆ water moves OUT of cells ΓåÆ confusion/seizure
+LOW sodium → water moves INTO cells → brain swells
+HIGH sodium → water moves OUT of cells → confusion/seizure
 
 All the symptoms flow from that one principle.
 #NCLEX #NursingStudents
@@ -83,12 +83,12 @@ Quick poll for nursing students:
 
 What's your hardest NCLEX topic?
 
-≡ƒö┤ Prioritization
-≡ƒƒí Pharmacology  
-≡ƒƒó SATA
-≡ƒö╡ Mental Health
+🔴 Prioritization
+🟡 Pharmacology  
+🟢 SATA
+🔵 Mental Health
 
-Drop your answer below ≡ƒæç
+Drop your answer below 👇
 #NCLEX #NursingSchool
 
 ---
@@ -99,9 +99,9 @@ If you're studying for NCLEX right now, you're already doing the hard part.
 The exam is hard. Nursing school is hard. 
 But you didn't come this far to only come this far.
 
-Test yourself with 10 free practice questions ΓåÆ [link]
+Test yourself with 10 free practice questions → [link]
 
-You've got this. ≡ƒ⌐║
+You've got this. 🩺
 #NursingStudents #NCLEX
 
 ---
@@ -116,7 +116,7 @@ Therapeutic communication on NCLEX = 4 rules:
 3. Never use yes/no questions
 4. Always reflect the patient's feelings back
 
-When stuck ΓåÆ pick the answer that makes the patient feel heard.
+When stuck → pick the answer that makes the patient feel heard.
 #NCLEX #MentalHealth
 
 ---
@@ -138,13 +138,13 @@ The last line tells you exactly what kind of answer to look for.
 **Day 10**
 Delegation rules for NCLEX:
 
-RN ΓåÆ complex assessments, new patients, unstable patients, teaching
+RN → complex assessments, new patients, unstable patients, teaching
 
-LPN ΓåÆ stable patients, routine care, expected outcomes
+LPN → stable patients, routine care, expected outcomes
 
-CNA ΓåÆ basic ADLs, vital signs on stable patients, ambulation
+CNA → basic ADLs, vital signs on stable patients, ambulation
 
-When in doubt: if it requires judgment ΓåÆ RN only.
+When in doubt: if it requires judgment → RN only.
 #NCLEX #Prioritization
 
 ---
@@ -152,13 +152,13 @@ When in doubt: if it requires judgment ΓåÆ RN only.
 **Day 11**
 Labs you MUST know for NCLEX:
 
-Na+ ΓåÆ 135-145 (memory: 1-4-5, like a house number)
-K+ ΓåÆ 3.5-5.0 (dangerous outside this range)
-Glucose ΓåÆ 70-110 fasting
-INR ΓåÆ 2-3 therapeutic (on warfarin)
-PTT ΓåÆ 60-100 therapeutic (on heparin)
+Na+ → 135-145 (memory: 1-4-5, like a house number)
+K+ → 3.5-5.0 (dangerous outside this range)
+Glucose → 70-110 fasting
+INR → 2-3 therapeutic (on warfarin)
+PTT → 60-100 therapeutic (on heparin)
 
-Screenshot this. Γ£à
+Screenshot this. ✅
 #NCLEX #LabValues
 
 ---
@@ -166,14 +166,14 @@ Screenshot this. Γ£à
 **Day 12**
 Signs of increased ICP (intracranial pressure):
 
-≡ƒö┤ Cushing's Triad:
+🔴 Cushing's Triad:
 - Rising BP
 - Slowing heart rate  
 - Irregular respirations
 
 This is a neurological emergency.
 
-If you see these three together on NCLEX ΓåÆ call the doctor immediately.
+If you see these three together on NCLEX → call the doctor immediately.
 #NCLEX #MedSurg
 
 ---
@@ -193,11 +193,11 @@ Quality of review > quantity of questions.
 **Day 14**
 2 weeks of NCLEX tips.
 
-If even one of these helped you ΓÇö share this with a nursing student who needs it.
+If even one of these helped you — share this with a nursing student who needs it.
 
-And when you pass, come back and tell me. I love hearing those stories. ≡ƒÄë
+And when you pass, come back and tell me. I love hearing those stories. 🎉
 
-Free 10-question practice: [link]
+Free 10-question practice: https://nclexprepro.com/sample
 #NCLEX #NursingStudents #YouGotThis
 
 ---
@@ -209,10 +209,9 @@ The 3 types of NCLEX questions you'll see:
 
 1. Knowledge — do you know the fact?
 2. Application — can you use the fact?
-3. Analysis — can you figure out WHAT the fact means for THIS patient?
+3. Analysis — can you figure out what the fact means for THIS patient?
 
 Most people fail because they study for type 1 but the test asks type 2 and 3.
-
 #NCLEX #NCLEXTips
 
 ---
@@ -227,8 +226,7 @@ HCO3 high = alkalosis | HCO3 low = acidosis
 ROME: Respiratory Opposite, Metabolic Equal
 
 CO2 and pH go opposite → respiratory
-HCO3 and pH go same direction → metabolic
-
+HCO3 and pH go same → metabolic
 #NCLEX #MedSurg
 
 ---
@@ -238,27 +236,25 @@ The night before NCLEX:
 
 ❌ Don't cram new content
 ❌ Don't look at practice questions
-❌ Don't stay up late reviewing
+❌ Don't stay up late
 
 ✅ Pack your bag
 ✅ Eat a real meal
 ✅ Sleep 7-8 hours
 
 What you know the night before is what you'll walk in with. Protect it.
-
 #NCLEX #NursingStudents
 
 ---
 
 **Day 18 (Thursday)**
-Infection control priority order on NCLEX:
+Infection control priority order:
 
 1. Airborne (TB, measles, varicella) → negative pressure + N95
 2. Droplet (flu, COVID, pertussis) → surgical mask, 3 ft
-3. Contact (C. diff, MRSA, wounds) → gloves + gown
+3. Contact (C. diff, MRSA) → gloves + gown
 
 When in doubt: the more protective option is always correct.
-
 #NCLEX #InfectionControl
 
 ---
@@ -268,14 +264,11 @@ If you're retaking NCLEX, read this:
 
 The exam didn't fail you. The strategy did.
 
-More questions ≠ better score.
-Better review = better score.
+More questions ≠ better score. Better review = better score.
 
-Know *why* each answer is wrong.
-That's the entire game.
+Know *why* each answer is wrong. That's the entire game.
 
-Free 10-question sample with rationales → https://nclexprepro.com/sample
-
+🏥 Free 10-question sample → https://nclexprepro.com/sample
 #NCLEX #NursingStudents
 
 ---
@@ -285,12 +278,11 @@ Pain assessment tip for NCLEX:
 
 Pain is always subjective. The patient's report IS the data.
 
-"The patient says 8/10 but is laughing" → still 8/10.
+"Patient says 8/10 but is laughing" → still 8/10.
 
 The nurse's job is to believe and respond — not judge.
 
-This shows up in NCLEX prioritization questions constantly.
-
+This shows up in prioritization questions constantly.
 #NCLEX #MedSurg
 
 ---
@@ -303,7 +295,6 @@ NCLEX is a marathon. The students who pass aren't always the smartest.
 They're the ones who kept going when it got hard.
 
 That's you. Keep going. 💙
-
 #NursingStudents #NCLEX #YouGotThis
 
 ---
@@ -315,11 +306,10 @@ Insulin types — fastest to slowest:
 
 ⚡ Lispro/Aspart → 15 min onset (mealtime)
 🔵 Regular → 30-60 min onset
-🟡 NPH → 1-2 hr onset (peaks 6-14 hrs — hypoglycemia risk overnight)
-🟢 Glargine/Detemir → 1-2 hr, NO peak (basal)
+🟡 NPH → peaks 6-14 hrs (overnight hypo risk)
+🟢 Glargine → no peak (basal)
 
 The one with a peak = hypoglycemia risk while sleeping.
-
 #NCLEX #Pharmacology
 
 ---
@@ -330,15 +320,13 @@ What "delegate to the UAP" means on NCLEX:
 ✅ Vital signs (stable patient)
 ✅ Ambulation assistance
 ✅ Bathing and hygiene
-✅ Feeding (no swallowing issues)
 
 ❌ Assessment
 ❌ Teaching
 ❌ IV meds
-❌ Anything that requires a nursing judgment
+❌ Anything requiring nursing judgment
 
 Stable + routine = UAP. Everything else = RN.
-
 #NCLEX #Prioritization
 
 ---
@@ -355,20 +343,18 @@ Read it twice. Look for:
 - What the question is actually asking
 
 The answer is hiding in the details you skip.
-
 #NCLEXTips #NursingSchool
 
 ---
 
 **Day 25 (Thursday)**
-Post-op priorities in order:
+Post-op priorities by day:
 
 Day 0-1: Airway, pain, bleeding, circulation
-Day 2-3: Watch for infection, mobility, bowel sounds
+Day 2-3: Infection signs, mobility, bowel sounds
 Day 4+: Teaching, discharge planning, wound healing
 
 Most NCLEX post-op questions tell you the day number for a reason.
-
 #NCLEX #MedSurg
 
 ---
@@ -376,29 +362,27 @@ Most NCLEX post-op questions tell you the day number for a reason.
 **Day 26 (Friday)**
 Cardiac meds cheat sheet:
 
-Beta blockers (-olol) → slow HR, lower BP
-ACE inhibitors (-pril) → vasodilate, watch for cough
-ARBs (-sartan) → like ACE, no cough
+-olol (beta blockers) → slow HR, lower BP
+-pril (ACE inhibitors) → vasodilate, watch for cough
+-sartan (ARBs) → like ACE but no cough
 Nitrates → vasodilate, watch for hypotension
-Digoxin → slow + strengthen, toxic below 0.5 / above 2.0
+Digoxin → slow + strengthen (toxic > 2.0)
 
-Hold cardiac meds if HR < 60 unless ordered otherwise.
-
+Hold cardiac meds if HR < 60 unless ordered.
 #NCLEX #Pharmacology
 
 ---
 
 **Day 27 (Saturday)**
-The 5 rights of delegation (NCLEX version):
+The 5 rights of delegation:
 
 1. Right task
 2. Right circumstance
 3. Right person
 4. Right direction and communication
-5. Right supervision and evaluation
+5. Right supervision
 
 All 5 must be met. Miss one → don't delegate.
-
 #NCLEX #Prioritization
 
 ---
@@ -408,12 +392,11 @@ You've been studying. You've been showing up.
 
 Here's your reminder: you ARE prepared.
 
-The anxiety you feel before NCLEX? That's your brain taking it seriously.
+The anxiety before NCLEX? That's your brain taking it seriously.
 
 Channel it. Don't fight it.
 
 Free practice → https://nclexprepro.com/sample
-
 #NCLEX #NursingStudents
 
 ---
@@ -425,24 +408,20 @@ It's not about knowing more. It's about thinking differently.
 
 NCLEX doesn't test memorization. It tests clinical judgment.
 
-"What would a safe nurse do for this patient RIGHT NOW?"
+"What would a safe nurse do RIGHT NOW?"
 
-Answer that question — every time.
-
+Answer that — every time.
 #NCLEX #NCLEXTips
 
 ---
 
-**Day 30 (Tuesday)**
+**Day 30 (Tuesday — FINAL)**
 30 days. 30 tips.
 
 If you've been following along — you're more prepared than you think.
 
-The full 497-question bank is at https://nclexprepro.com
+Full 497-question bank → https://nclexprepro.com
 One-time $19. No subscription. Instant access.
 
-Pass NCLEX. Change lives.
-
-You've got this. 💙🏥
-
+Pass NCLEX. Change lives. 💙🏥
 #NCLEX #NursingStudents #YouGotThis #NCLEXPrep
