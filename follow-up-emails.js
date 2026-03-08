@@ -11,22 +11,21 @@ const { Pool } = require('pg');
 const fs = require('fs');
 const path = require('path');
 
-// ── Resend Setup ─────────────────────────────────────────────────────────────
+// ── Email Providers ───────────────────────────────────────────────────────────
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
-const EMAIL_FROM = process.env.EMAIL_FROM || 'NCLEX PrepPro <support@nclexprepro.com>';
+const BREVO_API_KEY  = process.env.BREVO_API_KEY;
+const EMAIL_FROM     = process.env.EMAIL_FROM || 'NCLEX PrepPro <support@nclexprepro.com>';
 
-if (!RESEND_API_KEY) {
-  console.error('❌ RESEND_API_KEY not set in .env — aborting');
-  process.exit(1);
+// Parse "Name <email>" → { name, email }
+function parseFrom(from) {
+  const m = from.match(/^(.+?)\s*<(.+?)>$/);
+  return m ? { name: m[1].trim(), email: m[2].trim() } : { name: 'NCLEX PrepPro', email: from };
 }
 
 async function sendViaResend(to, subject, html) {
   const res = await fetch('https://api.resend.com/emails', {
     method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${RESEND_API_KEY}`,
-      'Content-Type': 'application/json',
-    },
+    headers: { 'Authorization': `Bearer ${RESEND_API_KEY}`, 'Content-Type': 'application/json' },
     body: JSON.stringify({ from: EMAIL_FROM, to, subject, html }),
   });
   const data = await res.json();
@@ -34,32 +33,63 @@ async function sendViaResend(to, subject, html) {
   return data;
 }
 
+async function sendViaBrevo(to, subject, html) {
+  const { name, email } = parseFrom(EMAIL_FROM);
+  const res = await fetch('https://api.brevo.com/v3/smtp/email', {
+    method: 'POST',
+    headers: { 'api-key': BREVO_API_KEY, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ sender: { name, email }, to: [{ email: to }], subject, htmlContent: html }),
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data?.message || `Brevo error ${res.status}`);
+  return data;
+}
+
 // ── Daily Email Counter ───────────────────────────────────────────────────────
-const COUNTER_FILE = path.join(__dirname, '..', '..', '.openclaw', 'workspace', 'memory', 'email-counts.json');
-const DAILY_LIMIT = 80; // Hard cap — Resend free allows 100/day, keeping 20 buffer
-const ACCOUNT_KEY = 'nclex-resend';
+const COUNTER_FILE  = path.join(__dirname, '..', '..', '.openclaw', 'workspace', 'memory', 'email-counts.json');
+const RESEND_LIMIT  = 80;  // Resend free = 100/day, keep 20 buffer
+const BREVO_LIMIT   = 280; // Brevo free = 300/day, keep 20 buffer
+const RESEND_KEY    = 'nclex-resend';
+const BREVO_KEY     = 'brevo';
 
 function getTodayKey() {
   return new Date().toISOString().slice(0, 10); // YYYY-MM-DD UTC
 }
 
-function getEmailCount() {
+function getCount(key) {
   try {
     const data = JSON.parse(fs.readFileSync(COUNTER_FILE, 'utf8'));
-    return data[getTodayKey()]?.[ACCOUNT_KEY] || 0;
+    return data[getTodayKey()]?.[key] || 0;
   } catch { return 0; }
 }
 
-function incrementEmailCount(n = 1) {
+function incrementCount(key, n = 1) {
   const today = getTodayKey();
   let data = {};
   try { data = JSON.parse(fs.readFileSync(COUNTER_FILE, 'utf8')); } catch {}
   if (!data[today]) data[today] = {};
-  data[today][ACCOUNT_KEY] = (data[today][ACCOUNT_KEY] || 0) + n;
-  // Prune dates older than 14 days
+  data[today][key] = (data[today][key] || 0) + n;
   const cutoff = new Date(Date.now() - 14 * 86400000).toISOString().slice(0, 10);
   Object.keys(data).filter(k => k < cutoff).forEach(k => delete data[k]);
   try { fs.writeFileSync(COUNTER_FILE, JSON.stringify(data, null, 2)); } catch {}
+}
+
+// Smart send: Resend first → Brevo overflow → fail gracefully
+async function smartSend(to, subject, html) {
+  const resendUsed  = getCount(RESEND_KEY);
+  const brevoUsed   = getCount(BREVO_KEY);
+
+  if (resendUsed < RESEND_LIMIT) {
+    await sendViaResend(to, subject, html);
+    incrementCount(RESEND_KEY);
+    return 'resend';
+  } else if (BREVO_API_KEY && brevoUsed < BREVO_LIMIT) {
+    await sendViaBrevo(to, subject, html);
+    incrementCount(BREVO_KEY);
+    return 'brevo';
+  } else {
+    throw new Error(`All daily limits reached — Resend: ${resendUsed}/${RESEND_LIMIT}, Brevo: ${brevoUsed}/${BREVO_LIMIT}`);
+  }
 }
 
 // ── DB ────────────────────────────────────────────────────────────────────────
@@ -158,12 +188,13 @@ async function sendFollowUps() {
   console.log(`🔑 Via:    Resend.com (not Gmail)`);
 
   // Daily cap check
-  const todayCount = getEmailCount();
-  const remaining = DAILY_LIMIT - todayCount;
-  console.log(`📊 Daily cap: ${todayCount}/${DAILY_LIMIT} sent today (${remaining} remaining)\n`);
+  const resendUsed = getCount(RESEND_KEY);
+  const brevoUsed  = getCount(BREVO_KEY);
+  const totalRemaining = (RESEND_LIMIT - resendUsed) + (BREVO_API_KEY ? Math.max(0, BREVO_LIMIT - brevoUsed) : 0);
+  console.log(`📊 Resend: ${resendUsed}/${RESEND_LIMIT} | Brevo: ${brevoUsed}/${BREVO_LIMIT} | Remaining today: ${totalRemaining}\n`);
 
-  if (remaining <= 0) {
-    console.log(`⚠️  Daily email cap reached (${DAILY_LIMIT}/day). Skipping. Resets at midnight UTC.`);
+  if (totalRemaining <= 0) {
+    console.log(`⚠️  All daily limits reached. Skipping. Resets at midnight UTC.`);
     await pool.end();
     return;
   }
@@ -176,7 +207,7 @@ async function sendFollowUps() {
       AND completed_at < NOW() - INTERVAL '24 hours'
       AND (discount_sent_at IS NULL)
     LIMIT $1
-  `, [remaining]); // Never fetch more than our remaining daily budget
+  `, [totalRemaining]);
 
   console.log(`Found ${eligible.rows.length} eligible users\n`);
 
@@ -186,7 +217,7 @@ async function sendFollowUps() {
     const expiryDate = new Date(Date.now() + DISCOUNT_EXPIRY_HOURS * 3600 * 1000);
 
     try {
-      await sendViaResend(
+      const provider = await smartSend(
         user.email,
         `${user.name?.split(' ')[0] || 'Hey'}, your 15% discount expires soon ⏰`,
         getEmailHTML(user.name, user.score, expiryDate)
@@ -199,8 +230,7 @@ async function sendFollowUps() {
         WHERE id = $2
       `, [expiryDate.toISOString(), user.id]);
 
-      incrementEmailCount(1);
-      console.log(`✅ Sent to ${user.email}`);
+      console.log(`✅ Sent to ${user.email} [via ${provider}]`);
       sent++;
     } catch (err) {
       console.log(`❌ Failed ${user.email}: ${err.message}`);
@@ -211,7 +241,7 @@ async function sendFollowUps() {
   }
 
   console.log(`\nDone — sent: ${sent}, failed: ${failed}`);
-  console.log(`📊 Daily total now: ${getEmailCount()}/${DAILY_LIMIT}`);
+  console.log(`📊 Resend: ${getCount(RESEND_KEY)}/${RESEND_LIMIT} | Brevo: ${getCount(BREVO_KEY)}/${BREVO_LIMIT}`);
   await pool.end();
 }
 
