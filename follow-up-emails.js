@@ -2,32 +2,78 @@
  * 📧 NCLEX Follow-Up Email — 15% off for sample non-converters
  * Run via heartbeat every few hours
  * Sends SAMPLE15 code 24hrs after sample completion if not converted
+ *
+ * ✅ Uses Resend.com (support@nclexprepro.com) — NOT Gmail
+ * ⚠️  Daily cap: 80 emails/day (Resend free = 100/day, keeping 20 buffer)
  */
 require('dotenv').config({ path: require('path').join(__dirname, '.env') });
 const { Pool } = require('pg');
-const nodemailer = require('nodemailer');
+const fs = require('fs');
+const path = require('path');
 
+// ── Resend Setup ─────────────────────────────────────────────────────────────
+const RESEND_API_KEY = process.env.RESEND_API_KEY;
+const EMAIL_FROM = process.env.EMAIL_FROM || 'NCLEX PrepPro <support@nclexprepro.com>';
+
+if (!RESEND_API_KEY) {
+  console.error('❌ RESEND_API_KEY not set in .env — aborting');
+  process.exit(1);
+}
+
+async function sendViaResend(to, subject, html) {
+  const res = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${RESEND_API_KEY}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ from: EMAIL_FROM, to, subject, html }),
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data?.message || `Resend error ${res.status}`);
+  return data;
+}
+
+// ── Daily Email Counter ───────────────────────────────────────────────────────
+const COUNTER_FILE = path.join(__dirname, '..', '..', '.openclaw', 'workspace', 'memory', 'email-counts.json');
+const DAILY_LIMIT = 80; // Hard cap — Resend free allows 100/day, keeping 20 buffer
+const ACCOUNT_KEY = 'nclex-resend';
+
+function getTodayKey() {
+  return new Date().toISOString().slice(0, 10); // YYYY-MM-DD UTC
+}
+
+function getEmailCount() {
+  try {
+    const data = JSON.parse(fs.readFileSync(COUNTER_FILE, 'utf8'));
+    return data[getTodayKey()]?.[ACCOUNT_KEY] || 0;
+  } catch { return 0; }
+}
+
+function incrementEmailCount(n = 1) {
+  const today = getTodayKey();
+  let data = {};
+  try { data = JSON.parse(fs.readFileSync(COUNTER_FILE, 'utf8')); } catch {}
+  if (!data[today]) data[today] = {};
+  data[today][ACCOUNT_KEY] = (data[today][ACCOUNT_KEY] || 0) + n;
+  // Prune dates older than 14 days
+  const cutoff = new Date(Date.now() - 14 * 86400000).toISOString().slice(0, 10);
+  Object.keys(data).filter(k => k < cutoff).forEach(k => delete data[k]);
+  try { fs.writeFileSync(COUNTER_FILE, JSON.stringify(data, null, 2)); } catch {}
+}
+
+// ── DB ────────────────────────────────────────────────────────────────────────
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
   ssl: { rejectUnauthorized: false },
 });
 
-const mailer = nodemailer.createTransport({
-  host: 'smtp.gmail.com',
-  port: 587,
-  secure: false,
-  auth: {
-    user: 'wisconsinfilingservice@gmail.com',
-    pass: 'lsxo debt qmhl aijy',
-  },
-});
-
 const DISCOUNT_EXPIRY_HOURS = 48;
-const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://nclex-platform-production.up.railway.app';
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://nclexprepro.com';
 
+// ── Email Template ────────────────────────────────────────────────────────────
 function getEmailHTML(name, score, expiryDate) {
   const firstName = name?.split(' ')[0] || 'there';
-  // Score stored as "X/10" string or raw number
   let scoreNum = null;
   if (score !== null && score !== undefined) {
     if (typeof score === 'string' && score.includes('/')) {
@@ -51,7 +97,7 @@ function getEmailHTML(name, score, expiryDate) {
     
     <!-- Header -->
     <div style="background: #1e3a5f; padding: 30px; text-align: center;">
-      <h1 style="color: white; margin: 0; font-size: 22px;">🎓 NCLEX Pre-Test Platform</h1>
+      <h1 style="color: white; margin: 0; font-size: 22px;">🎓 NCLEX PrepPro</h1>
     </div>
 
     <!-- Body -->
@@ -95,7 +141,7 @@ function getEmailHTML(name, score, expiryDate) {
     <!-- Footer -->
     <div style="background: #f5f5f5; padding: 15px; text-align: center;">
       <p style="font-size: 12px; color: #aaa; margin: 0;">
-        NCLEX Pre-Test Platform · Milwaukee, WI<br>
+        NCLEX PrepPro · Milwaukee, WI<br>
         <a href="${APP_URL}/unsubscribe" style="color: #aaa;">Unsubscribe</a>
       </p>
     </div>
@@ -104,15 +150,24 @@ function getEmailHTML(name, score, expiryDate) {
 </html>`;
 }
 
+// ── Main ──────────────────────────────────────────────────────────────────────
 async function sendFollowUps() {
   console.log('📧 NCLEX Follow-Up Email Runner');
   console.log('================================');
+  console.log(`📤 Sender: ${EMAIL_FROM}`);
+  console.log(`🔑 Via:    Resend.com (not Gmail)`);
 
-  // Find sample users who:
-  // 1. Completed the sample (completed_at IS NOT NULL)
-  // 2. Did NOT convert to paid
-  // 3. Completed 24+ hours ago
-  // 4. Haven't been emailed yet (discount_sent_at IS NULL)
+  // Daily cap check
+  const todayCount = getEmailCount();
+  const remaining = DAILY_LIMIT - todayCount;
+  console.log(`📊 Daily cap: ${todayCount}/${DAILY_LIMIT} sent today (${remaining} remaining)\n`);
+
+  if (remaining <= 0) {
+    console.log(`⚠️  Daily email cap reached (${DAILY_LIMIT}/day). Skipping. Resets at midnight UTC.`);
+    await pool.end();
+    return;
+  }
+
   const eligible = await pool.query(`
     SELECT id, name, email, score, completed_at
     FROM nclex_sample_users
@@ -120,8 +175,8 @@ async function sendFollowUps() {
       AND converted_to_paid = false
       AND completed_at < NOW() - INTERVAL '24 hours'
       AND (discount_sent_at IS NULL)
-    LIMIT 50
-  `);
+    LIMIT $1
+  `, [remaining]); // Never fetch more than our remaining daily budget
 
   console.log(`Found ${eligible.rows.length} eligible users\n`);
 
@@ -129,14 +184,13 @@ async function sendFollowUps() {
 
   for (const user of eligible.rows) {
     const expiryDate = new Date(Date.now() + DISCOUNT_EXPIRY_HOURS * 3600 * 1000);
-    
+
     try {
-      await mailer.sendMail({
-        from: 'NCLEX Pre-Test <wisconsinfilingservice@gmail.com>',
-        to: user.email,
-        subject: `${user.name?.split(' ')[0] || 'Hey'}, your 15% discount expires soon ⏰`,
-        html: getEmailHTML(user.name, user.score, expiryDate),
-      });
+      await sendViaResend(
+        user.email,
+        `${user.name?.split(' ')[0] || 'Hey'}, your 15% discount expires soon ⏰`,
+        getEmailHTML(user.name, user.score, expiryDate)
+      );
 
       // Mark as sent + store expiry
       await pool.query(`
@@ -145,6 +199,7 @@ async function sendFollowUps() {
         WHERE id = $2
       `, [expiryDate.toISOString(), user.id]);
 
+      incrementEmailCount(1);
       console.log(`✅ Sent to ${user.email}`);
       sent++;
     } catch (err) {
@@ -152,10 +207,11 @@ async function sendFollowUps() {
       failed++;
     }
 
-    await new Promise(r => setTimeout(r, 500));
+    await new Promise(r => setTimeout(r, 300)); // Small delay between sends
   }
 
   console.log(`\nDone — sent: ${sent}, failed: ${failed}`);
+  console.log(`📊 Daily total now: ${getEmailCount()}/${DAILY_LIMIT}`);
   await pool.end();
 }
 
