@@ -9,15 +9,80 @@
  */
 require('dotenv').config({ path: require('path').join(__dirname, '.env') });
 const { Pool } = require('pg');
-const nodemailer = require('nodemailer');
 
 const pool = new Pool({ connectionString: process.env.DATABASE_URL, ssl: { rejectUnauthorized: false } });
 const APP_URL = process.env.NEXT_PUBLIC_APP_URL || 'https://nclexprepro.com';
+const RESEND_API_KEY = process.env.RESEND_API_KEY;
+const BREVO_API_KEY  = process.env.BREVO_API_KEY;
+const EMAIL_FROM = process.env.EMAIL_FROM || 'NCLEX PrepPro <support@nclexprepro.com>';
 
-const mailer = nodemailer.createTransport({
-  host: 'smtp.gmail.com', port: 587, secure: false,
-  auth: { user: 'wisconsinfilingservice@gmail.com', pass: 'lsxo debt qmhl aijy' },
-});
+// ── Daily Email Cap (DB-backed — works on Railway + local) ──────────────────
+const RESEND_LIMIT = 80;  // Resend free = 100/day, keep 20 buffer
+const BREVO_LIMIT  = 280; // Brevo free = 300/day, shared across platforms, keep 20 buffer
+const RESEND_ACCT  = 'nclex-resend';
+const BREVO_ACCT   = 'brevo';
+
+async function getCount(account) {
+  const r = await pool.query(
+    'SELECT count FROM email_daily_counts WHERE date=CURRENT_DATE AND account=$1',
+    [account]
+  );
+  return r.rows[0]?.count || 0;
+}
+
+async function incrementCount(account) {
+  await pool.query(`
+    INSERT INTO email_daily_counts (date, account, count) VALUES (CURRENT_DATE, $1, 1)
+    ON CONFLICT (date, account) DO UPDATE SET count = email_daily_counts.count + 1
+  `, [account]);
+}
+
+// ── Senders ─────────────────────────────────────────────────────────────────
+function parseFrom(from) {
+  const m = (from || '').match(/^(.+?)\s*<(.+?)>$/);
+  return m ? { name: m[1].trim(), email: m[2].trim() } : { name: 'NCLEX PrepPro', email: from };
+}
+
+async function sendViaResend(to, subject, html) {
+  const res = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: { 'Authorization': `Bearer ${RESEND_API_KEY}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ from: EMAIL_FROM, to, subject, html }),
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data?.message || `Resend error ${res.status}`);
+  return data;
+}
+
+async function sendViaBrevo(to, subject, html) {
+  const { name, email } = parseFrom(EMAIL_FROM);
+  const res = await fetch('https://api.brevo.com/v3/smtp/email', {
+    method: 'POST',
+    headers: { 'api-key': BREVO_API_KEY, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ sender: { name, email }, to: [{ email: to }], subject, htmlContent: html }),
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data?.message || `Brevo error ${res.status}`);
+  return data;
+}
+
+// Smart send: Resend first → Brevo overflow → error
+async function smartSend(to, subject, html) {
+  const resendUsed = await getCount(RESEND_ACCT);
+  const brevoUsed  = await getCount(BREVO_ACCT);
+
+  if (resendUsed < RESEND_LIMIT) {
+    await sendViaResend(to, subject, html);
+    await incrementCount(RESEND_ACCT);
+    return 'resend';
+  } else if (BREVO_API_KEY && brevoUsed < BREVO_LIMIT) {
+    await sendViaBrevo(to, subject, html);
+    await incrementCount(BREVO_ACCT);
+    return 'brevo';
+  } else {
+    throw new Error(`Daily limits reached — Resend: ${resendUsed}/${RESEND_LIMIT}, Brevo: ${brevoUsed}/${BREVO_LIMIT}`);
+  }
+}
 
 function firstName(name) { return name?.split(' ')[0] || 'there'; }
 
@@ -161,15 +226,27 @@ async function runSequence() {
 
   let sent = 0, failed = 0;
 
+  // Print daily cap status at start
+  const resendUsed = await getCount(RESEND_ACCT);
+  const brevoUsed  = await getCount(BREVO_ACCT);
+  const totalRemaining = Math.max(0, RESEND_LIMIT - resendUsed) + (BREVO_API_KEY ? Math.max(0, BREVO_LIMIT - brevoUsed) : 0);
+  console.log(`📊 Resend: ${resendUsed}/${RESEND_LIMIT} | Brevo: ${brevoUsed}/${BREVO_LIMIT} | Remaining today: ${totalRemaining}\n`);
+
+  if (totalRemaining <= 0) {
+    console.log('⚠️  All daily limits reached. Skipping. Resets at midnight UTC.');
+    await pool.end();
+    return;
+  }
+
   async function send(user, emailNum, subject, html) {
+    // Skip test/example addresses
+    if (!user.email || user.email.includes('@example.com') || user.email.includes('@verify.com')) {
+      console.log(`⏭  Skip ${emailNum} → ${user.email} (test address)`);
+      return true; // mark as sent so it doesn't keep retrying
+    }
     try {
-      await mailer.sendMail({
-        from: 'NCLEX PrepPro <wisconsinfilingservice@gmail.com>',
-        to: user.email,
-        subject,
-        html,
-      });
-      console.log(`✅ Email ${emailNum} → ${user.email}`);
+      const provider = await smartSend(user.email, subject, html);
+      console.log(`✅ Email ${emailNum} → ${user.email} [${provider}]`);
       sent++;
       return true;
     } catch (err) {
