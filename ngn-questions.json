@@ -1,0 +1,500 @@
+[
+  {
+    "id": 498,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "A 72-year-old patient with Type 2 diabetes and hypertension is admitted for elective knee replacement surgery. Preoperative assessment reveals: BP 168/94 mmHg, HR 88 bpm, RR 16/min, SpO2 97%, blood glucose 214 mg/dL, HbA1c 9.2%, Cr 1.8 mg/dL, BUN 28 mg/dL. The patient takes metformin 1000 mg BID, lisinopril 10 mg daily, and atorvastatin 40 mg nightly. Using the NGN Bow-Tie clinical judgment model, which THREE actions should the nurse prioritize BEFORE surgery? Select all that apply.",
+    "choices": {
+      "A": "Hold metformin 24-48 hours before surgery and notify the surgeon",
+      "B": "Administer a sliding-scale insulin dose per protocol for glucose of 214 mg/dL",
+      "C": "Administer a bolus of 500 mL normal saline for creatinine elevation",
+      "D": "Continue lisinopril as scheduled on the morning of surgery",
+      "E": "Notify the surgeon and anesthesiologist of elevated creatinine and BP",
+      "F": "Document findings and proceed with surgery as scheduled"
+    },
+    "correct": "A,B,E",
+    "rationale": "A is correct: Metformin must be held 24-48 hours preoperatively due to risk of lactic acidosis with anesthesia/contrast exposure and renal compromise (Cr 1.8). B is correct: Blood glucose >200 mg/dL increases surgical infection risk and impairs healing; sliding-scale insulin per protocol is appropriate. E is correct: Elevated creatinine (1.8 mg/dL) combined with BP of 168/94 requires surgeon and anesthesia notification as these increase perioperative risk. C is incorrect: IV fluids are not indicated based solely on creatinine elevation without additional clinical signs. D is incorrect: ACE inhibitors (lisinopril) are typically held morning of surgery due to risk of intraoperative hypotension. F is incorrect: These findings require intervention before proceeding.",
+    "difficulty": "hard",
+    "ngn": true,
+    "ngn_type": "bow-tie",
+    "scenario": "A 72-year-old male patient is scheduled for elective right total knee arthroplasty. He has a 15-year history of Type 2 diabetes and hypertension. He lives alone and has been independent with ADLs. He reports his blood sugars have been 'running high lately.' Preoperative labs and vitals are obtained on the morning of surgery."
+  },
+  {
+    "id": 499,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "A 58-year-old woman with no significant medical history presents to the ED with sudden-onset severe headache she describes as 'the worst headache of my life,' neck stiffness, and photophobia. Vitals: BP 186/102 mmHg, HR 94 bpm, Temp 38.4°C, GCS 13. Using the Bow-Tie model, identify the MOST LIKELY condition, the THREE priority nursing actions, and the key assessment parameter to monitor. Select the THREE priority nursing actions.",
+    "choices": {
+      "A": "Place the patient in a quiet, darkened room and minimize stimulation",
+      "B": "Prepare for emergent lumbar puncture or CT scan per physician order",
+      "C": "Administer oral acetaminophen 650 mg for headache relief",
+      "D": "Establish IV access and draw stat labs including CBC, CMP, coagulation studies",
+      "E": "Apply oxygen via nasal cannula and attach continuous cardiac monitoring",
+      "F": "Encourage the patient to ambulate to assess neurological function"
+    },
+    "correct": "A,B,D",
+    "rationale": "The clinical presentation — sudden severe 'thunderclap' headache, neck stiffness (meningismus), photophobia, fever, and elevated BP — strongly suggests subarachnoid hemorrhage (SAH) or bacterial meningitis. A is correct: Minimizing stimulation reduces intracranial pressure and patient distress. B is correct: CT head (rule out hemorrhage before LP) or LP (xanthochromia confirms SAH; CSF analysis confirms meningitis) is the diagnostic priority. D is correct: IV access and stat labs are essential for preparation for interventional or pharmacological treatment. C is incorrect: Oral medications are inappropriate given the acuity; IV analgesia may be needed but only after imaging. E is partially appropriate but not among the top three priorities here. F is dangerous — ambulation is contraindicated with suspected SAH due to risk of re-bleed.",
+    "difficulty": "hard",
+    "ngn": true,
+    "ngn_type": "bow-tie",
+    "scenario": "A 58-year-old woman is brought to the emergency department by her husband. She was cooking dinner when she suddenly grabbed her head and said it felt like something 'exploded.' She has never had migraines. On arrival, she is alert but confused (GCS 13), holds her neck rigidly, and asks for the lights to be turned off. Her husband reports she vomited once en route."
+  },
+  {
+    "id": 500,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "A 45-year-old patient with chronic kidney disease (CKD Stage 4, GFR 22 mL/min) is admitted for fluid overload. Current assessment: BP 158/96 mmHg, HR 76 bpm, RR 22/min, SpO2 92% on room air, bilateral pitting edema 3+, crackles in bilateral lung bases, K+ 5.8 mEq/L, Na+ 134 mEq/L, Hgb 8.4 g/dL. The patient's ECG shows peaked T-waves. Using the Bow-Tie model, which THREE interventions are MOST PRIORITY?",
+    "choices": {
+      "A": "Administer IV furosemide as ordered and monitor urine output hourly",
+      "B": "Place the patient on continuous cardiac monitoring and prepare calcium gluconate per protocol",
+      "C": "Initiate high-flow oxygen at 10 L/min via non-rebreather mask immediately",
+      "D": "Administer oral sodium polystyrene sulfonate (Kayexalate) for hyperkalemia",
+      "E": "Notify physician of ECG changes and K+ 5.8 mEq/L — cardiac stabilization is priority",
+      "F": "Encourage increased fluid intake to improve kidney perfusion"
+    },
+    "correct": "B,D,E",
+    "rationale": "K+ of 5.8 mEq/L with peaked T-waves on ECG indicates dangerous hyperkalemia with cardiac manifestations. B is correct: Continuous cardiac monitoring is essential; calcium gluconate IV is the first-line cardiac membrane stabilizer in hyperkalemia with ECG changes. D is correct: Sodium polystyrene sulfonate promotes GI potassium excretion (though slow-acting, appropriate in CKD where renal excretion is impaired). E is correct: Physician notification is urgent — the ECG changes make this a cardiac emergency requiring possible emergent dialysis. A is partially correct (diuresis helps) but furosemide has limited efficacy in advanced CKD (GFR 22). C is inappropriate — SpO2 92% warrants supplemental O2 but not high-flow NRB as initial intervention. F is dangerous — increased fluid intake would worsen fluid overload.",
+    "difficulty": "hard",
+    "ngn": true,
+    "ngn_type": "bow-tie",
+    "scenario": "A 45-year-old male with a 10-year history of diabetic nephropathy has been non-compliant with his low-potassium, fluid-restricted diet. He reports eating fast food multiple times this week. He presents with shortness of breath on exertion, ankle swelling, and fatigue. He has a permanent dialysis catheter but has missed his last two dialysis sessions."
+  },
+  {
+    "id": 501,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "A 34-year-old postpartum patient (G2P2, vaginal delivery 2 hours ago) reports feeling dizzy and anxious. Assessment: BP 88/54 mmHg (was 122/78 two hours ago), HR 128 bpm, RR 24/min, skin pale and diaphoretic, uterine fundus boggy and displaced to the right, lochia rubra — saturating a pad every 15 minutes. Using the Bow-Tie model, which THREE nursing actions address the PRIMARY condition?",
+    "choices": {
+      "A": "Perform uterine fundal massage and ensure bladder is emptied (catheterize if needed)",
+      "B": "Increase IV fluid rate and notify physician/midwife STAT of hemorrhage",
+      "C": "Administer oxytocin per standing postpartum hemorrhage protocol",
+      "D": "Position patient flat and elevate legs to improve venous return",
+      "E": "Apply warm blankets and encourage oral fluids to treat dehydration",
+      "F": "Reassure the patient that light-headedness is normal after delivery"
+    },
+    "correct": "A,B,C",
+    "rationale": "This patient has postpartum hemorrhage (PPH) with uterine atony — the leading cause of PPH. The boggy, displaced uterus and pad saturation every 15 min with hemodynamic instability confirm this. A is correct: Fundal massage stimulates uterine contraction; bladder displacement is causing uterine atony — catheterization to empty the bladder is the first nursing intervention. B is correct: IV fluid resuscitation and STAT physician notification are essential for hemorrhagic shock management. C is correct: Oxytocin (Pitocin) is the first-line uterotonic agent for uterine atony. D is helpful adjunct for shock but does not address the cause. E is dangerous — oral fluids are insufficient for hemorrhagic shock. F is incorrect and dangerous — these signs indicate life-threatening hemorrhage.",
+    "difficulty": "hard",
+    "ngn": true,
+    "ngn_type": "bow-tie",
+    "scenario": "A 34-year-old woman delivered her second baby vaginally 2 hours ago after a 16-hour labor. The delivery was uncomplicated and the placenta was delivered intact. She is in the postpartum recovery unit. Her partner calls the nurse because she looks pale and says she feels like she might faint. The nurse notes that the patient's gown and linens are soaked with blood."
+  },
+  {
+    "id": 502,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "A 16-year-old male is brought to the school nurse after his peers report he took 'a handful of Tylenol' about 90 minutes ago because he was upset after a breakup. He is alert, denies current suicidal ideation, and says he 'just wanted the pain to stop.' Vitals are normal. Using the Bow-Tie model, which THREE actions are MOST APPROPRIATE for the school nurse to take?",
+    "choices": {
+      "A": "Call 911 and activate emergency medical services immediately",
+      "B": "Contact the student's parents/guardians to inform them of the situation",
+      "C": "Administer activated charcoal from the school emergency kit if available",
+      "D": "Stay with the student, maintain calm therapeutic communication, do not leave him alone",
+      "E": "Instruct the student to go home and rest since he appears asymptomatic",
+      "F": "Document the incident in the student's record and contact the school counselor"
+    },
+    "correct": "A,B,D",
+    "rationale": "Acetaminophen overdose is a medical emergency — the absence of symptoms 90 minutes post-ingestion is deceptive. Hepatotoxicity develops 24-72 hours later; N-acetylcysteine must be started within 8-10 hours for maximum efficacy. A is correct: Emergency transport to an ED is required for gastric decontamination, acetaminophen serum levels, and possible NAC therapy. B is correct: Parental notification is both legally and ethically required for a minor. D is correct: The student disclosed a suicidal act — continuous supervision is mandatory; he is a safety risk. C is incorrect: Activated charcoal administration by a school nurse without physician orders and proper airway assessment is outside nursing scope in most states. E is dangerous — asymptomatic patients with acetaminophen overdose still require emergency evaluation. F is insufficient as a primary action given the emergency nature.",
+    "difficulty": "hard",
+    "ngn": true,
+    "ngn_type": "bow-tie",
+    "scenario": "During lunch period, a group of students brings a 16-year-old male to the school nurse. They found him in the bathroom looking distressed and he told them he had just swallowed approximately 20 tablets of extra-strength acetaminophen (500 mg each = approximately 10 grams). He is tearful but cooperative with the nurse."
+  },
+  {
+    "id": 503,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "A 67-year-old patient with a history of atrial fibrillation is receiving warfarin therapy (INR target 2.0-3.0). Current INR is 4.8. He has no active bleeding. He reports eating large quantities of leafy green vegetables this week and taking OTC ibuprofen for back pain. Using the Bow-Tie model, which THREE actions should the nurse take?",
+    "choices": {
+      "A": "Hold the next dose of warfarin and notify the prescriber of the supratherapeutic INR",
+      "B": "Administer vitamin K 10 mg IV push immediately to reverse anticoagulation",
+      "C": "Educate the patient about consistent Vitamin K intake and avoid NSAIDs while on warfarin",
+      "D": "Monitor for signs of bleeding: hematuria, melena, prolonged bleeding from cuts, bruising",
+      "E": "Increase warfarin dose to counteract the effect of the leafy vegetables",
+      "F": "Order a STAT head CT to rule out intracranial hemorrhage"
+    },
+    "correct": "A,C,D",
+    "rationale": "INR of 4.8 is supratherapeutic (goal 2.0-3.0), increasing hemorrhagic risk but without active bleeding requiring reversal. A is correct: Holding warfarin and notifying the prescriber is the appropriate nursing action — the prescriber will decide dose adjustment. C is correct: Patient education about consistent Vitamin K intake (not elimination, but consistency) and avoiding NSAIDs (which increase bleeding risk and displace warfarin from protein binding sites) is essential. D is correct: Monitoring for signs of bleeding is critical with supratherapeutic INR. B is incorrect: IV Vitamin K is reserved for serious/life-threatening bleeding or INR >10 without bleeding; this patient has no active bleeding. E is incorrect and dangerous: Increasing warfarin dose would worsen the already elevated INR. F is incorrect: CT scan is not indicated without neurological symptoms.",
+    "difficulty": "medium",
+    "ngn": true,
+    "ngn_type": "bow-tie",
+    "scenario": "A 67-year-old retired teacher with paroxysmal atrial fibrillation is seen in the anticoagulation clinic for routine INR monitoring. He has been on warfarin for 3 years with generally stable INRs. He recently started a 'green smoothie diet' and has been taking ibuprofen 400 mg TID for a recent lumbar strain. He denies bleeding, bruising, or black stools."
+  },
+  {
+    "id": 504,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "A nurse is preparing to administer morning medications to a patient with heart failure. Review the medication administration record and assessment data. Which findings should prompt the nurse to WITHHOLD medications and notify the provider? Select all that apply.",
+    "choices": {
+      "A": "Digoxin 0.125 mg daily — current apical pulse 52 bpm",
+      "B": "Metoprolol succinate 50 mg daily — BP 118/72 mmHg",
+      "C": "Furosemide 40 mg daily — K+ 3.1 mEq/L on morning labs",
+      "D": "Lisinopril 5 mg daily — K+ 5.6 mEq/L and Cr 2.4 mg/dL (baseline Cr 1.0)",
+      "E": "Aspirin 81 mg daily — no drug allergies documented",
+      "F": "Atorvastatin 40 mg nightly — LDL 88 mg/dL, liver enzymes 3x upper limit of normal"
+    },
+    "correct": "A,C,D,F",
+    "rationale": "A is correct: Digoxin should be withheld when apical pulse is <60 bpm (bradycardia increases risk of digoxin toxicity and heart block). C is correct: Furosemide causes potassium wasting; K+ 3.1 mEq/L is hypokalemia — administering furosemide would worsen hypokalemia, increasing risk of fatal arrhythmias. D is correct: Lisinopril (ACE inhibitor) can further elevate potassium (already 5.6 = hyperkalemia) and worsen renal function (Cr doubled from baseline — acute kidney injury). F is correct: Statins are hepatotoxic at high doses; LFTs 3x upper limit of normal is a standard threshold to hold statin therapy and notify provider. B is incorrect: BP 118/72 is acceptable for metoprolol administration. E is incorrect: Aspirin 81 mg has no contraindications listed here.",
+    "difficulty": "hard",
+    "ngn": true,
+    "ngn_type": "extended-response",
+    "scenario": "A 74-year-old patient with systolic heart failure (EF 30%), hypertension, dyslipidemia, and CKD Stage 2 is admitted for a COPD exacerbation. Morning labs show: K+ 3.1 mEq/L (normal 3.5-5.0), Na+ 138, Cr 2.4 mg/dL (baseline 1.0), BUN 42, digoxin level 2.4 ng/mL (therapeutic 0.5-2.0), AST 128 U/L, ALT 156 U/L (normal <40). Apical pulse 52 bpm, BP 118/72 mmHg."
+  },
+  {
+    "id": 505,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "A nurse is caring for a 55-year-old patient in the medical-surgical unit who had an open cholecystectomy 18 hours ago. The patient reports increasing pain rated 8/10 despite receiving scheduled opioid analgesia. Assessment reveals: abdomen rigid and board-like, absent bowel sounds, HR 118 bpm, BP 96/58 mmHg, Temp 38.9°C, RR 24/min. Which nursing actions are APPROPRIATE at this time? Select all that apply.",
+    "choices": {
+      "A": "Notify the surgeon STAT — these findings indicate a possible surgical emergency",
+      "B": "Increase the rate of the scheduled opioid infusion to improve pain control",
+      "C": "Obtain IV access, draw blood cultures x2, and anticipate orders for IV fluid bolus",
+      "D": "Place patient in high Fowler's position and administer oxygen",
+      "E": "Document the findings and reassess in 30 minutes after analgesia takes effect",
+      "F": "Prepare for emergent return to the OR or bedside evaluation by the surgical team",
+      "G": "Administer prescribed acetaminophen 650 mg PR as an adjunct analgesic",
+      "H": "Apply ice pack to abdomen to reduce inflammation"
+    },
+    "correct": "A,C,D,F",
+    "rationale": "This patient presents with signs of septic shock and possible anastomotic leak or peritonitis — a surgical emergency. A is correct: STAT surgeon notification is the first and most critical action. C is correct: Blood cultures before antibiotic administration plus IV fluid resuscitation are components of sepsis bundle management. D is correct: Semi-upright positioning aids breathing (RR 24) and oxygen delivery addresses tachycardia and early hypoperfusion. F is correct: The clinical picture warrants preparation for surgical re-exploration. B is incorrect and dangerous: Escalating opioids when the abdomen is board-like could mask further deterioration. E is incorrect: A 30-minute delay in a patient with BP 96/58 and fever is dangerous. G is not a priority given the emergent surgical picture. H is incorrect: Ice application does not address the underlying surgical emergency.",
+    "difficulty": "hard",
+    "ngn": true,
+    "ngn_type": "extended-response",
+    "scenario": "Mr. Garcia is a 55-year-old male who underwent open cholecystectomy for acute cholecystitis. He returned from the OR 18 hours ago. Night shift reported a gradual increase in pain. Current medications include morphine PCA and IV ketorolac. He has one peripheral IV, a Foley catheter (output 18 mL in the last 2 hours), and a JP drain (output 5 mL, dark red fluid). His skin is mottled and cool."
+  },
+  {
+    "id": 506,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "A nurse is providing discharge education to a 62-year-old patient newly diagnosed with Type 2 diabetes mellitus. HbA1c is 10.4%. The patient is prescribed metformin 500 mg BID and linagliptin 5 mg daily. Which statements by the patient indicate an UNDERSTANDING of the discharge teaching? Select all that apply.",
+    "choices": {
+      "A": "'I should take metformin with food to reduce stomach upset.'",
+      "B": "'If I feel shaky, sweaty, or confused, I should drink 4 oz of orange juice or take 3-4 glucose tablets.'",
+      "C": "'I should stop taking metformin if I have to get a CT scan with contrast dye.'",
+      "D": "'I can eat as much fruit as I want since fruit sugar is natural and won't affect my blood sugar.'",
+      "E": "'I should monitor my blood glucose before meals and at bedtime when first starting medication.'",
+      "F": "'I will need to check my kidneys regularly because metformin can affect kidney function over time.'"
+    },
+    "correct": "A,B,C,E,F",
+    "rationale": "A is correct: Metformin should be taken with food to minimize GI side effects (nausea, diarrhea). B is correct: The 15-15 rule for mild hypoglycemia is appropriate — though metformin and DPP-4 inhibitors rarely cause hypoglycemia alone, combination therapy in clinical context warrants patient education. C is correct: Metformin must be held before and 48 hours after iodinated contrast due to risk of contrast-induced nephropathy and subsequent metformin-associated lactic acidosis. E is correct: Frequent glucose monitoring when initiating therapy helps titrate medication and detect hypoglycemia. F is correct: Metformin requires adequate renal function (eGFR monitoring); dose reduction or discontinuation is needed with CKD. D is incorrect and demonstrates a dangerous misconception — fruit contains carbohydrates that significantly affect blood glucose.",
+    "difficulty": "medium",
+    "ngn": true,
+    "ngn_type": "extended-response",
+    "scenario": "Mrs. Chen is a 62-year-old retired librarian diagnosed with Type 2 DM during a routine physical. She is otherwise healthy, exercises occasionally, and says she 'doesn't really pay attention to what she eats.' She is anxious about starting medication and asks many questions during the discharge teaching session."
+  },
+  {
+    "id": 507,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "A nurse on a medical-surgical floor is assigned to four patients. Which patients should the nurse assess FIRST? The nurse must select the TWO MOST URGENT patients. Select all that apply.",
+    "choices": {
+      "A": "Patient A: 78-year-old, post-hip replacement Day 2, requesting pain medication, pain 5/10",
+      "B": "Patient B: 55-year-old with COPD, SpO2 dropped from 94% to 86% over the past hour, increasing dyspnea",
+      "C": "Patient C: 44-year-old post-appendectomy Day 1, asking when they can eat, afebrile, bowel sounds present",
+      "D": "Patient D: 66-year-old with new onset confusion, BP 88/50 mmHg, HR 118 bpm, Temp 39.2°C, received IV antibiotics 30 min ago",
+      "E": "Patient E: 82-year-old with UTI, requesting assistance to the bathroom, oriented x3",
+      "F": "Patient F: 31-year-old, admitted for observation after mild concussion, GCS 15, headache 3/10"
+    },
+    "correct": "B,D",
+    "rationale": "B is correct: SpO2 dropping from 94% to 86% in an hour represents acute respiratory deterioration — a potentially life-threatening emergency requiring immediate assessment and intervention. D is correct: New onset confusion + hypotension (88/50) + tachycardia + fever in a patient receiving antibiotics suggests septic shock — immediate assessment, fluid resuscitation, and escalation of care are required. This patient meets SIRS criteria and may be progressing to septic shock. A: Pain 5/10 post-surgical is expected and not immediately life-threatening. C: Post-op Day 1 with stable signs is routine. E: Assisting to the bathroom is important for fall prevention but not immediately life-threatening. F: GCS 15 with mild headache is stable monitoring.",
+    "difficulty": "medium",
+    "ngn": true,
+    "ngn_type": "extended-response",
+    "scenario": "It is 0800 and the nurse is receiving morning handoff report. The unit has high census. The nurse has just received shift report and must plan care for the next two hours. No rapid response team is immediately available. The charge nurse is helping with a complex admission."
+  },
+  {
+    "id": 508,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "A 48-year-old patient is receiving IV vancomycin for MRSA bacteremia. During the infusion, the nurse notes the patient has developed flushing of the face, neck, and upper chest with pruritus. Vitals: BP 104/68 mmHg (baseline 128/82), HR 102 bpm, SpO2 97%. The patient denies throat tightening or dyspnea. Which nursing actions are APPROPRIATE? Select all that apply.",
+    "choices": {
+      "A": "Stop the vancomycin infusion immediately and notify the provider",
+      "B": "Administer diphenhydramine (Benadryl) 25-50 mg IV as ordered for Red Man Syndrome",
+      "C": "Slow the infusion rate and reassess — this is Red Man Syndrome, not anaphylaxis",
+      "D": "Document as an allergic reaction and permanently discontinue vancomycin",
+      "E": "Assess for true anaphylaxis symptoms: urticaria, angioedema, bronchospasm, hypotension",
+      "F": "After symptoms resolve, restart vancomycin at a slower rate (over 90-120 minutes) with diphenhydramine premedication"
+    },
+    "correct": "A,B,E,F",
+    "rationale": "This presentation is classic Red Man Syndrome (RMS) — a rate-dependent infusion reaction from histamine release, NOT a true IgE-mediated allergy. A is correct: Stopping the infusion is the first step regardless of whether this is RMS or anaphylaxis. B is correct: Diphenhydramine reverses histamine-mediated symptoms of RMS. E is critical: Differentiating RMS from anaphylaxis is essential — anaphylaxis involves systemic symptoms (bronchospasm, urticaria, severe hypotension, angioedema). F is correct: Vancomycin can be safely resumed at a slower rate (typically >60 min infusion, ideally 90-120 min) with antihistamine pretreatment once symptoms resolve. C is partially correct in identifying RMS but incomplete — stopping the infusion first is still required. D is incorrect: RMS is NOT an allergy; documenting as allergic reaction would inappropriately preclude future use of a valuable antibiotic.",
+    "difficulty": "hard",
+    "ngn": true,
+    "ngn_type": "extended-response",
+    "scenario": "Mr. Thomas is a 48-year-old patient with MRSA bacteremia secondary to a central line infection. He is receiving vancomycin 1.5 g IV infusing over 60 minutes (started 20 minutes ago). He has no documented drug allergies. The nurse enters the room to perform a routine check and finds the patient visibly flushed from the neck up and scratching his chest."
+  },
+  {
+    "id": 509,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "A charge nurse is assigning patient care to staff for the night shift. The unit has a registered nurse (RN), a licensed practical nurse (LPN), and an unlicensed assistive personnel (UAP). Which assignments are APPROPRIATE? Select all that apply.",
+    "choices": {
+      "A": "Assign the UAP to take hourly vital signs on a stable post-surgical patient on Day 2",
+      "B": "Assign the LPN to perform the initial admission assessment for a new patient with chest pain",
+      "C": "Assign the RN to educate a patient about newly prescribed insulin before discharge",
+      "D": "Assign the UAP to assist a stable patient with ambulation and morning hygiene",
+      "E": "Assign the LPN to administer scheduled oral and IM medications to stable patients",
+      "F": "Assign the UAP to change a central line dressing using sterile technique",
+      "G": "Assign the LPN to reinforce previous discharge teaching that the RN has already initiated"
+    },
+    "correct": "A,C,D,E,G",
+    "rationale": "A is correct: Routine vital signs on stable patients are within UAP scope of practice. C is correct: Initial patient education, especially for complex treatments like insulin, is within RN scope. D is correct: Ambulation assistance and hygiene care are core UAP responsibilities. E is correct: LPNs can administer scheduled medications (oral and IM) in most states, with some restrictions on IV push. G is correct: LPNs can reinforce previously initiated discharge teaching, though they cannot initiate the initial teaching plan. B is incorrect: Initial assessments, especially for potentially unstable patients (chest pain), are an RN-only function. F is incorrect: Central line dressing changes are an RN (or specially trained provider) procedure due to infection risk and sterile technique requirements.",
+    "difficulty": "medium",
+    "ngn": true,
+    "ngn_type": "extended-response",
+    "scenario": "The charge nurse is preparing staffing assignments for a 12-hour night shift on a 24-bed medical-surgical unit. Census is 20. The team includes one RN, one LPN, and one UAP. The RN will float between complex patients. The charge nurse must ensure all assignments align with legal scope of practice and patient safety standards."
+  },
+  {
+    "id": 510,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "A nurse is caring for a patient who received a kidney transplant 3 days ago. The patient is on tacrolimus (FK506) and mycophenolate mofetil for immunosuppression. Today's labs show: Tacrolimus level 18.2 ng/mL (therapeutic 10-15 ng/mL), Cr 3.8 mg/dL (was 1.6 yesterday), K+ 5.9 mEq/L, WBC 2.1 x10³/μL, Temp 38.6°C. Which findings are MOST CONCERNING and require IMMEDIATE notification of the transplant team? Select all that apply.",
+    "choices": {
+      "A": "Tacrolimus level 18.2 ng/mL — supratherapeutic level may indicate toxicity or drug interaction",
+      "B": "Creatinine doubling from 1.6 to 3.8 in 24 hours — acute rejection or tacrolimus nephrotoxicity",
+      "C": "K+ 5.9 mEq/L — significant hyperkalemia, especially with tacrolimus-induced renal dysfunction",
+      "D": "WBC 2.1 x10³/μL — severe leukopenia increases infection risk in immunosuppressed patient",
+      "E": "Temperature 38.6°C — fever in immunosuppressed patient may indicate serious infection",
+      "F": "The patient is asking for his home medications to be brought from home"
+    },
+    "correct": "A,B,C,D,E",
+    "rationale": "ALL five clinical findings are immediately concerning in a post-transplant patient. A: Supratherapeutic tacrolimus (>15 ng/mL) can cause nephrotoxicity — directly explaining the creatinine rise. B: Creatinine doubling in 24 hours represents acute kidney injury that may indicate acute rejection, tacrolimus nephrotoxicity, or surgical complication. C: K+ 5.9 in a patient with AKI and on tacrolimus (which causes hyperkalemia) is a cardiac emergency risk. D: WBC 2.1 is severe leukopenia from mycophenolate — puts patient at extreme infection risk. E: Fever in a leukopenic, immunosuppressed patient is a medical emergency requiring blood cultures, broad-spectrum antibiotics, and source investigation. F is not immediately medically urgent — medication reconciliation is important but not a life-threatening emergency.",
+    "difficulty": "hard",
+    "ngn": true,
+    "ngn_type": "extended-response",
+    "scenario": "A 52-year-old woman received a deceased-donor kidney transplant 3 days ago for end-stage renal disease. She is in the transplant unit. Her tacrolimus was adjusted yesterday. The morning labs arrive, and the nurse must triage which findings require immediate action versus routine monitoring."
+  },
+  {
+    "id": 511,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "A nurse is preparing to perform a blood transfusion for a patient with symptomatic anemia (Hgb 6.8 g/dL). Before initiating the transfusion, which actions are REQUIRED? Select all that apply.",
+    "choices": {
+      "A": "Verify the patient's identity using two identifiers and match to the blood product label at the bedside",
+      "B": "Obtain a baseline set of vital signs before starting the transfusion",
+      "C": "Prime the blood tubing with normal saline (0.9% NaCl) — never dextrose solutions",
+      "D": "Remain with the patient for the first 15 minutes of the transfusion to monitor for reactions",
+      "E": "Verify the ABO/Rh blood type compatibility between the patient and the unit of blood",
+      "F": "Administer diphenhydramine and acetaminophen routinely before all blood transfusions",
+      "G": "Confirm that informed consent for blood transfusion has been obtained and documented"
+    },
+    "correct": "A,B,C,D,E,G",
+    "rationale": "A is correct: Two-patient identifier verification with blood product label comparison is the most critical safety step — errors cause potentially fatal hemolytic transfusion reactions. B is correct: Baseline vitals are necessary to detect transfusion reactions (temperature rise, BP drop). C is correct: Dextrose solutions cause RBC hemolysis; only 0.9% NaCl is compatible with blood products. D is correct: The first 15 minutes are highest risk for acute hemolytic, febrile, or allergic reactions. E is correct: ABO compatibility verification is a required safety check before any transfusion. G is correct: Informed consent is required before transfusion in most institutions. F is incorrect: Routine premedication is NOT standard practice for all transfusions (evidence does not support it); it is only given for patients with documented prior reactions.",
+    "difficulty": "medium",
+    "ngn": true,
+    "ngn_type": "extended-response",
+    "scenario": "A 38-year-old woman with iron-deficiency anemia secondary to uterine fibroids is admitted for a packed red blood cell (PRBC) transfusion. She has no prior transfusion history and has no known drug allergies. The physician has ordered two units of PRBCs. The blood bank has delivered the first unit to the unit refrigerator."
+  },
+  {
+    "id": 512,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "A nurse is reviewing the following vital sign trend for a 70-year-old post-operative patient (abdominal surgery, Day 1): Time 0600: BP 126/78, HR 74, Temp 37.2°C, RR 16, SpO2 98% | Time 0800: BP 118/74, HR 82, Temp 37.4°C, RR 18, SpO2 97% | Time 1000: BP 104/68, HR 96, Temp 38.1°C, RR 22, SpO2 94% | Time 1200: BP 92/58, HR 112, Temp 38.8°C, RR 26, SpO2 91%. What does this vital sign trend indicate? Select all that apply.",
+    "choices": {
+      "A": "The patient is developing sepsis — progressive hemodynamic instability with fever meets SIRS criteria",
+      "B": "The SpO2 decline indicates the patient is developing respiratory failure and needs immediate oxygen",
+      "C": "This is a normal postoperative vital sign pattern and requires only routine monitoring",
+      "D": "The nurse should activate a rapid response or STAT notify the surgeon",
+      "E": "The trend shows early warning signs that have been present for at least 4 hours — earlier intervention was indicated"
+    },
+    "correct": "A,B,D,E",
+    "rationale": "A is correct: Progressive hypotension (126→92 systolic), tachycardia (74→112), rising temperature (37.2→38.8°C), and tachypnea (16→26) over 6 hours meet SIRS criteria (≥2 of: temp >38 or <36°C, HR >90, RR >20, WBC abnormality) and suggest developing sepsis/septic shock. B is correct: SpO2 declining from 98% to 91% over 6 hours indicates progressive respiratory compromise requiring supplemental oxygen. D is correct: At the 1200 assessment, BP 92/58 with SpO2 91% and HR 112 warrants immediate rapid response activation. E is correct: The 4-6 hour trend shows a clear deterioration pattern — the 1000 assessment (BP 104/68, HR 96, Temp 38.1, RR 22) should have triggered earlier escalation. C is incorrect: This is NOT a normal postoperative pattern — the sustained downward trajectory is a medical emergency.",
+    "difficulty": "hard",
+    "ngn": true,
+    "ngn_type": "trend",
+    "scenario": "You are the day shift nurse who has just taken over care for this patient at 1200. When reviewing the paper vital sign record left by the night nurse, you see the progressive changes documented above. The patient is lying in bed, appears pale and confused. The night nurse did not escalate care."
+  },
+  {
+    "id": 513,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "A 62-year-old patient with acute MI is in the cardiac care unit. Review the following rhythm strip and lab trend: 0800 K+ 4.2, normal sinus rhythm | 1000 K+ 3.6, sinus tachycardia HR 102 | 1200 K+ 3.1, frequent PVCs (4-6/min) | 1400 K+ 2.8, runs of ventricular tachycardia (3-beat). The patient is receiving IV furosemide per protocol. What conclusions can the nurse draw from this trend? Select all that apply.",
+    "choices": {
+      "A": "The furosemide infusion is causing hypokalemia, which is producing progressive cardiac dysrhythmias",
+      "B": "K+ 2.8 mEq/L with runs of VTach requires immediate physician notification and potassium replacement",
+      "C": "The progression from PVCs to VTach is a predictable consequence of uncorrected hypokalemia",
+      "D": "The nurse should continue monitoring without intervention as K+ 2.8 is only slightly below normal",
+      "E": "The patient is at risk for ventricular fibrillation if potassium is not corrected"
+    },
+    "correct": "A,B,C,E",
+    "rationale": "A is correct: Loop diuretics (furosemide) cause significant urinary potassium wasting; the progressive decline from 4.2 to 2.8 over 6 hours while on IV furosemide directly implicates the diuretic. B is correct: K+ 2.8 with ventricular tachycardia is a cardiac emergency — IV potassium replacement (typically 10-40 mEq/hr via central line for severe hypokalemia) and immediate physician notification are required. C is correct: Hypokalemia increases myocardial irritability and action potential duration — PVCs progressing to VTach is a classic electrophysiological progression. E is correct: VTach can degenerate into ventricular fibrillation, a lethal arrhythmia, if the underlying hypokalemia is not corrected. D is incorrect and dangerous: K+ 2.8 is significantly below normal (3.5-5.0) and this patient is already showing dangerous cardiac manifestations.",
+    "difficulty": "hard",
+    "ngn": true,
+    "ngn_type": "trend",
+    "scenario": "A 62-year-old man was admitted to the CCU for STEMI treated with PCI 24 hours ago. He is on furosemide 40 mg IV every 6 hours for pulmonary edema, lisinopril, aspirin, clopidogrel, and IV heparin. Serial potassium levels and telemetry findings are documented in the nursing notes above."
+  },
+  {
+    "id": 514,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "A nurse reviews the following blood glucose trend for a 58-year-old patient admitted for pneumonia who is on sliding-scale insulin: Day 1 0600: 182 mg/dL | Day 1 1200: 214 mg/dL | Day 1 1800: 238 mg/dL | Day 1 2200: 267 mg/dL | Day 2 0600: 298 mg/dL | Day 2 1200: 312 mg/dL. The patient is on normal saline IV, receiving ceftriaxone and azithromycin. Which interpretations of this trend are ACCURATE? Select all that apply.",
+    "choices": {
+      "A": "The persistent rise in blood glucose despite sliding-scale insulin suggests the insulin protocol is inadequate",
+      "B": "Hyperglycemia in a patient with pneumonia impairs neutrophil function and will delay healing",
+      "C": "The nurse should notify the provider — a scheduled basal insulin regimen may be needed",
+      "D": "The trend is expected in ill patients and no modification to the insulin regimen is necessary",
+      "E": "Blood glucose consistently >180 mg/dL in hospitalized patients is associated with worse outcomes"
+    },
+    "correct": "A,B,C,E",
+    "rationale": "A is correct: Sliding-scale insulin alone (reactive, correction-only dosing) is insufficient for stress hyperglycemia in hospitalized patients; basal-bolus insulin or continuous insulin infusion is more effective. B is correct: Hyperglycemia impairs neutrophil chemotaxis, phagocytosis, and kills bactericidal capacity — directly worsening the pneumonia being treated. C is correct: The provider should be notified to adjust the insulin regimen; the current sliding-scale approach is clearly not controlling glucose. E is correct: Multiple studies and AACE/ADA guidelines state that blood glucose >180 mg/dL in hospitalized patients is associated with increased mortality, infections, and ICU length of stay. D is incorrect: While stress hyperglycemia is common, a trend of progressive glucose elevation from 182 to 312 over 30 hours requires intervention, not passive monitoring.",
+    "difficulty": "medium",
+    "ngn": true,
+    "ngn_type": "trend",
+    "scenario": "A 58-year-old male with known Type 2 diabetes (managed with metformin at home, held on admission) is hospitalized for community-acquired pneumonia. He is not eating well due to nausea. His blood glucose levels have been checked before meals and at bedtime. Sliding-scale insulin has been administered as ordered but his glucose continues to rise."
+  },
+  {
+    "id": 515,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "Review the following intake and output (I&O) and weight trend for a 68-year-old patient with heart failure: Day 1: I=2,400 mL, O=800 mL, Weight=84 kg | Day 2: I=2,200 mL, O=750 mL, Weight=86 kg | Day 3: I=2,100 mL, O=700 mL, Weight=88.5 kg | Day 4: I=2,000 mL, O=680 mL, Weight=90.8 kg. Patient is on furosemide 20 mg PO daily. BP trending from 138/86 to 156/94 mmHg. Which conclusions are ACCURATE? Select all that apply.",
+    "choices": {
+      "A": "The patient is retaining approximately 6.8 kg of fluid over 4 days — indicating worsening heart failure",
+      "B": "The furosemide dose appears inadequate — output consistently less than intake despite diuretic therapy",
+      "C": "The weight gain of 6.8 kg represents mostly fat gain due to hospital food",
+      "D": "The rising blood pressure combined with fluid retention further increases cardiac afterload",
+      "E": "The nurse should notify the provider about the worsening I&O balance and weight gain trend"
+    },
+    "correct": "A,B,D,E",
+    "rationale": "A is correct: 90.8 - 84 = 6.8 kg weight gain in 4 days is clinically significant; in heart failure, this represents fluid retention (1 liter of fluid ≈ 1 kg). B is correct: Output is consistently 1,300-1,600 mL less than intake daily despite oral furosemide — indicating inadequate diuresis; may need dose increase, IV furosemide, or addition of another diuretic. D is correct: Volume overload increases preload, and rising BP increases afterload — both worsen left ventricular function in heart failure. E is correct: Progressive worsening I&O balance and weight gain trend requires provider notification for medication adjustment. C is incorrect: Acute weight gain of 6.8 kg in 4 days cannot be attributed to fat accumulation — fat gain requires consistent caloric surplus over weeks.",
+    "difficulty": "medium",
+    "ngn": true,
+    "ngn_type": "trend",
+    "scenario": "Mrs. Williams is a 68-year-old patient with systolic heart failure (EF 35%) admitted for elective cardiac catheterization. She is waiting for a procedure slot and her cardiac medications have been continued. The nursing assistant has been documenting daily weights and I&O, which the nurse is now reviewing on the morning of Day 4."
+  },
+  {
+    "id": 516,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "Review the following GCS and neurological trend for a 24-year-old trauma patient (closed head injury): Hour 0: GCS 14 (E4V4M6), pupils equal 3mm reactive | Hour 2: GCS 13 (E3V4M6), pupils equal 3mm reactive | Hour 4: GCS 11 (E3V3M5), pupils equal 4mm sluggish | Hour 6: GCS 9 (E2V3M4), left pupil 5mm fixed and dilated, right pupil 3mm sluggish. What does this neurological trend indicate? Select all that apply.",
+    "choices": {
+      "A": "The progressive GCS decline indicates increasing intracranial pressure",
+      "B": "The left fixed dilated pupil indicates uncal herniation compressing CN III on the left",
+      "C": "This is a normal response to analgesia and sedation administered after trauma",
+      "D": "This is a neurosurgical emergency — immediate CT head and neurosurgical consultation are required",
+      "E": "Cushing's triad (hypertension, bradycardia, irregular respirations) may also be present"
+    },
+    "correct": "A,B,D,E",
+    "rationale": "A is correct: GCS declining from 14 to 9 over 6 hours is the hallmark of increasing intracranial pressure — progressive brain compression. B is correct: Unilateral fixed dilated pupil (Hutchinson's pupil) indicates uncal herniation where the temporal lobe herniates through the tentorium cerebelli, compressing cranial nerve III ipsilaterally — a neurosurgical emergency. D is correct: This is a true neurosurgical emergency requiring emergent CT head to identify hemorrhage/herniation and immediate neurosurgical intervention (burr hole, craniotomy, ICP monitoring). E is correct: Cushing's triad (widened pulse pressure/hypertension, bradycardia, irregular respirations) represents the brain's last attempt to maintain cerebral perfusion before herniation — may accompany these findings. C is incorrect: GCS 9 with a fixed dilated pupil cannot be attributed to routine analgesia — this is pathological herniation.",
+    "difficulty": "hard",
+    "ngn": true,
+    "ngn_type": "trend",
+    "scenario": "A 24-year-old male was brought to the ED after a motorcycle accident without a helmet. Initial CT showed a small epidural hematoma. He was admitted to the neuro ICU for observation. The neurosurgery team opted for non-surgical management with close monitoring. Serial neurological checks are being performed every 2 hours by the nurse."
+  },
+  {
+    "id": 517,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "A 32-year-old pregnant patient (36 weeks gestation) is admitted for monitoring. Review the following fetal heart rate (FHR) trend during an NST: Baseline FHR 145 bpm, 2 accelerations in 20 min (reactive) | 30 min later: Baseline FHR 148 bpm, variable decelerations with contractions | 1 hour later: Baseline FHR 152 bpm, late decelerations with each contraction, minimal variability | 90 min later: Baseline FHR 158 bpm, prolonged late decelerations >30 sec, absent variability. Which interpretations are CORRECT? Select all that apply.",
+    "choices": {
+      "A": "The initial NST was reassuring — reactive with accelerations",
+      "B": "Late decelerations with minimal/absent variability indicates uteroplacental insufficiency",
+      "C": "The progression from variable to late decelerations indicates worsening fetal compromise",
+      "D": "Absent variability with late decelerations is a Category III FHR pattern requiring emergency delivery",
+      "E": "The nurse should continue monitoring and reassess in 2 hours"
+    },
+    "correct": "A,B,C,D",
+    "rationale": "A is correct: A reactive NST (2+ accelerations in 20 min, each ≥15 bpm above baseline for ≥15 seconds) is reassuring and indicates fetal well-being at that time point. B is correct: Late decelerations (FHR drops after the peak of contraction) reflect uteroplacental insufficiency — the placenta cannot adequately oxygenate the fetus during uterine contractions. C is correct: Variable decelerations (cord compression) progressing to late decelerations (placental insufficiency) with decreasing variability shows escalating fetal distress. D is correct: Per NICHD classification, absent variability with recurrent late decelerations is a Category III (non-reassuring/abnormal) FHR pattern requiring immediate evaluation for emergency delivery (STAT C-section or emergent vaginal delivery). E is incorrect and dangerous: A Category III FHR pattern requires immediate action — a 2-hour delay could result in fetal demise or severe neurological damage.",
+    "difficulty": "hard",
+    "ngn": true,
+    "ngn_type": "trend",
+    "scenario": "A 32-year-old G1P0 patient at 36 weeks is admitted for decreased fetal movement. She denies contractions but the monitor is showing irregular uterine activity. Her prenatal course has been complicated by gestational hypertension. The obstetric nurse is performing continuous electronic fetal monitoring."
+  },
+  {
+    "id": 518,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "Complete the following clinical statement using the options provided: A 75-year-old patient with a history of falls is found on the floor of the bathroom. The nurse's FIRST priority action is to [BLANK 1]. After ensuring safety, the nurse should [BLANK 2] to determine if injury has occurred before moving the patient.",
+    "choices": {
+      "A": "BLANK 1: Call for assistance and do not move the patient until assessed",
+      "B": "BLANK 1: Immediately assist the patient back to bed to prevent further injury",
+      "C": "BLANK 1: Complete a full incident report before touching the patient",
+      "D": "BLANK 2: Perform a focused musculoskeletal and neurological assessment",
+      "E": "BLANK 2: Ask the patient if they are in pain",
+      "F": "BLANK 2: Obtain a STAT X-ray of all extremities"
+    },
+    "correct": "A,D",
+    "rationale": "BLANK 1 — A is correct: The first priority after a patient fall is to call for assistance and NOT move the patient until a thorough assessment can be performed. Moving a patient with an undetected fracture (especially hip or spine) could cause further injury. B is incorrect: Moving the patient before assessment could worsen a potential fracture. C is incorrect: Documentation follows assessment and care — never before. BLANK 2 — D is correct: A focused musculoskeletal assessment (range of motion, point tenderness, deformity, neurovascular status) and neurological assessment (LOC, orientation, pupil response if head trauma suspected) must be completed before moving the patient. E is insufficient alone: While pain assessment is part of the evaluation, a complete focused assessment is required. F is incorrect: X-rays are ordered based on assessment findings — not obtained before any clinical assessment.",
+    "difficulty": "medium",
+    "ngn": true,
+    "ngn_type": "cloze",
+    "scenario": "You are the nurse caring for a 75-year-old man with osteoporosis, hypertension, and a history of two previous falls. He is admitted for a UTI. He is on terazosin (alpha-blocker for BPH) and amlodipine. During the 2200 rounds, you enter the bathroom and find him sitting on the floor next to the toilet. He is alert, looks frightened, and says 'I just slipped.'"
+  },
+  {
+    "id": 519,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "Complete the clinical sentence: A patient receiving a blood transfusion develops sudden onset fever (39.1°C), chills, and back pain 30 minutes into the infusion. The nurse recognizes this as a potential [BLANK 1] reaction and the FIRST nursing action is to [BLANK 2].",
+    "choices": {
+      "A": "BLANK 1: febrile non-hemolytic transfusion",
+      "B": "BLANK 1: acute hemolytic transfusion",
+      "C": "BLANK 1: transfusion-related acute lung injury (TRALI)",
+      "D": "BLANK 2: slow the infusion rate and administer acetaminophen",
+      "E": "BLANK 2: stop the transfusion immediately, keep IV open with normal saline, notify provider and blood bank",
+      "F": "BLANK 2: administer diphenhydramine and continue the transfusion at a slower rate"
+    },
+    "correct": "B,E",
+    "rationale": "BLANK 1 — B is correct: Fever + chills + BACK PAIN during a blood transfusion is the classic presentation of an acute hemolytic transfusion reaction (AHTR) — caused by ABO incompatibility, the most dangerous transfusion reaction. Back pain specifically reflects complement activation and red cell hemolysis affecting the kidneys. Febrile non-hemolytic reactions (A) cause fever/chills without back pain or hemodynamic instability. TRALI (C) presents with acute respiratory distress. BLANK 2 — E is correct: The first action for ANY suspected transfusion reaction is to STOP the transfusion immediately, maintain IV access with normal saline (never use the blood tubing for saline), and notify both the provider and the blood bank (for return of the unit and repeat type and crossmatch). D is incorrect: Slowing the infusion is never appropriate when an AHTR is suspected — continued infusion could be fatal. F is incorrect: Antihistamines are for allergic reactions, not hemolytic reactions.",
+    "difficulty": "hard",
+    "ngn": true,
+    "ngn_type": "cloze",
+    "scenario": "A 52-year-old female patient with chronic anemia secondary to myelodysplastic syndrome is receiving her second unit of packed red blood cells. She has had multiple prior transfusions without complications. Thirty minutes into the second unit, she presses her call light and tells the nurse she feels extremely cold and has sudden severe pain in her lower back. Her temperature is now 39.1°C (was 37.2°C pre-transfusion)."
+  },
+  {
+    "id": 520,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "Complete the following: A nurse is preparing to administer IV morphine 4 mg to a post-operative patient. Before administration, the nurse MUST verify [BLANK 1]. If the patient's respiratory rate is 10 breaths/min before administration, the nurse should [BLANK 2].",
+    "choices": {
+      "A": "BLANK 1: The patient's pain level using a validated pain scale and allergy status",
+      "B": "BLANK 1: The last bowel movement and fluid intake",
+      "C": "BLANK 1: The patient's respiratory rate, blood pressure, and level of sedation",
+      "D": "BLANK 2: Administer the morphine slowly over 5 minutes to reduce respiratory depression",
+      "E": "BLANK 2: Hold the morphine, notify the provider, and document the finding — respiratory rate <12 is a contraindication",
+      "F": "BLANK 2: Reduce the dose by half and administer"
+    },
+    "correct": "C,E",
+    "rationale": "BLANK 1 — C is correct: Before administering opioids, the nurse MUST assess respiratory rate, blood pressure, and level of sedation (sedation precedes respiratory depression — the Pasero Opioid-Induced Sedation Scale or similar is used). Pain level and allergies are also important but C is the MOST CRITICAL safety assessment for opioids. BLANK 2 — E is correct: Respiratory rate <12 breaths/min is a standard contraindication for opioid administration — morphine further depresses respiratory drive and could cause respiratory arrest in an already compromised patient. The nurse must hold the dose, notify the provider, and document. D is incorrect: Administering slowly does not eliminate the respiratory depression risk in a patient already breathing at 10/min. F is incorrect: There is no nursing authority to independently reduce a prescribed opioid dose without a new order.",
+    "difficulty": "medium",
+    "ngn": true,
+    "ngn_type": "cloze",
+    "scenario": "Mr. Peterson is a 48-year-old male on postoperative day 1 following a laparoscopic colectomy. He rates his pain 7/10. He has a history of sleep apnea (CPAP at home, not available in hospital) and obesity (BMI 38). His current vital signs: RR 10/min, BP 122/78, HR 68, SpO2 95% on 2L NC. The nurse has a scheduled order for morphine 4 mg IV q4h PRN pain."
+  },
+  {
+    "id": 521,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "Complete the following clinical scenario: A nurse is caring for a patient with suspected pulmonary embolism (PE). The patient reports sudden dyspnea, right-sided pleuritic chest pain, and has an SpO2 of 88% on room air. The MOST LIKELY clinical finding that distinguishes PE from other causes of chest pain is [BLANK 1]. The nurse's PRIORITY intervention before diagnostic confirmation is [BLANK 2].",
+    "choices": {
+      "A": "BLANK 1: Diaphoresis and radiation of pain to the left arm",
+      "B": "BLANK 1: Unilateral leg swelling, warmth, and erythema (DVT source) with sudden onset dyspnea",
+      "C": "BLANK 1: Gradual onset of bilateral leg edema with crackles in lung bases",
+      "D": "BLANK 2: Apply high-flow oxygen, establish IV access, and prepare for STAT CT pulmonary angiography",
+      "E": "BLANK 2: Position the patient flat and administer a fluid bolus",
+      "F": "BLANK 2: Administer aspirin 325 mg and obtain a 12-lead ECG only"
+    },
+    "correct": "B,D",
+    "rationale": "BLANK 1 — B is correct: PE classically presents with sudden dyspnea, pleuritic chest pain, and evidence of a DVT source (unilateral leg swelling, warmth, erythema — Homan's sign). This triad distinguishes PE from acute MI (which presents with diaphoresis, pressure, radiation to arm/jaw) and heart failure (bilateral leg edema, crackles). A describes classic MI. C describes heart failure. BLANK 2 — D is correct: Priority interventions for suspected PE are: high-flow supplemental oxygen (SpO2 88% requires immediate correction), IV access for anticoagulation/contrast, and STAT CT-PA for definitive diagnosis (CT pulmonary angiography is the gold standard for PE diagnosis). E is incorrect: Lying flat can worsen dyspnea; fluid bolus may worsen right heart strain from PE. F is incomplete: ECG is useful (may show S1Q3T3 or new right heart strain) but aspirin does not treat PE — anticoagulation is the treatment.",
+    "difficulty": "hard",
+    "ngn": true,
+    "ngn_type": "cloze",
+    "scenario": "A 54-year-old woman is in the medical-surgical unit, post-op day 3 following a total hip replacement. She has been ambulating with physical therapy but reports not moving much the past 24 hours due to pain. She calls the nurse and reports sudden inability to breathe and sharp pain when she takes a deep breath on the right side. Her right leg appears more swollen than the left."
+  },
+  {
+    "id": 522,
+    "category": "NGN - Clinical Judgment",
+    "type": "multiple-choice",
+    "question": "Complete the following: A 4-year-old child is admitted with suspected epiglottitis. The child is drooling, sitting upright leaning forward in a 'tripod' position, has a muffled voice, and is in visible respiratory distress. The nurse's MOST CRITICAL action is [BLANK 1]. The nurse should specifically AVOID [BLANK 2] because it could precipitate complete airway obstruction.",
+    "choices": {
+      "A": "BLANK 1: Prepare for emergent airway management (intubation or surgical airway) and call the physician and anesthesiologist immediately",
+      "B": "BLANK 1: Administer racemic epinephrine via nebulizer and reassess in 15 minutes",
+      "C": "BLANK 1: Place a tongue depressor to visually assess the epiglottis",
+      "D": "BLANK 2: Using a tongue depressor or attempting to visualize the throat",
+      "E": "BLANK 2: Placing the child in a supine position",
+      "F": "BLANK 2: Starting a peripheral IV in the arm while the child is calm"
+    },
+    "correct": "A,D",
+    "rationale": "BLANK 1 — A is correct: Epiglottitis is a true airway emergency. The classic tripod position, drooling (unable to swallow secretions), muffled/hot-potato voice, and respiratory distress indicate near-complete airway obstruction. Emergent airway management by an anesthesiologist (with ENT and pediatric surgery backup) must be arranged IMMEDIATELY. B is incorrect: Racemic epinephrine is used for croup (subglottic), not epiglottitis — wrong intervention for this diagnosis. C is explicitly contraindicated. BLANK 2 — D is correct: Any examination of the throat (tongue depressors, throat swabs, laryngoscopy in awake children) can trigger laryngospasm and complete airway obstruction in epiglottitis. This is an absolute contraindication. E is also important to avoid (child maintains tripod to keep airway open) but is not as immediately dangerous as throat examination. F (IV access) can be deferred — the absolute priority is airway security before any invasive procedure.",
+    "difficulty": "hard",
+    "ngn": true,
+    "ngn_type": "cloze",
+    "scenario": "A 4-year-old boy is brought to the pediatric ED by his mother. He has had a high fever (39.8°C) for 6 hours and progressive difficulty swallowing. He refuses to lie down and has been sitting upright with his neck extended. He is producing copious saliva but not swallowing it. He appears anxious and is working hard to breathe. The triage nurse suspects acute epiglottitis."
+  }
+]

@@ -116,22 +116,22 @@ export default function LandingPage() {
       <section className="bg-gradient-to-br from-[#1e3a5f] to-[#2a4f7c] text-white py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-block bg-blue-400 bg-opacity-30 text-blue-100 text-sm font-semibold px-4 py-1 rounded-full mb-6">
-            Trusted by Nursing Students Nationwide
+            ✅ Updated for April 2026 NCLEX Test Plan — Includes Next Generation NCLEX (NGN) Questions
           </div>
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
             Pass the NCLEX.<br />
-            <span className="text-blue-300">Practice with 497 real-style questions.</span>
+            <span className="text-blue-300">Practice with 667 real-style questions.</span>
           </h1>
           <p className="text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
-            Simulate the real exam experience with timed, randomized questions across all tested categories. Know exactly where you stand before test day.
+            Includes Next Generation NCLEX (NGN) question formats — bow-tie, extended response, trend analysis, and clinical judgment scenarios. Aligned with the April 2026 test plan update.
           </p>
 
           {/* Stats */}
           <div className="flex flex-wrap justify-center gap-8 mb-12">
             {[
-              { num: '497', label: 'Practice Questions' },
-              { num: '5', label: 'Categories Covered' },
-              { num: '60', label: 'Minute Timed Test' },
+              { num: '667', label: 'Practice Questions' },
+              { num: 'NGN', label: 'Format Included' },
+              { num: '6', label: 'Categories Covered' },
             ].map(s => (
               <div key={s.label} className="text-center">
                 <div className="text-4xl font-bold text-blue-300">{s.num}</div>

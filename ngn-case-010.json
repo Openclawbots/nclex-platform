@@ -1,0 +1,176 @@
+{
+  "case_id": "case-010",
+  "title": "Community-Acquired Pneumonia with Hypoxic Respiratory Failure",
+  "scenario": "A 78-year-old female nursing home resident is brought by ambulance to the emergency department with a 3-day history of productive cough, fever, and decreased oral intake. Her past medical history includes COPD (on home oxygen at 2L via nasal cannula), type 2 diabetes mellitus, and mild dementia. On arrival, vital signs are: Temperature 39.6°C, Heart Rate 114 bpm, Blood Pressure 104/62 mmHg, Respiratory Rate 32 breaths/min, and SpO2 82% on 4L nasal cannula (baseline SpO2 91% on 2L at home). She is confused and more disoriented than her baseline. Chest X-ray reveals right lower lobe consolidation. Laboratory results show WBC 22.4 k/µL, procalcitonin 4.8 ng/mL, and lactate 2.4 mmol/L. Arterial blood gas on 4L NC: pH 7.28, PaCO2 58 mmHg, PaO2 52 mmHg, indicating combined hypoxic and hypercapnic respiratory failure with acute respiratory acidosis. Sputum is purulent. Two sets of blood cultures have been drawn and urine Legionella antigen is pending. Empiric treatment with ceftriaxone and azithromycin has been initiated. A Do-Not-Resuscitate / Do-Not-Intubate (DNR/DNI) order is on file per the patient's advance directive. Family members are present at bedside.",
+  "questions": [
+    {
+      "id": 602,
+      "case_id": "case-010",
+      "question_number": 1,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "extended-response",
+      "question": "The nurse is caring for a 78-year-old female with community-acquired pneumonia and hypoxic/hypercapnic respiratory failure. She has a DNR/DNI order on file. SpO2 is 82% on 4L NC, BP 104/62, RR 32, and she is acutely confused. Select ALL interventions that are appropriate for this patient given her advance directive status. Select all that apply.",
+      "choices": {
+        "A": "Initiate non-invasive positive pressure ventilation (BiPAP or CPAP) to improve oxygenation and ventilation",
+        "B": "Prepare for immediate orotracheal intubation and mechanical ventilation",
+        "C": "Continue IV ceftriaxone and azithromycin as prescribed for community-acquired pneumonia",
+        "D": "Administer an IV fluid bolus (250–500 mL normal saline) to address hypotension with MAP <65",
+        "E": "Position the patient in high Fowler's (head of bed 45–60°) to optimize respiratory mechanics",
+        "F": "Withhold all antibiotics until blood culture results return to avoid antimicrobial resistance"
+      },
+      "correct": ["A", "C", "D", "E"],
+      "rationale": "A DNI order prohibits endotracheal intubation and invasive mechanical ventilation, but does NOT preclude non-invasive ventilatory support, antibiotics, or other medical treatments. BiPAP/CPAP (A) is appropriate — it is non-invasive and consistent with DNI status. Continuing IV antibiotics (C) addresses the underlying infectious etiology and is always appropriate. IV fluid resuscitation (D) is indicated given hypotension (BP 104/62) and elevated lactate suggesting early sepsis physiology. Positioning upright (E) reduces work of breathing and improves diaphragmatic excursion. Intubation (B) directly violates the DNI directive. Withholding antibiotics (F) is dangerous and clinically indefensible — there is no rationale to withhold treatment pending culture results in a septic patient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 603,
+      "case_id": "case-010",
+      "question_number": 2,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "bow-tie",
+      "question": "Complete the bow-tie clinical reasoning diagram for this patient. Select the most likely condition (center), the two most appropriate nursing actions (left), and the two most important parameters to monitor (right).",
+      "choices": {
+        "condition_options": {
+          "A": "Hypoxic and hypercapnic respiratory failure secondary to community-acquired pneumonia",
+          "B": "Isolated COPD exacerbation without infectious etiology",
+          "C": "Acute pulmonary embolism with right heart strain",
+          "D": "Cardiogenic pulmonary edema"
+        },
+        "action_options": {
+          "A": "Initiate BiPAP consistent with DNI status and notify provider",
+          "B": "Prepare for emergent intubation per ACLS protocol",
+          "C": "Administer IV antibiotics and support MAP with fluid resuscitation",
+          "D": "Administer high-dose IV corticosteroids as first-line therapy",
+          "E": "Restrict IV fluids completely to prevent pulmonary edema",
+          "F": "Apply supplemental oxygen via high-flow nasal cannula as a bridge"
+        },
+        "parameter_options": {
+          "A": "SpO2, respiratory rate, and serial ABG trends",
+          "B": "Blood glucose every 15 minutes only",
+          "C": "Mental status changes and blood pressure trends",
+          "D": "Urine output and daily weights exclusively",
+          "E": "Temperature curve only",
+          "F": "Pain score and sedation level"
+        }
+      },
+      "correct": {
+        "condition": "A",
+        "actions": ["A", "C"],
+        "parameters": ["A", "C"]
+      },
+      "rationale": "The clinical picture — fever, productive cough, right lower lobe consolidation, WBC 22.4, procalcitonin 4.8, combined hypoxemia (PaO2 52) and hypercapnia (PaCO2 58), respiratory acidosis (pH 7.28) — is most consistent with hypoxic/hypercapnic respiratory failure due to community-acquired pneumonia (A). Isolated COPD exacerbation (B) would not typically produce this degree of leukocytosis and consolidation. PE (C) presents with hypoxia but not hypercapnia and consolidation of this pattern. Appropriate actions are BiPAP (A) — the only ventilatory support permitted under a DNI order — and IV antibiotics with fluid resuscitation (C) to treat the infection and support hemodynamics. Key monitoring parameters are SpO2/RR/ABG trends (A) to assess ventilatory response, and mental status/BP (C) as surrogate markers of perfusion and CNS response to hypoxia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 604,
+      "case_id": "case-010",
+      "question_number": 3,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "trend",
+      "question": "Review the following serial arterial blood gas (ABG) trend for this patient on BiPAP. Based on this data, what is the correct interpretation and the most appropriate nursing action?\n\n| Time | pH | PaCO2 | PaO2 |\n|------|-----|--------|-------|\n| Admission (4L NC) | 7.28 | 58 mmHg | 52 mmHg |\n| 1 hr on BiPAP | 7.33 | 52 mmHg | 68 mmHg |\n| 2 hr on BiPAP | 7.36 | 48 mmHg | 78 mmHg |",
+      "choices": {
+        "A": "The ABG trend indicates worsening respiratory failure; prepare the patient for emergent intubation",
+        "B": "The ABG trend indicates improving respiratory failure on BiPAP; continue current treatment and reassess in 1 hour",
+        "C": "The trend is clinically insignificant; no changes to the plan of care are needed at this time",
+        "D": "The improving pH indicates metabolic alkalosis developing from over-ventilation; reduce BiPAP settings",
+        "E": "The rising PaO2 indicates BiPAP is causing oxygen toxicity; wean to room air immediately",
+        "F": "The decreasing PaCO2 indicates the patient is hyperventilating; discontinue BiPAP and switch to a Venturi mask"
+      },
+      "correct": "B",
+      "rationale": "The ABG trend demonstrates a clear and progressive improvement in all three parameters: pH is rising (7.28 → 7.33 → 7.36), moving from frank acidosis toward the normal range (7.35–7.45); PaCO2 is falling (58 → 52 → 48 mmHg), indicating improved ventilation and CO2 clearance; PaO2 is rising (52 → 68 → 78 mmHg), indicating improved oxygenation. This is a textbook response to non-invasive positive pressure ventilation in hypercapnic respiratory failure. The correct action is to continue current treatment and reassess in 1 hour. Intubation (A) is contraindicated under the DNI order and is not clinically indicated given the improving trend. The changes are significant (C is wrong). The pH improvement is respiratory in origin, not metabolic (D is wrong). PaO2 of 78 does not constitute oxygen toxicity (E). A decreasing PaCO2 from 58 to 48 is therapeutic correction of hypercapnia, not dangerous hyperventilation (F).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 605,
+      "case_id": "case-010",
+      "question_number": 4,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "priority",
+      "question": "Three hours after BiPAP initiation, the patient becomes increasingly agitated, pulling at the BiPAP mask and removing it repeatedly. Her SpO2 drops to 76% each time the mask is removed. She is verbalizing distress. The family is at the bedside and is visibly upset. Her DNR/DNI order remains in effect. Place the following nursing actions in order of priority (1 = highest priority):",
+      "choices": {
+        "A": "Immediately notify the attending provider and palliative care team of the patient's inability to tolerate BiPAP and clinical deterioration",
+        "B": "Calmly explain to the patient and family what is happening, acknowledge distress, and attempt to reapply the BiPAP mask using reassurance and redirection",
+        "C": "Prepare for emergent orotracheal intubation to secure the airway and prevent further desaturation",
+        "D": "Initiate a discussion with the family and provider regarding goals of care, transition to comfort-focused measures if the patient continues to refuse BiPAP",
+        "E": "Apply physical restraints to the patient's wrists to prevent her from removing the BiPAP mask",
+        "F": "Document the patient's expressed wishes, behavioral response, SpO2 trends, and all interventions attempted in the medical record"
+      },
+      "correct": ["B", "A", "D", "F"],
+      "rationale": "Priority order: (1) B — Therapeutic communication is the immediate, humane first response: address distress, attempt non-coercive redirection and mask reapplication. (2) A — Notify the provider and palliative care team urgently; clinical deterioration with inability to tolerate the only permissible ventilatory support is a critical event requiring physician involvement. (3) D — Goals-of-care discussion with family and provider is the next priority: if the patient cannot or will not tolerate BiPAP, transition to comfort measures must be considered in alignment with the existing DNR/DNI. (4) F — Thorough documentation throughout. Intubation (C) is absolutely contraindicated — it directly violates the DNI advance directive regardless of clinical urgency. Physical restraints (E) to force medical treatment on a patient who is actively refusing it are both ethically inappropriate and legally prohibited without specific clinical and judicial authorization — applying restraints to coerce compliance with a medical device is an autonomy violation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 606,
+      "case_id": "case-010",
+      "question_number": 5,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "cloze",
+      "question": "Complete the following nursing documentation note by selecting the best option for each blank.\n\n\"For a patient with a DNI order who develops hypoxic and hypercapnic respiratory failure, the nurse should initiate [BLANK 1] as the preferred alternative to endotracheal intubation, while promptly notifying [BLANK 2], and ensuring [BLANK 3] is thoroughly completed in the medical record.\"",
+      "choices": {
+        "blank_1": {
+          "A": "non-invasive positive pressure ventilation (BiPAP or CPAP)",
+          "B": "emergent orotracheal intubation",
+          "C": "high-dose IV sedation for comfort only",
+          "D": "a simple face mask at 6L/min"
+        },
+        "blank_2": {
+          "A": "the attending provider and palliative care team",
+          "B": "only the charge nurse",
+          "C": "the hospital administrator and legal team",
+          "D": "the respiratory therapy department without physician notification"
+        },
+        "blank_3": {
+          "A": "documentation of the patient's expressed wishes, response to treatment, and all interventions attempted",
+          "B": "a pharmacy medication reconciliation review",
+          "C": "a dietary consult for nutritional optimization",
+          "D": "a social work referral for discharge planning"
+        }
+      },
+      "correct": {
+        "blank_1": "A",
+        "blank_2": "A",
+        "blank_3": "A"
+      },
+      "rationale": "Blank 1: BiPAP/CPAP (A) is the standard of care for non-invasive ventilatory support in respiratory failure when intubation is prohibited by a DNI order. It provides positive pressure ventilation without breaching the advance directive. Blank 2: The attending provider AND palliative care team (A) must both be notified — the provider to manage the acute deterioration, and palliative care to support goals-of-care alignment, family communication, and potential transition to comfort-focused care. Blank 3: Documentation (A) of the patient's expressed wishes, behavioral response, clinical trajectory, and every intervention attempted is both a legal obligation and an ethical imperative in advance directive cases. It protects the patient's autonomy rights, creates a clear clinical record, and ensures continuity of care across all providers involved.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 607,
+      "case_id": "case-010",
+      "question_number": 6,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "matrix",
+      "question": "For the 78-year-old patient with community-acquired pneumonia, hypoxic/hypercapnic respiratory failure, and a DNR/DNI order on file, classify each intervention as Indicated, Contraindicated, or Non-Essential using the matrix below.",
+      "choices": {
+        "A": "Initiate BiPAP for respiratory failure management in a DNI patient",
+        "B": "Perform orotracheal intubation for airway protection and mechanical ventilation",
+        "C": "Administer IV ceftriaxone and azithromycin for community-acquired pneumonia",
+        "D": "Apply high-flow nasal cannula as supplemental oxygen support or bridge therapy",
+        "E": "Reposition patient to high Fowler's position (head of bed 45–60°)",
+        "F": "Apply physical restraints to prevent the patient from removing the BiPAP mask"
+      },
+      "correct": {
+        "A": "Indicated",
+        "B": "Contraindicated",
+        "C": "Indicated",
+        "D": "Indicated",
+        "E": "Indicated",
+        "F": "Contraindicated"
+      },
+      "rationale": "A — Indicated: BiPAP is the appropriate, DNI-compliant ventilatory support for hypercapnic respiratory failure. It is non-invasive, effective, and does not breach the advance directive. B — Contraindicated: Orotracheal intubation directly violates the patient's DNI advance directive. Regardless of clinical urgency or acuity, an intubation attempt without explicit consent or revocation of the DNI is an ethical and legal violation of patient autonomy. C — Indicated: IV antibiotics targeting community-acquired pneumonia (ceftriaxone + azithromycin) address the underlying infectious etiology. Advance directives do not restrict antibiotic therapy. D — Indicated: High-flow nasal cannula provides supplemental oxygen support and can serve as a bridge or adjunct to BiPAP; it is non-invasive and consistent with the DNI order. E — Indicated: Positioning in high Fowler's (45–60°) reduces work of breathing, optimizes diaphragmatic function, and improves ventilation-perfusion matching — a low-risk, high-benefit standard nursing intervention. F — Contraindicated: Applying physical restraints to compel a patient to accept medical treatment they are resisting constitutes a form of coercion and violates the patient's right to refuse treatment. Restraining a patient to force compliance with BiPAP is ethically and legally impermissible.",
+      "difficulty": "hard"
+    }
+  ]
+}

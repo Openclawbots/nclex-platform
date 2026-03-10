@@ -1,0 +1,200 @@
+{
+  "case_id": "case-017",
+  "title": "COPD Acute Exacerbation with Hypercapnic Respiratory Failure",
+  "scenario": "A 69-year-old male with GOLD Stage III COPD presents to the ED with a 4-day history of worsening dyspnea, increased sputum production (yellow-green), and low-grade fever. He is a known chronic CO2 retainer with a baseline PaCO2 of 58 mmHg and pH 7.36 (compensated respiratory acidosis). He uses home oxygen at 2L via nasal cannula. On arrival, SpO2 is 84% on his home 2L NC; triage increases flow to 4L NC. Current vitals: RR 32, HR 108, BP 142/88, Temp 38.2°C. He is using accessory muscles and speaking only in 3-4 word sentences. ABG reveals: pH 7.28, PaCO2 74 mmHg, PaO2 46 mmHg, HCO3 34 mEq/L — consistent with acute-on-chronic hypercapnic respiratory failure. Chest X-ray shows hyperinflation with flattened diaphragms and no new infiltrate. Peak expiratory flow is 38% of predicted. Physical exam reveals prolonged expiratory phase, diffuse expiratory wheezes, and diminished air entry bilaterally. The patient is anxious but arousable and following commands.",
+  "questions": [
+    {
+      "id": 644,
+      "case_id": "case-017",
+      "question_number": 1,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "extended-response",
+      "question": "The nurse is caring for the 69-year-old male with COPD acute exacerbation and hypercapnic respiratory failure. Which of the following interventions are appropriate for this patient? Select all that apply.",
+      "choices": {
+        "A": "Administer controlled low-flow oxygen titrated to maintain SpO2 88–92%",
+        "B": "Administer short-acting bronchodilators (SABA + SAMA) via nebulizer",
+        "C": "Initiate systemic corticosteroids (e.g., methylprednisolone IV)",
+        "D": "Administer antibiotics to treat presumed bacterial exacerbation",
+        "E": "Apply BiPAP (non-invasive ventilation) for hypercapnic respiratory failure",
+        "F": "Increase oxygen to 15L via non-rebreather mask to achieve SpO2 >98%",
+        "G": "Initiate theophylline as first-line bronchodilator therapy",
+        "H": "Proceed immediately to orotracheal intubation without a BiPAP trial"
+      },
+      "correct": ["A", "B", "C", "D", "E"],
+      "rationale": "A: Controlled low-flow O2 targeting SpO2 88–92% is correct for chronic CO2 retainers — higher targets suppress hypoxic drive and worsen hypercapnia. B: SABA (albuterol) + SAMA (ipratropium) nebulizers are first-line bronchodilators for COPD exacerbation. C: Systemic corticosteroids reduce airway inflammation, shorten recovery, and decrease treatment failure in AECOPD. D: Yellow-green purulent sputum with fever strongly suggests bacterial exacerbation (Haemophilus, Moraxella, Streptococcus) — antibiotics are indicated. E: BiPAP/NIV is the standard of care for hypercapnic respiratory failure (pH <7.35, PaCO2 >45) in COPD — reduces need for intubation and improves survival. F is WRONG: High-flow O2 suppresses hypoxic drive in CO2 retainers, worsening hypercapnia and causing CO2 narcosis. G is WRONG: Theophylline is not first-line; it has a narrow therapeutic index and significant side effects. H is WRONG: NIV/BiPAP must be trialed before intubation unless contraindicated or patient deteriorates on NIV.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 645,
+      "case_id": "case-017",
+      "question_number": 2,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "bow-tie",
+      "question": "Complete the clinical bow-tie for this patient. Select the correct primary condition, two priority nursing actions, and two parameters to monitor.",
+      "choices": {
+        "condition_options": {
+          "A": "Acute hypercapnic respiratory failure secondary to COPD exacerbation",
+          "B": "Acute asthma exacerbation with bronchospasm",
+          "C": "Acute decompensated heart failure with pulmonary edema",
+          "D": "Pneumonia with septic shock"
+        },
+        "action_options": {
+          "A": "Titrate O2 to maintain SpO2 88–92% via controlled low-flow delivery",
+          "B": "Administer high-flow O2 at 15L NRB to rapidly correct hypoxemia",
+          "C": "Initiate BiPAP non-invasive ventilation for hypercapnic failure",
+          "D": "Administer nebulized SABA + SAMA bronchodilators",
+          "E": "Administer furosemide IV for presumed pulmonary edema",
+          "F": "Prepare for immediate intubation before trialing NIV"
+        },
+        "parameter_options": {
+          "A": "SpO2 maintained at 88–92% (not >94% in CO2 retainer)",
+          "B": "SpO2 maintained at 98–100% for full saturation",
+          "C": "Respiratory rate trend and work of breathing / accessory muscle use",
+          "D": "Urine output and daily weights for fluid balance",
+          "E": "ABG trend: pH, PaCO2, PaO2",
+          "F": "Level of consciousness and ability to protect airway"
+        }
+      },
+      "correct": {
+        "condition": "A",
+        "actions": ["A", "C"],
+        "parameters": ["A", "C", "E", "F"]
+      },
+      "rationale": "Condition A is correct: The ABG (pH 7.28, PaCO2 74, PaO2 46), chronic CO2 retention history, purulent sputum, and COPD diagnosis confirm acute hypercapnic respiratory failure from AECOPD — not asthma, CHF, or sepsis. Actions: Controlled O2 (A) prevents hypoxic drive suppression; BiPAP (C) is the proven NIV intervention for hypercapnic COPD failure. High-flow O2 (B) is contraindicated; furosemide (E) is for CHF not COPD; immediate intubation (F) skips mandatory NIV trial. Parameters: SpO2 88–92% (A) is the evidence-based target for CO2 retainers; RR/work of breathing (C) reflects response to bronchodilators and NIV; ABG trend (E) is essential to track PaCO2 and pH trajectory; LOC (F) is critical — worsening LOC signals CO2 narcosis and need for escalation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 646,
+      "case_id": "case-017",
+      "question_number": 3,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "trend",
+      "question": "After the patient was placed on 4L NC by triage, the nurse observes the following trend over 90 minutes. What is happening physiologically, and what is the priority nursing response?\n\nTime 0 → 30 min → 90 min:\n• SpO2: 84% → 92% → 96%\n• RR: 32 → 28 → 22 breaths/min\n• LOC: Alert and anxious → Drowsy, slow to respond → Difficult to arouse, minimal response\n• ABG pH: 7.28 → 7.22 → 7.16\n• PaCO2: 74 → 84 → 96 mmHg",
+      "choices": {
+        "A": "The patient is improving — SpO2 rising and RR decreasing indicate successful oxygenation therapy; continue current management",
+        "B": "The patient is experiencing hypoxic drive suppression from high-flow O2; CO2 narcosis is developing — reduce O2 to target SpO2 88–92% and initiate BiPAP immediately",
+        "C": "The patient has developed a spontaneous pneumothorax; prepare for emergency chest decompression",
+        "D": "The decreasing RR indicates the patient is tiring from respiratory fatigue alone; administer respiratory stimulant",
+        "E": "The rising PaCO2 is expected compensation for metabolic alkalosis; no action needed",
+        "F": "The patient needs immediate intubation before any other intervention"
+      },
+      "correct": ["B"],
+      "rationale": "B is correct. This is a classic and dangerous presentation of hypoxic drive suppression (Haldane effect) in a chronic CO2 retainer. The misleading data: SpO2 rising to 96% looks like improvement, but the falling RR is not recovery — it is the loss of hypoxic respiratory drive as excess O2 eliminates the hypoxic stimulus. PaCO2 rising from 74 → 84 → 96 mmHg with pH dropping from 7.28 → 7.16 confirms worsening acute respiratory acidosis and CO2 narcosis. LOC deterioration (alert → drowsy → difficult to arouse) is CO2 narcosis. Priority actions: (1) Reduce O2 flow to target SpO2 88–92% — NOT discontinue completely; (2) Initiate BiPAP/NIV immediately — this is the intervention that will both support ventilation and allow CO2 to be cleared; (3) Notify provider urgently — if BiPAP fails or patient cannot protect airway, intubation will be required. A is dangerously wrong — misreading a good SpO2 as improvement while CO2 climbs is a high-stakes NCLEX trap. F is premature — NIV must be trialed first unless contraindicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 647,
+      "case_id": "case-017",
+      "question_number": 4,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "priority",
+      "question": "The patient is now drowsy with RR 14, PaCO2 96 mmHg, and pH 7.16 on 4L NC. Place the following nursing actions in order of priority (1 = highest priority).",
+      "choices": {
+        "A": "Reduce oxygen flow rate to maintain SpO2 88–92% (not higher)",
+        "B": "Initiate BiPAP non-invasive ventilation immediately",
+        "C": "Notify provider — inform of deterioration and that intubation may be required if BiPAP fails",
+        "D": "Obtain repeat ABG in 30–60 minutes after BiPAP initiation to assess response",
+        "E": "Document current findings and interventions in the medical record",
+        "F": "Administer scheduled albuterol nebulizer treatment"
+      },
+      "correct": ["B", "A", "C", "F", "D", "E"],
+      "rationale": "Priority order rationale: 1st — B (BiPAP): The patient has acute hypercapnic respiratory failure with pH 7.16, PaCO2 96, drowsy LOC, and RR 14 — this is a respiratory emergency. BiPAP is the single most time-critical intervention; it will assist ventilation, reduce CO2, and potentially prevent intubation. 2nd — A (Reduce O2): Simultaneously or immediately after BiPAP initiation, O2 should be titrated down to SpO2 88–92% to stop further hypoxic drive suppression. 3rd — C (Notify provider): The provider must be aware of the severity, the BiPAP initiation, and must be at bedside or available for intubation if BiPAP fails or patient loses ability to protect airway. 4th — F (Albuterol neb): Bronchodilator can be administered via the BiPAP circuit or inline nebulizer; it addresses the underlying bronchospasm. 5th — D (Repeat ABG): Essential to assess response to NIV within 30–60 minutes — a failure to improve pH/PaCO2 on BiPAP is an indication for intubation. 6th — E (Documentation): Always important but never before life-saving interventions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 648,
+      "case_id": "case-017",
+      "question_number": 5,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "cloze",
+      "question": "Complete the following clinical teaching statement by selecting the correct word or phrase for each blank.\n\n\"In COPD patients who are chronic CO2 retainers, high-flow oxygen can cause [BLANK 1] by suppressing the [BLANK 2]. The target SpO2 for these patients should be [BLANK 3], not higher. When a patient develops acute hypercapnic respiratory failure, [BLANK 4] should be initiated as the preferred ventilatory support to avoid [BLANK 5]. If this intervention fails or the patient cannot protect their airway, [BLANK 6] becomes necessary.\"",
+      "choices": {
+        "blank_1": {
+          "A": "hypercapnia and CO2 narcosis",
+          "B": "oxygen toxicity and pulmonary fibrosis",
+          "C": "hypoglycemia and altered mental status",
+          "D": "metabolic alkalosis"
+        },
+        "blank_2": {
+          "A": "hypoxic respiratory drive",
+          "B": "central chemoreceptor CO2 sensitivity",
+          "C": "carotid body baroreceptor reflex",
+          "D": "Hering-Breuer inflation reflex"
+        },
+        "blank_3": {
+          "A": "88–92%",
+          "B": "94–98%",
+          "C": "98–100%",
+          "D": ">95% at all times"
+        },
+        "blank_4": {
+          "A": "BiPAP (non-invasive positive pressure ventilation)",
+          "B": "High-flow nasal cannula at 40–60 L/min",
+          "C": "CPAP at 10 cmH2O",
+          "D": "Incentive spirometry"
+        },
+        "blank_5": {
+          "A": "endotracheal intubation",
+          "B": "tracheostomy",
+          "C": "chest tube insertion",
+          "D": "surgical bronchodilation"
+        },
+        "blank_6": {
+          "A": "endotracheal intubation and mechanical ventilation",
+          "B": "emergent tracheostomy",
+          "C": "high-frequency oscillatory ventilation",
+          "D": "prone positioning"
+        }
+      },
+      "correct": {
+        "blank_1": "A",
+        "blank_2": "A",
+        "blank_3": "A",
+        "blank_4": "A",
+        "blank_5": "A",
+        "blank_6": "A"
+      },
+      "rationale": "Blank 1 — Hypercapnia and CO2 narcosis: In CO2 retainers, the central chemoreceptors are desensitized to high CO2; breathing is driven by low PaO2 (hypoxic drive). High-flow O2 corrects hypoxemia and removes this drive, causing hypoventilation and CO2 accumulation — leading to narcosis. Blank 2 — Hypoxic respiratory drive: The peripheral chemoreceptors (carotid and aortic bodies) detect low PaO2 and stimulate breathing. When O2 is given in excess, this drive is suppressed. Blank 3 — 88–92%: Evidence-based target for chronic hypercapnic COPD. SpO2 >92% risks hypoxic drive suppression; <88% risks tissue hypoxia. Blank 4 — BiPAP: NIV with BiPAP provides both inspiratory pressure support (reduces work of breathing) and PEEP (improves oxygenation), and is the gold-standard intervention for hypercapnic COPD failure. It reduces intubation rates by ~50% and improves mortality. Blank 5 — Endotracheal intubation: BiPAP is used specifically to avoid the risks of invasive mechanical ventilation (VAP, airway trauma, difficult wean). Blank 6 — Endotracheal intubation and mechanical ventilation: If BiPAP fails (no improvement in pH/PaCO2 within 1–2 hours, worsening LOC, inability to protect airway), intubation is required.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 649,
+      "case_id": "case-017",
+      "question_number": 6,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "matrix",
+      "question": "For each intervention listed, classify it as Indicated, Contraindicated, or Non-Essential for this patient with COPD acute exacerbation and hypercapnic respiratory failure.",
+      "choices": {
+        "A": "Titrate O2 via nasal cannula to maintain SpO2 88–92%",
+        "B": "Apply non-rebreather mask at 15L to achieve SpO2 >96%",
+        "C": "Initiate BiPAP for hypercapnic respiratory failure (pH <7.35, PaCO2 >45 with symptoms)",
+        "D": "Proceed directly to endotracheal intubation without trialing non-invasive ventilation",
+        "E": "Administer systemic corticosteroids (methylprednisolone or prednisone)",
+        "F": "Administer antibiotics for purulent (yellow-green) sputum production"
+      },
+      "matrix_categories": ["Indicated", "Contraindicated", "Non-Essential"],
+      "correct": {
+        "A": "Indicated",
+        "B": "Contraindicated",
+        "C": "Indicated",
+        "D": "Contraindicated",
+        "E": "Indicated",
+        "F": "Indicated"
+      },
+      "rationale": "A — Indicated: Controlled low-flow O2 targeting SpO2 88–92% is the evidence-based standard for all hypercapnic COPD patients. Prevents tissue hypoxia without suppressing hypoxic drive. B — Contraindicated: High-flow O2 via NRB at 15L in a chronic CO2 retainer is directly contraindicated. It suppresses hypoxic drive, worsens hypercapnia, and causes CO2 narcosis — as demonstrated in this patient's trend data. C — Indicated: BiPAP is the gold-standard intervention for AECOPD with acute hypercapnic respiratory failure. GOLD guidelines and multiple RCTs confirm BiPAP reduces intubation rates, ICU length of stay, and 30-day mortality. D — Contraindicated: Immediate intubation without a BiPAP trial is contraindicated unless specific contraindications to NIV exist (facial trauma, inability to protect airway, hemodynamic instability, patient refusal). NIV must be attempted first. E — Indicated: Systemic corticosteroids (5-day course of prednisone 40mg or IV methylprednisolone) are standard of care for AECOPD — they reduce treatment failure, shorten hospitalization, and improve lung function. F — Indicated: Purulent sputum (yellow-green), fever, and worsening dyspnea meet Anthonisen criteria Type 1 AECOPD — antibiotics (amoxicillin-clavulanate, azithromycin, or doxycycline) are indicated for presumed bacterial exacerbation.",
+      "difficulty": "hard"
+    }
+  ]
+}

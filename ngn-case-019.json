@@ -1,0 +1,154 @@
+{
+  "case_id": "case-019",
+  "title": "Sickle Cell Vaso-Occlusive Crisis with Acute Chest Syndrome",
+  "scenario": "A 24-year-old female with known sickle cell disease (HbSS genotype) is admitted to the medical-surgical unit for a vaso-occlusive crisis (VOC). The crisis was triggered by dehydration following a 3-day gastrointestinal illness with vomiting and poor oral intake. She reports severe bilateral leg pain rated 10/10, describing it as 'worse than usual.' On admission, vital signs are: BP 108/64 mmHg, HR 118 bpm, RR 22 breaths/min, Temperature 38.4°C, SpO2 91% on room air. Laboratory results show Hgb 6.2 g/dL (her baseline is 7.5 g/dL), Hct 19%, reticulocytes 18%, WBC 14,200/µL, total bilirubin 3.8 mg/dL (indirect 2.9 mg/dL), and elevated LDH — consistent with ongoing hemolysis. Over the first hour of admission, the nurse notes the patient's respiratory rate is increasing. The patient now reports new chest pain and a productive cough. A chest X-ray reveals a new right lower lobe infiltrate, which may represent infarction or infection. SpO2 has dropped to 88% on room air. The clinical picture is rapidly evolving and requires urgent reassessment and intervention.",
+  "questions": [
+    {
+      "id": 656,
+      "case_id": "case-019",
+      "question_number": 1,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "extended-response",
+      "question": "The nurse is caring for a 24-year-old with sickle cell disease admitted for vaso-occlusive crisis (VOC). Which of the following interventions are indicated for this patient? Select all that apply.\n\nA. Initiate aggressive IV hydration with isotonic fluids\nB. Restrict oral and IV fluids to prevent fluid overload\nC. Administer IV opioids for pain management per protocol\nD. Withhold opioids due to concern for addiction in a young patient\nE. Encourage incentive spirometry every 1–2 hours\nF. Administer meperidine (Demerol) for refractory pain\nG. Provide supplemental oxygen if SpO2 falls below 95%\nH. Monitor for signs and symptoms of acute chest syndrome\nI. Use scheduled analgesics combined with PRN dosing — not PRN only",
+      "choices": {
+        "A": "Initiate aggressive IV hydration with isotonic fluids",
+        "B": "Restrict oral and IV fluids to prevent fluid overload",
+        "C": "Administer IV opioids for pain management per protocol",
+        "D": "Withhold opioids due to concern for addiction in a young patient",
+        "E": "Encourage incentive spirometry every 1–2 hours",
+        "F": "Administer meperidine (Demerol) for refractory pain",
+        "G": "Provide supplemental oxygen if SpO2 falls below 95%",
+        "H": "Monitor for signs and symptoms of acute chest syndrome",
+        "I": "Use scheduled analgesics combined with PRN dosing — not PRN only"
+      },
+      "correct": ["A", "C", "E", "G", "H", "I"],
+      "rationale": "Aggressive IV hydration (A) is a cornerstone of VOC management — dehydration causes sickling and must be corrected. IV opioids (C) are the standard of care for VOC pain management; withholding them (D) based on addiction fear is inappropriate and causes unnecessary suffering. Incentive spirometry (E) is essential every 1–2 hours to promote lung expansion and prevent atelectasis, which is a major trigger for acute chest syndrome (ACS). Supplemental O2 (G) is indicated when SpO2 drops below 95% to prevent further sickling. Monitoring for ACS (H) — including new chest pain, fever, new infiltrate, and falling SpO2 — is critical because ACS is the leading cause of death in SCD. Scheduled plus PRN analgesics (I) provide better pain control than PRN-only dosing. Fluid restriction (B) is contraindicated. Withholding opioids (D) leads to undertreated pain and worse outcomes. Meperidine (F) is contraindicated in SCD because its metabolite normeperidine accumulates and causes seizures, particularly in patients with compromised renal perfusion.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 657,
+      "case_id": "case-019",
+      "question_number": 2,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "bow-tie",
+      "question": "The patient's SpO2 has dropped to 88% and a new right lower lobe infiltrate is seen on CXR. Complete the clinical bow-tie by identifying the most likely condition, two priority nursing actions, and two parameters to monitor.\n\nPotential Conditions:\nA. Acute chest syndrome (ACS)\nB. Community-acquired pneumonia unrelated to SCD\nC. Pulmonary embolism\nD. Vaso-occlusive crisis without pulmonary involvement\n\nPotential Actions:\nA. Apply supplemental oxygen and titrate to SpO2 ≥95%\nB. Notify the provider immediately and anticipate possible exchange transfusion\nC. Administer empiric antibiotics and bronchodilators per ACS protocol\nD. Prepare for emergent CT pulmonary angiogram\nE. Continue aggressive pain management\n\nParameters to Monitor:\nA. SpO2 trend and respiratory rate\nB. New or worsening infiltrate on serial chest X-rays\nC. Hemoglobin level and need for transfusion\nD. Urine output only\nE. Skin turgor for dehydration status",
+      "choices": {
+        "A": "Condition: Acute chest syndrome (ACS)",
+        "B": "Condition: Community-acquired pneumonia unrelated to SCD",
+        "C": "Condition: Pulmonary embolism",
+        "D": "Condition: Vaso-occlusive crisis without pulmonary involvement",
+        "E": "Action: Apply supplemental oxygen and titrate to SpO2 ≥95%",
+        "F": "Action: Notify the provider immediately and anticipate possible exchange transfusion",
+        "G": "Action: Administer empiric antibiotics and bronchodilators per ACS protocol",
+        "H": "Action: Prepare for emergent CT pulmonary angiogram",
+        "I": "Action: Continue aggressive pain management",
+        "J": "Parameter: SpO2 trend and respiratory rate",
+        "K": "Parameter: New or worsening infiltrate on serial chest X-rays",
+        "L": "Parameter: Hemoglobin level and need for transfusion",
+        "M": "Parameter: Urine output only",
+        "N": "Parameter: Skin turgor for dehydration status"
+      },
+      "correct": {
+        "condition": "A",
+        "actions": ["E", "F"],
+        "parameters": ["J", "K"]
+      },
+      "rationale": "The clinical triad of new pulmonary infiltrate on CXR, fever (38.4°C), and respiratory symptoms (chest pain, cough, falling SpO2) in a patient with SCD defines Acute Chest Syndrome (ACS) — the most likely and most dangerous diagnosis here. ACS is the leading cause of death in SCD. Priority nursing actions are: (1) Apply supplemental O2 immediately to correct hypoxia and prevent further sickling; and (2) Notify the provider urgently — ACS may require exchange transfusion to rapidly reduce HbS concentration, especially with rapidly declining SpO2. Antibiotics and bronchodilators are also part of ACS treatment (ACS can be infectious or ischemic), but immediate O2 and provider notification take first priority. Key parameters to monitor include SpO2 trend and RR (reflect respiratory deterioration) and serial CXR findings (infiltrate progression signals worsening ACS). Hemoglobin level is also important for transfusion decisions. PE is less likely without immobility risk factors and with the clear SCD context. Simple pneumonia wouldn't account for the full clinical picture in this SCD patient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 658,
+      "case_id": "case-019",
+      "question_number": 3,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "trend",
+      "question": "The nurse reviews the following trending data over the past 2 hours. Analyze the trends and select the correct interpretation of what is developing and the appropriate urgency.\n\nTrending Data:\n• SpO2: 91% → 89% → 88% → 85%\n• Respiratory Rate: 22 → 26 → 30 → 34 breaths/min\n• Hemoglobin: 6.2 g/dL (stable, no acute drop)\n• Chest X-ray: New right lower lobe infiltrate confirmed\n• Chest pain: Escalating, now rated 8/10 in chest\n\nA. The patient is developing acute chest syndrome (ACS) — a life-threatening complication of SCD and the leading cause of death in this population; requires immediate intervention including possible exchange transfusion and urgent provider notification\nB. The trends indicate improving respiratory function; continue current management and reassess in 4 hours\nC. The declining SpO2 is due to anxiety; apply repositioning and reassure the patient\nD. The patient is likely developing a pleural effusion; prepare for thoracentesis\nE. These trends suggest worsening VOC pain causing splinting; increase opioid dosing and reassess",
+      "choices": {
+        "A": "The patient is developing acute chest syndrome (ACS) — a life-threatening complication of SCD and the leading cause of death in this population; requires immediate intervention including possible exchange transfusion and urgent provider notification",
+        "B": "The trends indicate improving respiratory function; continue current management and reassess in 4 hours",
+        "C": "The declining SpO2 is due to anxiety; apply repositioning and reassure the patient",
+        "D": "The patient is likely developing a pleural effusion; prepare for thoracentesis",
+        "E": "These trends suggest worsening VOC pain causing splinting; increase opioid dosing and reassess"
+      },
+      "correct": "A",
+      "rationale": "The trending data tells a clear and urgent story: SpO2 declining from 91% to 85% over 2 hours, RR climbing from 22 to 34, new infiltrate on CXR, and escalating chest pain. This is the clinical progression of Acute Chest Syndrome (ACS) — defined as a new pulmonary infiltrate plus fever or respiratory symptoms in a patient with SCD. ACS is the leading cause of death in adults with SCD and can deteriorate rapidly. The steadily worsening trajectory demands immediate action: apply high-flow O2, notify the provider urgently, prepare for possible exchange transfusion (reduces HbS%, the definitive treatment for severe ACS), and consider ICU transfer. Choosing to wait (B), attributing decline to anxiety (C), or assuming it's a pleural effusion (D) would delay life-saving treatment. While pain management (E) is important, the respiratory deterioration is the immediate threat and cannot be attributed to splinting alone given the CXR infiltrate and the rate of SpO2 decline.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 659,
+      "case_id": "case-019",
+      "question_number": 4,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "priority",
+      "question": "The patient's SpO2 is now 85% and her respiratory rate is 34 breaths/min. She is visibly in respiratory distress, using accessory muscles, and appears anxious. The nurse must act. Place the following actions in priority order by selecting the FIRST priority action.\n\nA. Apply high-flow supplemental oxygen immediately via non-rebreather mask\nB. Notify the provider immediately — patient meets criteria for acute chest syndrome and may require exchange transfusion\nC. Prepare the patient for possible ICU transfer\nD. Obtain a repeat chest X-ray to confirm progression of infiltrate\nE. Reassess pain score and administer PRN opioid dose\nF. Place a second large-bore IV for potential transfusion access",
+      "choices": {
+        "A": "Apply high-flow supplemental oxygen immediately via non-rebreather mask",
+        "B": "Notify the provider immediately — patient meets criteria for acute chest syndrome and may require exchange transfusion",
+        "C": "Prepare the patient for possible ICU transfer",
+        "D": "Obtain a repeat chest X-ray to confirm progression of infiltrate",
+        "E": "Reassess pain score and administer PRN opioid dose",
+        "F": "Place a second large-bore IV for potential transfusion access"
+      },
+      "correct": "A",
+      "rationale": "The first and most immediate nursing action is to apply high-flow supplemental oxygen via non-rebreather mask (A). SpO2 of 85% represents dangerous hypoxemia — brain and organ damage can occur rapidly at this level, and sickling accelerates in low-oxygen states, creating a deadly cycle. O2 is the nurse's immediate intervention that does not require a provider order in an emergency. Provider notification (B) is the critical second step — the physician must be at the bedside or immediately available to order exchange transfusion, escalate care, or arrange ICU transfer; this follows O2 only because life-threatening hypoxia is addressed first. ICU preparation (C) and IV access (F) follow provider notification. Repeat CXR (D) is important but not the first priority when the patient is in acute distress — stabilize first. Pain reassessment (E), while important in SCD, is not the priority over airway and breathing when SpO2 is 85%. The nursing priority framework (ABCs) drives this sequence: Airway/Breathing first, then Circulation and Communication.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 660,
+      "case_id": "case-019",
+      "question_number": 5,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "cloze",
+      "question": "Complete the following clinical summary by selecting the correct term for each blank.\n\n'Acute chest syndrome (ACS) in sickle cell disease is defined as a [BLANK 1] plus [BLANK 2] and is treated with oxygen, empiric antibiotics, bronchodilators, and [BLANK 3] if severe. When managing pain in sickle cell crisis, the nurse avoids [BLANK 4] because its toxic metabolite [BLANK 5] accumulates and can cause [BLANK 6].'\n\nBLANK 1 options:\nA. New pulmonary infiltrate on chest imaging\nB. Elevated troponin level\nC. Positive blood culture\nD. New pleural effusion on ultrasound\n\nBLANK 2 options:\nA. Fever OR respiratory symptoms (chest pain, cough, dyspnea, hypoxia)\nB. Bilateral leg pain\nC. Elevated creatinine\nD. Hemoglobin drop of more than 3 g/dL\n\nBLANK 3 options:\nA. Exchange transfusion\nB. Therapeutic phlebotomy\nC. Heparin anticoagulation\nD. High-dose corticosteroids\n\nBLANK 4 options:\nA. Meperidine (Demerol)\nB. Morphine sulfate\nC. Hydromorphone (Dilaudid)\nD. Ketorolac (Toradol)\n\nBLANK 5 options:\nA. Normeperidine\nB. Morphine-6-glucuronide\nC. Acetaminophen\nD. Codeine\n\nBLANK 6 options:\nA. Seizures\nB. Renal failure\nC. Hepatotoxicity\nD. Respiratory depression exclusively",
+      "choices": {
+        "A": "BLANK 1-A: New pulmonary infiltrate on chest imaging",
+        "B": "BLANK 2-A: Fever OR respiratory symptoms",
+        "C": "BLANK 3-A: Exchange transfusion",
+        "D": "BLANK 4-A: Meperidine (Demerol)",
+        "E": "BLANK 5-A: Normeperidine",
+        "F": "BLANK 6-A: Seizures"
+      },
+      "correct": ["A", "B", "C", "D", "E", "F"],
+      "rationale": "BLANK 1: ACS is defined by a new pulmonary infiltrate (not present before) visible on chest X-ray or CT. BLANK 2: The infiltrate must be accompanied by fever (≥38.5°C) OR at least one respiratory symptom — chest pain, cough, dyspnea, tachypnea, or hypoxia — to meet ACS criteria. BLANK 3: Exchange transfusion (erythrocytapheresis) is the definitive treatment for severe ACS — it rapidly reduces the percentage of HbS-containing red cells, improving oxygen-carrying capacity and reversing the sickling process in pulmonary vasculature. Simple transfusion may be used for moderate ACS. BLANK 4: Meperidine (Demerol) is specifically contraindicated in sickle cell disease. BLANK 5: Normeperidine is the active toxic metabolite of meperidine that accumulates with repeated dosing, especially in patients with reduced renal perfusion (common in VOC). BLANK 6: Normeperidine accumulation causes CNS excitation leading to seizures — a serious, potentially fatal complication. Morphine, hydromorphone, and other opioids remain the preferred analgesics in SCD pain management.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 661,
+      "case_id": "case-019",
+      "question_number": 6,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "matrix",
+      "question": "The nurse is reviewing orders and interventions for a patient with sickle cell disease experiencing vaso-occlusive crisis with evolving acute chest syndrome. For each intervention, indicate whether it is Indicated, Contraindicated, or Non-Essential for this patient.\n\nInterventions:\nA. Aggressive IV hydration with isotonic saline\nB. Meperidine (Demerol) for refractory pain control\nC. Incentive spirometry every 2 hours while awake\nD. Supplemental oxygen to maintain SpO2 >95%\nE. Restrict opioid analgesics to avoid reinforcing addictive behavior\nF. Exchange transfusion for severe acute chest syndrome with SpO2 <90%",
+      "choices": {
+        "A": "Aggressive IV hydration with isotonic saline — Indicated / Contraindicated / Non-Essential",
+        "B": "Meperidine (Demerol) for refractory pain control — Indicated / Contraindicated / Non-Essential",
+        "C": "Incentive spirometry every 2 hours while awake — Indicated / Contraindicated / Non-Essential",
+        "D": "Supplemental oxygen to maintain SpO2 >95% — Indicated / Contraindicated / Non-Essential",
+        "E": "Restrict opioid analgesics to avoid reinforcing addictive behavior — Indicated / Contraindicated / Non-Essential",
+        "F": "Exchange transfusion for severe acute chest syndrome with SpO2 <90% — Indicated / Contraindicated / Non-Essential"
+      },
+      "correct": {
+        "A": "Indicated",
+        "B": "Contraindicated",
+        "C": "Indicated",
+        "D": "Indicated",
+        "E": "Contraindicated",
+        "F": "Indicated"
+      },
+      "rationale": "INDICATED — Aggressive IV hydration (A): Dehydration triggered this VOC; restoring intravascular volume reduces blood viscosity and reverses sickling. Isotonic fluids are preferred. CONTRAINDICATED — Meperidine/Demerol (B): Its metabolite normeperidine is neurotoxic and accumulates in SCD patients, causing seizures. This is a well-established contraindication; use morphine or hydromorphone instead. INDICATED — Incentive spirometry q2h (C): Atelectasis is a primary trigger of ACS. Regular deep breathing exercises prevent microatelectasis and are standard of care in admitted SCD patients. INDICATED — Supplemental O2 to SpO2 >95% (D): Hypoxia worsens sickling in a vicious cycle — O2 is both therapeutic and preventive. Maintaining SpO2 >95% is the target. CONTRAINDICATED — Restricting opioids for addiction concerns (E): Undertreated pain in VOC is associated with worsened outcomes, longer hospitalizations, and ACS development (splinting → atelectasis). SCD patients have a legitimate medical need for opioids; withholding them is harmful and ethically wrong. INDICATED — Exchange transfusion for severe ACS (F): When ACS progresses with SpO2 <90% or rapid deterioration, exchange transfusion (erythrocytapheresis) rapidly reduces HbS% and is the definitive treatment. It can be life-saving.",
+      "difficulty": "hard"
+    }
+  ]
+}

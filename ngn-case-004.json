@@ -1,0 +1,159 @@
+{
+  "case_id": "case-004",
+  "title": "Acute Decompensated Heart Failure",
+  "scenario": "Mr. Harold Webb is a 67-year-old male with a history of ischemic cardiomyopathy and a left ventricular ejection fraction (EF) of 25%. His home medications include furosemide 40mg daily and carvedilol 12.5mg BID. Over the past three days, he has gained 8 pounds despite taking his medications. He presents to the emergency department with dyspnea at rest and orthopnea, reporting he has been sleeping in a recliner for the past two nights. On assessment, the nurse notes bilateral crackles extending to the mid-lung fields, 3+ pitting edema to the bilateral knees, and an irregular heart rhythm. Vital signs: BP 168/94 mmHg, HR 102 bpm (atrial fibrillation on telemetry), RR 28 breaths/min, SpO2 88% on room air — improving to 93% on 4L nasal cannula. Laboratory results reveal BNP 2,840 pg/mL and creatinine 1.6 mg/dL (baseline 1.2 mg/dL). Chest X-ray demonstrates pulmonary edema and cardiomegaly. The provider orders IV furosemide 80mg and morphine 2mg IVP has been administered. The patient is admitted to the cardiac step-down unit for management of acute decompensated heart failure.",
+  "questions": [
+    {
+      "id": 566,
+      "case_id": "case-004",
+      "question_number": 1,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "extended-response",
+      "question": "The nurse is prioritizing care for Mr. Webb upon admission to the cardiac step-down unit. Select ALL nursing actions that are priority interventions for this patient at this time. Select all that apply.",
+      "choices": {
+        "A": "Elevate the head of bed to greater than 45 degrees (high-Fowler's position)",
+        "B": "Maintain strict intake and output with hourly urine output measurement",
+        "C": "Obtain daily weights at the same time each morning using the same scale",
+        "D": "Initiate continuous SpO2 monitoring and telemetry",
+        "E": "Encourage oral fluid intake to maintain hydration during diuresis",
+        "F": "Hold carvedilol during the acute decompensation phase",
+        "G": "Administer IV metoprolol to control heart rate",
+        "H": "Ambulate the patient immediately to promote diuresis",
+        "I": "Implement sodium and fluid restrictions per provider order"
+      },
+      "correct": ["A", "B", "C", "D", "F", "I"],
+      "rationale": "Priority interventions for acute decompensated HF include: (A) High-Fowler's position (>45°) reduces venous return, decreases preload, and improves respiratory mechanics in a fluid-overloaded patient with orthopnea. (B) Hourly urine output monitoring after IV furosemide allows early detection of therapeutic response or over-diuresis. (C) Daily weights are the gold standard for tracking fluid status in heart failure — 1 kg = ~1 liter of fluid. (D) Continuous SpO2 and telemetry are essential given SpO2 88% on RA and active atrial fibrillation with RVR. (F) Beta-blockers including carvedilol should be held or dose-reduced during acute decompensation as they reduce cardiac contractility at a time when the failing heart needs inotropic support — they can be restarted once the patient is euvolemic and stable. (I) Sodium restriction (2g/day) and fluid restriction reduce fluid retention and myocardial workload. Distractors: (E) Encouraging oral fluids worsens fluid overload — fluids should be restricted. (G) IV metoprolol is not indicated; rate control in decompensated HF with afib is complex and IV beta-blockers can precipitate cardiogenic shock. (H) Immediate ambulation is contraindicated in acute decompensation due to hemodynamic instability and respiratory distress — bed rest with HOB elevation is the priority.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 567,
+      "case_id": "case-004",
+      "question_number": 2,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "bow-tie",
+      "question": "Complete the clinical reasoning bow-tie diagram for Mr. Webb by selecting the most appropriate options for each column. The nurse analyzes the assessment data to determine the primary condition, selects the most appropriate nursing actions, and identifies the parameters to monitor to evaluate effectiveness.",
+      "choices": {
+        "condition_options": {
+          "A": "Acute decompensated heart failure",
+          "B": "Acute exacerbation of COPD",
+          "C": "Community-acquired pneumonia",
+          "D": "Pulmonary embolism"
+        },
+        "action_options": {
+          "A": "Administer IV furosemide as ordered and monitor diuretic response",
+          "B": "Position patient in high-Fowler's (>45°) to reduce preload and improve breathing",
+          "C": "Administer supplemental oxygen to maintain SpO2 >94%",
+          "D": "Prepare for emergent intubation",
+          "E": "Administer broad-spectrum antibiotics as ordered",
+          "F": "Apply bronchodilator nebulizer treatment"
+        },
+        "parameter_options": {
+          "A": "Urine output (goal >0.5 mL/kg/hr)",
+          "B": "Daily weight (goal loss of 0.5–1 kg/day)",
+          "C": "SpO2 trend (goal >94% on supplemental O2)",
+          "D": "BNP trend (downward trend indicates response to therapy)",
+          "E": "Sputum culture and sensitivity results",
+          "F": "Peak expiratory flow rate"
+        }
+      },
+      "correct": {
+        "condition": "A",
+        "actions": ["A", "B", "C"],
+        "parameters": ["A", "B", "C", "D"]
+      },
+      "rationale": "Condition: Acute decompensated heart failure (A) is confirmed by the constellation of findings: known EF 25%, 8-lb weight gain, orthopnea, bilateral crackles, 3+ pitting edema, BNP 2,840 pg/mL, and CXR showing pulmonary edema and cardiomegaly. COPD exacerbation (B) would present with wheezing and prolonged expiration. Pneumonia (C) would present with fever, productive cough, and focal consolidation on CXR. Actions: IV furosemide (A) directly addresses fluid overload by promoting diuresis. High-Fowler's positioning (B) reduces venous return and cardiac preload while optimizing respiratory mechanics. Supplemental oxygen (C) corrects hypoxemia (SpO2 88% on RA). Parameters: Urine output (A) directly reflects diuretic efficacy. Daily weight (B) quantifies net fluid removal. SpO2 (C) reflects pulmonary congestion improvement. BNP trend (D) is the biochemical marker of myocardial wall stress and volume overload — a declining BNP confirms therapeutic response to diuresis and afterload reduction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 568,
+      "case_id": "case-004",
+      "question_number": 3,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "trend",
+      "question": "Four hours after IV furosemide 80mg is administered, the nurse reviews the following trending data. Review the trends below and select the option that best describes what this data indicates and the nurse's priority next action.\n\nTIME  | Urine Output | Blood Pressure | SpO2\n0800  | 30 mL/hr     | 168/94 mmHg    | 93%\n0900  | 85 mL/hr     | 154/88 mmHg    | 95%\n1000  | 210 mL/hr    | 136/80 mmHg    | 97%\n1100  | 320 mL/hr    | 118/72 mmHg    | 98%",
+      "choices": {
+        "A": "The patient is experiencing a therapeutic response to IV furosemide; the nurse should continue monitoring closely for signs of over-diuresis including hypotension, electrolyte imbalances, and acute kidney injury",
+        "B": "The patient is in cardiogenic shock; the nurse should stop furosemide immediately and prepare vasopressors",
+        "C": "The urine output is inadequate; the nurse should request a higher furosemide dose",
+        "D": "The patient is experiencing an allergic reaction to furosemide; the nurse should administer diphenhydramine",
+        "E": "The trends indicate worsening heart failure; the nurse should prepare for emergent intubation",
+        "F": "The blood pressure drop is dangerous; the nurse should administer IV normal saline bolus"
+      },
+      "correct": "A",
+      "rationale": "This data pattern represents a classic therapeutic response to IV loop diuretic therapy in acute decompensated HF. Urine output progressively increases from 30 mL/hr → 320 mL/hr, reflecting onset and peak diuretic effect (IV furosemide typically peaks 30–60 minutes post-administration). Blood pressure decreases from 168/94 → 118/72 mmHg, consistent with reduction in preload/volume overload — the elevated BP at presentation was related to fluid overload and sympathetic activation. SpO2 improves from 93% → 98%, indicating clearing of pulmonary edema. However, at 1100 the UO of 320 mL/hr and BP of 118/72 mmHg signal that over-diuresis may be imminent. The nurse must monitor for: hypotension (MAP <65), UO >200 mL/hr sustained, rising creatinine (AKI from over-diuresis), and hypokalemia/hyponatremia. Answer B (cardiogenic shock) is incorrect — BP 118/72 with improving SpO2 does not indicate shock. Answer F (NS bolus) would worsen fluid overload and is contraindicated in HF.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 569,
+      "case_id": "case-004",
+      "question_number": 4,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "priority",
+      "question": "At 1200, the nurse reassesses Mr. Webb and documents the following findings: BP 96/58 mmHg, HR 108 bpm (atrial fibrillation), RR 20 breaths/min, SpO2 97% on 4L NC, urine output for the past hour is 420 mL, and point-of-care creatinine is 2.1 mg/dL (baseline 1.2 mg/dL). Which action is the HIGHEST priority at this time?",
+      "choices": {
+        "A": "Hold the next scheduled dose of IV furosemide and notify the provider immediately of the assessment findings",
+        "B": "Administer an additional bolus of IV furosemide 80mg as the urine output indicates good diuretic response",
+        "C": "Encourage the patient to increase oral fluid intake to counteract the blood pressure drop",
+        "D": "Document the findings in the chart and reassess in 30 minutes before taking action",
+        "E": "Administer IV normal saline 500mL bolus to correct the hypotension",
+        "F": "Increase the oxygen flow rate from 4L to 6L nasal cannula"
+      },
+      "correct": "A",
+      "rationale": "This presentation at 1200 represents over-diuresis with hemodynamic compromise and acute kidney injury (AKI). The critical findings are: (1) Hypotension: BP 96/58 mmHg — MAP approximately 71 mmHg, but systolic <100 in a patient with known severe cardiomyopathy (EF 25%) is dangerous and reduces coronary perfusion; (2) Excessive diuresis: 420 mL in a single hour is far beyond therapeutic — aggressive diuresis has caused intravascular volume depletion; (3) Worsening renal function: creatinine rose from 1.6 mg/dL to 2.1 mg/dL (a 31% increase from an already elevated baseline), meeting criteria for acute kidney injury. PRIORITY ACTION: Hold furosemide immediately (continuing diuresis will worsen AKI and hypotension) and notify the provider urgently using SBAR communication. This situation requires a provider order to adjust or discontinue diuretics, assess for vasopressor need, and potentially obtain IV access for fluid management if cardiorenal balance permits. Answer B is dangerous — additional furosemide would further drop BP and worsen AKI. Answer E (NS bolus) may be ordered by the provider but should not be initiated by the nurse independently without an order in this context — the provider must reassess the clinical picture first.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 570,
+      "case_id": "case-004",
+      "question_number": 5,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "cloze",
+      "question": "Complete the following nursing documentation by selecting the correct term for each blank.\n\n\"Following aggressive diuresis with IV furosemide, the nurse monitors for [BLANK 1] as evidenced by [BLANK 2] and [BLANK 3], and will notify the provider if [BLANK 4] is reached.\"\n\nSelect the correct combination of fill-ins (A–F below):",
+      "choices": {
+        "A": "BLANK 1: Hypokalemia | BLANK 2: Muscle weakness and cardiac dysrhythmias | BLANK 3: Serum potassium <3.5 mEq/L | BLANK 4: Potassium <3.0 mEq/L or new dysrhythmia on telemetry",
+        "B": "BLANK 1: Hyperkalemia | BLANK 2: Peaked T-waves on ECG | BLANK 3: Serum potassium >5.5 mEq/L | BLANK 4: Potassium >6.0 mEq/L",
+        "C": "BLANK 1: Fluid overload | BLANK 2: Increasing peripheral edema | BLANK 3: BNP >500 pg/mL | BLANK 4: Weight gain of more than 2 lbs in 24 hours",
+        "D": "BLANK 1: Hypercalcemia | BLANK 2: Constipation and confusion | BLANK 3: Serum calcium >10.5 mg/dL | BLANK 4: Calcium >12.0 mg/dL",
+        "E": "BLANK 1: Metabolic alkalosis | BLANK 2: Nausea and paresthesias | BLANK 3: Serum bicarbonate >26 mEq/L | BLANK 4: pH >7.50 on ABG",
+        "F": "BLANK 1: Acute kidney injury | BLANK 2: Oliguria and rising creatinine | BLANK 3: Urine output <0.5 mL/kg/hr | BLANK 4: Creatinine increase >0.3 mg/dL above baseline within 48 hours"
+      },
+      "correct": ["A", "F"],
+      "rationale": "Both A (hypokalemia) and F (acute kidney injury) are correct answers as the two primary complications of aggressive loop diuretic therapy in this patient. HYPOKALEMIA (A): Loop diuretics (furosemide) inhibit the Na-K-2Cl cotransporter in the thick ascending limb of the loop of Henle, causing significant urinary potassium wasting. Signs include muscle weakness, cramps, fatigue, and life-threatening cardiac dysrhythmias (premature ventricular contractions, ventricular tachycardia) — particularly dangerous in this patient who already has atrial fibrillation and is on carvedilol. Notification threshold: K+ <3.0 mEq/L or new/worsening dysrhythmia requires immediate provider notification and likely IV potassium replacement. ACUTE KIDNEY INJURY (F): Overly aggressive diuresis depletes intravascular volume, reduces renal perfusion pressure, and causes pre-renal azotemia progressing to AKI. Evidence includes oliguria (<0.5 mL/kg/hr) and rising serum creatinine. Per KDIGO criteria, an increase in creatinine ≥0.3 mg/dL within 48 hours defines AKI Stage 1. In this patient, creatinine was already elevated at 1.6 mg/dL (baseline 1.2 mg/dL) before diuresis began, making the kidneys particularly vulnerable. Distractors B (hyperkalemia) is the opposite — furosemide causes potassium LOSS. C (fluid overload) is what we're treating, not a complication of treatment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 571,
+      "case_id": "case-004",
+      "question_number": 6,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "matrix",
+      "question": "The nurse is reviewing the provider orders and care plan for Mr. Webb. For each intervention listed, indicate whether it is INDICATED or CONTRAINDICATED for the management of acute decompensated heart failure.",
+      "choices": {
+        "A": "Restrict dietary sodium to 2g (2,000 mg) per day",
+        "B": "Encourage oral fluid intake of at least 3 liters per day",
+        "C": "Obtain daily morning weights before breakfast using the same scale",
+        "D": "Administer morphine sulfate IV for relief of dyspnea",
+        "E": "Initiate BiPAP therapy if SpO2 drops below 90% on supplemental oxygen",
+        "F": "Ambulate the patient in the hallway immediately to reduce venous stasis"
+      },
+      "correct": {
+        "indicated": ["A", "C", "E"],
+        "contraindicated": ["B", "D", "F"]
+      },
+      "rationale": "INDICATED: (A) Sodium restriction to 2g/day — Reduces fluid retention by decreasing osmotic drive for water reabsorption. Dietary sodium restriction is a cornerstone of HF management per ACC/AHA guidelines to reduce preload and recurrence of fluid overload. (C) Daily morning weights — The most reliable method to detect fluid accumulation or excessive diuresis. A weight gain of >2 lbs in 24 hours or >5 lbs in a week should trigger notification. Weighing conditions must be standardized (same time, same scale, same clothing). (E) BiPAP for SpO2 <90% — Non-invasive positive pressure ventilation (NIPPV/BiPAP) is evidence-based for acute cardiogenic pulmonary edema. It reduces work of breathing, improves oxygenation, decreases preload/afterload, and can prevent intubation. It is indicated when supplemental oxygen alone is insufficient to maintain SpO2 >90%. CONTRAINDICATED: (B) Encouraging 3L oral fluid intake — Directly worsens fluid overload in a patient already volume-overloaded. Fluid restriction (typically 1.5–2L/day) is standard in decompensated HF to support diuresis. (D) Morphine for dyspnea in HF — While historically used, current ACC/AHA HF guidelines do NOT recommend morphine for acute decompensated HF. Evidence shows morphine is associated with increased ICU admissions, mechanical ventilation, and mortality in ADHF. It can cause respiratory depression and may mask deterioration. (F) Immediate ambulation — Contraindicated during acute decompensation with hemodynamic instability (BP 168/94, HR 102, SpO2 88% on RA) and respiratory distress. Ambulation increases metabolic demand and cardiac workload. Bed rest with HOB elevation is the immediate priority; progressive mobility is reintroduced once the patient is stable and compensated.",
+      "difficulty": "hard"
+    }
+  ]
+}

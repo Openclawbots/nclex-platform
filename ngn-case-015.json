@@ -1,0 +1,165 @@
+{
+  "case_id": "case-015",
+  "title": "Alcohol Withdrawal Syndrome: Delirium Tremens Management",
+  "scenario": "A 48-year-old male was admitted 36 hours ago for community-acquired pneumonia and is currently receiving ceftriaxone. Social history reveals a 10-year history of heavy alcohol use, consuming approximately 1 liter of vodka daily. His last drink was on the day of admission. Over the past several hours, the patient has become increasingly agitated, diaphoretic, and tremulous. He is now hallucinating, repeatedly pointing at the walls and shouting about insects crawling on them. Current vital signs: BP 168/104 mmHg, HR 132 bpm, RR 22 breaths/min, Temp 38.6°C, SpO2 96% on room air. Neurological assessment reveals nystagmus and bilaterally dilated pupils. The Clinical Institute Withdrawal Assessment for Alcohol (CIWA-Ar) score is 28, indicating severe withdrawal. Twenty minutes ago, the patient experienced a new-onset generalized tonic-clonic seizure that self-resolved after 90 seconds. Current medications include ceftriaxone for pneumonia and thiamine 100 mg IV daily (started on admission). Lorazepam 2 mg IV q6h PRN has been ordered; the last dose was administered 5 hours ago. The nurse recognizes this clinical picture as delirium tremens and initiates the alcohol withdrawal protocol.",
+  "questions": [
+    {
+      "id": 632,
+      "case_id": "case-015",
+      "question_number": 1,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "extended-response",
+      "question": "The nurse is caring for the patient described in the scenario who has a CIWA-Ar score of 28 and experienced a tonic-clonic seizure 20 minutes ago. Select ALL interventions that are indicated at this time. Select all that apply.",
+      "choices": {
+        "A": "Administer IV lorazepam immediately per the CIWA-Ar protocol, as a score of 28 indicates severe withdrawal requiring urgent pharmacologic intervention",
+        "B": "Implement seizure precautions: pad side rails, lower the bed to the lowest position, and ensure the call light is within reach",
+        "C": "Administer thiamine BEFORE any glucose-containing fluids or dextrose to prevent precipitation of Wernicke's encephalopathy",
+        "D": "Place the patient in a quiet, low-stimulation environment; dim lights, reduce noise, and limit unnecessary visitors",
+        "E": "Apply physical restraints immediately as the first-line intervention to manage agitation and prevent self-harm",
+        "F": "Withhold benzodiazepines due to recent seizure activity and concern for respiratory depression; use haloperidol instead"
+      },
+      "correct": ["A", "B", "C", "D"],
+      "rationale": "A) CORRECT: A CIWA-Ar score of 28 is severe (>15 = severe withdrawal). With a recent seizure, IV benzodiazepine administration is urgently indicated. Delaying treatment risks status epilepticus and death. B) CORRECT: Post-seizure, seizure precautions are mandatory. Padded side rails prevent injury if another seizure occurs; a lowered bed and accessible call light are standard safety measures. C) CORRECT: In chronic alcohol users, glucose administration before thiamine can precipitate Wernicke's encephalopathy (Wernicke-Korsakoff syndrome) by depleting thiamine needed for glucose metabolism. Thiamine MUST be given first. D) CORRECT: Sensory stimulation exacerbates agitation, hallucinations, and autonomic instability in DTs. A calm, quiet, dimly lit environment is a key non-pharmacologic intervention. E) INCORRECT: Physical restraints are NOT the first-line intervention for agitation in alcohol withdrawal. Restraints can increase agitation, worsen hyperthermia, and do not address the underlying withdrawal. Benzodiazepines are the appropriate first-line treatment. F) INCORRECT: Withholding benzodiazepines is dangerous and contraindicated. Benzodiazepines are the FIRST-LINE treatment for alcohol withdrawal seizures and DTs. Haloperidol lowers the seizure threshold and should not be used as a primary agent in this setting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 633,
+      "case_id": "case-015",
+      "question_number": 2,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "bow-tie",
+      "question": "Complete the clinical reasoning bow-tie for this patient. Identify the most likely condition, select TWO priority nursing actions, and identify TWO parameters to monitor. Use the patient scenario to guide your selections.",
+      "choices": {
+        "condition": {
+          "A": "Delirium tremens (severe alcohol withdrawal)",
+          "B": "Delirium of another etiology (e.g., medication-induced)",
+          "C": "Wernicke's encephalopathy",
+          "D": "Septic encephalopathy secondary to pneumonia"
+        },
+        "actions": {
+          "A": "Titrate IV benzodiazepine dose to CIWA-Ar score and administer urgently",
+          "B": "Administer thiamine 100 mg IV to prevent/treat Wernicke's encephalopathy",
+          "C": "Implement seizure precautions and create a low-stimulation environment",
+          "D": "Order a CT head immediately before administering any medications",
+          "E": "Apply soft wrist restraints to protect the patient from injury",
+          "F": "Administer haloperidol 5 mg IM for acute agitation management"
+        },
+        "parameters": {
+          "A": "CIWA-Ar score every 1–2 hours to guide benzodiazepine dosing",
+          "B": "Blood pressure and heart rate to assess autonomic instability",
+          "C": "Seizure activity: duration, frequency, and character",
+          "D": "Level of consciousness and neurological status",
+          "E": "Respiratory rate and oxygen saturation (risk of benzodiazepine-induced respiratory depression)",
+          "F": "Blood glucose level every 4 hours"
+        }
+      },
+      "correct": {
+        "condition": "A",
+        "actions": ["A", "B", "C"],
+        "parameters": ["A", "B", "C", "D", "E"]
+      },
+      "rationale": "CONDITION — Delirium tremens (A): The clinical picture is classic for DTs — occurring 24–72+ hours after last drink, with agitation, diaphoresis, tremors, autonomic hyperactivity (HR 132, BP 168/104), visual hallucinations, and a CIWA-Ar of 28. A seizure occurred 20 minutes ago. Delirium of another cause (B) is less likely given the strong alcohol history and timeline. Wernicke's encephalopathy (C) classically presents with the triad of confusion, ophthalmoplegia, and ataxia — nystagmus is present but the full triad is not confirmed, and thiamine is already being given. Septic encephalopathy (D) is possible but does not explain the CIWA elevation and withdrawal timeline. ACTIONS — (A) IV benzodiazepine titrated to CIWA-Ar is the cornerstone of DT treatment. (B) Thiamine protects against Wernicke's in a thiamine-depleted patient. (C) Seizure precautions and low-stimulation environment are critical safety and comfort measures. Restraints (E) and haloperidol (F) are inappropriate first-line choices. CT head (D) is not the priority before pharmacologic stabilization. PARAMETERS — All five monitoring parameters (A–E) are clinically indicated: CIWA-Ar guides benzo dosing; BP/HR reflects autonomic instability; seizure monitoring is essential post-ictal; neuro checks detect worsening; respiratory monitoring is critical as benzodiazepines can cause respiratory depression, especially in a patient with pneumonia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 634,
+      "case_id": "case-015",
+      "question_number": 3,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "trend",
+      "question": "Review the following CIWA-Ar score trend for this patient over the first 18 hours of admission. Lorazepam 2 mg IV was administered PRN at hours 0, 6, and 12 only. What does this trend indicate, and what clinical error in management does it reveal?\n\nHour 0: CIWA-Ar 18 | Lorazepam given\nHour 6: CIWA-Ar 22 | Lorazepam given\nHour 12: CIWA-Ar 26 | Lorazepam given\nHour 18: CIWA-Ar 28 + Tonic-clonic seizure | No lorazepam given (last dose 5 hours ago)\n\nSelect the answer that BEST describes the trend and identifies the management error.",
+      "choices": {
+        "A": "The CIWA-Ar scores are within expected limits for alcohol withdrawal; the seizure was an unavoidable complication unrelated to medication management",
+        "B": "The escalating CIWA-Ar scores despite PRN benzodiazepine administration indicate that PRN-only dosing was insufficient; a scheduled or symptom-triggered benzodiazepine protocol should have been initiated when the CIWA-Ar exceeded 15",
+        "C": "The trend indicates adequate management; benzodiazepines should only be given when a seizure occurs, not for CIWA-Ar score elevation alone",
+        "D": "The CIWA-Ar increase is expected and acceptable; the correct next step is to add an antiepileptic drug such as phenytoin to prevent further seizures",
+        "E": "The trend indicates the patient is developing tolerance to lorazepam; the correct intervention is to switch to a different benzodiazepine class",
+        "F": "The rising CIWA-Ar scores indicate that the thiamine dose was too low and should be increased to prevent worsening withdrawal symptoms"
+      },
+      "correct": ["B"],
+      "rationale": "B) CORRECT: This is the correct answer. The CIWA-Ar score rose from 18 → 22 → 26 → 28 over 18 hours despite PRN lorazepam doses at hours 0, 6, and 12. The upward trajectory indicates escalating withdrawal that was NOT being adequately controlled. CIWA-Ar ≥15 indicates severe withdrawal requiring aggressive treatment — a scheduled or symptom-triggered protocol (e.g., lorazepam 2–4 mg IV q1–2h with CIWA-Ar reassessment) is the standard of care for severe withdrawal, NOT a fixed PRN q6h order. The 5-hour gap between the last lorazepam dose and the seizure is a direct consequence of undertreatment. A) INCORRECT: Scores are NOT within acceptable limits — 28 is severe. The seizure was not unavoidable; it was a consequence of undertreatment. C) INCORRECT: Waiting for a seizure to treat is never appropriate. Benzodiazepines should be titrated to CIWA-Ar scores proactively. D) INCORRECT: Phenytoin is NOT effective for alcohol withdrawal seizures (unlike epilepsy). Benzodiazepines remain the drug of choice. E) INCORRECT: The issue is not tolerance but inadequate dosing frequency. F) INCORRECT: Thiamine has no role in controlling withdrawal severity — it prevents Wernicke's encephalopathy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 635,
+      "case_id": "case-015",
+      "question_number": 4,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "priority",
+      "question": "The nurse enters the room and finds the patient experiencing a generalized tonic-clonic seizure in bed. The seizure has been ongoing for 45 seconds. Place the following nursing actions in ORDER of priority (1 = highest priority, first action to take).",
+      "choices": {
+        "A": "Protect the patient from injury: do NOT restrain limbs, clear the area of hard objects, turn to lateral position if possible to maintain airway",
+        "B": "Call for help and activate the rapid response system",
+        "C": "Time the seizure from onset and continuously observe and document seizure activity",
+        "D": "Apply supplemental oxygen via non-rebreather mask or nasal cannula",
+        "E": "Prepare IV lorazepam or diazepam for administration if seizure exceeds 5 minutes (status epilepticus threshold)",
+        "F": "Insert a tongue depressor or oral airway device to prevent the patient from biting their tongue"
+      },
+      "correct": ["A", "B", "C", "D", "E"],
+      "rationale": "PRIORITY ORDER: 1st — A (Protect from injury): The immediate first priority during any seizure is patient safety. Do NOT restrain the patient — this can cause fractures and increases agitation. Clear the environment, pad rails, and turn the patient to the side if possible to protect the airway. 2nd — B (Call for help): Activate rapid response immediately. This patient has severe DTs, a recent prior seizure, and is on a medical-surgical floor. Additional personnel and resources are needed. 3rd — C (Time the seizure): Accurate timing is critical. If the seizure lasts ≥5 minutes, it meets criteria for status epilepticus requiring emergent pharmacologic intervention. Documentation guides treatment decisions. 4th — D (Oxygen): Seizure activity dramatically increases cerebral metabolic demand and risks hypoxia. The patient's SpO2 was already 96% on room air with pneumonia — supplemental oxygen is a priority. 5th — E (Prepare benzodiazepine): IV lorazepam or diazepam should be drawn up and ready to administer if the seizure crosses the 5-minute threshold for status epilepticus. F) INCORRECT and DANGEROUS: NEVER insert anything into the mouth of a seizing patient. This is a common myth — it risks broken teeth, oral laceration, and injury to the nurse. Patients do not swallow their tongue.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 636,
+      "case_id": "case-015",
+      "question_number": 5,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "cloze",
+      "question": "Complete the following clinical teaching statement by selecting the correct answer for each blank. A nurse is educating a new graduate nurse about alcohol withdrawal management.\n\n\"The nurse knows that thiamine must be administered [BLANK 1] glucose or dextrose-containing IV fluids in patients with alcohol use disorder to prevent [BLANK 2], which is classically characterized by the triad of [BLANK 3]. Benzodiazepines are considered [BLANK 4] treatment for alcohol withdrawal seizures because they [BLANK 5].\"",
+      "choices": {
+        "A": "BLANK 1 options: (a) before | (b) after | (c) simultaneously with | (d) instead of",
+        "B": "BLANK 2 options: (a) hepatic encephalopathy | (b) Wernicke's encephalopathy | (c) Korsakoff psychosis | (d) alcohol-related dementia",
+        "C": "BLANK 3 options: (a) confusion, ophthalmoplegia, and ataxia | (b) jaundice, ascites, and spider angiomata | (c) tremor, rigidity, and bradykinesia | (d) hallucinations, delusions, and paranoia",
+        "D": "BLANK 4 options: (a) second-line | (b) adjunct | (c) first-line | (d) experimental",
+        "E": "BLANK 5 options: (a) block dopamine receptors to reduce psychosis | (b) cross-react with GABA receptors to suppress CNS excitability and raise the seizure threshold | (c) inhibit glutamate release to reduce excitotoxicity | (d) activate opioid receptors to reduce withdrawal pain"
+      },
+      "correct": {
+        "BLANK 1": "a) before",
+        "BLANK 2": "b) Wernicke's encephalopathy",
+        "BLANK 3": "a) confusion, ophthalmoplegia, and ataxia",
+        "BLANK 4": "c) first-line",
+        "BLANK 5": "b) cross-react with GABA receptors to suppress CNS excitability and raise the seizure threshold"
+      },
+      "rationale": "BLANK 1 — 'before': In chronic alcohol users, glucose metabolism requires thiamine (vitamin B1). If glucose/dextrose is administered BEFORE thiamine in a thiamine-depleted patient, the sudden glucose load depletes remaining thiamine stores and can precipitate acute Wernicke's encephalopathy. Thiamine must ALWAYS be given first. BLANK 2 — 'Wernicke's encephalopathy': This is the acute, reversible thiamine-deficiency syndrome that can be precipitated by glucose administration. It is a medical emergency. If untreated, it progresses to the irreversible Korsakoff psychosis. BLANK 3 — 'confusion, ophthalmoplegia, and ataxia': This is the classic Wernicke's triad (though not all three are always present). Ophthalmoplegia (paralysis of eye muscles) and nystagmus are the most specific findings. Only ~10–16% of patients present with the full triad. BLANK 4 — 'first-line': Benzodiazepines (lorazepam, diazepam, chlordiazepoxide) are universally recognized as the first-line pharmacologic treatment for alcohol withdrawal seizures and delirium tremens. BLANK 5 — 'cross-react with GABA receptors to suppress CNS excitability and raise the seizure threshold': Alcohol withdrawal causes CNS hyperexcitability due to upregulation of NMDA (excitatory) receptors and downregulation of GABA-A (inhibitory) receptors. Benzodiazepines enhance GABA-A receptor activity, restoring inhibitory tone and suppressing the hyperexcitable state.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 637,
+      "case_id": "case-015",
+      "question_number": 6,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "matrix",
+      "question": "For each nursing intervention or clinical action listed below, indicate whether it is INDICATED or CONTRAINDICATED in the management of this patient with delirium tremens and a post-seizure state.",
+      "choices": {
+        "A": "Administer IV lorazepam when CIWA-Ar score exceeds 15",
+        "B": "Apply physical restraints as the first-line intervention to manage agitation",
+        "C": "Administer thiamine before any dextrose-containing IV fluids",
+        "D": "Place the patient in a quiet, low-stimulation environment with dimmed lighting",
+        "E": "Use haloperidol as the primary pharmacologic treatment for alcohol withdrawal seizures",
+        "F": "Use a scheduled or symptom-triggered benzodiazepine dosing protocol rather than PRN-only dosing for severe withdrawal (CIWA-Ar ≥15)"
+      },
+      "correct": {
+        "A": "Indicated",
+        "B": "Contraindicated",
+        "C": "Indicated",
+        "D": "Indicated",
+        "E": "Contraindicated",
+        "F": "Indicated"
+      },
+      "rationale": "A) INDICATED: A CIWA-Ar score >15 indicates severe alcohol withdrawal. IV benzodiazepines (lorazepam, diazepam) are the standard of care and should be administered promptly per protocol to prevent progression to status epilepticus and death. B) CONTRAINDICATED: Physical restraints are not an appropriate first-line intervention for agitation in alcohol withdrawal. Restraints increase metabolic demand, worsen hyperthermia, escalate agitation, and do not treat the underlying withdrawal. They may be used as a last resort only for immediate safety after pharmacologic management has been initiated. C) INDICATED: Thiamine must precede all glucose/dextrose administration to prevent Wernicke's encephalopathy in thiamine-depleted patients with chronic alcohol use disorder. This is a cardinal rule of alcohol withdrawal management. D) INDICATED: Environmental modification is a critical non-pharmacologic intervention. Excessive sensory stimulation worsens agitation, hallucinations, and autonomic instability in DTs. A calm, quiet, dimly lit environment is recommended. E) CONTRAINDICATED: Haloperidol (a typical antipsychotic) lowers the seizure threshold and is CONTRAINDICATED as a primary treatment for alcohol withdrawal seizures. It may have a limited role as an adjunct for persistent hallucinations AFTER adequate benzodiazepine treatment, but never as the primary agent. F) INDICATED: For patients with CIWA-Ar ≥15 (severe withdrawal), a scheduled or symptom-triggered benzodiazepine protocol is strongly preferred over PRN-only dosing. PRN-only dosing, as demonstrated in this case's trend question, led to escalating withdrawal scores and a breakthrough seizure. Scheduled dosing with CIWA-Ar reassessment every 1–2 hours ensures adequate, consistent CNS suppression.",
+      "difficulty": "hard"
+    }
+  ]
+}

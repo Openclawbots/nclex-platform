@@ -1,0 +1,194 @@
+{
+  "case_id": "case-016",
+  "title": "Thyroid Storm: Recognition and Emergency Management",
+  "scenario": "A 38-year-old female with a known history of Graves' disease presents to the emergency department following an appendectomy performed yesterday. Her family reports she stopped taking propylthiouracil (PTU) approximately 3 weeks ago because she \"felt better.\" The surgical stress appears to have precipitated a thyroid crisis. On assessment, the patient is agitated, confused, and diaphoretic. She has vomited twice since arrival. Vital signs: Temperature 40.8°C (105.4°F), Heart Rate 168 bpm with atrial fibrillation with rapid ventricular response (afib with RVR) on telemetry, Blood Pressure 158/72 mmHg (wide pulse pressure of 86), Respiratory Rate 28 breaths/min, SpO2 96% on room air. Laboratory results reveal TSH <0.01 mIU/L (critically low) and free T4 at a critically elevated level. The Burch-Wartofsky Point Scale score is calculated at 65, indicating thyroid storm is likely. Two large-bore IV lines have been established. A cooling blanket is in place. The physician has been notified and is at bedside. The nurse prepares to implement emergency thyroid storm management protocol.",
+  "questions": [
+    {
+      "id": 638,
+      "case_id": "case-016",
+      "question_number": 1,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "extended-response",
+      "question": "The nurse is preparing to implement thyroid storm management. Select ALL interventions that are indicated for this patient. Select all that apply.",
+      "choices": {
+        "A": "Administer propylthiouracil (PTU) or methimazole orally/via NG tube to block new thyroid hormone synthesis",
+        "B": "Administer potassium iodide (Lugol's solution) at least 1 hour AFTER PTU to block thyroid hormone release",
+        "C": "Administer IV propranolol to control heart rate and manage atrial fibrillation with RVR",
+        "D": "Administer aspirin 650 mg for fever management and antipyretic effect",
+        "E": "Administer IV dexamethasone to block peripheral conversion of T4 to T3",
+        "F": "Administer levothyroxine to support thyroid function during the crisis"
+      },
+      "correct": ["A", "B", "C", "E"],
+      "rationale": "Thyroid storm management follows a specific sequence: (A) PTU or methimazole is given FIRST to block new hormone synthesis — this is the critical first step. (B) Iodine solution (Lugol's or potassium iodide) is given at least 1 hour AFTER PTU; if given before, iodine becomes substrate for MORE hormone synthesis, worsening the crisis (Wolff-Chaikoff effect cannot protect if new synthesis hasn't been blocked). (C) IV propranolol controls the life-threatening tachycardia and afib with RVR — beta-blockers also reduce peripheral T4-to-T3 conversion. (E) IV dexamethasone inhibits peripheral conversion of T4 to the more active T3, reducing thyrotoxic burden. INCORRECT: (D) Aspirin is CONTRAINDICATED — it displaces thyroid hormone from thyroid-binding globulin (TBG), acutely increasing free T4 and free T3 levels; acetaminophen is used instead. (F) Levothyroxine is contraindicated — the patient has excess thyroid hormone; supplementation would worsen the crisis. Cooling measures (blanket already in place) and treatment of the precipitating cause (appendectomy/surgical stress) are also indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 639,
+      "case_id": "case-016",
+      "question_number": 2,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "bow-tie",
+      "question": "Complete the clinical bow-tie diagram. Based on the patient's presentation, identify the most likely condition, then select the appropriate nursing actions to take, and the parameters to monitor to evaluate the patient's response.",
+      "choices": {
+        "A": "Condition — Thyroid Storm (Thyrotoxic Crisis)",
+        "B": "Condition — Malignant Hyperthermia",
+        "C": "Condition — Neuroleptic Malignant Syndrome (NMS)",
+        "D": "Condition — Severe Sepsis",
+        "E": "Action — Administer PTU first, then iodine solution 1 hour later; give IV propranolol and IV dexamethasone; apply cooling measures",
+        "F": "Action — Administer dantrolene IV immediately; discontinue triggering anesthetic agents; apply aggressive cooling",
+        "G": "Parameter — Monitor heart rate and rhythm (telemetry), temperature trend, neurological/mental status, blood pressure, and TSH/free T4 levels"
+      },
+      "correct": {
+        "condition": "A",
+        "actions": "E",
+        "parameters": "G"
+      },
+      "rationale": "BOW-TIE ANALYSIS: CONDITION (A) — Thyroid Storm: The clinical picture — Graves' disease history, PTU non-compliance, surgical precipitant, hyperthermia (40.8°C), extreme tachycardia with afib, wide pulse pressure, agitation/confusion, diaphoresis, and Burch-Wartofsky score of 65 — is classic for thyroid storm. Malignant Hyperthermia (B) occurs with volatile anesthetics/succinylcholine and presents with rigidity and elevated CK. NMS (C) requires antipsychotic exposure and presents with lead-pipe rigidity. Sepsis (D) would show elevated WBC, cultures, and different lab pattern. ACTIONS (E) — The correct management sequence is PTU first (blocks synthesis), then iodine 1 hour later (blocks release), propranolol IV (controls HR/afib and reduces T4→T3 conversion), dexamethasone (blocks peripheral T4→T3 conversion), and cooling. PARAMETERS (G) — Key monitoring parameters: HR/cardiac rhythm (afib resolution, rate control), temperature (trending toward normal confirms treatment efficacy), neurological status (confusion/agitation resolving), blood pressure (wide pulse pressure narrowing), and thyroid labs (TSH/free T4 trending toward normal over time).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 640,
+      "case_id": "case-016",
+      "question_number": 3,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "trend",
+      "question": "Four hours after initiating thyroid storm management, the nurse reviews the following trend data. Click to highlight the finding that requires immediate action, or indicate what this trend demonstrates.\n\nTEMPERATURE: 40.8°C → 40.2°C → 39.6°C → 38.9°C\nHEART RATE/RHYTHM: 168 bpm (afib with RVR) → 144 bpm (afib) → 118 bpm (afib) → 96 bpm (NSR)\nMENTAL STATUS: Confused/agitated → Less agitated → Oriented to person → Oriented to person and place\nBP: 158/72 → 152/74 → 146/76 → 138/78\n\nWhat does this trend indicate, and what is the nurse's priority action?",
+      "choices": {
+        "A": "The patient is showing a positive response to thyroid storm treatment; continue current management and monitoring — do NOT discontinue medications",
+        "B": "The patient's vital signs are normalizing too quickly, indicating rebound hypothyroidism; reduce PTU dose immediately",
+        "C": "The conversion from afib to NSR is a dangerous arrhythmia requiring immediate defibrillation",
+        "D": "The gradual temperature decline is insufficient; escalate cooling measures and add aspirin 650 mg",
+        "E": "The narrowing pulse pressure indicates developing cardiac tamponade; prepare for pericardiocentesis",
+        "F": "Mental status changes are resolving too slowly; administer haloperidol for persistent agitation"
+      },
+      "correct": "A",
+      "rationale": "TREND ANALYSIS — This trend demonstrates a POSITIVE therapeutic response to thyroid storm treatment: Temperature declining steadily (40.8→38.9°C) without overshooting to hypothermia. Heart rate decreasing progressively (168→96 bpm) with conversion from afib with RVR to normal sinus rhythm (NSR) — a critical safety improvement. Mental status improving in parallel with physiologic normalization. Blood pressure normalizing with narrowing of the previously wide pulse pressure (86 mmHg → 60 mmHg), reflecting reduced catecholamine excess. PRIORITY ACTION: Continue current management — PTU, iodine solution, propranolol, dexamethasone, and cooling. It is critical NOT to stop thyroid-blocking medications prematurely; thyroid storm can rebound. The patient will need continued antithyroid therapy and eventual definitive treatment (radioactive iodine or thyroidectomy) for Graves' disease. INCORRECT OPTIONS: (B) There is no rebound hypothyroidism in 4 hours. (C) Conversion from afib to NSR is a DESIRED outcome of rate/rhythm control. (D) Aspirin is contraindicated in thyroid storm. (E) Narrowing pulse pressure is expected improvement, not tamponade. (F) Mental status IS improving — haloperidol not indicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 641,
+      "case_id": "case-016",
+      "question_number": 4,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "priority",
+      "question": "The covering provider writes the following order: 'Aspirin 650 mg PO every 4 hours as needed for temperature > 38.5°C.' The patient's current temperature is 40.8°C. What is the nurse's priority action?",
+      "choices": {
+        "A": "Administer the aspirin 650 mg immediately, as fever control is the highest priority in thyroid storm",
+        "B": "Hold the aspirin and contact the provider to question/clarify the order, explaining that aspirin is contraindicated in thyroid storm and requesting acetaminophen instead",
+        "C": "Administer half the dose (325 mg) to minimize adverse effects while still providing antipyresis",
+        "D": "Apply an additional cooling blanket and defer the aspirin order until the next physician rounds",
+        "E": "Document the order as received and administer per protocol, as aspirin is a standard antipyretic",
+        "F": "Contact pharmacy to verify the aspirin order before administration"
+      },
+      "correct": "B",
+      "rationale": "PRIORITY ACTION: The nurse must QUESTION THIS ORDER — it represents a patient safety issue requiring immediate clarification before administration. RATIONALE FOR ASPIRIN CONTRAINDICATION: Aspirin (salicylates) displaces thyroid hormone (T4 and T3) from thyroid-binding globulin (TBG) in the bloodstream. By competing for protein-binding sites, aspirin acutely increases FREE T4 and FREE T3 levels. In thyroid storm, where the patient already has critically elevated thyroid hormone activity, this would significantly worsen the thyrotoxic crisis and could precipitate cardiovascular collapse. CORRECT APPROACH: Contact the provider immediately, explain the pharmacological rationale, and request a substitute order for acetaminophen (Tylenol) 650-1000 mg, which safely reduces fever without affecting thyroid hormone binding. This falls within nursing scope of practice — nurses have a professional obligation to question orders that could harm patients. INCORRECT OPTIONS: (A) Administering would cause harm — never acceptable when contraindication is known. (C) There is no safe aspirin dose in thyroid storm — the mechanism is not dose-dependent at therapeutic levels. (D) Deferring without contacting the provider leaves an unsafe order active. (E) This is NOT a standard scenario — the nurse must apply clinical knowledge. (F) Pharmacy verification alone is insufficient; the prescriber must be notified and the order changed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 642,
+      "case_id": "case-016",
+      "question_number": 5,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "cloze",
+      "question": "Complete the following statements about thyroid storm management by selecting the correct option for each blank.\n\n'In thyroid storm, iodine solution (Lugol's solution or potassium iodide) must be given [BLANK 1] propylthiouracil (PTU) because giving iodine first would [BLANK 2]. Aspirin is [BLANK 3] in thyroid storm because it [BLANK 4], which worsens the crisis.'\n\nSelect the correct answer for each blank:",
+      "choices": {
+        "A": "BLANK 1: at least 1 hour AFTER administering",
+        "B": "BLANK 1: simultaneously with",
+        "C": "BLANK 1: 30 minutes BEFORE administering",
+        "D": "BLANK 2: provide iodine substrate for new thyroid hormone synthesis, dramatically worsening thyrotoxicosis",
+        "E": "BLANK 2: cause permanent thyroid suppression and hypothyroidism",
+        "F": "BLANK 2: trigger the Wolff-Chaikoff effect and block all thyroid hormone production",
+        "G": "BLANK 3: contraindicated",
+        "H": "BLANK 3: the first-line treatment",
+        "I": "BLANK 3: used with caution",
+        "J": "BLANK 4: displaces thyroid hormone from binding proteins (TBG), acutely increasing free T4 and T3 levels",
+        "K": "BLANK 4: inhibits prostaglandin synthesis and reduces thyroid hormone secretion",
+        "L": "BLANK 4: crosses the blood-brain barrier and causes central hypothyroidism"
+      },
+      "correct": {
+        "blank_1": "A",
+        "blank_2": "D",
+        "blank_3": "G",
+        "blank_4": "J"
+      },
+      "rationale": "CLOZE ANSWER EXPLANATIONS: BLANK 1 — (A) CORRECT: Iodine must be given AT LEAST 1 HOUR AFTER PTU. PTU must first block thyroid peroxidase (the enzyme that incorporates iodine into thyroid hormone). Only after this blockade is established can iodine safely be given to block hormone RELEASE from the gland. If iodine is given first, the gland uses the excess iodine as substrate to MANUFACTURE more hormone. BLANK 2 — (D) CORRECT: Without prior PTU blockade, iodine loading provides raw material for thyroid hormone synthesis, worsening the crisis. This is the opposite of the intended Wolf-Chaikoff effect (which requires prior synthesis blockade). BLANK 3 — (G) CORRECT: Aspirin is CONTRAINDICATED — not merely cautioned. This is an absolute contraindication in thyroid storm. BLANK 4 — (J) CORRECT: Salicylates compete with T4 and T3 for binding sites on thyroid-binding globulin (TBG) and other plasma proteins. By displacing protein-bound (inactive) thyroid hormone, aspirin acutely raises FREE hormone levels — the biologically active fraction. In thyroid storm, any increase in free thyroid hormone can be life-threatening. Acetaminophen does NOT have this binding displacement effect and is the safe alternative.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 643,
+      "case_id": "case-016",
+      "question_number": 6,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "matrix",
+      "question": "For each intervention listed, indicate whether it is Indicated or Contraindicated in the management of this patient with thyroid storm.",
+      "choices": {
+        "A": "PTU administered before iodine solution — Indicated",
+        "B": "PTU administered before iodine solution — Contraindicated",
+        "C": "Aspirin 650 mg for fever control — Indicated",
+        "D": "Aspirin 650 mg for fever control — Contraindicated",
+        "E": "IV propranolol for heart rate control — Indicated",
+        "F": "IV propranolol for heart rate control — Contraindicated",
+        "G": "Levothyroxine (T4) supplementation — Indicated",
+        "H": "Levothyroxine (T4) supplementation — Contraindicated",
+        "I": "IV dexamethasone — Indicated",
+        "J": "IV dexamethasone — Contraindicated",
+        "K": "Cooling blanket application — Indicated",
+        "L": "Cooling blanket application — Contraindicated"
+      },
+      "correct": {
+        "ptu_before_iodine": "A",
+        "aspirin_fever": "D",
+        "propranolol": "E",
+        "levothyroxine": "H",
+        "dexamethasone": "I",
+        "cooling_blanket": "K"
+      },
+      "matrix_rows": [
+        {
+          "intervention": "PTU administered before iodine solution",
+          "correct_classification": "Indicated",
+          "rationale": "PTU must ALWAYS precede iodine. PTU blocks thyroid peroxidase, preventing new hormone synthesis. Only then can iodine safely block hormone RELEASE. Reversing the order provides iodine substrate before synthesis is blocked, worsening the crisis."
+        },
+        {
+          "intervention": "Aspirin 650 mg for fever control",
+          "correct_classification": "Contraindicated",
+          "rationale": "Aspirin displaces T4 and T3 from thyroid-binding globulin (TBG), acutely increasing free (active) thyroid hormone levels. In thyroid storm, this is life-threatening. Use acetaminophen for fever control instead."
+        },
+        {
+          "intervention": "IV propranolol for heart rate control",
+          "correct_classification": "Indicated",
+          "rationale": "Beta-blockers (propranolol preferred) are indicated to control the life-threatening tachycardia and afib with RVR. Propranolol also has the added benefit of blocking peripheral T4-to-T3 conversion, reducing thyrotoxic burden."
+        },
+        {
+          "intervention": "Levothyroxine (T4) supplementation",
+          "correct_classification": "Contraindicated",
+          "rationale": "The patient has EXCESS thyroid hormone — adding exogenous T4 would worsen thyrotoxicosis. Levothyroxine is used for hypothyroidism, the opposite condition. This is a critical safety distinction."
+        },
+        {
+          "intervention": "IV dexamethasone",
+          "correct_classification": "Indicated",
+          "rationale": "IV glucocorticoids (dexamethasone or hydrocortisone) are indicated in thyroid storm for two reasons: (1) they inhibit peripheral conversion of T4 to the more potent T3, reducing thyrotoxic activity; (2) they address potential relative adrenal insufficiency from the hypermetabolic state."
+        },
+        {
+          "intervention": "Cooling blanket application",
+          "correct_classification": "Indicated",
+          "rationale": "Hyperthermia in thyroid storm can reach dangerous levels causing end-organ damage. Physical cooling measures (cooling blankets, ice packs, cool IV fluids) are indicated to reduce temperature. Must use acetaminophen — NOT aspirin — for pharmacologic fever reduction."
+        }
+      ],
+      "rationale": "MATRIX CLASSIFICATION SUMMARY: INDICATED: PTU before iodine (correct sequencing is critical), IV propranolol (rate/rhythm control + T4→T3 blockade), IV dexamethasone (peripheral T4→T3 conversion blockade + adrenal support), cooling blanket (manage dangerous hyperthermia). CONTRAINDICATED: Aspirin (displaces thyroid hormone from binding proteins, acutely increasing free T4/T3 — life-threatening in thyroid storm), Levothyroxine (patient has thyroid hormone EXCESS, not deficiency — adding T4 would worsen crisis). Memory aid for thyroid storm management sequence: 'Block, Block, Block, Support, Cool' — Block synthesis (PTU), Block release (iodine 1hr later), Block conversion (dexamethasone + propranolol), Support (treat precipitant, IV fluids), Cool (cooling measures + acetaminophen).",
+      "difficulty": "hard"
+    }
+  ]
+}

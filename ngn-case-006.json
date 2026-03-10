@@ -1,0 +1,150 @@
+{
+  "case_id": "case-006",
+  "title": "Pediatric Asthma: Acute Severe Exacerbation",
+  "scenario": "An 8-year-old male (weight 28 kg) is brought to the emergency department by his mother after developing acute respiratory distress following exposure to a neighbor's dog. He has a documented history of moderate persistent asthma and is prescribed daily inhaled fluticasone/salmeterol for maintenance therapy. His mother administered albuterol MDI 2 puffs approximately 30 minutes prior to arrival with no improvement in symptoms.\n\nOn arrival, he is visibly distressed, sitting in tripod position, and speaking only in 2-3 word sentences. Vital signs: respiratory rate 36 breaths/min, heart rate 128 bpm, blood pressure 98/62 mmHg, temperature 37.2°C, SpO2 88% on room air. Physical assessment reveals nasal flaring, suprasternal and intercostal retractions, and active use of accessory muscles. Auscultation reveals diffuse expiratory wheezing bilaterally. Peak flow measurement is 42% of his personal best, confirming severe exacerbation per NAEPP guidelines (< 40% = severe).\n\nThe clinical picture is consistent with an acute severe asthma exacerbation requiring immediate escalation of bronchodilator therapy, systemic anti-inflammatory intervention, and supplemental oxygen. Close monitoring for respiratory failure is essential, as his work of breathing is significant and his oxygenation is critically low.",
+  "questions": [
+    {
+      "id": 578,
+      "case_id": "case-006",
+      "question_number": 1,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "extended-response",
+      "question": "The nurse is caring for an 8-year-old male with acute severe asthma exacerbation (SpO2 88%, peak flow 42% of personal best, RR 36, tripod positioning, speaking in 2-3 word sentences). Albuterol MDI x2 puffs at home provided no relief. Select ALL interventions that are appropriate to initiate IMMEDIATELY. Select all that apply.",
+      "choices": {
+        "A": "Initiate continuous albuterol nebulization",
+        "B": "Administer IV or IM magnesium sulfate for severe exacerbation",
+        "C": "Administer systemic corticosteroids (oral prednisolone or IV methylprednisolone)",
+        "D": "Apply supplemental oxygen to maintain SpO2 greater than 94%",
+        "E": "Consider HELIOX (helium-oxygen mixture) for severe bronchospasm unresponsive to initial therapy",
+        "F": "Proceed immediately to endotracheal intubation without attempting nebulized bronchodilators",
+        "G": "Withhold additional albuterol — maximum home dose already given",
+        "H": "Restrict supplemental oxygen to avoid suppressing hypoxic drive"
+      },
+      "correct": ["A", "B", "C", "D", "E"],
+      "rationale": "A) Continuous albuterol nebulization is the cornerstone of acute severe asthma treatment — 2 puffs of MDI at home is insufficient; continuous nebulization (10–20 mg/hr) is indicated for severe exacerbations. B) IV/IM magnesium sulfate (25–50 mg/kg, max 2g) is evidence-based for severe pediatric asthma exacerbation refractory to bronchodilators and has bronchodilatory effects via smooth muscle relaxation. C) Systemic corticosteroids (prednisolone 1–2 mg/kg/day) reduce airway inflammation and are essential — they should be given early as they take 4–6 hours to take full effect. D) Supplemental O2 is critical; SpO2 88% is dangerously low and target is >94% in pediatric asthma. E) HELIOX reduces turbulent airflow in narrowed airways and can improve drug delivery via nebulizer in severe cases. F) Intubation in asthma carries significant risk (barotrauma, cardiovascular collapse) and should never precede aggressive medical management. G) Incorrect — albuterol home MDI use does not preclude or limit further aggressive nebulization in the ED. H) Incorrect — the hypoxic drive concept does not apply to pediatric asthma; oxygen must be administered to prevent hypoxic end-organ damage.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 579,
+      "case_id": "case-006",
+      "question_number": 2,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "bow-tie",
+      "question": "Complete the clinical reasoning bow-tie for this patient. Using the assessment data (SpO2 88%, RR 36, accessory muscle use, peak flow 42%, tripod positioning, diffuse wheezing, history of asthma, exposure to dog allergen, no improvement with albuterol MDI), identify the condition, the priority nursing actions, and the parameters to monitor. Select the BEST answers for each section.",
+      "choices": {
+        "A": "[CONDITION] Severe asthma exacerbation",
+        "B": "[CONDITION] Anaphylaxis with bronchospasm",
+        "C": "[CONDITION] Viral croup (laryngotracheobronchitis)",
+        "D": "[ACTION] Administer continuous albuterol nebulization, IV magnesium sulfate, systemic corticosteroids, and supplemental oxygen",
+        "E": "[ACTION] Administer epinephrine IM, diphenhydramine IV, and normal saline bolus",
+        "F": "[ACTION] Administer nebulized racemic epinephrine and dexamethasone IM",
+        "G": "[PARAMETER] Monitor SpO2, respiratory rate, accessory muscle use, peak flow % of personal best, and end-tidal CO2",
+        "H": "[PARAMETER] Monitor blood pressure, urine output, serum lactate, and capillary refill",
+        "I": "[PARAMETER] Monitor for stridor, croup score (Westley), and neck X-ray results"
+      },
+      "correct": ["A", "D", "G"],
+      "rationale": "CONDITION — A is correct: The clinical picture (known asthma history, allergen trigger, diffuse wheezing, severe SpO2 drop, peak flow 42%) is consistent with severe asthma exacerbation. Anaphylaxis (B) would present with urticaria, angioedema, hypotension, and multi-system involvement. Croup (C) presents with inspiratory stridor and barking cough, typically in younger children (6 months–3 years). ACTION — D is correct for severe asthma: continuous albuterol nebs + Mg sulfate + steroids + O2 per NAEPP guidelines. Epinephrine/diphenhydramine (E) is for anaphylaxis. Racemic epinephrine/dexamethasone (F) is for croup. PARAMETER — G is correct: SpO2 reflects oxygenation status; RR and accessory muscle use indicate work of breathing; peak flow tracks bronchospasm severity; end-tidal CO2 is critical — a rising CO2 in asthma indicates tiring/impending respiratory failure. B and I parameters apply to sepsis and croup respectively.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 580,
+      "case_id": "case-006",
+      "question_number": 3,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "trend",
+      "question": "The nurse reviews the following trend data collected over 45 minutes of treatment. The child has now stopped speaking entirely and appears exhausted.\n\n| Parameter       | 0 min  | 15 min | 30 min | 45 min |\n|----------------|--------|--------|--------|--------|\n| SpO2            | 88%    | 90%    | 87%    | 84%    |\n| RR (breaths/min)| 36     | 38     | 42     | 46     |\n| HR (bpm)        | 128    | 136    | 144    | 152    |\n| Speaks?         | 2-3 words | 1-2 words | Won't speak | Silent |\n\nWhat is the nurse's priority interpretation and action?",
+      "choices": {
+        "A": "The patient is improving — SpO2 briefly reached 90%, continue current therapy and reassess in 30 minutes",
+        "B": "The trends indicate worsening respiratory failure with impending respiratory arrest; immediately notify the provider, prepare for endotracheal intubation, and activate rapid response",
+        "C": "The tachycardia is likely albuterol-induced; reduce nebulization frequency and monitor",
+        "D": "The rising respiratory rate is expected during bronchodilator therapy; reassure the mother and continue current plan",
+        "E": "Administer a sedative to reduce the child's agitation and work of breathing",
+        "F": "Obtain a chest X-ray before making any escalation decisions"
+      },
+      "correct": ["B"],
+      "rationale": "B is correct. The trend reveals a classic pattern of impending respiratory failure: SpO2 is declining despite treatment (88→90→87→84%), RR is increasing (36→46), HR is climbing (128→152), and the child has progressed from 2-3 word sentences to complete silence. SILENCE in a child with asthma who was previously speaking is an ominous sign — it indicates exhaustion of respiratory muscles. Tiring results in hypoventilation, CO2 retention, and impending arrest. Immediate action: notify provider urgently, prepare for RSI (rapid sequence intubation), activate rapid response team, ensure bag-mask ventilation is available. A is wrong — SpO2 is trending down overall. C is wrong — while albuterol causes tachycardia, the clinical deterioration across all parameters indicates true decompensation. D is wrong — a rising RR in this context is decompensation, not expected response. E is wrong — sedation without a secured airway in a decompensating patient is contraindicated. F is wrong — escalation cannot wait for imaging.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 581,
+      "case_id": "case-006",
+      "question_number": 4,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "priority",
+      "question": "The child is now unresponsive, SpO2 82%, and auscultation reveals a SILENT CHEST — no wheezing audible bilaterally. He is limp with minimal respiratory effort. Place the following nursing actions in order of PRIORITY (1 = highest priority, first action):\n\nA. Call the rapid response team / activate code blue\nB. Initiate bag-mask ventilation with 100% oxygen\nC. Prepare equipment for endotracheal intubation (RSI)\nD. Obtain IV access and draw stat ABG\nE. Notify the attending physician and document findings\nF. Continue albuterol nebulization via mask",
+      "choices": {
+        "A": "Priority order: A → B → C → D → E → F",
+        "B": "Priority order: B → A → C → D → E → F",
+        "C": "Priority order: F → A → B → C → D → E",
+        "D": "Priority order: A → C → B → F → D → E",
+        "E": "Priority order: D → E → A → B → C → F",
+        "F": "Priority order: B → C → A → D → E → F"
+      },
+      "correct": ["A"],
+      "rationale": "Correct priority order is A → B → C → D → E → F. SILENT CHEST is a medical emergency signifying near-total airway obstruction — so severe that no air movement produces audible wheezing. It is a pre-arrest finding. Priority 1 (A): Activate rapid response/code immediately — this requires a team; one nurse cannot manage this alone. Priority 2 (B): Initiate bag-mask ventilation (BMV) with 100% O2 — the child is not breathing adequately; BMV prevents hypoxic brain injury while intubation is prepared. Priority 3 (C): Prepare RSI equipment — laryngoscope, ETT sized for 8yo (uncuffed 6.0 or cuffed 5.5), suction, RSI medications. Priority 4 (D): IV access and ABG provide critical data (CO2 level, pH) and drug administration route. Priority 5 (E): Documentation is ongoing but not the first priority in arrest. Priority 6 (F): Albuterol nebulization via mask has minimal benefit during arrest/near-arrest with no spontaneous air movement — airway must be secured first. Key concept: In silent chest, DO NOT delay BMV and intubation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 582,
+      "case_id": "case-006",
+      "question_number": 5,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "cloze",
+      "question": "Complete the following clinical documentation note by selecting the BEST option for each blank.\n\n\"A silent chest in a child with acute asthma indicates [BLANK 1] because [BLANK 2]. The nurse's immediate action is to [BLANK 3] and notify [BLANK 4].\"\n\nSelect the best answer for each blank:",
+      "choices": {
+        "A": "[BLANK 1] Option A: Mild bronchospasm that is resolving",
+        "B": "[BLANK 1] Option B: Impending respiratory arrest due to critical airway obstruction",
+        "C": "[BLANK 1] Option C: Successful response to albuterol therapy",
+        "D": "[BLANK 2] Option A: The child is relaxed and no longer anxious about breathing",
+        "E": "[BLANK 2] Option B: Air movement is so severely obstructed that turbulent flow producing wheezing can no longer occur, and the child is too exhausted to generate adequate respiratory effort",
+        "F": "[BLANK 2] Option C: Wheezing resolves when bronchodilators open the airways fully",
+        "G": "[BLANK 3] Option A: Reassess in 15 minutes and document findings in the chart",
+        "H": "[BLANK 3] Option B: Initiate bag-mask ventilation with 100% oxygen and activate rapid response",
+        "I": "[BLANK 3] Option C: Increase albuterol nebulization to every 5 minutes and recheck SpO2",
+        "J": "[BLANK 4] Option A: The charge nurse for a room change to a quieter environment",
+        "K": "[BLANK 4] Option B: The attending physician and respiratory therapy team immediately for emergency airway management",
+        "L": "[BLANK 4] Option C: The pharmacy to adjust the albuterol dosing schedule"
+      },
+      "correct": ["B", "E", "H", "K"],
+      "rationale": "BLANK 1 — B is correct: A silent chest represents CRITICAL obstruction and impending arrest, not improvement. Absence of wheezing in a deteriorating child is never reassuring. BLANK 2 — E is correct: The pathophysiology of silent chest is that bronchospasm has become so severe that virtually no air can move through the narrowed airways. Without turbulent airflow, the wheezing sound disappears. Additionally, the child's respiratory muscles are exhausted and cannot generate sufficient force to move air, further eliminating breath sounds. This is the most dangerous stage of asthma. BLANK 3 — H is correct: Bag-mask ventilation (BMV) with 100% oxygen is the immediate life-saving intervention. Delaying for reassessment (A) or adding more albuterol (C) without securing the airway will result in death or anoxic brain injury. BLANK 4 — K is correct: This is an emergency requiring the physician for intubation orders and RSI medications, and respiratory therapy for airway management support. This mnemonic is critical for NCLEX: SILENT CHEST = SILENT ALARM → Activate the team NOW.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 583,
+      "case_id": "case-006",
+      "question_number": 6,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "matrix",
+      "question": "For each intervention listed, indicate whether it is INDICATED or CONTRAINDICATED in the management of this 8-year-old with acute severe asthma exacerbation (SpO2 88%, peak flow 42%, RR 36, accessory muscle use, no improvement with home albuterol MDI).",
+      "choices": {
+        "A": "Continuous albuterol nebulization (10–20 mg/hr) | Indicated",
+        "B": "Continuous albuterol nebulization (10–20 mg/hr) | Contraindicated",
+        "C": "IV magnesium sulfate 25–50 mg/kg (max 2g) for severe exacerbation | Indicated",
+        "D": "IV magnesium sulfate 25–50 mg/kg (max 2g) for severe exacerbation | Contraindicated",
+        "E": "Immediate endotracheal intubation BEFORE attempting nebulized bronchodilators | Indicated",
+        "F": "Immediate endotracheal intubation BEFORE attempting nebulized bronchodilators | Contraindicated",
+        "G": "Systemic corticosteroids (prednisolone 1–2 mg/kg/day PO or methylprednisolone IV) | Indicated",
+        "H": "Systemic corticosteroids (prednisolone 1–2 mg/kg/day PO or methylprednisolone IV) | Contraindicated",
+        "I": "Restricting supplemental O2 in pediatric asthma to prevent hyperoxia | Indicated",
+        "J": "Restricting supplemental O2 in pediatric asthma to prevent hyperoxia | Contraindicated",
+        "K": "Discharging the patient after a single albuterol treatment with SpO2 90% | Indicated",
+        "L": "Discharging the patient after a single albuterol treatment with SpO2 90% | Contraindicated"
+      },
+      "correct": ["A", "C", "F", "G", "J", "L"],
+      "rationale": "INDICATED: A — Continuous albuterol nebulization is the first-line treatment for severe asthma exacerbation; 2 MDI puffs at home failed and continuous nebulization (or back-to-back treatments) delivers therapeutic drug levels. C — IV magnesium sulfate is evidence-based (NAEPP guidelines) for severe pediatric asthma exacerbations not responding to bronchodilators; it works via smooth muscle relaxation. G — Systemic corticosteroids are mandatory in moderate-to-severe asthma exacerbations to reduce airway inflammation; they must be given early as efficacy is delayed 4–6 hours. CONTRAINDICATED: F — Intubation BEFORE attempting aggressive bronchodilator therapy is contraindicated in asthma; intubation in bronchospasm carries high risk of barotrauma (air trapping/auto-PEEP), cardiovascular collapse from sedation, and ventilator-induced lung injury. Medical management must be maximized first. J — Restricting O2 to prevent hyperoxia is contraindicated in pediatric asthma; SpO2 of 88% is critically low. The 'hypoxic drive' concern does not apply to children with asthma. Target SpO2 >94%. L — Discharge after one albuterol treatment with SpO2 90% is contraindicated; 90% is still below target (>94%), one failed home treatment preceded this visit, and NAEPP guidelines require 3–4 hours of monitoring after bronchodilator response before considering discharge.",
+      "difficulty": "hard"
+    }
+  ]
+}

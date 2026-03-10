@@ -1,0 +1,153 @@
+{
+  "case_id": "case-008",
+  "title": "Postpartum Hemorrhage: Recognition and Emergency Management",
+  "scenario": "Maria G., a 28-year-old G3P3 female, delivered vaginally 45 minutes ago following an 18-hour labor augmented with oxytocin. The newborn weighed 4,200 grams and the placenta was delivered intact with no noted defects. Maria's immediate post-delivery vital signs were BP 118/72, HR 82, RR 16, SpO2 99%. Estimated blood loss at delivery was 350 mL, within normal limits.\n\nThe bedside nurse is now called to evaluate heavy vaginal bleeding. Maria has saturated 2 perineal pads within 10 minutes. On assessment, the fundus is boggy and displaced to the right of midline. A bladder scan reveals 450 mL of retained urine. Repeat vital signs show BP 88/54 mmHg, HR 128 bpm, RR 22 breaths/min, and SpO2 95% on room air. Current estimated blood loss is 900 mL. Maria reports feeling dizzy and anxious. Current IV access consists of one 18-gauge peripheral line with an oxytocin infusion running at 125 mL/hr (maintenance dose). The obstetric provider has been paged but has not yet arrived at bedside. The clinical picture is consistent with acute postpartum hemorrhage with early hemorrhagic shock.",
+  "questions": [
+    {
+      "id": 590,
+      "case_id": "case-008",
+      "question_number": 1,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "extended-response",
+      "question": "The nurse recognizes this patient is experiencing postpartum hemorrhage. Select ALL interventions that are IMMEDIATE priorities at this time. Select all that apply.",
+      "choices": {
+        "A": "Perform uterine (fundal) massage to stimulate uterine contraction",
+        "B": "Insert a urinary catheter (Foley) to decompress the full bladder displacing the uterus",
+        "C": "Increase the oxytocin infusion rate per standing hemorrhage protocol orders",
+        "D": "Establish at least two large-bore (16g or larger) peripheral IV lines",
+        "E": "Notify the obstetric provider and activate the facility hemorrhage protocol",
+        "F": "Send blood for type and crossmatch and baseline labs (CBC, coagulation studies, metabolic panel)",
+        "G": "Place the patient in Trendelenburg position immediately without performing fundal massage first",
+        "H": "Administer methylergonovine (Methergine) 0.2 mg IM immediately without assessing blood pressure"
+      },
+      "correct": ["A", "B", "C", "D", "E", "F"],
+      "rationale": "CORRECT (A): Fundal massage is the first-line intervention for uterine atony — the most common cause of PPH. A boggy uterus must be massaged to stimulate contraction and reduce hemorrhage. CORRECT (B): The fundus is displaced to the right of midline with a bladder scan showing 450 mL, indicating a distended bladder is preventing uterine contraction. Bladder catheterization is an immediate priority. CORRECT (C): Increasing the oxytocin infusion rate is a first-line uterotonic intervention and appropriate per standing hemorrhage orders. CORRECT (D): The patient has only one 18g peripheral IV; large-bore access (x2) is essential for rapid fluid/blood product resuscitation. CORRECT (E): Activating the hemorrhage protocol ensures rapid multidisciplinary response; the provider must be notified urgently. CORRECT (F): Type and crossmatch is mandatory to prepare for potential blood transfusion; baseline labs guide ongoing management. INCORRECT (G): Trendelenburg is controversial in hemorrhagic shock and should never precede fundal assessment and massage. INCORRECT (H): Methylergonovine is contraindicated in hypertension. While this patient is hypotensive, administering it without first checking BP violates safe practice standards — BP assessment is required before every dose.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 591,
+      "case_id": "case-008",
+      "question_number": 2,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "bow-tie",
+      "question": "Using clinical reasoning, complete the bow-tie analysis for this patient. The nurse must identify the most likely condition, select the two priority nursing actions, and identify the two most important parameters to monitor. (Select ONE condition, TWO actions, TWO parameters.)",
+      "choices": {
+        "A": "[CONDITION] Uterine atony — boggy, displaced fundus; most common cause of PPH (>80%)",
+        "B": "[CONDITION] Retained placental fragments — placenta reported intact; less likely but possible",
+        "C": "[CONDITION] Genital tract lacerations — lacerations present with firm fundus; fundus is boggy here",
+        "D": "[CONDITION] Uterine inversion — fundus not palpable abdominally; not indicated by current findings",
+        "E": "[ACTION] Perform fundal massage and empty the bladder via catheterization",
+        "F": "[ACTION] Increase uterotonic therapy (oxytocin) and establish additional large-bore IV access",
+        "G": "[ACTION] Apply warm blankets and continue to observe for 30 minutes",
+        "H": "[ACTION] Place patient in prone position and restrict oral fluids",
+        "I": "[PARAMETER] Fundal firmness and position (midline vs. displaced) after each intervention",
+        "J": "[PARAMETER] Estimated blood loss trend and vital signs (BP, HR) every 5–15 minutes",
+        "K": "[PARAMETER] Patient's pain score and emotional distress level only",
+        "L": "[PARAMETER] Newborn APGAR scores and neonatal blood glucose"
+      },
+      "correct": ["A", "E", "F", "I", "J"],
+      "rationale": "CONDITION — Uterine atony (A): The boggy fundus displaced to the right, in the context of prolonged oxytocin-augmented labor, macrosomic infant (4,200g), and grand multiparity (G3P3), strongly supports uterine atony as the primary etiology. Atony accounts for 75–80% of PPH cases. Retained placenta (B) is less likely given the intact placenta delivery; lacerations (C) typically present with a firm fundus; inversion (D) presents with inability to palpate the fundus abdominally. ACTIONS — Fundal massage + bladder empty (E): Bladder distension is confirmed (450 mL) and is mechanically preventing uterine contraction. These are the two most critical immediate actions. Increase uterotonics + IV access (F): Escalating uterotonic therapy and securing hemodynamic access address both cause and consequence of hemorrhage. Observation alone (G) is dangerous with active hemorrhage. PARAMETERS — Fundal firmness/position (I): Directly reflects response to massage and bladder decompression. EBL trend + vital signs (J): Quantifies hemorrhage progression and hemodynamic instability — essential for staging shock and triggering escalation protocols.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 592,
+      "case_id": "case-008",
+      "question_number": 3,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "trend",
+      "question": "Review the trending data below and answer the two-part question.\n\nTIME TREND:\n• EBL: 350 mL (delivery) → 600 mL (20 min post-delivery) → 900 mL (45 min post-delivery)\n• BP: 118/72 → 102/64 → 88/54 mmHg\n• HR: 82 → 104 → 128 bpm\n• SpO2: 99% → 97% → 95%\n\nPart 1: Based on this trend, which class of hemorrhagic shock does the patient currently meet criteria for?\nPart 2: What is the SINGLE most critical next action based on this trajectory?",
+      "choices": {
+        "A": "Class I hemorrhagic shock (<15% blood volume loss); continue current oxytocin infusion and monitor",
+        "B": "Class II hemorrhagic shock (15–30% blood volume loss); administer 1–2L crystalloid bolus and reassess",
+        "C": "Class III hemorrhagic shock (30–40% blood volume loss); activate the massive transfusion protocol (MTP) immediately",
+        "D": "Class IV hemorrhagic shock (>40% blood volume loss); initiate CPR and call a code",
+        "E": "Neurogenic shock; administer vasopressors as first line",
+        "F": "Septic shock; obtain blood cultures and begin broad-spectrum antibiotics immediately"
+      },
+      "correct": ["C"],
+      "rationale": "Class III hemorrhagic shock (C) is correct. The patient has lost approximately 900 mL of blood (from an estimated 3,500–4,000 mL blood volume, this represents ~22–26%), but the RATE of loss (doubling from 20 to 45 minutes) and the hemodynamic trajectory are key. Class III criteria: BP dropping significantly (88/54 from baseline 118/72), HR >120 bpm (now 128), RR >20 (now 22), SpO2 declining, altered mental status (dizziness/anxiety). The trajectory from Class II to III over 45 minutes demands IMMEDIATE activation of the Massive Transfusion Protocol (MTP) — balanced resuscitation with packed red blood cells, fresh frozen plasma, and platelets in a 1:1:1 ratio. Class I (A) is incorrect — hemodynamic instability is present. Class II (B) underestimates acuity; crystalloid alone is insufficient at this stage and may worsen coagulopathy. Class IV (D) is premature — no cardiac arrest. Neurogenic (E) and septic (F) shock are not supported by the clinical picture.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 593,
+      "case_id": "case-008",
+      "question_number": 4,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "priority",
+      "question": "The nurse has performed fundal massage and inserted a Foley catheter (450 mL urine drained). The fundus remains boggy and bleeding continues. The oxytocin infusion is running. The obstetric provider has not yet arrived. Rank the following actions in priority order (1 = highest priority, first action to take).",
+      "choices": {
+        "A": "Administer misoprostol 800–1000 mcg rectally per standing hemorrhage protocol orders",
+        "B": "Administer methylergonovine (Methergine) 0.2 mg IM after confirming BP is not elevated",
+        "C": "Apply a warm blanket and continue fundal massage while waiting for the provider",
+        "D": "Obtain an order for tranexamic acid (TXA) 1g IV and administer per protocol",
+        "E": "Perform a visual inspection of the perineum and vaginal canal for lacerations",
+        "F": "Document the current assessment findings and await provider arrival before any further intervention"
+      },
+      "correct": ["B", "A", "E", "D", "C", "F"],
+      "rationale": "PRIORITY 1 — Methylergonovine IM (B): With uterine atony refractory to oxytocin and fundal massage, a second-line uterotonic is urgently needed. Methylergonovine 0.2 mg IM is the first choice second-line agent per AWHONN/ACOG protocols. CRITICAL SAFETY: It is contraindicated in HYPERTENSION (causes vasoconstriction). This patient's BP is 88/54 (hypotensive) — methylergonovine is NOT contraindicated here and is appropriate. BP must always be confirmed before administration. PRIORITY 2 — Misoprostol (A): If methylergonovine is unavailable or contraindicated, misoprostol 800–1000 mcg rectally is the alternative second-line uterotonic per most hemorrhage bundles. PRIORITY 3 — Laceration assessment (E): Once the uterus has been addressed, assess for concurrent lacerations which may be contributing to blood loss. PRIORITY 4 — Tranexamic acid (D): TXA 1g IV within 3 hours of hemorrhage onset reduces mortality; requires an order and should be obtained promptly. PRIORITY 5 — Continued massage (C): Ongoing supportive but not a new intervention. PRIORITY LAST — Waiting/documenting only (F): Delaying intervention while waiting for provider arrival is dangerous and negligent in active hemorrhagic shock.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 594,
+      "case_id": "case-008",
+      "question_number": 5,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "cloze",
+      "question": "Complete the clinical reasoning statement by selecting the correct term for each blank.\n\n\"A boggy uterus displaced to the RIGHT of midline after delivery indicates [BLANK 1], which is most commonly caused by [BLANK 2] in the immediate postpartum period. Before performing uterine massage, the nurse's FIRST action should be to [BLANK 3]. Following bladder decompression, the nurse should immediately perform [BLANK 4] and concurrently [BLANK 5] to stimulate uterine contraction and reduce hemorrhage.\"",
+      "choices": {
+        "A": "[BLANK 1 — Option A] Uterine atony",
+        "B": "[BLANK 1 — Option B] Uterine inversion",
+        "C": "[BLANK 1 — Option C] Uterine rupture",
+        "D": "[BLANK 2 — Option A] Bladder distension preventing uterine contraction",
+        "E": "[BLANK 2 — Option B] Retained placental fragments",
+        "F": "[BLANK 2 — Option C] Cervical laceration",
+        "G": "[BLANK 3 — Option A] Catheterize the bladder (insert a Foley catheter)",
+        "H": "[BLANK 3 — Option B] Administer methylergonovine IM",
+        "I": "[BLANK 3 — Option C] Perform bimanual compression",
+        "J": "[BLANK 4 — Option A] Fundal massage",
+        "K": "[BLANK 4 — Option B] Hysterectomy preparation",
+        "L": "[BLANK 5 — Option A] Increase the oxytocin infusion rate per protocol",
+        "M": "[BLANK 5 — Option B] Decrease IV fluid rate to prevent fluid overload",
+        "N": "[BLANK 5 — Option C] Administer IV magnesium sulfate"
+      },
+      "correct": ["A", "D", "G", "J", "L"],
+      "rationale": "BLANK 1 — Uterine atony (A): A boggy (soft, non-contracted) uterus is the hallmark of uterine atony. Displacement to the right indicates the bladder is pushing the uterus laterally. Inversion (B) would present with the fundus not palpable abdominally. Rupture (C) is a surgical emergency with different presentation. BLANK 2 — Bladder distension (D): The #1 reason a postpartum uterus is displaced to the right is a full bladder. A bladder scan of 450 mL confirms this. The distended bladder physically prevents the uterus from contracting at midline. Retained fragments (E) are possible but not indicated by 'displacement.' BLANK 3 — Catheterize the bladder (G): The FIRST action when the fundus is displaced by a full bladder is to EMPTY THE BLADDER. This allows the uterus to return to midline and may resolve atony. Massage performed on a displaced uterus is less effective. Methylergonovine (H) and bimanual compression (I) come after. BLANK 4 — Fundal massage (J): Once the bladder is decompressed, fundal massage is the primary mechanical intervention for atony. BLANK 5 — Increase oxytocin rate (L): Augmenting uterotonic therapy simultaneously with massage is standard first-line care. Decreasing fluids (M) or giving magnesium (N) is incorrect — magnesium is a tocolytic that would worsen atony.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 595,
+      "case_id": "case-008",
+      "question_number": 6,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "matrix",
+      "question": "For each nursing intervention listed, classify it as: INDICATED (appropriate and should be performed), CONTRAINDICATED (should NOT be performed — could cause harm), or NON-ESSENTIAL (not harmful but not a priority action in this clinical scenario).",
+      "choices": {
+        "A": "Perform fundal massage — [INDICATED] Direct first-line treatment for uterine atony",
+        "B": "Administer methylergonovine 0.2 mg IM — [INDICATED] BP is 88/54 (hypotensive); methylergonovine is contraindicated in HYPERTENSION, not hypotension — appropriate here after BP confirmed",
+        "C": "Place patient in Trendelenburg position — [NON-ESSENTIAL] Evidence does not support Trendelenburg in hemorrhagic shock; may increase intracranial pressure and worsen respiratory mechanics; not a priority",
+        "D": "Insert urinary catheter (Foley) — [INDICATED] Decompresses the 450 mL distended bladder displacing the uterus; critical first step",
+        "E": "Send blood for type and crossmatch — [INDICATED] Essential preparation for potential blood transfusion in active hemorrhagic shock",
+        "F": "Apply warm blankets and observe without intervention — [CONTRAINDICATED] Wholly insufficient action for a patient in hemorrhagic shock with 900 mL blood loss and BP 88/54; dangerous delay of care"
+      },
+      "correct": {
+        "INDICATED": ["A", "B", "D", "E"],
+        "NON-ESSENTIAL": ["C"],
+        "CONTRAINDICATED": ["F"]
+      },
+      "rationale": "INDICATED — Fundal massage (A): Core first-line intervention for uterine atony; mechanically stimulates uterine smooth muscle contraction to reduce hemorrhage. INDICATED — Methylergonovine IM (B): Methylergonovine causes uterine contraction via alpha-adrenergic and serotonin receptor stimulation. It IS contraindicated in HYPERTENSION (systolic >140) due to vasoconstriction risk. This patient's BP is 88/54 — she is HYPOTENSIVE. Methylergonovine is NOT contraindicated in hypotension and is appropriate as a second-line uterotonic when oxytocin is insufficient. Always confirm BP before administration. INDICATED — Insert Foley (D): Bladder scan confirms 450 mL retention. Bladder distension mechanically displaces the uterus and prevents effective contraction. Catheterization is a mandatory priority step. INDICATED — Type and crossmatch (E): With 900 mL blood loss and hemodynamic instability trending toward Class III shock, blood product availability is urgently needed. Type and crossmatch cannot be delayed. NON-ESSENTIAL — Trendelenburg (C): This position has not been shown to improve outcomes in hemorrhagic shock and is potentially harmful. It increases intracranial pressure, may worsen respiratory compromise, and delays definitive hemorrhage management. It is not recommended in current ACOG/AWHONN hemorrhage bundles. CONTRAINDICATED — Warm blankets and observe only (F): This represents a dangerous failure to act. The patient has frank hemorrhagic shock (BP 88/54, HR 128, EBL 900 mL with rapid escalation). Passive observation is a failure of nursing duty and constitutes harm by omission.",
+      "difficulty": "hard"
+    }
+  ]
+}

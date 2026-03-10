@@ -1,0 +1,198 @@
+{
+  "case_id": "case-012",
+  "title": "Acute Severe Pancreatitis: Management and Complications",
+  "scenario": "A 46-year-old male with a history of heavy alcohol use (12+ drinks/day) is brought to the emergency department by his partner after developing sudden-onset severe epigastric pain rated 9/10, radiating directly through to his back. He reports nausea and has vomited eight times over the past eight hours. He denies recent trauma, new medications, or prior episodes. On assessment, the patient is diaphoretic and appears acutely ill. Vital signs: BP 96/58 mmHg, HR 124 bpm, RR 22 breaths/min, Temperature 38.8°C, SpO2 94% on room air. Abdomen is diffusely tender with guarding; bowel sounds are diminished. Laboratory results reveal lipase 4,820 U/L (normal <60), amylase 1,240 U/L, WBC 18,600/mm³, hematocrit 52% (hemoconcentration), BUN 34 mg/dL, creatinine 1.8 mg/dL, calcium 7.2 mg/dL, and glucose 318 mg/dL. Chest X-ray demonstrates a left pleural effusion. CT abdomen confirms pancreatic inflammation with peripancreatic fat stranding and no evidence of necrosis. RANSON score is calculated at 4, indicating severe acute pancreatitis. The patient is admitted to the ICU for close monitoring and aggressive management.",
+  "questions": [
+    {
+      "id": 614,
+      "case_id": "case-012",
+      "question_number": 1,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "extended-response",
+      "question": "The nurse is planning care for a patient admitted with severe acute pancreatitis (RANSON score 4). Which interventions are indicated? Select all that apply.",
+      "choices": {
+        "A": "Initiate aggressive IV fluid resuscitation with Lactated Ringer's solution at 250–500 mL/hr",
+        "B": "Maintain NPO (nothing by mouth) status to rest the pancreas",
+        "C": "Administer IV opioid analgesics (e.g., hydromorphone or fentanyl) for pain management",
+        "D": "Monitor for systemic complications including ARDS, acute kidney injury, and hypocalcemia",
+        "E": "Insert nasogastric tube routinely to decompress the stomach and prevent aspiration",
+        "F": "Provide alcohol cessation counseling and refer to addiction services",
+        "G": "Begin clear liquid diet within 2 hours of admission to prevent gut atrophy",
+        "H": "Initiate broad-spectrum prophylactic antibiotics to prevent pancreatic infection",
+        "I": "Administer morphine IV specifically, as it is the preferred opioid for pancreatitis",
+        "J": "Arrange immediate ERCP within 4 hours regardless of etiology"
+      },
+      "correct": ["A", "B", "C", "D", "F"],
+      "rationale": "Severe acute pancreatitis management centers on aggressive IV fluid resuscitation (250–500 mL/hr Lactated Ringer's preferred over normal saline, as LR reduces systemic inflammation and lowers risk of SIRS); NPO status to minimize pancreatic stimulation; IV opioid analgesia (hydromorphone or fentanyl — NOT morphine specifically, as morphine was historically thought to cause Sphincter of Oddi spasm, though evidence is now mixed); vigilant monitoring for ARDS, AKI, and hypocalcemia as systemic complications; and alcohol cessation counseling since alcohol is the causative factor. NG tube insertion is only indicated for uncontrolled vomiting or gastric outlet obstruction — not routinely. Prophylactic antibiotics are NOT recommended by current guidelines (ACG 2013, IAP 2015) unless infection is confirmed or strongly suspected. ERCP is only indicated within 24–72 hours for gallstone pancreatitis with concurrent cholangitis — not this alcohol-related case. Morphine is not specifically indicated and has historically been avoided. Early oral feeding is contraindicated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 615,
+      "case_id": "case-012",
+      "question_number": 2,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "bow-tie",
+      "question": "Complete the clinical reasoning bow-tie for this patient. Identify the most likely condition, select two priority nursing actions, and identify two parameters to monitor.",
+      "choices": {
+        "condition_options": {
+          "A": "Severe acute pancreatitis",
+          "B": "Perforated peptic ulcer",
+          "C": "Acute mesenteric ischemia",
+          "D": "Acute cholecystitis",
+          "E": "Diabetic ketoacidosis"
+        },
+        "action_options": {
+          "A": "Initiate aggressive IV fluid resuscitation with Lactated Ringer's and maintain NPO status",
+          "B": "Administer IV opioid analgesia and monitor pain response hourly",
+          "C": "Prepare patient for emergency laparotomy",
+          "D": "Administer IV insulin drip for glucose control",
+          "E": "Place arterial line and begin vasopressor support immediately",
+          "F": "Monitor serum calcium and glucose every 4–6 hours"
+        },
+        "parameter_options": {
+          "A": "Urine output (goal ≥0.5 mL/kg/hr) to assess fluid resuscitation adequacy and renal perfusion",
+          "B": "BUN and creatinine trend to detect acute kidney injury",
+          "C": "Serum calcium level to detect hypocalcemia and prevent tetany/cardiac arrhythmia",
+          "D": "Respiratory status and SpO2 to detect ARDS development",
+          "E": "Serum glucose to guide insulin therapy",
+          "F": "Hematocrit trend to assess hemoconcentration and fluid resuscitation response"
+        }
+      },
+      "correct": {
+        "condition": "A",
+        "actions": ["A", "B"],
+        "parameters": ["A", "C"]
+      },
+      "rationale": "The clinical picture — alcohol use history, sudden severe epigastric pain radiating to the back, lipase >3× normal (4,820 U/L), elevated amylase, hemoconcentration, hypotension, tachycardia, fever, left pleural effusion, and CT findings — is classic for severe acute pancreatitis (RANSON score 4). Perforated peptic ulcer would present with sudden board-like rigidity and free air on CXR. Mesenteric ischemia typically presents in older patients with cardiovascular disease and pain out of proportion to exam. Priority nursing actions are aggressive IVF with LR (addresses hypovolemia and hemoconcentration) and IV opioid analgesia with monitoring. Key parameters include urine output (best bedside indicator of fluid resuscitation adequacy and renal perfusion) and serum calcium (hypocalcemia is a hallmark complication of pancreatitis — saponification of fat consumes calcium). Additional important parameters include BUN/Cr trend, SpO2/respiratory status, glucose, and hematocrit.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 616,
+      "case_id": "case-012",
+      "question_number": 3,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "trend",
+      "question": "Six hours after admission, the nurse reviews the following trending data. The patient has received aggressive IV fluid resuscitation. Which interpretation is MOST accurate?\n\nTrending Data:\n• Urine output: 18 mL/hr (goal ≥30 mL/hr)\n• Hematocrit: 52% → 48% → 44%\n• BUN: 34 → 38 → 42 mg/dL\n• Creatinine: 1.8 → 2.1 → 2.6 mg/dL\n• Calcium: 7.2 → 6.8 → 6.4 mg/dL\n• SpO2: 94% → 91% → 88% (on 2L NC)\n• Patient reports increasing dyspnea",
+      "choices": {
+        "A": "The patient is responding well to fluid resuscitation; hematocrit is trending down indicating hemodilution",
+        "B": "The patient is developing acute kidney injury, hypocalcemia, and ARDS as systemic complications of severe pancreatitis",
+        "C": "The rising BUN and creatinine indicate the patient needs a nephrology consult only; other trends are acceptable",
+        "D": "The falling SpO2 is expected with a left pleural effusion and does not require immediate intervention",
+        "E": "The falling calcium is a normal response to IV fluid dilution and does not require treatment",
+        "F": "The patient's worsening trends indicate pancreatic necrosis has developed and emergency surgery is required"
+      },
+      "correct": ["B"],
+      "rationale": "The trending data reveals three concurrent systemic complications of severe acute pancreatitis developing simultaneously: (1) Acute Kidney Injury (AKI) — urine output persistently below goal at 18 mL/hr despite aggressive IVF, rising BUN (34→42) and creatinine (1.8→2.6) indicating worsening renal function from hypovolemia and inflammatory cytokine-mediated renal injury; (2) Hypocalcemia — calcium falling from 7.2→6.4 mg/dL due to saponification (pancreatic lipase breaks down peripancreatic fat, releasing fatty acids that bind calcium) and hypoalbuminemia — requires urgent intervention as Ca <7.0 risks tetany and cardiac arrhythmias; (3) ARDS — SpO2 falling from 94→88% on supplemental oxygen despite IVF resuscitation indicates developing non-cardiogenic pulmonary edema from systemic inflammatory response and cytokine release. While hematocrit is declining (good sign of hemodilution from IVF), the overall trend is one of multi-organ dysfunction requiring immediate provider notification and escalation of care.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 617,
+      "case_id": "case-012",
+      "question_number": 4,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "priority",
+      "question": "The patient's serum calcium has declined to 6.2 mg/dL. On assessment, the nurse observes carpopedal spasm when inflating the blood pressure cuff, and elicits a positive Chvostek's sign (facial twitch with tapping over cranial nerve VII). Place the following nursing actions in priority order (1 = highest priority, 4 = lowest).",
+      "choices": {
+        "A": "Immediately notify the provider of the calcium level (6.2 mg/dL), carpopedal spasm, and positive Chvostek's sign",
+        "B": "Place the patient on continuous cardiac monitoring to detect QT interval prolongation and arrhythmias",
+        "C": "Anticipate and prepare IV calcium gluconate 1–2 g IV per provider order",
+        "D": "Document findings in the medical record and reassess in 1 hour",
+        "E": "Administer oral calcium carbonate supplements per hospital protocol",
+        "F": "Restrict fluid intake to prevent further calcium dilution"
+      },
+      "correct": ["A", "B", "C"],
+      "rationale": "Priority sequence: (1) NOTIFY PROVIDER IMMEDIATELY — calcium of 6.2 mg/dL with symptomatic hypocalcemia (carpopedal spasm = Trousseau's sign, positive Chvostek's sign) is a medical emergency. The provider must be informed to obtain orders for IV calcium replacement. (2) CONTINUOUS CARDIAC MONITORING — hypocalcemia causes QT interval prolongation which can precipitate life-threatening ventricular arrhythmias including Torsades de Pointes. Monitoring must be established immediately. (3) PREPARE IV CALCIUM GLUCONATE — anticipate the order; have 1–2 g IV calcium gluconate ready for administration (calcium gluconate is preferred over calcium chloride peripherally as it is less caustic to veins). (4) Documentation is ongoing but is never the first priority with a symptomatic emergency. Oral calcium is inappropriate for symptomatic hypocalcemia requiring IV correction. Fluid restriction is not indicated and would worsen renal perfusion. The PRIORITY framework: Assess → Notify → Intervene → Document.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 618,
+      "case_id": "case-012",
+      "question_number": 5,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "cloze",
+      "question": "Complete the following clinical reasoning statement by selecting the correct answer for each blank.\n\n\"The nurse recognizes that hemoconcentration (Hct 52%) in acute pancreatitis indicates [BLANK 1] and requires [BLANK 2] to prevent [BLANK 3]. The preferred IV fluid choice is [BLANK 4] because [BLANK 5].\"",
+      "choices": {
+        "blank_1": {
+          "A": "third-spacing of fluids into the peritoneal and retroperitoneal space",
+          "B": "dehydration from vomiting alone",
+          "C": "polycythemia vera exacerbation",
+          "D": "normal physiologic response to fever"
+        },
+        "blank_2": {
+          "A": "aggressive IV fluid resuscitation at 250–500 mL/hr",
+          "B": "diuretic therapy to mobilize third-spaced fluid",
+          "C": "oral rehydration therapy",
+          "D": "blood transfusion to maintain hematocrit"
+        },
+        "blank_3": {
+          "A": "acute kidney injury from renal hypoperfusion",
+          "B": "pulmonary edema from fluid overload",
+          "C": "hyperkalemia from cellular destruction",
+          "D": "hepatic failure from portal hypertension"
+        },
+        "blank_4": {
+          "A": "Lactated Ringer's solution",
+          "B": "0.9% normal saline",
+          "C": "D5W (5% dextrose in water)",
+          "D": "albumin 5% colloid solution"
+        },
+        "blank_5": {
+          "A": "it reduces systemic inflammatory response (SIRS) markers and C-reactive protein compared to normal saline, which may worsen acidosis",
+          "B": "it contains dextrose to treat the concurrent hyperglycemia",
+          "C": "it is hypotonic and redistributes more effectively into the interstitial space",
+          "D": "it is the only isotonic solution approved for ICU use in pancreatitis"
+        }
+      },
+      "correct": {
+        "blank_1": "A",
+        "blank_2": "A",
+        "blank_3": "A",
+        "blank_4": "A",
+        "blank_5": "A"
+      },
+      "rationale": "Hemoconcentration (Hct >44% in males) in acute pancreatitis reflects massive third-spacing — inflammatory mediators (bradykinin, histamine, prostaglandins) increase vascular permeability, causing protein-rich fluid to leak into the peritoneum, retroperitoneum, and peripancreatic tissue. This intravascular volume depletion (despite total body fluid excess) must be corrected with aggressive IV fluid resuscitation (250–500 mL/hr initially, titrated to urine output ≥0.5 mL/kg/hr). Failure to adequately resuscitate leads to renal hypoperfusion and acute kidney injury (AKI) — one of the most common and serious complications of severe pancreatitis. Lactated Ringer's (LR) is the preferred fluid based on prospective studies (Wu et al., 2011; Choosakul et al.) showing LR reduces SIRS criteria, CRP levels, and length of stay compared to normal saline. Normal saline in large volumes causes hyperchloremic metabolic acidosis, which worsens the inflammatory state. D5W is contraindicated (worsens hyperglycemia). Albumin is not first-line.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 619,
+      "case_id": "case-012",
+      "question_number": 6,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "matrix",
+      "question": "For each intervention listed, classify it as Indicated, Contraindicated, or Non-essential for the management of this patient with severe acute pancreatitis (alcohol-related, RANSON score 4, no biliary involvement, no confirmed infection).",
+      "choices": {
+        "interventions": {
+          "A": "Aggressive IV fluid resuscitation with Lactated Ringer's solution (250–500 mL/hr)",
+          "B": "Begin immediate solid foods to prevent intestinal atrophy and maintain gut barrier",
+          "C": "Administer IV calcium gluconate for serum calcium of 6.2 mg/dL with symptomatic tetany",
+          "D": "Initiate prophylactic broad-spectrum antibiotics (e.g., imipenem) to prevent infected necrosis",
+          "E": "Insert nasojejunal tube and begin enteral nutrition if NPO status exceeds 72 hours",
+          "F": "Perform ERCP within 24 hours to evaluate the biliary system"
+        },
+        "classifications": ["Indicated", "Contraindicated", "Non-essential"]
+      },
+      "correct": {
+        "A": "Indicated",
+        "B": "Contraindicated",
+        "C": "Indicated",
+        "D": "Contraindicated",
+        "E": "Indicated",
+        "F": "Non-essential"
+      },
+      "rationale": "INDICATED — (A) Aggressive LR resuscitation: cornerstone of severe pancreatitis management; corrects hypovolemia, hemoconcentration, and prevents AKI. Goal urine output ≥0.5 mL/kg/hr. (C) IV calcium gluconate: symptomatic hypocalcemia (Ca 6.2 mg/dL + carpopedal spasm + positive Chvostek's) requires IV replacement — risk of tetany, seizures, and QT prolongation. (E) Nasojejunal enteral nutrition if NPO >72 hours: current guidelines (ACG, ESPEN) strongly recommend enteral nutrition over TPN when feasible — maintains gut barrier integrity, reduces bacterial translocation, lowers infection risk, and improves outcomes; nasojejunal route bypasses pancreatic stimulation. CONTRAINDICATED — (B) Immediate solid foods: oral intake stimulates pancreatic secretion, worsening inflammation — NPO is mandatory in acute phase; early feeding is not appropriate before clinical improvement. (D) Prophylactic antibiotics: multiple RCTs and meta-analyses have shown no mortality benefit from prophylactic antibiotics in acute pancreatitis (even with necrosis) and increase risk of resistant organisms and fungal infection — only indicated if infection is confirmed (e.g., infected necrosis, cholangitis, bacteremia). NON-ESSENTIAL — (F) ERCP within 24 hours: ERCP is indicated only for gallstone (biliary) pancreatitis with concurrent cholangitis or biliary obstruction. This patient has alcohol-related pancreatitis with no biliary involvement — ERCP carries procedural risks without benefit in this context.",
+      "difficulty": "hard"
+    }
+  ]
+}

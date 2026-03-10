@@ -1,0 +1,159 @@
+{
+  "case_id": "case-018",
+  "title": "Major Burns: Airway Management and Parkland Formula Fluid Resuscitation",
+  "scenario": "A 34-year-old male, weighing 80 kg, is transported by EMS to the emergency department following entrapment in a residential house fire. The incident occurred approximately 90 minutes ago. Burns are noted to the anterior chest (9% TBSA), entire right arm (9% TBSA), and anterior right leg (9% TBSA), totaling 27% TBSA with a combination of partial-thickness and full-thickness injuries. The patient has singed nasal hairs, hoarse voice, facial burns, and is producing carbonaceous (sooty) sputum — all hallmark signs of inhalation injury. He is alert but anxious, speaking in short phrases, and reports pain at the burn sites. Vital signs on arrival: BP 108/72 mmHg, HR 128 bpm, RR 24 breaths/min, SpO2 93% on 15L/min via non-rebreather mask, Temp 35.8°C (hypothermic). No IV access has been established. The patient is still wearing fire-damaged clothing. The nurse recognizes this as a complex, life-threatening emergency requiring simultaneous airway protection, fluid resuscitation, hypothermia prevention, and wound management. Prioritization of interventions is critical as edema from inhalation injury may rapidly progress to complete airway obstruction.",
+  "questions": [
+    {
+      "id": 650,
+      "case_id": "case-018",
+      "question_number": 1,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "extended-response",
+      "question": "The nurse is preparing to care for the burn patient immediately upon arrival. Which of the following interventions are IMMEDIATE priorities? Select all that apply.\n\nThe patient has singed nasal hairs, hoarse voice, carbonaceous sputum, facial burns, SpO2 93% on 15L NRB, BP 108/72, HR 128, Temp 35.8°C, no IV access, clothing still on.",
+      "choices": {
+        "A": "Prepare for early endotracheal intubation given signs of inhalation injury (singed nasal hairs, hoarse voice, carbonaceous sputum, facial burns) before progressive edema renders the airway inaccessible",
+        "B": "Establish two large-bore peripheral IV lines (16G or larger) and initiate Lactated Ringer's solution using the Parkland formula (4 mL × 80 kg × 27% TBSA = 8,640 mL over 24 hours)",
+        "C": "Carefully remove all clothing and jewelry from burned and unburned areas to stop ongoing thermal injury and allow complete wound assessment",
+        "D": "Apply warm blankets and use warmed IV fluids to address the patient's hypothermia (Temp 35.8°C), which worsens outcomes in burn patients",
+        "E": "Cover burn wounds with clean, dry, non-adherent dressings — do NOT apply ice, ice water, or wet dressings, which worsen hypothermia",
+        "F": "Apply ice or ice-cold water directly to the burn wounds to reduce pain and stop ongoing tissue damage",
+        "G": "Administer IM morphine for pain management prior to establishing IV access as the priority first step",
+        "H": "Apply topical antibiotics (e.g., silver sulfadiazine) as the first wound care priority before addressing airway or IV access",
+        "I": "Delay airway management and observe the patient for 30–60 minutes to determine if intubation will be necessary"
+      },
+      "correct": ["A", "B", "C", "D", "E"],
+      "rationale": "CORRECT (A): Inhalation injury is the leading cause of death in burn patients. Singed nasal hairs, hoarseness, carbonaceous sputum, and facial burns are definitive signs. Airway edema progresses rapidly — early intubation is critical because delayed intubation may become impossible as swelling worsens. This is the HIGHEST priority. CORRECT (B): Fluid resuscitation must begin immediately. The Parkland formula (4 mL × kg × %TBSA) calculates 8,640 mL of LR over 24 hours. Half (4,320 mL) is given in the first 8 hours FROM THE TIME OF BURN (not hospital arrival). With 90 minutes already elapsed, approximately 6.5 hours remain — rate ≈ 664 mL/hr initially. Two large-bore IVs are required for this flow rate. CORRECT (C): Removing all clothing and jewelry stops ongoing thermal injury, prevents tourniquet effect from swelling, and allows complete assessment of burn extent and depth. CORRECT (D): Hypothermia (35.8°C) is common in burn patients due to loss of skin barrier function. It worsens coagulopathy, cardiac function, and outcomes. Warm blankets and warmed IV fluids are mandatory. CORRECT (E): Burn wounds should be covered with clean, dry dressings. Wet or iced dressings worsen hypothermia and vasoconstriction, deepening tissue damage. INCORRECT (F): Ice application causes vasoconstriction, deepens tissue injury, and dramatically worsens hypothermia — strictly contraindicated. INCORRECT (G): IM medications have erratic absorption in burn patients due to fluid shifts and decreased perfusion; IV access must be established first. INCORRECT (H): Topical antibiotics are a wound care priority but NOT before airway management, IV access, and fluid resuscitation. INCORRECT (I): Delaying airway management is dangerous — edema from inhalation injury progresses within hours and intubation may become anatomically impossible.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 651,
+      "case_id": "case-018",
+      "question_number": 2,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "bow-tie",
+      "question": "Complete the clinical reasoning bow-tie for this burn patient. The nurse must identify the most likely condition, select the two most appropriate nursing actions, and identify the two most important parameters to monitor.\n\nPatient findings: singed nasal hairs, hoarse voice, carbonaceous sputum, facial burns, SpO2 93% on 15L NRB, BP 108/72, HR 128, 27% TBSA burns, Temp 35.8°C, no IV access, 90 minutes post-burn.",
+      "choices": {
+        "A": "CONDITION — Surface burns only with no airway involvement (partial and full thickness burns without inhalation injury)",
+        "B": "CONDITION — Carbon monoxide (CO) poisoning only, without upper airway structural compromise or inhalation injury",
+        "C": "CONDITION — Inhalation injury with impending airway compromise (singed nasal hairs + hoarse voice + carbonaceous sputum + facial burns = classic inhalation injury triad; SpO2 93% indicates impaired gas exchange; hoarseness signals supraglottic edema with high risk for complete obstruction)",
+        "D": "ACTION — Prepare immediately for endotracheal intubation; notify anesthesia/physician; have RSI medications, laryngoscope, and surgical airway kit at bedside",
+        "E": "ACTION — Establish two large-bore peripheral IV lines and initiate Parkland formula fluid resuscitation with warmed Lactated Ringer's solution, titrating to urine output",
+        "F": "ACTION — Apply topical antimicrobial agents and sterile dressings to all burn wounds before performing any other intervention",
+        "G": "ACTION — Administer IV corticosteroids to reduce airway edema and defer intubation decision for 1–2 hours",
+        "H": "PARAMETER — Continuously monitor airway patency, stridor, and progression of hoarseness as markers of worsening supraglottic edema; any change signals need for immediate intubation",
+        "I": "PARAMETER — Monitor urine output (target 0.5–1 mL/kg/hr = 40–80 mL/hr for this 80 kg patient) as the primary guide for adequacy of Parkland fluid resuscitation",
+        "J": "PARAMETER — Monitor serum potassium levels every 15 minutes as the primary resuscitation endpoint",
+        "K": "PARAMETER — Monitor patient's pain score (0–10) as the primary indicator of resuscitation adequacy"
+      },
+      "correct": {
+        "condition": "C",
+        "actions": ["D", "E"],
+        "parameters": ["H", "I"]
+      },
+      "rationale": "CONDITION (C): The classic triad of inhalation injury is singed nasal hairs, hoarse voice (supraglottic edema), and carbonaceous sputum (evidence of smoke inhalation below the cords). Facial burns increase risk significantly. SpO2 of 93% despite 15L NRB indicates impaired gas exchange. This is NOT CO poisoning alone (CO poisoning typically presents with headache/confusion, not hoarseness), and NOT surface burns only (the airway findings are definitive). This patient has inhalation injury with impending airway compromise — the most dangerous burn emergency. ACTION (D): Airway is the absolute first priority. Supraglottic edema from inhalation injury can progress from hoarseness to complete obstruction within hours. Early intubation — when the airway is still accessible — is lifesaving. RSI (rapid sequence intubation) is the method of choice. Preparation must happen NOW. ACTION (E): Simultaneous with airway management, Parkland resuscitation must begin. Two large-bore IVs are needed for the required flow rate (~664 mL/hr in the first 6.5 remaining hours). LR is the fluid of choice. PARAMETER (H): Worsening hoarseness, new stridor, or loss of voice indicates progressive airway edema — this is a call for immediate intubation. Continuous reassessment is mandatory. PARAMETER (I): Urine output is the gold standard for monitoring Parkland resuscitation adequacy. For an 80 kg patient, target is 40–80 mL/hr (0.5–1 mL/kg/hr). Formula gives a starting rate; UO guides titration. Corticosteroids (G) are not indicated for inhalation injury airway edema and may increase infection risk.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 652,
+      "case_id": "case-018",
+      "question_number": 3,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "trend",
+      "question": "Two hours after arrival (3.5 hours post-burn), two large-bore IVs have been placed and Parkland resuscitation is running. The nurse reviews the following trended data. Based on the trends, what is the priority nursing action?\n\n--- TREND DATA ---\nUrine Output (Foley catheter placed):\n  • 0–1 hr post-arrival: 12 mL\n  • 1–2 hr post-arrival: 18 mL\n  • Target: 40–80 mL/hr\n\nBlood Pressure:\n  • Arrival: 108/72 mmHg\n  • 1 hr: 102/68 mmHg\n  • 2 hr: 98/64 mmHg (TRENDING DOWN)\n\nHR:\n  • Arrival: 128 bpm\n  • 1 hr: 132 bpm\n  • 2 hr: 136 bpm (TRENDING UP)\n\nCurrent IV fluid rate: 400 mL/hr\n\nParkland calculation reminder: Total = 4 × 80 × 27 = 8,640 mL. First half (4,320 mL) in 8 hrs from time of burn. With burn occurring 90 min before arrival, 6.5 hrs remain at time of IV placement — calculated rate ≈ 664 mL/hr. Patient is currently running at 400 mL/hr (BELOW calculated rate).",
+      "choices": {
+        "A": "Maintain the current IV fluid rate of 400 mL/hr; the urine output trend is within acceptable limits for a major burn patient",
+        "B": "Decrease the IV fluid rate to 200 mL/hr to prevent fluid overload, as the patient has received fluids for 2 hours already",
+        "C": "Increase the IV fluid rate toward the Parkland-calculated rate of approximately 664 mL/hr and titrate further based on urine output — current UO of 12–18 mL/hr is critically below the target of 40–80 mL/hr; falling BP and rising HR confirm inadequate resuscitation",
+        "D": "Administer a 500 mL normal saline bolus and then return to the current rate of 400 mL/hr",
+        "E": "Hold all fluids and obtain a STAT echocardiogram to evaluate cardiac function before proceeding",
+        "F": "Switch from Lactated Ringer's to 0.9% Normal Saline per the Parkland formula protocol"
+      },
+      "correct": "C",
+      "rationale": "The trend data tells a clear story of inadequate resuscitation: UO is 12–18 mL/hr (target: 40–80 mL/hr), BP is falling (108→102→98 systolic), and HR is rising (128→132→136) — a classic compensatory response to hypovolemia. The current rate of 400 mL/hr is below the Parkland-calculated rate of ~664 mL/hr, confirming under-resuscitation. The Parkland formula provides an ESTIMATE — urine output is the REAL endpoint. The nurse must increase the IV fluid rate toward 664 mL/hr and then titrate based on UO response. KEY PRINCIPLE: If UO is below 0.5 mL/kg/hr (below 40 mL/hr for this 80 kg patient), INCREASE fluids. If UO exceeds 1 mL/kg/hr (above 80 mL/hr), DECREASE fluids. UO trumps the formula. WRONG (A): UO of 12–18 mL/hr is critically inadequate — maintaining current rate allows ongoing hypovolemia and organ hypoperfusion. WRONG (B): Decreasing fluids when UO is dangerously low and BP is falling would precipitate burn shock. WRONG (D): Boluses are not part of standard Parkland protocol; steady rate titration is preferred to avoid fluid shifts. WRONG (E): Withholding fluids in a clearly hypovolemic burn patient is dangerous. WRONG (F): Normal saline is NOT the Parkland formula fluid — Lactated Ringer's is the standard of care, as it more closely matches plasma composition and avoids hyperchloremic acidosis.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 653,
+      "case_id": "case-018",
+      "question_number": 4,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "priority",
+      "question": "Four hours post-burn, the nurse reassesses the patient and notes the following ACUTE CHANGES:\n\n• Voice: Completely absent (was hoarse on arrival)\n• Audible stridor heard without stethoscope\n• SpO2: Dropped from 93% to 88% despite 15L NRB\n• RR: 30 breaths/min (increasing)\n• Patient is becoming increasingly agitated and restless\n• Facial and lip edema visibly increasing\n\nPlace the following nursing actions in order of HIGHEST to LOWEST priority (1 = most urgent):",
+      "choices": {
+        "A": "Immediately notify the provider and prepare for emergency endotracheal intubation (RSI); have surgical airway (cricothyrotomy) kit at bedside as backup — complete airway obstruction from edema is occurring NOW",
+        "B": "Increase the Parkland formula IV fluid rate to improve oxygen delivery",
+        "C": "Apply a second non-rebreather mask on top of the current one to increase FiO2",
+        "D": "Reassess burn wound depth and update TBSA calculation",
+        "E": "Obtain a STAT arterial blood gas (ABG) and wait for results before deciding on intubation",
+        "F": "Administer IV lorazepam (Ativan) to reduce the patient's agitation and restlessness"
+      },
+      "correct": ["A", "B", "C", "D", "E", "F"],
+      "rationale": "PRIORITY 1 — (A) IMMEDIATE INTUBATION: Complete loss of voice + audible stridor + rapidly falling SpO2 + increasing RR + agitation = COMPLETE OR NEAR-COMPLETE AIRWAY OBSTRUCTION. This is a true emergency. Every minute of delay allows further edema progression. Once the airway closes completely, intubation becomes anatomically impossible and emergency surgical cricothyrotomy is required. The nurse must call the team NOW, prepare RSI medications (succinylcholine + ketamine or etomidate), and have a surgical airway kit immediately available. This is the ONLY priority that matters at this moment. PRIORITY 2 — (B) Fluid rate: Increasing fluids is important for perfusion but secondary to securing the airway. PRIORITY 3 — (C) Supplemental O2: Adding supplemental O2 may provide marginal benefit while preparing for intubation but will not reverse structural airway obstruction. PRIORITY 4 — (D) Wound reassessment: Important but non-urgent during an acute airway emergency. PRIORITY 5 — (E) ABG: Useful data but obtaining and waiting for results BEFORE securing the airway is dangerous; clinical assessment dictates action. PRIORITY 6 — (F) Sedation: Agitation in this context is hypoxia-driven — sedating without first securing the airway is lethal. KEY TEACHING POINT: In burn patients with inhalation injury, progressive hoarseness → complete voice loss → stridor is a PREDICTABLE and time-critical trajectory. The nurse who recognizes this early and acts urgently saves the patient's life.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 654,
+      "case_id": "case-018",
+      "question_number": 5,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "cloze",
+      "question": "Complete the following clinical documentation note by selecting the correct calculated value or term for each blank. The nurse is documenting the Parkland formula fluid resuscitation plan for this patient (80 kg, 27% TBSA burns, time of burn 90 minutes before hospital arrival).\n\n--- NURSING NOTE ---\n'Using the Parkland formula (4 mL × kg × %TBSA), this patient requires [BLANK 1] mL of Lactated Ringer's solution in the first 24 hours. One half of this total, [BLANK 2] mL, is to be infused in the first 8 hours from [BLANK 3]. The remaining [BLANK 4] mL is infused over the subsequent 16 hours at a rate of approximately 270 mL/hr. Because 90 minutes have already elapsed since the time of burn, the first-half volume must be delivered in the remaining [BLANK 5] hours, requiring an initial rate of approximately 664 mL/hr. Urine output is maintained as the primary resuscitation endpoint, with a target of [BLANK 6] to guide adequacy of fluid replacement.'",
+      "choices": {
+        "A": "BLANK 1 options: [6,480 mL] [8,640 mL] [10,800 mL] [4,320 mL]",
+        "B": "BLANK 2 options: [2,160 mL] [4,320 mL] [6,480 mL] [8,640 mL]",
+        "C": "BLANK 3 options: [time of hospital arrival] [time of burn, not hospital arrival] [time of IV insertion] [time of first vital sign assessment]",
+        "D": "BLANK 4 options: [2,160 mL] [6,480 mL] [4,320 mL] [8,640 mL]",
+        "E": "BLANK 5 options: [8.0 hours] [6.5 hours] [4.0 hours] [7.5 hours]",
+        "F": "BLANK 6 options: [10–20 mL/hr] [0.5–1 mL/kg/hr (40–80 mL/hr for this patient)] [100–150 mL/hr] [>200 mL/hr to ensure adequate perfusion]"
+      },
+      "correct": {
+        "BLANK_1": "8,640 mL",
+        "BLANK_2": "4,320 mL",
+        "BLANK_3": "time of burn, not hospital arrival",
+        "BLANK_4": "4,320 mL",
+        "BLANK_5": "6.5 hours",
+        "BLANK_6": "0.5–1 mL/kg/hr (40–80 mL/hr for this patient)"
+      },
+      "rationale": "BLANK 1 — 8,640 mL: Parkland formula = 4 mL × 80 kg × 27% TBSA = 8,640 mL total over 24 hours. This is the estimated total volume; actual administration is guided by urine output. BLANK 2 — 4,320 mL: Exactly half of 8,640 mL = 4,320 mL. This volume is given in the FIRST 8 hours from time of burn. BLANK 3 — Time of burn, not hospital arrival: This is a critical and commonly tested NCLEX point. The 8-hour clock starts at the moment of burn injury, NOT when the patient arrives at the hospital. Failure to account for pre-hospital time results in under-resuscitation. BLANK 4 — 4,320 mL: The remaining half (4,320 mL) is given over the next 16 hours (hours 8–24 post-burn) at approximately 270 mL/hr. BLANK 5 — 6.5 hours: The burn occurred 90 minutes (1.5 hours) before arrival. The first 8-hour window has 8 − 1.5 = 6.5 hours remaining. The 4,320 mL must be infused in 6.5 hours: 4,320 ÷ 6.5 ≈ 664 mL/hr. BLANK 6 — 0.5–1 mL/kg/hr (40–80 mL/hr): Urine output is THE primary endpoint for Parkland resuscitation. For an 80 kg adult: 0.5 mL/kg/hr × 80 = 40 mL/hr minimum; 1 mL/kg/hr × 80 = 80 mL/hr maximum. Below 40 mL/hr → increase rate. Above 80 mL/hr → decrease rate. The formula is a guide; the kidneys tell the truth.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 655,
+      "case_id": "case-018",
+      "question_number": 6,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "matrix",
+      "question": "For each intervention listed below, classify it as INDICATED (appropriate and beneficial for this burn patient), CONTRAINDICATED (harmful or inappropriate), or NOT APPLICABLE (neither beneficial nor harmful in this specific context).\n\nPatient: 34-year-old male, 27% TBSA burns, inhalation injury signs, SpO2 93%, Temp 35.8°C, 80 kg, 90 minutes post-burn.",
+      "choices": {
+        "A": "Early endotracheal intubation for a patient with singed nasal hairs, hoarse voice, carbonaceous sputum, and facial burns",
+        "B": "Application of ice or ice-cold water directly to burn wound surfaces to relieve pain and cool the tissue",
+        "C": "Initiation of Lactated Ringer's solution per the Parkland formula (4 mL × kg × %TBSA) with two large-bore peripheral IVs",
+        "D": "Routine prophylactic intravenous antibiotics administered to all major burn patients on admission",
+        "E": "Warm blankets, overhead warming lamps, and warmed IV fluids to treat and prevent hypothermia (current Temp 35.8°C)",
+        "F": "Using urine output (target 0.5–1 mL/kg/hr) as the primary parameter to guide IV fluid rate titration rather than relying solely on the calculated Parkland rate"
+      },
+      "correct": {
+        "A": "Indicated",
+        "B": "Contraindicated",
+        "C": "Indicated",
+        "D": "Contraindicated",
+        "E": "Indicated",
+        "F": "Indicated"
+      },
+      "rationale": "INDICATED (A) — Early intubation: With the classic inhalation injury triad (singed nasal hairs + hoarse voice + carbonaceous sputum) plus facial burns and SpO2 93%, early intubation is not only indicated but urgently necessary. Upper airway edema from heat and chemical irritation progresses rapidly over hours. Waiting until obstruction is complete often means the airway is no longer accessible via laryngoscopy. Early, elective intubation is far safer than emergency surgical airway. CONTRAINDICATED (B) — Ice application: Applying ice or ice-cold water to burns causes peripheral vasoconstriction (reducing blood flow to injured tissue), deepens thermal injury depth, and dramatically worsens hypothermia (this patient is already at 35.8°C). It is strictly contraindicated. Cool (not cold) running water for <20 minutes is acceptable for small burns within 3 hours of injury, but not for major burns with hypothermia. INDICATED (C) — Parkland LR resuscitation: Lactated Ringer's via the Parkland formula is the evidence-based standard of care for major burn resuscitation. LR is chosen because its electrolyte composition approximates plasma, minimizing the hyperchloremic acidosis risk associated with normal saline. Two large-bore IVs are required for adequate flow rates. CONTRAINDICATED (D) — Routine prophylactic antibiotics: Evidence does NOT support routine prophylactic IV antibiotics for burn patients. This practice promotes antibiotic resistance and does not reduce infection rates or mortality. Antibiotics are reserved for documented infection with culture-directed therapy. INDICATED (E) — Warming measures: Burn patients lose thermoregulatory ability proportional to burn size due to destruction of the skin barrier. This patient is already hypothermic at 35.8°C. Hypothermia worsens coagulopathy, cardiac function, immune function, and increases mortality. Warm blankets, warmed fluids, and environmental warming are mandatory. INDICATED (F) — UO as primary resuscitation guide: The Parkland formula calculates a starting rate, but individual responses vary significantly based on burn depth, age, inhalation injury, and fluid shifts. Urine output (0.5–1 mL/kg/hr) is the validated, physiologic endpoint for resuscitation adequacy. Nurses must titrate the IV rate based on UO — not blindly follow the formula.",
+      "difficulty": "hard"
+    }
+  ]
+}

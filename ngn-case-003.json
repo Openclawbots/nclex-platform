@@ -1,0 +1,175 @@
+{
+  "case_id": "case-003",
+  "title": "Diabetic Ketoacidosis (DKA) Management",
+  "scenario": "A 22-year-old female with a known history of Type 1 diabetes mellitus is brought to the emergency department by her roommate after being found confused and lethargic at home. The roommate reports the patient has not taken insulin for approximately two days, stating she 'forgot.' The patient has experienced nausea, vomiting, and diffuse abdominal pain for the past 24 hours with minimal oral intake. On arrival, the patient is visibly ill and diaphoretic. Vital signs: BP 96/58 mmHg, HR 126 bpm (regular), RR 28 breaths/min (deep and labored — Kussmaul respirations), Temperature 37.1°C, SpO2 98% on room air. A distinctive fruity odor is noted on the patient's breath. GCS is 13 (confused, follows commands). Point-of-care glucose reads 624 mg/dL. Stat laboratory results reveal: pH 7.18, bicarbonate 9 mEq/L, potassium 5.8 mEq/L, sodium 128 mEq/L, anion gap 26, and large ketones on urinalysis. IV access is established and fluid resuscitation is initiated. The team prepares to manage this patient for diabetic ketoacidosis.",
+  "questions": [
+    {
+      "id": 560,
+      "case_id": "case-003",
+      "question_number": 1,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "extended-response",
+      "question": "The nurse is planning care for this patient with DKA. Which of the following interventions are appropriate? Select ALL that apply.\n\nA. Administer IV regular insulin infusion only after confirming serum potassium is >3.5 mEq/L\nB. Initiate IV 0.9% normal saline (NS) fluid resuscitation immediately\nC. Perform hourly bedside glucose monitoring during insulin therapy\nD. Place patient on continuous cardiac monitoring to detect dysrhythmias from potassium shifts\nE. Hold insulin infusion and administer IV potassium replacement if K+ falls below 3.5 mEq/L\nF. Administer subcutaneous (SubQ) insulin instead of IV infusion for faster correction\nG. Restrict IV fluids to prevent cerebral edema\nH. Administer IV sodium bicarbonate routinely for pH 7.18",
+      "choices": {
+        "A": "Administer IV regular insulin infusion only after confirming serum potassium is >3.5 mEq/L",
+        "B": "Initiate IV 0.9% normal saline (NS) fluid resuscitation immediately",
+        "C": "Perform hourly bedside glucose monitoring during insulin therapy",
+        "D": "Place patient on continuous cardiac monitoring to detect dysrhythmias from potassium shifts",
+        "E": "Hold insulin infusion and administer IV potassium replacement if K+ falls below 3.5 mEq/L",
+        "F": "Administer subcutaneous (SubQ) insulin instead of IV infusion for faster correction",
+        "G": "Restrict IV fluids to prevent cerebral edema",
+        "H": "Administer IV sodium bicarbonate routinely for pH 7.18"
+      },
+      "correct": ["A", "B", "C", "D", "E"],
+      "rationale": "Evidence-based DKA management per the American Diabetes Association (ADA) guidelines includes: (A) IV regular insulin must NOT be started if K+ <3.5 mEq/L — insulin drives potassium intracellularly and can precipitate life-threatening hypokalemia; (B) Aggressive IV 0.9% NS resuscitation corrects hypovolemia and dilutes ketoacids — typically 1–1.5 L in the first hour; (C) Hourly glucose checks are essential to titrate insulin infusion and prevent hypoglycemia — target glucose drop of 50–75 mg/dL/hr; (D) Continuous cardiac monitoring detects peaked T-waves (hyperkalemia) or QT prolongation/U-waves (hypokalemia) as potassium shifts occur during treatment; (E) ADA guidelines mandate holding insulin and repleting potassium when K+ <3.5 mEq/L to prevent fatal hypokalemia. (F) is INCORRECT — SubQ insulin has unpredictable absorption in dehydrated patients and is contraindicated in DKA; IV regular insulin infusion is standard of care. (G) is INCORRECT — aggressive fluid replacement is a cornerstone of DKA treatment; restriction worsens acidosis. (H) is INCORRECT — sodium bicarbonate is NOT recommended for pH ≥6.9 per ADA guidelines and may paradoxically worsen intracellular acidosis and hypokalemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 561,
+      "case_id": "case-003",
+      "question_number": 2,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "bow-tie",
+      "question": "Complete the Bow-Tie clinical reasoning diagram for this patient.\n\nCENTER — Most likely condition:\nA. Diabetic Ketoacidosis (DKA)\nB. Hyperosmolar Hyperglycemic State (HHS)\nC. Hypoglycemia\nD. Lactic Acidosis\n\nLEFT SIDE — Priority nursing actions (select 2):\nA. Initiate IV 0.9% NS bolus and begin continuous IV regular insulin infusion after K+ confirmed >3.5\nB. Administer oral glucose tablets immediately\nC. Prepare for emergent intubation for airway protection\nD. Apply supplemental oxygen at 15 L/min via non-rebreather mask\nE. Insert urinary catheter and monitor strict hourly urine output\n\nRIGHT SIDE — Parameters to monitor (select 3):\nA. Serum glucose hourly\nB. Serum potassium every 1–2 hours\nC. Arterial pH and bicarbonate (anion gap)\nD. Urine ketones only — serum labs not needed after admission\nE. Neurological status / GCS",
+      "choices": {
+        "CENTER": {
+          "A": "Diabetic Ketoacidosis (DKA)",
+          "B": "Hyperosmolar Hyperglycemic State (HHS)",
+          "C": "Hypoglycemia",
+          "D": "Lactic Acidosis"
+        },
+        "LEFT_ACTIONS": {
+          "A": "Initiate IV 0.9% NS bolus and begin continuous IV regular insulin infusion after K+ confirmed >3.5",
+          "B": "Administer oral glucose tablets immediately",
+          "C": "Prepare for emergent intubation for airway protection",
+          "D": "Apply supplemental oxygen at 15 L/min via non-rebreather mask",
+          "E": "Insert urinary catheter and monitor strict hourly urine output"
+        },
+        "RIGHT_MONITOR": {
+          "A": "Serum glucose hourly",
+          "B": "Serum potassium every 1–2 hours",
+          "C": "Arterial pH and bicarbonate (anion gap)",
+          "D": "Urine ketones only — serum labs not needed after admission",
+          "E": "Neurological status / GCS"
+        }
+      },
+      "correct": {
+        "center": "A",
+        "left_actions": ["A", "E"],
+        "right_monitor": ["A", "B", "C", "E"]
+      },
+      "rationale": "CENTER — DKA is confirmed by the classic triad: hyperglycemia (624 mg/dL), metabolic acidosis (pH 7.18, bicarb 9), and ketonemia/ketonuria. HHS typically has glucose >600 but minimal ketosis and NO significant acidosis (pH usually >7.3). The anion gap of 26 (normal 8–12) and large urine ketones confirm DKA. LEFT ACTIONS — (A) IV NS resuscitation is the first intervention per ADA/ACEP DKA guidelines; insulin only after K+ confirmed safe to prevent fatal hypokalemia. (E) Urinary catheter enables precise hourly urine output monitoring — essential for tracking renal perfusion and fluid balance. Intubation (C) is not indicated with SpO2 98% and GCS 13; supplemental O2 (D) is not indicated with adequate oxygenation. RIGHT MONITORING — (A) Hourly glucose guides insulin titration; (B) K+ every 1–2 hours is critical as insulin therapy rapidly shifts K+ intracellularly — most dangerous electrolyte shift in DKA; (C) Serial ABGs/pH and anion gap track resolution of acidosis; (E) Neurological status detects cerebral edema, the most feared complication of DKA treatment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 562,
+      "case_id": "case-003",
+      "question_number": 3,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "trend",
+      "question": "The nurse reviews the patient's laboratory trend over the past 3 hours of DKA treatment:\n\n| Parameter     | Hour 0  | Hour 1  | Hour 2  | Hour 3  |\n|---------------|---------|---------|---------|----------|\n| Glucose mg/dL | 624     | 480     | 380     | 310      |\n| pH            | 7.18    | 7.22    | 7.24    | 7.31     |\n| K+ mEq/L      | 5.8     | 4.6     | 3.9     | 3.1      |\n\nWhat does the potassium trend indicate and what is the priority nursing action?\n\nA. The potassium trend is expected and no action is needed; continue insulin infusion at the same rate\nB. The falling potassium indicates insulin is driving K+ intracellularly; the nurse should notify the provider and anticipate holding insulin infusion and administering IV potassium replacement\nC. The falling potassium is due to fluid resuscitation diluting serum levels; increase the IV fluid rate\nD. The trend indicates resolving DKA; decrease insulin rate by 50% and recheck K+ in 4 hours\nE. Administer oral potassium chloride tablets and continue the insulin infusion unchanged",
+      "choices": {
+        "A": "The potassium trend is expected and no action is needed; continue insulin infusion at the same rate",
+        "B": "The falling potassium indicates insulin is driving K+ intracellularly; the nurse should notify the provider and anticipate holding insulin infusion and administering IV potassium replacement",
+        "C": "The falling potassium is due to fluid resuscitation diluting serum levels; increase the IV fluid rate",
+        "D": "The trend indicates resolving DKA; decrease insulin rate by 50% and recheck K+ in 4 hours",
+        "E": "Administer oral potassium chloride tablets and continue the insulin infusion unchanged"
+      },
+      "correct": "B",
+      "rationale": "The potassium trend (5.8 → 4.6 → 3.9 → 3.1 mEq/L) demonstrates a dangerously rapid decline over 3 hours. This is a classic and expected physiological consequence of insulin therapy: insulin activates the Na+/K+-ATPase pump, driving extracellular potassium intracellularly. The initial hyperkalemia of 5.8 was falsely reassuring — the patient's total body potassium was already depleted from urinary losses during osmotic diuresis; the high serum level reflected transcellular shift from acidosis. As acidosis corrects and insulin acts, K+ moves intracellularly, dropping serum levels precipitously. At K+ 3.1 mEq/L (below 3.5 mEq/L threshold), ADA guidelines mandate: HOLD insulin infusion, notify provider, and initiate IV potassium replacement (typically 20–40 mEq/hr IV KCl) until K+ >3.5 mEq/L before resuming insulin. (A) is dangerous — action is absolutely required at K+ 3.1. (C) is incorrect — dilution is not the primary mechanism. (D) is incorrect — 4-hour recheck is too slow; this is urgent. (E) is incorrect — oral K+ is inadequate for emergent IV correction, and continuing insulin is contraindicated at this K+ level.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 563,
+      "case_id": "case-003",
+      "question_number": 4,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "priority",
+      "question": "The nurse receives a critical lab value: serum potassium is now 3.2 mEq/L. The patient is currently receiving an IV regular insulin infusion at 0.1 units/kg/hr per protocol. The patient's glucose is 298 mg/dL and pH is 7.28. Place the following nursing actions in PRIORITY ORDER (1 = first, 4 = last):\n\nA. Hold the IV insulin infusion immediately\nB. Notify the provider of the critical potassium value\nC. Administer IV potassium chloride (KCl) per protocol orders\nD. Recheck serum potassium in 1 hour after replacement initiated\n\nWhich answer reflects the correct priority sequence?",
+      "choices": {
+        "A": "Priority sequence: Hold insulin (1st) → Notify provider (2nd) → Administer IV KCl (3rd) → Recheck K+ in 1 hour (4th)",
+        "B": "Priority sequence: Notify provider (1st) → Hold insulin (2nd) → Administer IV KCl (3rd) → Recheck K+ in 1 hour (4th)",
+        "C": "Priority sequence: Administer IV KCl (1st) → Notify provider (2nd) → Hold insulin (3rd) → Recheck K+ in 1 hour (4th)",
+        "D": "Priority sequence: Hold insulin (1st) → Administer IV KCl (2nd) → Notify provider (3rd) → Recheck K+ in 1 hour (4th)",
+        "E": "Priority sequence: Recheck K+ (1st) → Notify provider (2nd) → Hold insulin (3rd) → Administer IV KCl (4th)"
+      },
+      "correct": "A",
+      "rationale": "The correct priority sequence is: (1) HOLD insulin infusion — this is the immediate life-saving action. Continuing insulin at K+ 3.2 mEq/L will drive potassium further intracellularly, risking fatal hypokalemia (<2.5 mEq/L causes cardiac arrest and respiratory muscle paralysis). The nurse acts immediately under existing protocol before the provider is reached — this is within nursing scope per ADA-aligned standing orders. (2) NOTIFY provider — once the immediate danger is halted, the provider must be informed of the critical value, current clinical status, and need for potassium replacement orders if not already on standing protocol. (3) ADMINISTER IV KCl — potassium replacement (typically 20–40 mEq IV over 1–2 hrs via infusion pump) is initiated per protocol or new provider order. IV KCl must NEVER be given by IV push (cardiac arrest risk). (4) RECHECK potassium in 1 hour — serial monitoring confirms response to replacement and determines when it is safe to resume insulin infusion (K+ must be >3.5 mEq/L). This sequence reflects the ABC-based principle: prevent immediate harm first, communicate second, treat third, evaluate fourth.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 564,
+      "case_id": "case-003",
+      "question_number": 5,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "cloze",
+      "question": "Complete the following clinical reasoning statement by selecting the correct term for each blank:\n\n\"The nurse anticipates that as DKA resolves and insulin therapy continues, serum [BLANK 1: ELECTROLYTE] will [BLANK 2: DIRECTION] due to [BLANK 3: MECHANISM], requiring [BLANK 4: INTERVENTION].\"\n\nSelect the answer that correctly fills ALL four blanks:\n\nA. [Sodium] will [increase] due to [free water correction], requiring [fluid restriction]\nB. [Potassium] will [decrease] due to [insulin driving K+ intracellularly and ongoing renal losses from osmotic diuresis], requiring [IV potassium replacement and temporary hold of insulin if K+ <3.5 mEq/L]\nC. [Glucose] will [increase] due to [counter-regulatory hormone release], requiring [glucagon administration]\nD. [Bicarbonate] will [decrease] due to [metabolic alkalosis rebound], requiring [acetazolamide administration]\nE. [Potassium] will [increase] due to [cellular release during acidosis correction], requiring [sodium polystyrene sulfonate]",
+      "choices": {
+        "A": "[Sodium] will [increase] due to [free water correction], requiring [fluid restriction]",
+        "B": "[Potassium] will [decrease] due to [insulin driving K+ intracellularly and ongoing renal losses from osmotic diuresis], requiring [IV potassium replacement and temporary hold of insulin if K+ <3.5 mEq/L]",
+        "C": "[Glucose] will [increase] due to [counter-regulatory hormone release], requiring [glucagon administration]",
+        "D": "[Bicarbonate] will [decrease] due to [metabolic alkalosis rebound], requiring [acetazolamide administration]",
+        "E": "[Potassium] will [increase] due to [cellular release during acidosis correction], requiring [sodium polystyrene sulfonate]"
+      },
+      "correct": "B",
+      "rationale": "The complete and correct statement reads: 'The nurse anticipates that as DKA resolves and insulin therapy continues, serum POTASSIUM will DECREASE due to INSULIN DRIVING K+ INTRACELLULARLY AND ONGOING RENAL LOSSES FROM OSMOTIC DIURESIS, requiring IV POTASSIUM REPLACEMENT AND TEMPORARY HOLD OF INSULIN IF K+ <3.5 mEq/L.' Pathophysiology: In DKA, total body potassium is depleted from polyuria/osmotic diuresis despite serum levels appearing normal or elevated (due to acidosis pushing K+ extracellularly and lack of insulin effect). Once insulin therapy is initiated, two mechanisms accelerate hypokalemia: (1) Insulin activates Na+/K+-ATPase, shifting K+ intracellularly; (2) Correction of acidosis itself causes K+ to re-enter cells in exchange for H+ ions. ADA guidelines recommend potassium replacement when K+ <3.5 mEq/L (hold insulin) or prophylactic KCl addition to IV fluids when K+ 3.5–5.0 mEq/L. (A) Sodium typically corrects as hyperglycemia resolves — no restriction needed. (C) Glucose decreases with treatment. (D) Bicarbonate should increase as acidosis resolves. (E) Potassium falls, not rises, during insulin therapy.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 565,
+      "case_id": "case-003",
+      "question_number": 6,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "matrix",
+      "question": "For each nursing action or order listed below, classify it as INDICATED (appropriate for this DKA patient), CONTRAINDICATED (harmful or not recommended), or NOT INDICATED (not harmful but unnecessary/not evidence-based for this presentation):\n\n| Action | Classification |\n|--------|----------------|\n| 1. Start insulin infusion before serum potassium result is available | ? |\n| 2. Aggressive IV fluid resuscitation with 0.9% normal saline | ? |\n| 3. Administer IV sodium bicarbonate for pH of 7.18 | ? |\n| 4. Perform hourly neurological checks / GCS assessment | ? |\n| 5. Maintain NPO (nothing by mouth) status during acute DKA | ? |\n| 6. Switch to subcutaneous insulin instead of IV insulin drip | ? |\n\nWhich answer correctly classifies ALL six actions?",
+      "choices": {
+        "A": "1-Contraindicated, 2-Indicated, 3-Contraindicated, 4-Indicated, 5-Indicated, 6-Contraindicated",
+        "B": "1-Indicated, 2-Indicated, 3-Indicated, 4-Indicated, 5-Not Indicated, 6-Contraindicated",
+        "C": "1-Contraindicated, 2-Indicated, 3-Indicated, 4-Not Indicated, 5-Indicated, 6-Not Indicated",
+        "D": "1-Not Indicated, 2-Contraindicated, 3-Contraindicated, 4-Indicated, 5-Not Indicated, 6-Indicated",
+        "E": "1-Contraindicated, 2-Indicated, 3-Not Indicated, 4-Indicated, 5-Indicated, 6-Contraindicated"
+      },
+      "correct": "A",
+      "matrix_detail": {
+        "1_start_insulin_before_K_result": {
+          "classification": "Contraindicated",
+          "rationale": "ADA DKA guidelines explicitly state: do NOT initiate insulin therapy until serum potassium is known to be ≥3.5 mEq/L. Insulin drives K+ intracellularly. If K+ is already <3.5, starting insulin can cause life-threatening hypokalemia, cardiac dysrhythmias, and respiratory arrest. This is a patient safety priority."
+        },
+        "2_aggressive_IV_fluid_NS": {
+          "classification": "Indicated",
+          "rationale": "IV 0.9% NS resuscitation is a cornerstone of DKA treatment. Patients are typically 3–6 liters volume-depleted from osmotic diuresis. Fluid replacement corrects hypovolemia, improves renal perfusion, dilutes glucose and ketoacids, and reduces insulin requirements. Initial rate: 1–1.5 L/hr for the first hour per ADA guidelines."
+        },
+        "3_sodium_bicarb_pH_7.18": {
+          "classification": "Contraindicated",
+          "rationale": "Current ADA/ACEP guidelines do NOT recommend sodium bicarbonate for DKA with pH ≥6.9. For pH 7.18, bicarbonate is contraindicated. Risks include: paradoxical CNS acidosis (CO2 crosses blood-brain barrier faster than bicarb), worsening hypokalemia, delayed ketone clearance, and rebound metabolic alkalosis. Bicarbonate is only considered for pH <6.9 or severe hyperkalemia with cardiac instability."
+        },
+        "4_hourly_neuro_checks": {
+          "classification": "Indicated",
+          "rationale": "Cerebral edema is the most feared and life-threatening complication of DKA treatment, occurring in 0.5–1% of cases (higher in pediatric patients). Rapid fluid shifts and osmolality changes can precipitate cerebral edema, which presents with sudden headache, altered mental status, and neurological deterioration. Hourly GCS and neuro assessments allow early detection and intervention (IV mannitol or hypertonic saline)."
+        },
+        "5_NPO_status": {
+          "classification": "Indicated",
+          "rationale": "NPO status is indicated during acute DKA for multiple reasons: (1) altered mental status (GCS 13) increases aspiration risk; (2) nausea and vomiting are active symptoms; (3) IV insulin infusion and fluid management are the primary treatment — enteral intake interferes with glycemic control protocols. NPO continues until DKA is resolved (pH >7.3, anion gap closed, patient alert) and oral intake is tolerated."
+        },
+        "6_switch_to_subq_insulin": {
+          "classification": "Contraindicated",
+          "rationale": "SubQ insulin is contraindicated in acute DKA. In a dehydrated, hypoperfused patient, subcutaneous absorption is unpredictable and unreliable — peripheral vasoconstriction and poor tissue perfusion make dosing impossible to titrate. IV regular insulin infusion is the standard of care for DKA because it allows precise, titratable delivery with a half-life of minutes, enabling rapid adjustment based on hourly glucose response. Transition to SubQ insulin occurs only after DKA resolution criteria are met."
+        }
+      },
+      "rationale": "The correct classification is: (1) CONTRAINDICATED — insulin before K+ result risks fatal hypokalemia; (2) INDICATED — aggressive IV NS is foundational DKA therapy; (3) CONTRAINDICATED — sodium bicarb is not recommended for pH ≥6.9 per ADA guidelines and causes harm; (4) INDICATED — hourly neuro checks detect cerebral edema, a life-threatening DKA complication; (5) INDICATED — NPO protects airway in altered mental status with active vomiting; (6) CONTRAINDICATED — SubQ insulin has unreliable absorption in dehydrated DKA patients; IV infusion is standard of care. Evidence base: American Diabetes Association Standards of Medical Care in Diabetes; ACEP Clinical Policy on Hyperglycemic Crises.",
+      "difficulty": "hard"
+    }
+  ]
+}

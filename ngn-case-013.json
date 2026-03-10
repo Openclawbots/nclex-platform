@@ -1,0 +1,183 @@
+{
+  "case_id": "case-013",
+  "title": "Pediatric Bacterial Meningitis: Emergency Recognition and Care",
+  "scenario": "A 6-year-old male is brought to the emergency department by his parents with a 12-hour history of high fever, severe headache, and neck stiffness. Over the past hour, he has become increasingly lethargic. His parents report he has been immunized but missed his Hib and MenACWY booster doses. Current vital signs: Temperature 40.1°C, Heart Rate 148 bpm, Blood Pressure 88/52 mmHg, Respiratory Rate 28 breaths/min, SpO2 96% on room air. Weight: 22 kg. Neurological assessment reveals a Glasgow Coma Scale (GCS) score of 12 (E3V4M5), positive Kernig's sign, positive Brudzinski's sign, and photophobia. On skin assessment, the nurse identifies 3 petechial lesions on the trunk and extremities that appear to be spreading. Two sets of blood cultures have been drawn. A lumbar puncture (LP) has been ordered; results are pending. The child is placed in a room immediately. The nurse recognizes this presentation as a potential life-threatening neurological emergency requiring rapid assessment, isolation precautions, and time-sensitive interventions. The clinical team is coordinating emergent diagnostics and empiric treatment.",
+  "questions": [
+    {
+      "id": 620,
+      "case_id": "case-013",
+      "question_number": 1,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "extended-response",
+      "question": "The nurse is caring for the 6-year-old with suspected bacterial meningitis. LP results are still pending. Select ALL actions that are IMMEDIATE nursing and clinical priorities at this time. Select all that apply.",
+      "choices": {
+        "A": "Initiate empiric IV antibiotics immediately — do NOT wait for LP results if LP is delayed or patient is deteriorating",
+        "B": "Place the patient in droplet isolation immediately",
+        "C": "Establish IV access and begin fluid resuscitation for hypotension (BP 88/52)",
+        "D": "Perform frequent neurological checks every 15–30 minutes to monitor GCS trend",
+        "E": "Dim the lights in the patient's room to reduce photophobia and ICP stimulation",
+        "F": "Administer dexamethasone before or with the first antibiotic dose to reduce inflammatory sequelae",
+        "G": "Hold antibiotics and wait for LP results before starting any treatment",
+        "H": "Place the patient in airborne isolation with N95 precautions",
+        "I": "Restrict IV fluids to avoid worsening cerebral edema"
+      },
+      "correct": ["A", "B", "C", "D", "E", "F"],
+      "rationale": "In suspected bacterial meningitis, empiric IV antibiotics (typically ceftriaxone) must be initiated immediately — delay increases mortality and neurological morbidity. Antibiotics should NOT be withheld while awaiting LP results if there is any delay or clinical deterioration. Dexamethasone given before or with the first antibiotic dose reduces inflammation and risk of hearing loss. Droplet isolation is required for suspected Neisseria meningitidis (meningococcal disease). IV access and fluid resuscitation are urgent given the BP of 88/52 (hypotensive for a 6-year-old). Frequent neuro checks detect deterioration early. Dimming lights reduces photophobia and limits unnecessary stimulation. Airborne isolation (H) is INCORRECT — meningococcal meningitis is droplet-transmitted, not airborne. Waiting for LP before antibiotics (G) and restricting fluids (I) are dangerous and contraindicated in this hemodynamically unstable patient.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 621,
+      "case_id": "case-013",
+      "question_number": 2,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "bow-tie",
+      "question": "Complete the clinical reasoning bow-tie for this patient. The nurse must identify the most likely condition, select appropriate nursing actions, and identify parameters to monitor. For each column, select the best options.\n\nCOLUMN 1 — Most likely condition based on current findings:\nCOLUMN 2 — Nursing actions to take NOW:\nCOLUMN 3 — Parameters to monitor closely:",
+      "choices": {
+        "A": "[CONDITION] Bacterial meningitis with early meningococcemia",
+        "B": "[CONDITION] Viral (aseptic) meningitis",
+        "C": "[CONDITION] Isolated meningococcal septicemia without meningitis",
+        "D": "[ACTION] Administer empiric antibiotics (ceftriaxone) plus dexamethasone as ordered",
+        "E": "[ACTION] Implement droplet precautions and cohort isolation",
+        "F": "[ACTION] Initiate IV fluid resuscitation for septic shock (20 mL/kg NS bolus)",
+        "G": "[ACTION] Apply oxygen and prepare for possible intubation if GCS continues to fall",
+        "H": "[PARAMETER] GCS trend — declining GCS indicates worsening ICP or septic progression",
+        "I": "[PARAMETER] Rash progression — petechiae spreading or becoming purpuric indicates fulminant meningococcemia",
+        "J": "[PARAMETER] Blood pressure trend — worsening hypotension indicates septic shock",
+        "K": "[PARAMETER] Fontanelle assessment in infants and signs of increased ICP (papilledema, Cushing's triad)"
+      },
+      "correct": {
+        "condition": "A",
+        "actions": ["D", "E", "F", "G"],
+        "parameters": ["H", "I", "J", "K"]
+      },
+      "rationale": "This child's presentation — fever, meningeal signs (Kernig's, Brudzinski's), altered mental status (GCS 12), petechial rash, hypotension, and missed MenACWY vaccine — is classic for bacterial meningitis with early meningococcemia. Viral meningitis (B) does not typically cause petechiae, hemodynamic instability, or this degree of acute deterioration. Isolated septicemia (C) can occur but the presence of neck stiffness and meningeal signs points to meningeal involvement. Immediate actions include empiric antibiotics + dexamethasone (D), droplet precautions (E), fluid resuscitation (F), and airway readiness (G). Key monitoring parameters are GCS trend (H), rash progression — particularly petechiae becoming purpuric, which signals fulminant meningococcemia (I), blood pressure trend for septic shock (J), and signs of increased ICP including fontanelle changes in infants (K).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 622,
+      "case_id": "case-013",
+      "question_number": 3,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "trend",
+      "question": "The nurse reviews the patient's trending assessment data over the past 2 hours:\n\n| Time  | Petechiae         | GCS | BP      |\n|-------|-------------------|-----|---------|\n| 0800  | 3 lesions, trunk  | 12  | 88/52   |\n| 0900  | 8 lesions, trunk/legs | 11 | 82/48 |\n| 1000  | 15 lesions, 2 becoming purpuric | 9 | 74/44 |\n\nBased on these trends, what does this clinical picture indicate and what is the PRIORITY nursing response?",
+      "choices": {
+        "A": "This trend indicates improving perfusion; continue monitoring every 2 hours",
+        "B": "This trend indicates fulminant meningococcemia with septic shock; activate rapid response team, prepare for emergent PICU transfer, initiate vasopressor support, and continue aggressive fluid resuscitation",
+        "C": "This trend indicates a normal progression of bacterial meningitis; administer acetaminophen for fever and reassess in 1 hour",
+        "D": "This trend indicates viral hemorrhagic fever; implement airborne precautions and notify infection control",
+        "E": "This trend indicates a drug reaction to antibiotics; discontinue current antibiotics and switch agents",
+        "F": "This trend indicates dehydration from fever; increase oral fluid intake and monitor urine output"
+      },
+      "correct": ["B"],
+      "rationale": "This trend is a medical emergency. The progression of petechiae (3 → 8 → 15 lesions), conversion of lesions to purpura (non-blanching hemorrhagic skin necrosis), deteriorating GCS (12 → 11 → 9), and worsening hypotension (88/52 → 74/44) over 2 hours is the hallmark of fulminant meningococcemia with septic shock and disseminated intravascular coagulation (DIC). This carries an extremely high mortality without immediate escalation. Priority actions include: activating the rapid response team, preparing for emergent PICU transfer, initiating vasopressor therapy (dopamine or norepinephrine), continuing aggressive IV fluid resuscitation (repeat 20 mL/kg boluses), ensuring antibiotics are infusing, drawing stat coagulation studies (PT/PTT/fibrinogen/D-dimer for DIC), and preparing for possible intubation given GCS of 9. A GCS ≤8 typically meets criteria for airway protection. This is NOT a normal progression (A), NOT a drug reaction (E), and NOT a dehydration issue (F).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 623,
+      "case_id": "case-013",
+      "question_number": 4,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "priority",
+      "question": "The child's condition has deteriorated. Current status: GCS 8, BP 74/44 mmHg, petechiae spreading rapidly with 2 lesions now purpuric. The attending provider is at the bedside. Which nursing actions should the nurse prioritize and coordinate simultaneously? Rank the following from highest to most time-critical coordination (select the response that BEST reflects appropriate priority nursing action).",
+      "choices": {
+        "A": "Document the assessment findings in the EMR, then notify the charge nurse, then call pharmacy for vasopressor orders",
+        "B": "Wait for the provider to write all orders before taking any nursing action to avoid medication errors",
+        "C": "Coordinate simultaneously: ensure antibiotics are infusing, establish a second large-bore IV access, draw stat labs (CBC, CMP, coags, blood gas, lactate), prepare vasopressor infusion (dopamine), and activate PICU transfer — communicate findings using SBAR to the team",
+        "D": "Place the patient in a Trendelenburg position and administer oral fluids to improve blood pressure",
+        "E": "Notify the patient's parents about the diagnosis first, then proceed with interventions",
+        "F": "Reassess vital signs in 15 minutes to confirm the blood pressure reading before escalating care"
+      },
+      "correct": ["C"],
+      "rationale": "In this deteriorating patient with GCS 8 and BP 74/44 (severe septic shock), nursing actions must be simultaneous and coordinated — not sequential. While the provider is present and issuing orders, the nurse should: (1) confirm antibiotics are infusing (highest priority — the medication that treats the cause), (2) establish a second large-bore IV for vasopressor infusion and rapid fluid delivery, (3) draw stat labs including CBC, metabolic panel, coagulation studies, ABG/VBG, and lactate to guide resuscitation and assess for DIC, (4) prepare vasopressor infusion (dopamine is first-line in pediatric septic shock when fluid-refractory), and (5) activate PICU transfer process and communicate using SBAR. Documentation (A) is important but not before life-saving interventions. Waiting for written orders (B) wastes critical time when provider is present and verbal orders are valid. Trendelenburg position (D) is no longer recommended and oral fluids are inappropriate in a GCS 8 patient due to aspiration risk. Family communication (E) is important but not before stabilization. Rechecking BP in 15 minutes (F) is dangerous delay — this child needs immediate action.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 624,
+      "case_id": "case-013",
+      "question_number": 5,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "cloze",
+      "question": "Complete the following clinical reasoning statement by selecting the correct term for each blank:\n\n\"The nurse recognizes that spreading [BLANK 1] in a febrile child with meningeal signs indicates [BLANK 2] and requires [BLANK 3] BEFORE [BLANK 4] if the patient is [BLANK 5].\"\n\nSelect the best answer that correctly fills ALL five blanks in order:",
+      "choices": {
+        "A": "Blank 1: urticaria | Blank 2: viral meningitis | Blank 3: antiviral therapy | Blank 4: blood cultures | Blank 5: immunocompromised",
+        "B": "Blank 1: petechiae/purpura | Blank 2: meningococcemia | Blank 3: immediate empiric antibiotics | Blank 4: lumbar puncture | Blank 5: hemodynamically unstable or has signs of increased ICP",
+        "C": "Blank 1: maculopapular rash | Blank 2: bacterial endocarditis | Blank 3: echocardiogram | Blank 4: antibiotic therapy | Blank 5: febrile",
+        "D": "Blank 1: petechiae/purpura | Blank 2: idiopathic thrombocytopenic purpura | Blank 3: platelet transfusion | Blank 4: bone marrow biopsy | Blank 5: platelet count is below 50,000",
+        "E": "Blank 1: petechiae | Blank 2: meningococcemia | Blank 3: lumbar puncture | Blank 4: antibiotics | Blank 5: febrile",
+        "F": "Blank 1: ecchymosis | Blank 2: coagulopathy | Blank 3: FFP transfusion | Blank 4: hematology consult | Blank 5: actively bleeding"
+      },
+      "correct": ["B"],
+      "rationale": "The correct clinical reasoning statement reads: 'The nurse recognizes that spreading PETECHIAE/PURPURA in a febrile child with meningeal signs indicates MENINGOCOCCEMIA and requires IMMEDIATE EMPIRIC ANTIBIOTICS BEFORE LUMBAR PUNCTURE if the patient is HEMODYNAMICALLY UNSTABLE OR HAS SIGNS OF INCREASED ICP.' Petechiae and purpura (non-blanching lesions) are the hallmark skin findings of meningococcemia — caused by Neisseria meningitidis endotoxin triggering DIC and vascular endothelial damage. While LP is the gold standard for diagnosing meningitis, it must NOT be performed if the patient is hemodynamically unstable or shows signs of increased ICP (risk of brain herniation). Antibiotics must be given immediately in these cases — a 30-minute delay in antibiotics increases mortality significantly. Choice E is a trap — it reverses the correct order (LP before antibiotics), which is contraindicated in unstable patients. ITP (D) can cause petechiae but without meningeal signs, fever of this magnitude, or hemodynamic compromise.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 625,
+      "case_id": "case-013",
+      "question_number": 6,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "matrix",
+      "question": "For each nursing or clinical action below, indicate whether it is INDICATED or CONTRAINDICATED in the care of this 6-year-old with suspected bacterial meningitis/meningococcemia.\n\nSelect the answer choice that correctly classifies ALL six actions:",
+      "choices": {
+        "A": "1-Indicated, 2-Indicated, 3-Indicated, 4-Indicated, 5-Indicated, 6-Indicated",
+        "B": "1-Indicated, 2-Indicated, 3-Contraindicated, 4-Indicated, 5-Contraindicated, 6-Indicated",
+        "C": "1-Contraindicated, 2-Indicated, 3-Contraindicated, 4-Indicated, 5-Indicated, 6-Indicated",
+        "D": "1-Indicated, 2-Contraindicated, 3-Contraindicated, 4-Contraindicated, 5-Contraindicated, 6-Indicated",
+        "E": "1-Indicated, 2-Indicated, 3-Indicated, 4-Contraindicated, 5-Contraindicated, 6-Contraindicated",
+        "F": "1-Contraindicated, 2-Contraindicated, 3-Indicated, 4-Indicated, 5-Indicated, 6-Contraindicated"
+      },
+      "matrix_items": [
+        {
+          "number": 1,
+          "action": "Place patient in droplet isolation (surgical mask for HCWs, private room, limit transport)",
+          "classification": "Indicated",
+          "rationale": "Neisseria meningitidis is transmitted via respiratory droplets. Droplet precautions are mandatory for the first 24 hours of antibiotic therapy."
+        },
+        {
+          "number": 2,
+          "action": "Administer empiric antibiotics before lumbar puncture if patient is hemodynamically unstable",
+          "classification": "Indicated",
+          "rationale": "LP should not delay antibiotics in unstable patients. Empiric treatment (ceftriaxone) must begin immediately. A brief antibiotic exposure does not significantly alter CSF culture results within the first few hours."
+        },
+        {
+          "number": 3,
+          "action": "Wait for lumbar puncture results before initiating any antibiotic therapy",
+          "classification": "Contraindicated",
+          "rationale": "Delaying antibiotics to wait for LP results is dangerous and increases mortality. If LP is delayed for any reason (patient instability, coagulopathy, papilledema, ICP signs), antibiotics must be started immediately."
+        },
+        {
+          "number": 4,
+          "action": "Administer dexamethasone concurrently with or immediately before the first antibiotic dose",
+          "classification": "Indicated",
+          "rationale": "Dexamethasone (0.15 mg/kg IV q6h x 4 days) reduces meningeal inflammation and significantly decreases the risk of hearing loss in bacterial meningitis, especially H. influenzae type b. It must be given with or just before the first antibiotic dose to be effective."
+        },
+        {
+          "number": 5,
+          "action": "Place patient in airborne isolation with N95 respirators instead of droplet precautions",
+          "classification": "Contraindicated",
+          "rationale": "Meningococcal meningitis is NOT airborne — it is transmitted via large respiratory droplets (>5 microns) that travel less than 3 feet. Airborne precautions with N95 respirators are used for tuberculosis, measles, and varicella. Using airborne instead of droplet precautions wastes resources and may create confusion about the correct precaution level."
+        },
+        {
+          "number": 6,
+          "action": "Notify public health authorities and identify close contacts for prophylactic antibiotics (rifampin, ciprofloxacin, or ceftriaxone)",
+          "classification": "Indicated",
+          "rationale": "Meningococcal disease is a reportable condition. Close contacts (household members, daycare contacts, anyone with prolonged face-to-face exposure) require chemoprophylaxis to prevent secondary cases. Public health notification facilitates contact tracing and community protection."
+        }
+      ],
+      "correct": ["B"],
+      "rationale": "Correct classifications: (1) Droplet isolation — INDICATED (meningococcal is droplet-transmitted, required for first 24h of antibiotics). (2) Empiric antibiotics before LP if unstable — INDICATED (never delay antibiotics for LP in an unstable patient). (3) Wait for LP before antibiotics — CONTRAINDICATED (dangerous delay that increases mortality). (4) Dexamethasone with first antibiotic dose — INDICATED (reduces inflammation and hearing loss risk; must be given before or with first dose to be effective). (5) Airborne isolation instead of droplet — CONTRAINDICATED (meningococcal is droplet, not airborne; N95 not required). (6) Notify public health and identify contacts — INDICATED (reportable disease; close contacts need prophylaxis). Answer B correctly classifies all six actions.",
+      "difficulty": "hard"
+    }
+  ]
+}

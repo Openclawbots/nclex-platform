@@ -1,0 +1,175 @@
+{
+  "case_id": "case-002",
+  "title": "Sepsis Recognition and Management",
+  "scenario": "A 58-year-old male is admitted to the medical-surgical unit from the emergency department with a 3-day history of productive cough and fever. His past medical history is significant for chronic obstructive pulmonary disease (COPD) and alcohol use disorder. On admission, vital signs are: Temperature 39.2°C (102.6°F), Heart Rate 118 beats/min, Blood Pressure 88/54 mmHg, Respiratory Rate 26 breaths/min, and SpO2 89% on room air. Laboratory results reveal WBC 18,400/mm³, serum lactate 3.8 mmol/L, procalcitonin elevated above normal limits, and creatinine 1.9 mg/dL (baseline 0.9 mg/dL). Two sets of blood cultures have been drawn. The patient is currently receiving supplemental oxygen via 4L nasal cannula and a 1-liter normal saline bolus is infusing. He is confused and unable to follow complex commands. His skin is mottled over bilateral lower extremities. Urine output over the past 2 hours has been only 35 mL. The nurse recognizes a critical clinical picture requiring immediate systematic intervention to prevent end-organ failure and death.",
+  "questions": [
+    {
+      "id": 554,
+      "case_id": "case-002",
+      "question_number": 1,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "extended-response",
+      "question": "The nurse reviews the Surviving Sepsis Campaign 1-Hour Bundle. Which of the following interventions are included in this bundle? Select ALL that apply.",
+      "choices": {
+        "A": "Obtain blood cultures before administering antibiotics",
+        "B": "Administer IV broad-spectrum antibiotics within 1 hour of sepsis recognition",
+        "C": "Administer 30 mL/kg IV crystalloid fluid for hypotension or lactate ≥ 4 mmol/L",
+        "D": "Apply vasopressors for fluid-refractory hypotension to maintain MAP ≥ 65 mmHg",
+        "E": "Remeasure lactate if initial lactate is > 2 mmol/L",
+        "F": "Hold antibiotics until blood culture results are finalized to ensure appropriate coverage",
+        "G": "Restrict IV fluids to prevent pulmonary edema in patients with COPD"
+      },
+      "correct": ["A", "B", "C", "D", "E"],
+      "rationale": "The Surviving Sepsis Campaign 1-Hour Bundle includes: (A) obtaining blood cultures BEFORE antibiotics to avoid sterilizing cultures, (B) administering IV broad-spectrum antibiotics within 1 hour — delays increase mortality, (C) providing 30 mL/kg IV crystalloid for hypotension (MAP < 65) or lactate ≥ 4 mmol/L, (D) initiating vasopressors if hypotension is refractory to fluids to maintain MAP ≥ 65 mmHg, and (E) remeasuring lactate within 2 hours if initial lactate > 2 mmol/L to assess tissue perfusion. (F) is incorrect — antibiotics must NOT be held for culture results; delays worsen outcomes. (G) is incorrect — fluid resuscitation is mandatory even in COPD; restriction is contraindicated in septic shock.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 555,
+      "case_id": "case-002",
+      "question_number": 2,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "bow-tie",
+      "question": "Complete the clinical bow-tie by selecting the patient's PRIMARY condition, two priority nursing actions, and two parameters the nurse will monitor to evaluate response to treatment.",
+      "choices": {
+        "primary_condition": {
+          "A": "Septic shock",
+          "B": "Community-acquired pneumonia without sepsis",
+          "C": "Diabetic ketoacidosis",
+          "D": "COPD exacerbation"
+        },
+        "actions": {
+          "A": "Administer vasopressors (norepinephrine) per physician order",
+          "B": "Obtain repeat serum lactate within 2 hours",
+          "C": "Call rapid response team immediately",
+          "D": "Encourage oral fluid intake",
+          "E": "Place patient in Trendelenburg position"
+        },
+        "parameters": {
+          "A": "Mean arterial pressure (MAP)",
+          "B": "Urine output per hour",
+          "C": "Lactate trend (clearance)",
+          "D": "Oral temperature only",
+          "E": "Capillary refill time alone"
+        }
+      },
+      "correct": {
+        "primary_condition": "A",
+        "actions": ["A", "B"],
+        "parameters": ["A", "C"]
+      },
+      "rationale": "PRIMARY CONDITION: (A) Septic shock — the patient meets sepsis criteria (infection source, SIRS: fever, tachycardia, tachypnea, leukocytosis) plus hypotension (BP 88/54, MAP ~65 or below), altered mental status, mottled skin, oliguria, and elevated lactate 3.8 mmol/L, all indicating circulatory failure with tissue hypoperfusion. ACTIONS: (A) Vasopressors — norepinephrine is first-line for fluid-refractory septic shock to restore MAP ≥ 65 mmHg. (B) Repeat lactate — trend guides resuscitation; ≥10% clearance indicates improving perfusion. PARAMETERS: (A) MAP — target ≥ 65 mmHg reflects adequate perfusion pressure. (C) Lactate trend — normalized lactate confirms successful resuscitation and reduced anaerobic metabolism. Trendelenburg (E) is not recommended and may worsen respiratory status.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 556,
+      "case_id": "case-002",
+      "question_number": 3,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "trend",
+      "question": "Review the following trending assessment data collected over the past 4 hours. What is the nurse's interpretation and priority action?\n\n| Time  | BP (mmHg) | HR (bpm) | UO            | Lactate (mmol/L) |\n|-------|-----------|----------|---------------|------------------|\n| 0600  | 88/54     | 118      | 35 mL/2 hr    | 3.8              |\n| 0800  | 82/48     | 124      | 12 mL/1 hr    | 4.2              |\n| 1000  | 76/44     | 132      | 0 mL/1 hr     | (pending)        |",
+      "choices": {
+        "A": "The patient is improving; continue current interventions and reassess in 4 hours",
+        "B": "The patient is experiencing worsening septic shock with progressive hemodynamic deterioration; activate the rapid response team and notify the intensivist immediately",
+        "C": "The declining blood pressure is expected after fluid resuscitation; no immediate action needed",
+        "D": "The tachycardia is likely anxiety-related; administer a PRN anxiolytic and continue monitoring",
+        "E": "Decrease IV fluid rate to prevent fluid overload given the patient's COPD history",
+        "F": "Document findings and notify the primary nurse at shift change"
+      },
+      "correct": ["B"],
+      "rationale": "TREND INTERPRETATION: All parameters are trending in the wrong direction — BP is falling (88/54 → 82/48 → 76/44), HR is rising (118 → 124 → 132), urine output has dropped to zero (anuria = ominous sign of renal shutdown), and lactate rose from 3.8 to 4.2 mmol/L indicating worsening tissue hypoxia rather than clearance. This pattern represents PROGRESSIVE SEPTIC SHOCK with multi-organ involvement (cardiovascular, renal). PRIORITY ACTION: (B) Activate rapid response and notify the intensivist — this patient requires ICU-level care including vasopressor initiation, invasive monitoring, and possible mechanical ventilation. Waiting (A, F), minimizing (C, D), or reducing fluids (E) in the setting of worsening septic shock is dangerous and inappropriate.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 557,
+      "case_id": "case-002",
+      "question_number": 4,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "priority",
+      "question": "The patient has now received 2 liters of normal saline. His current blood pressure is 76/44 mmHg, yielding a MAP of 55 mmHg. He remains confused with mottled skin and zero urine output for the past hour. Rank the following nursing actions in order of PRIORITY (1 = highest priority).",
+      "choices": {
+        "A": "Notify the physician immediately and initiate vasopressor therapy (norepinephrine) per standing sepsis order set",
+        "B": "Reposition the patient to improve comfort",
+        "C": "Administer an additional 1-liter NS bolus without physician notification",
+        "D": "Apply bilateral wrist restraints due to confusion",
+        "E": "Reassess in 30 minutes before taking action",
+        "F": "Document current vitals in the medical record"
+      },
+      "correct": ["A"],
+      "rationale": "PRIORITY ACTION: (A) is the correct FIRST priority — the patient has fluid-refractory septic shock (MAP 55 mmHg despite 2L NS), which is the absolute indication for vasopressor therapy. Norepinephrine is first-line. Immediate physician notification is required if not already done, and initiation of vasopressors per a standing sepsis order set is the life-saving intervention. MAP < 65 mmHg despite adequate fluid resuscitation = vasopressor indication per Surviving Sepsis guidelines. (B) Repositioning is a comfort measure and not a hemodynamic intervention — low priority. (C) Additional unordered fluid bolus without notification is outside nursing scope and inappropriate given fluid-refractory status. (D) Restraints are not indicated and are potentially harmful. (E) Waiting 30 minutes in a patient with MAP 55 and anuria risks cardiac arrest. (F) Documentation is important but is never the FIRST action in a hemodynamic emergency.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 558,
+      "case_id": "case-002",
+      "question_number": 5,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "cloze",
+      "question": "Complete the following clinical statement by selecting the correct option from each drop-down list.\n\n\"The nurse recognizes that a MAP of [BLANK 1] mmHg indicates [BLANK 2] and will initiate [BLANK 3] per the sepsis protocol.\"\n\nSelect one answer for each blank:",
+      "choices": {
+        "BLANK_1": {
+          "A": "55",
+          "B": "75",
+          "C": "90",
+          "D": "65"
+        },
+        "BLANK_2": {
+          "A": "adequate tissue perfusion",
+          "B": "fluid overload",
+          "C": "inadequate tissue perfusion consistent with septic shock",
+          "D": "hypertensive urgency"
+        },
+        "BLANK_3": {
+          "A": "a fluid restriction order",
+          "B": "vasopressor therapy (norepinephrine) to achieve MAP ≥ 65 mmHg",
+          "C": "a stat dose of oral antihypertensive",
+          "D": "supplemental oxygen titration only"
+        }
+      },
+      "correct": {
+        "BLANK_1": "A",
+        "BLANK_2": "C",
+        "BLANK_3": "B"
+      },
+      "rationale": "BLANK 1 — (A) 55 mmHg: The patient's current MAP is 55 mmHg (calculated: MAP = DBP + 1/3 pulse pressure = 44 + 1/3(76-44) = 44 + 10.7 ≈ 55). This is critically below the target of ≥ 65 mmHg. BLANK 2 — (C) Inadequate tissue perfusion consistent with septic shock: A MAP < 65 mmHg despite fluid resuscitation, combined with altered mental status, mottling, and elevated lactate, defines septic shock per the Sepsis-3 definition. BLANK 3 — (B) Vasopressor therapy (norepinephrine) to achieve MAP ≥ 65 mmHg: Norepinephrine is the first-line vasopressor for septic shock per Surviving Sepsis Campaign guidelines. Target MAP is ≥ 65 mmHg for adequate perfusion of vital organs.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 559,
+      "case_id": "case-002",
+      "question_number": 6,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "matrix",
+      "question": "For each nursing intervention below, indicate whether it is Indicated, Contraindicated, or Non-Essential for this patient with septic shock.",
+      "choices": {
+        "A": "Administer 30 mL/kg IV normal saline bolus",
+        "B": "Hold broad-spectrum antibiotics until blood culture results are available",
+        "C": "Elevate head of bed to 30 degrees",
+        "D": "Administer acetaminophen 650 mg PO/PR for fever management",
+        "E": "Insert indwelling urinary catheter for strict hourly intake and output measurement",
+        "F": "Apply bilateral wrist restraints for patient safety due to confusion"
+      },
+      "correct": {
+        "A": "Indicated",
+        "B": "Contraindicated",
+        "C": "Indicated",
+        "D": "Non-Essential",
+        "E": "Indicated",
+        "F": "Contraindicated"
+      },
+      "rationale": "INDICATED: (A) 30 mL/kg IV crystalloid — mandated by the Surviving Sepsis 1-Hour Bundle for patients with hypotension or lactate ≥ 4 mmol/L; restores intravascular volume. (C) HOB elevation 30° — improves oxygenation and ventilation, reduces aspiration risk, and is standard positioning for respiratory compromise; does not worsen hemodynamics meaningfully. (E) Indwelling urinary catheter — essential for accurate hourly UO monitoring as a key resuscitation endpoint (target ≥ 0.5 mL/kg/hr); cannot reliably track output otherwise. CONTRAINDICATED: (B) Holding antibiotics for culture results — directly contradicts the 1-Hour Bundle; every hour of antibiotic delay increases sepsis mortality by 7–10%. Cultures must be drawn first, then antibiotics given immediately. (F) Bilateral wrist restraints — not indicated for sepsis-related altered mental status (encephalopathy); restraints increase agitation, risk of injury, and are a last resort only when patient is a direct safety threat with less restrictive alternatives exhausted. NON-ESSENTIAL: (D) Acetaminophen for fever — while fever management may improve patient comfort, antipyretics have not been shown to improve mortality in sepsis and are not part of the Surviving Sepsis Bundle. Fever itself may have immunological benefit; this is a comfort measure, not a priority intervention.",
+      "difficulty": "hard"
+    }
+  ]
+}

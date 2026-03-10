@@ -1,0 +1,184 @@
+{
+  "case_id": "case-001",
+  "title": "Postoperative Care: Total Hip Replacement",
+  "scenario": "Mrs. Eleanor Hayes is a 74-year-old female admitted to the orthopedic surgical unit on postoperative day (POD) #1 following a right total hip arthroplasty performed for severe osteoarthritis. Her past medical history includes osteoporosis, hypertension, and type 2 diabetes mellitus. Current medications include metoprolol 25mg BID, lisinopril 10mg daily, metformin (held perioperatively), and enoxaparin 40mg subcutaneously daily for DVT prophylaxis.\n\nOn your 1200 assessment, you obtain the following vital signs: BP 102/64 mmHg, HR 112 bpm (regular), RR 20 breaths/min, Temperature 38.4°C (101.1°F), and SpO2 94% on 2L nasal cannula. The patient reports pain 8/10 at the right hip incision site. The Jackson-Pratt (JP) drain has collected 50mL of serosanguineous drainage over the past 4 hours. Morning laboratory results reveal a hemoglobin of 7.8 g/dL, compared to a preoperative hemoglobin of 12.4 g/dL — a drop of 4.6 g/dL. Urine output has been 20mL/hour for the past two consecutive hours, well below the minimum acceptable threshold of 30mL/hour. The patient is noted to be confused and is pulling at her IV line. The nursing assistant reports she was oriented earlier this morning.",
+  "questions": [
+    {
+      "id": 548,
+      "case_id": "case-001",
+      "question_number": 1,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "extended-response",
+      "question": "The nurse reviews Mrs. Hayes' assessment findings. Which findings require IMMEDIATE nursing intervention? Select all that apply.",
+      "choices": {
+        "A": "Hypotension: BP 102/64 mmHg",
+        "B": "Tachycardia: HR 112 bpm",
+        "C": "Low SpO2: 94% on 2L nasal cannula",
+        "D": "Low urine output: 20mL/hr x2 hours",
+        "E": "New onset confusion and agitation",
+        "F": "JP drain output: 50mL serosanguineous drainage over 4 hours"
+      },
+      "correct": ["A", "B", "D", "E"],
+      "rationale": "Hypotension (BP 102/64) and tachycardia (HR 112) together are classic signs of hemodynamic instability, most likely due to hemorrhage given the significant drop in hemoglobin from 12.4 to 7.8 g/dL. Urine output of 20mL/hr for two consecutive hours (below the critical threshold of 30mL/hr) indicates renal hypoperfusion from decreased circulating volume, requiring urgent intervention. New onset confusion in a previously oriented postoperative patient is a red flag for cerebral hypoperfusion, hypovolemia, or sepsis and demands immediate assessment and provider notification. SpO2 of 94% on supplemental oxygen warrants monitoring and optimization but is less immediately life-threatening than the hemodynamic and neurological changes; the 50mL JP drain output over 4 hours is within expected postoperative limits and does not independently require emergent action.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 549,
+      "case_id": "case-001",
+      "question_number": 2,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "bow-tie",
+      "question": "Complete the Bow-Tie clinical reasoning diagram for Mrs. Hayes. Select the condition most likely occurring, TWO priority nursing actions to take, and TWO parameters to monitor.",
+      "choices": {
+        "condition": {
+          "A": "Hemorrhagic shock / Hypovolemia",
+          "B": "Surgical site infection / Sepsis",
+          "C": "Pulmonary embolism",
+          "D": "Acute kidney injury (intrinsic renal)"
+        },
+        "nursing_actions": {
+          "A": "Notify the surgeon immediately and report assessment findings",
+          "B": "Increase IV fluid rate per protocol or surgeon order",
+          "C": "Administer acetaminophen for pain and fever management",
+          "D": "Reposition patient every 2 hours for pressure relief",
+          "E": "Apply warm compress to the incision site",
+          "F": "Encourage oral fluid intake of at least 2L/day"
+        },
+        "parameters": {
+          "A": "Blood pressure trend and mean arterial pressure (MAP)",
+          "B": "Hemoglobin and hematocrit levels",
+          "C": "Urine output per hour",
+          "D": "Patient pain scale rating",
+          "E": "Capillary refill time in bilateral upper extremities",
+          "F": "Serum sodium and potassium levels"
+        }
+      },
+      "correct": {
+        "condition": "A",
+        "nursing_actions": ["A", "B"],
+        "parameters": ["A", "B", "C"]
+      },
+      "rationale": "The clinical picture — hypotension, tachycardia, dropping hemoglobin (12.4 → 7.8 g/dL), oliguria, and new confusion in the context of major joint surgery — is most consistent with hemorrhagic shock and hypovolemia. Infection/sepsis could contribute to the low-grade fever (38.4°C) and confusion but does not fully explain the profound hemoglobin drop and hemodynamic instability on POD #1. Immediate priorities are notifying the surgeon (who must evaluate for surgical bleeding and order interventions such as transfusion) and optimizing intravascular volume. Blood pressure trend, hemoglobin/hematocrit, and urine output are the most sensitive indicators for monitoring volume status and response to resuscitation in hemorrhagic shock.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 550,
+      "case_id": "case-001",
+      "question_number": 3,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "trend",
+      "question": "Review the following trending vital signs and urine output for Mrs. Hayes. What does this clinical trend most likely indicate?\n\n| Time  | BP        | HR  | UO (mL/hr) |\n|-------|-----------|-----|------------|\n| 0800  | 118/76    | 88  | 45         |\n| 1000  | 110/70    | 98  | 30         |\n| 1200  | 102/64    | 112 | 20         |",
+      "choices": {
+        "A": "Progressive hypovolemia and hemorrhage with worsening hemodynamic compensation",
+        "B": "Expected postoperative fluid shifts requiring only routine monitoring",
+        "C": "Early septic shock secondary to surgical site infection",
+        "D": "Adverse reaction to metoprolol causing bradycardia-induced hypotension",
+        "E": "Pulmonary embolism causing right heart strain and decreased cardiac output",
+        "F": "Autonomic dysreflexia triggered by urinary retention"
+      },
+      "correct": ["A"],
+      "rationale": "The consistent downward trend in blood pressure (118/76 → 110/70 → 102/64) combined with a compensatory rise in heart rate (88 → 98 → 112 bpm) and progressively decreasing urine output (45 → 30 → 20 mL/hr) over four hours constitutes a classic hemodynamic trajectory of worsening hypovolemia and hemorrhage. The body initially compensates for volume loss by increasing heart rate to maintain cardiac output; as compensation fails, blood pressure drops and renal perfusion is reduced, causing oliguria. This pattern is particularly concerning on POD #1 post-arthroplasty given the documented 4.6 g/dL hemoglobin drop. Prompt surgeon notification and intervention are required — this is not a normal postoperative trend.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 551,
+      "case_id": "case-001",
+      "question_number": 4,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "priority",
+      "question": "Based on the complete assessment of Mrs. Hayes (BP 102/64, HR 112, SpO2 94%, Hgb 7.8, UO 20mL/hr x2h, new confusion), what is the nurse's PRIORITY action at this time?",
+      "choices": {
+        "A": "Notify the surgeon immediately with a full SBAR report including all assessment findings and lab values",
+        "B": "Increase the IV fluid infusion rate to 125mL/hr to address suspected hypovolemia",
+        "C": "Reposition the patient and apply oxygen via non-rebreather mask to improve SpO2",
+        "D": "Administer the prescribed PRN analgesic to address the pain score of 8/10",
+        "E": "Apply soft wrist restraints to prevent the confused patient from removing the IV",
+        "F": "Obtain a stat 12-lead ECG to evaluate the cause of tachycardia"
+      },
+      "correct": ["A"],
+      "rationale": "While multiple interventions are needed, the absolute priority is notifying the surgeon because the patient is exhibiting signs of hemorrhagic shock — a life-threatening emergency that requires physician-ordered interventions including potential blood transfusion, surgical evaluation for re-bleeding, and IV fluid resuscitation. The nurse cannot independently order a blood transfusion or significantly alter IV fluid rates without a physician order in most practice settings; delaying this call to perform comfort measures first could be fatal. Using SBAR (Situation, Background, Assessment, Recommendation) ensures the surgeon receives organized, complete information for rapid decision-making. Airway management and IV fluid titration are critical secondary actions but are initiated concurrently with or immediately following the provider notification.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 552,
+      "case_id": "case-001",
+      "question_number": 5,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "cloze",
+      "question": "Complete the nursing documentation note using the correct clinical terms.\n\n\"The nurse suspects [BLANK 1] based on [BLANK 2] and will notify the surgeon to urgently report [BLANK 3].\"\n\nSelect the correct answer for each blank:",
+      "choices": {
+        "blank_1": {
+          "A": "Hemorrhagic shock / acute postoperative blood loss",
+          "B": "Pulmonary embolism",
+          "C": "Septic shock secondary to wound infection",
+          "D": "Acute decompensated heart failure"
+        },
+        "blank_2": {
+          "A": "Hemoglobin drop of 4.6 g/dL, hypotension, tachycardia, oliguria, and new confusion on POD #1",
+          "B": "Fever of 38.4°C, purulent wound drainage, and elevated white blood cell count",
+          "C": "Sudden onset pleuritic chest pain, dyspnea, and positive Homans sign",
+          "D": "Bilateral lower extremity edema, crackles on auscultation, and elevated BNP"
+        },
+        "blank_3": {
+          "A": "Hemoglobin 7.8 g/dL (drop from preoperative 12.4 g/dL), BP 102/64, HR 112, and urine output 20mL/hr",
+          "B": "Temperature 38.4°C, serosanguineous JP drain output 50mL, and pain score 8/10",
+          "C": "SpO2 94% on 2L NC, RR 20, and bilateral breath sounds clear",
+          "D": "Blood glucose level, current metformin hold status, and AM insulin administration record"
+        }
+      },
+      "correct": {
+        "blank_1": "A",
+        "blank_2": "A",
+        "blank_3": "A"
+      },
+      "rationale": "Hemorrhagic shock is the most clinically supported diagnosis given the constellation of findings: a 4.6 g/dL hemoglobin decline (from 12.4 to 7.8 g/dL), hypotension, compensatory tachycardia, oliguria indicating renal hypoperfusion, and new-onset confusion reflecting cerebral hypoperfusion — all occurring on POD #1 following major joint surgery. Septic shock is unlikely this early postoperatively with only a low-grade fever and no purulent drainage. When notifying the surgeon using SBAR, the nurse must communicate the objective hemodynamic data (BP, HR, UO) and the critical lab value (Hgb 7.8) to facilitate the most urgent decisions such as blood transfusion orders. Complete, quantified reporting enables the surgeon to triage severity and respond appropriately.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 553,
+      "case_id": "case-001",
+      "question_number": 6,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "matrix",
+      "question": "For each nursing intervention listed, indicate whether it is Indicated, Contraindicated, or Non-Essential for Mrs. Hayes at this time.",
+      "choices": {
+        "A": "Ambulate the patient in the hallway to prevent DVT and promote recovery",
+        "B": "Apply sequential compression devices (SCDs) to bilateral lower extremities",
+        "C": "Administer scheduled enoxaparin 40mg SQ as ordered",
+        "D": "Notify the surgeon immediately with SBAR report",
+        "E": "Obtain a stat hemoglobin/hematocrit level and recheck lab values",
+        "F": "Encourage the patient to increase oral fluid intake to 2L per day"
+      },
+      "correct": {
+        "A": "Contraindicated",
+        "B": "Non-Essential",
+        "C": "Contraindicated",
+        "D": "Indicated",
+        "E": "Indicated",
+        "F": "Non-Essential"
+      },
+      "matrix_explanation": {
+        "A": "CONTRAINDICATED — Ambulating a hemodynamically unstable patient (BP 102/64, HR 112, Hgb 7.8) is dangerous and could precipitate syncope, falls, or cardiovascular collapse. Activity must be deferred until hemodynamic stability is restored.",
+        "B": "NON-ESSENTIAL — SCDs are appropriate for DVT prophylaxis but are not the priority intervention during active hemodynamic instability. They may be applied after the acute situation is stabilized and are secondary to hemorrhage management.",
+        "C": "CONTRAINDICATED — Administering anticoagulation (enoxaparin) when the patient has signs of active hemorrhage (Hgb drop 4.6 g/dL, hemodynamic instability) would worsen bleeding and is contraindicated until the surgeon evaluates and determines it is safe to continue.",
+        "D": "INDICATED — Surgeon notification is the highest-priority indicated action. The patient has multiple signs of hemorrhagic shock requiring physician-ordered interventions including potential blood transfusion and surgical evaluation.",
+        "E": "INDICATED — Rechecking hemoglobin/hematocrit provides real-time data on the degree of blood loss and guides transfusion decisions. A stat lab draw is appropriate and directly informs the surgeon's management plan.",
+        "F": "NON-ESSENTIAL — While hydration is generally important postoperatively, encouraging oral fluids in a confused, potentially unstable patient carries aspiration risk and is insufficient to address hemodynamic instability. IV volume resuscitation is appropriate; oral fluids are not the priority intervention."
+      },
+      "rationale": "In a patient with suspected hemorrhagic shock following total hip arthroplasty, the priority interventions are surgeon notification and obtaining stat lab values to quantify the degree of blood loss. Anticoagulation and ambulation are both contraindicated in active hemorrhage — enoxaparin would exacerbate bleeding, and ambulation poses life-threatening fall and cardiovascular collapse risk in an unstable, confused patient. SCDs and oral hydration, while generally beneficial in the postoperative period, are non-essential in this acute presentation and should not distract from hemorrhage management. Evidence-based orthopedic nursing guidelines emphasize that signs of postoperative hemorrhage (acute Hgb drop >2 g/dL, hemodynamic instability, oliguria) require immediate provider notification before continuing or initiating any prophylactic therapies.",
+      "difficulty": "hard"
+    }
+  ]
+}

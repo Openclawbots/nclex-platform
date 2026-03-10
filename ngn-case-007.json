@@ -1,0 +1,143 @@
+{
+  "case_id": "case-007",
+  "title": "Acute Kidney Injury: Recognition and Management",
+  "scenario": "Mr. Harold Jennings is a 71-year-old male admitted to the surgical progressive care unit on post-operative day 2 following an emergency bowel resection for perforated diverticulitis. He received gentamicin and vancomycin for perioperative infection coverage. His baseline creatinine was 1.1 mg/dL on admission. Over the past 48 hours, creatinine has risen to 1.9 mg/dL and now 3.4 mg/dL. Yesterday his urine output was 45 mL/hr; today it has dropped to 12 mL/hr over the past four hours. Current labs reveal BUN 58 mg/dL, potassium 5.9 mEq/L, and phosphorus 5.8 mg/dL. His blood pressure is 158/96 mmHg. On assessment, the nurse notes bilateral crackles in the lung bases and documents a weight gain of 3.2 kg since surgery. A bedside bladder scan reveals no retained urine, ruling out obstruction. Current medications include vancomycin (last trough level 28 mcg/mL — supratherapeutic), IV fluids running at 75 mL/hr, and lisinopril 10 mg daily (home medication continued post-op). The ECG monitor now shows peaked T waves. The nurse must act quickly to address this deteriorating clinical picture.",
+  "questions": [
+    {
+      "id": 584,
+      "case_id": "case-007",
+      "question_number": 1,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "extended-response",
+      "question": "The nurse is caring for Mr. Jennings, a 71-year-old male on post-op day 2 with rising creatinine (1.1 → 1.9 → 3.4 mg/dL), oliguria (12 mL/hr x4 hrs), K+ 5.9 mEq/L, bilateral crackles, and 3.2 kg weight gain. Which of the following interventions are appropriate for this patient? Select ALL that apply.",
+      "choices": {
+        "A": "Hold nephrotoxic medications, including vancomycin and gentamicin",
+        "B": "Hold the ACE inhibitor lisinopril due to impaired renal perfusion and hyperkalemia risk",
+        "C": "Restrict dietary potassium intake",
+        "D": "Implement strict intake and output monitoring with hourly urine output measurement",
+        "E": "Place a nephrology consult immediately",
+        "F": "Increase the IV fluid rate aggressively to improve renal perfusion",
+        "G": "Continue all home medications without modification",
+        "H": "Encourage the patient to drink large amounts of oral fluids to flush the kidneys"
+      },
+      "correct": ["A", "B", "C", "D", "E"],
+      "rationale": "A: Vancomycin (supratherapeutic trough of 28) and gentamicin are nephrotoxic and must be held — they are contributing to intrinsic renal injury. B: ACE inhibitors reduce efferent arteriolar tone, decreasing GFR in states of compromised renal perfusion; lisinopril also worsens hyperkalemia (K+ 5.9) and should be held. C: Potassium restriction is essential with K+ 5.9 mEq/L and declining renal excretion capacity. D: Hourly urine output and strict I&O are mandatory to track AKI progression and guide fluid management. E: Nephrology consult is urgent given rapidly rising creatinine, oliguria, hyperkalemia, and signs of fluid overload. F is INCORRECT: The patient has bilateral crackles and +3.2 kg weight gain indicating fluid overload — aggressive fluid boluses are contraindicated and could worsen pulmonary edema. G is INCORRECT: Home medications including lisinopril must be reviewed and nephrotoxic agents held. H is INCORRECT: Forcing oral fluids in a fluid-overloaded, oliguric patient risks worsening pulmonary edema and electrolyte dilution.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 585,
+      "case_id": "case-007",
+      "question_number": 2,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "bow-tie",
+      "question": "Using the Bow-Tie clinical reasoning framework, complete the clinical picture for Mr. Jennings. The nurse must identify the correct condition, select two priority nursing actions, and identify two parameters to monitor. Match each selection to its correct column.",
+      "choices": {
+        "A": "[CONDITION] Acute Kidney Injury — oliguric phase (intrinsic renal failure secondary to nephrotoxin exposure)",
+        "B": "[CONDITION] Chronic Kidney Disease — stage 3 exacerbation",
+        "C": "[CONDITION] SIADH with hyponatremia-driven oliguria",
+        "D": "[ACTION] Hold all nephrotoxic medications (vancomycin, gentamicin) and hold ACE inhibitor lisinopril",
+        "E": "[ACTION] Apply continuous cardiac monitoring and prepare for hyperkalemia treatment (calcium gluconate, insulin/dextrose)",
+        "F": "[ACTION] Administer 1L normal saline bolus immediately to increase urine output",
+        "G": "[ACTION] Obtain nephrology consult and reassess fluid balance",
+        "H": "[PARAMETER] Urine output (hourly), creatinine trend, and potassium level",
+        "I": "[PARAMETER] ECG changes (peaked T waves, widened QRS) and fluid balance (daily weights, crackles)",
+        "J": "[PARAMETER] Serum sodium trend and serum osmolality"
+      },
+      "correct": ["A", "D", "E", "H", "I"],
+      "rationale": "CONDITION — A is correct: This is AKI in the oliguric phase. Key differentiators: acute onset post-op, nephrotoxin exposure (vancomycin trough 28, gentamicin), rapidly rising creatinine over 48 hrs, oliguria without obstruction. CKD (B) is a chronic process and does not explain the acute rise from a 1.1 baseline. SIADH (C) causes dilutional hyponatremia, not oliguria with hyperkalemia and fluid overload. ACTIONS — D is correct: Removing the causative nephrotoxins and ACE inhibitor is the foundational intervention. E is correct: K+ 5.9 with peaked T waves is a cardiac emergency requiring immediate monitoring and anticipated treatment. F is INCORRECT: Fluid overload is already present — bolus fluids worsen pulmonary edema. PARAMETERS — H is correct: Hourly UO, creatinine trend, and K+ are the core AKI monitoring triad. I is correct: ECG changes signal hyperkalemia-induced cardiac risk; fluid balance guides diuresis decisions. J is incorrect for this case (SIADH parameter, not AKI).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 586,
+      "case_id": "case-007",
+      "question_number": 3,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "trend",
+      "question": "Review the 48-hour trend data for Mr. Jennings below. What does this trajectory indicate, and what is the MOST dangerous immediate complication?\n\n| Parameter        | Admission (48 hrs ago) | Yesterday      | Today          |\n|-----------------|----------------------|----------------|----------------|\n| Creatinine       | 1.1 mg/dL            | 1.9 mg/dL      | 3.4 mg/dL      |\n| Potassium (K+)   | 4.2 mEq/L            | 5.1 mEq/L      | 5.9 mEq/L      |\n| Urine Output     | 45 mL/hr             | 28 mL/hr       | 12 mL/hr       |\n| Weight           | Baseline             | +1.8 kg        | +3.2 kg        |\n\nBased on this trend data, which statement BEST describes the trajectory and most dangerous immediate complication?",
+      "choices": {
+        "A": "All parameters are worsening in a consistent pattern, indicating progressive oliguric AKI; the most dangerous immediate complication is hyperkalemia-induced fatal cardiac dysrhythmia",
+        "B": "The creatinine trend suggests CKD progression; the most dangerous complication is uremia-induced encephalopathy",
+        "C": "Declining urine output is the only concerning trend; the most dangerous complication is urinary retention requiring catheterization",
+        "D": "The weight gain indicates malnutrition; the most dangerous complication is hypoalbuminemia-induced pulmonary edema",
+        "E": "The trend represents expected post-operative fluid shifts; no immediate intervention is required",
+        "F": "Rising BUN alone indicates dehydration; the priority is aggressive fluid resuscitation"
+      },
+      "correct": ["A"],
+      "rationale": "A is correct: Every parameter is deteriorating in a consistent, escalating pattern over 48 hours — creatinine tripled (1.1→3.4), K+ rose from normal to critically elevated (4.2→5.9), urine output dropped 73% (45→12 mL/hr), and fluid retention accelerated (+3.2 kg). This is rapidly progressive oliguric AKI. The MOST dangerous IMMEDIATE complication is hyperkalemia (K+ 5.9 with ECG changes). At this level, potassium disrupts cardiac membrane potential, causing peaked T waves → widened QRS → sine wave → ventricular fibrillation → cardiac arrest. This can occur within minutes and is immediately life-threatening. B is incorrect: CKD is a chronic process; encephalopathy occurs later. C is incorrect: Bladder scan confirmed no obstruction. D is incorrect: Weight gain here reflects fluid retention, not malnutrition. E is incorrect: This trend is not expected post-op; it represents pathology requiring urgent intervention. F is incorrect: The patient is fluid overloaded, not dehydrated.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 587,
+      "case_id": "case-007",
+      "question_number": 4,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "priority",
+      "question": "Mr. Jennings' potassium is now 5.9 mEq/L and the ECG monitor shows peaked T waves. The charge nurse asks the bedside nurse to prioritize actions. Place the following nursing actions in order of HIGHEST to LOWEST priority by selecting the action that must be done FIRST.",
+      "choices": {
+        "A": "Immediately notify the provider of K+ 5.9 mEq/L with ECG changes (peaked T waves) and obtain stat orders",
+        "B": "Apply continuous cardiac monitoring and ensure defibrillator is at bedside",
+        "C": "Anticipate and prepare orders for calcium gluconate IV, sodium bicarbonate, insulin with dextrose, and sodium polystyrene sulfonate (Kayexalate)",
+        "D": "Recheck the potassium level with a repeat CMP in 6 hours to confirm the trend",
+        "E": "Document the finding in the chart and inform the oncoming nurse at shift change",
+        "F": "Consult dietary services to provide a low-potassium meal tray at the next meal"
+      },
+      "correct": ["A"],
+      "rationale": "A is the HIGHEST priority: K+ 5.9 mEq/L with ECG changes (peaked T waves) is a cardiac emergency. The provider MUST be notified immediately to obtain stat orders for cardiac membrane stabilization and potassium removal. Every minute of delay increases the risk of lethal dysrhythmia. The sequence of priority is: A (notify provider, get orders) → B (continuous cardiac monitoring, crash cart ready) → C (prepare medications: calcium gluconate stabilizes the cardiac membrane immediately; insulin+dextrose and bicarb shift K+ intracellularly; Kayexalate removes K+ from the body) → F (dietary restriction, secondary prevention) → D (repeat lab in 6 hrs is dangerously delayed — action is needed NOW) → E (documentation is lowest priority in an emergency). D is WRONG as the first action: Do NOT wait to recheck labs when ECG changes are already present. E is WRONG as the first action: Charting during an active emergency delays treatment and is a patient safety violation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 588,
+      "case_id": "case-007",
+      "question_number": 5,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "cloze",
+      "question": "Complete the following nursing documentation note by selecting the BEST option for each blank. The nurse documents: 'The nurse recognizes that a potassium of [BLANK 1] with ECG changes of [BLANK 2] indicates [BLANK 3]. The nurse will immediately [BLANK 4] while anticipating an order for [BLANK 5] to [BLANK 6].'\n\nSelect the answer that correctly fills ALL six blanks in order.",
+      "choices": {
+        "A": "BLANK 1: 5.9 mEq/L | BLANK 2: peaked T waves | BLANK 3: hyperkalemia with cardiac involvement | BLANK 4: notify the provider and apply continuous cardiac monitoring | BLANK 5: calcium gluconate IV | BLANK 6: stabilize the cardiac membrane and prevent dysrhythmia",
+        "B": "BLANK 1: 5.9 mEq/L | BLANK 2: prolonged QT interval | BLANK 3: hypokalemia | BLANK 4: administer oral potassium supplement | BLANK 5: magnesium sulfate | BLANK 6: correct the QT prolongation",
+        "C": "BLANK 1: 5.9 mEq/L | BLANK 2: peaked T waves | BLANK 3: hyperkalemia | BLANK 4: recheck the lab and wait for provider rounds | BLANK 5: Lasix (furosemide) IV | BLANK 6: diurese excess potassium renally",
+        "D": "BLANK 1: 3.4 mg/dL | BLANK 2: ST depression | BLANK 3: acute kidney injury | BLANK 4: hold all IV fluids and document | BLANK 5: sodium polystyrene sulfonate PO | BLANK 6: bind potassium in the GI tract over 24 hours",
+        "E": "BLANK 1: 5.9 mEq/L | BLANK 2: peaked T waves | BLANK 3: hyperkalemia | BLANK 4: reposition the patient and reassess | BLANK 5: normal saline bolus | BLANK 6: dilute the serum potassium level",
+        "F": "BLANK 1: 58 mg/dL (BUN) | BLANK 2: widened QRS only | BLANK 3: uremia | BLANK 4: prepare for hemodialysis | BLANK 5: sodium bicarbonate only | BLANK 6: correct metabolic acidosis"
+      },
+      "correct": ["A"],
+      "rationale": "A is the only correct completion of all six blanks. BLANK 1 — 5.9 mEq/L: This is the potassium value triggering the alert (normal 3.5–5.0 mEq/L; >5.5 is hyperkalemia; >5.9 with ECG changes is an emergency). BLANK 2 — Peaked T waves: The classic earliest ECG sign of hyperkalemia, reflecting slowed ventricular repolarization. BLANK 3 — Hyperkalemia with cardiac involvement: K+ 5.9 + ECG changes = hyperkalemia with active cardiac effects. BLANK 4 — Notify provider AND apply cardiac monitoring: Both actions must happen simultaneously and immediately; delay is dangerous. BLANK 5 — Calcium gluconate IV: This is the FIRST-LINE agent for hyperkalemia with ECG changes. It does NOT lower K+, but immediately stabilizes the cardiac membrane within 1–3 minutes, buying time for K+-lowering measures. BLANK 6 — Stabilize the cardiac membrane: Calcium gluconate's mechanism is membrane stabilization (raising the threshold potential), preventing progression to fatal dysrhythmia. B is wrong (prolonged QT and hypokalemia are opposites). C is wrong (waiting is dangerous; Lasix may not work in AKI). D is wrong (3.4 is creatinine, not K+). E is wrong (repositioning and NS bolus are inappropriate). F is wrong (BUN alone does not indicate the emergency here).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 589,
+      "case_id": "case-007",
+      "question_number": 6,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "matrix",
+      "question": "For each intervention listed below, classify it as Indicated (appropriate for Mr. Jennings' current condition), Contraindicated (harmful or inappropriate given his current status), or Non-Essential at This Stage (may be appropriate later but not a current priority requiring immediate action).\n\n| Intervention | Indicated | Contraindicated | Non-Essential at This Stage |\n|---|---|---|---|",
+      "choices": {
+        "A": "Hold vancomycin (supratherapeutic trough 28, nephrotoxic) → INDICATED: Nephrotoxin must be removed to halt further renal injury; trough of 28 is supratherapeutic and toxic",
+        "B": "Continue lisinopril 10 mg daily as prescribed → CONTRAINDICATED: ACE inhibitors reduce GFR in states of renal hypoperfusion and worsen hyperkalemia; must be held in active AKI",
+        "C": "Apply continuous cardiac monitoring → INDICATED: K+ 5.9 with peaked T waves demands real-time ECG surveillance for progression to fatal dysrhythmia",
+        "D": "Administer aggressive IV fluid bolus (1L NS stat) → CONTRAINDICATED: Patient has bilateral crackles, +3.2 kg weight gain, and BP 158/96 — fluid overload is present; aggressive fluids risk pulmonary edema",
+        "E": "Implement dietary potassium restriction → INDICATED: With K+ 5.9 and declining renal excretion, further potassium intake must be minimized immediately",
+        "F": "Initiate hemodialysis → NON-ESSENTIAL AT THIS STAGE: Nephrology consult is appropriate now, but dialysis initiation is a physician/nephrologist decision based on full clinical assessment; premature to order at bedside without specialist evaluation"
+      },
+      "correct": {
+        "indicated": ["A", "C", "E"],
+        "contraindicated": ["B", "D"],
+        "non_essential": ["F"]
+      },
+      "rationale": "INDICATED — A (Hold vancomycin): Nephrotoxin elimination is foundational; trough of 28 mcg/mL is supratherapeutic (goal 15–20) and directly damaging the renal tubules. C (Cardiac monitoring): ECG changes with K+ 5.9 require continuous real-time monitoring — dysrhythmia can be fatal within minutes. E (Dietary K+ restriction): Oliguric kidneys cannot excrete potassium; dietary sources must be restricted immediately. CONTRAINDICATED — B (Continue lisinopril): ACE inhibitors inhibit angiotensin II-mediated efferent arteriolar constriction, reducing the compensatory mechanism maintaining GFR in low-flow states; additionally, ACE inhibitors reduce aldosterone, causing potassium retention — catastrophic when K+ is already 5.9. D (Aggressive IV fluid bolus): Clinical findings of crackles, +3.2 kg, and hypertension confirm volume overload. A fluid bolus would push already-overloaded lungs into acute pulmonary edema. This is a trap — pre-renal AKI benefits from fluids, but this patient's AKI is intrinsic (nephrotoxin-mediated) with coexisting fluid overload. NON-ESSENTIAL AT THIS STAGE — F (Hemodialysis): While CRRT/IHD may ultimately be needed (rising creatinine, hyperkalemia, fluid overload are all indications), the decision requires nephrology evaluation of the full clinical picture. The bedside nurse's role is to consult nephrology stat, not to independently initiate dialysis.",
+      "difficulty": "hard"
+    }
+  ]
+}

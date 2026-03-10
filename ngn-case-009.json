@@ -1,0 +1,146 @@
+{
+  "case_id": "case-009",
+  "title": "Mental Health: Suicidal Patient — Safety Assessment and Care",
+  "scenario": "A 34-year-old male is brought to the emergency department by police after a neighbor called 911. He was found sitting in a running car inside a closed garage. EMS removed him from the scene and administered 100% oxygen via non-rebreather mask. On arrival, his carboxyhemoglobin (CO-Hgb) was 22%; after two hours of 100% oxygen therapy, it has decreased to 8%. The patient is now alert and oriented x4. He states, 'I don't want to be here anymore.' Past medical history is significant for major depressive disorder with two prior suicide attempts: one intentional overdose and one wrist laceration requiring sutures. He is prescribed sertraline 100mg daily but reports he stopped taking it three weeks ago. Psychosocial stressors include divorce finalized six months ago and recent job loss. He denies a current specific plan but admits, 'I've been thinking about it a lot.' There are no signs of psychosis. He is medically cleared pending psychiatric evaluation. Vital signs are stable. The nurse is preparing to conduct a comprehensive suicide risk assessment and implement a safety plan.",
+  "questions": [
+    {
+      "id": 596,
+      "case_id": "case-009",
+      "question_number": 1,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "extended-response",
+      "question": "The nurse is caring for the 34-year-old male with a history of two prior suicide attempts, recent medication nonadherence, and significant psychosocial stressors. He has been medically cleared and is awaiting psychiatric evaluation. Which nursing actions are PRIORITY at this time? Select all that apply.",
+      "choices": {
+        "A": "Initiate 1:1 continuous observation — do not leave the patient alone at any time",
+        "B": "Remove all sharps, ligature risks, call light cords, and potentially harmful objects from the room",
+        "C": "Use therapeutic communication including direct suicide inquiry (ask openly about thoughts, plan, intent, and means)",
+        "D": "Contact psychiatry immediately for evaluation and document a thorough safety assessment",
+        "E": "Leave the patient alone briefly while completing charting at the nurses' station to allow privacy",
+        "F": "Place the patient in 4-point restraints prophylactically to prevent a self-harm attempt",
+        "G": "Tell the patient 'You have so much to live for' to provide encouragement and reframe his thinking"
+      },
+      "correct": ["A", "B", "C", "D"],
+      "rationale": "Priority interventions for a high-risk suicidal patient include: (A) 1:1 continuous observation — patients with prior attempts, active ideation, and recent means access must never be left alone; (B) environmental safety — removing ligatures, sharps, and cords eliminates access to means, a critical modifiable risk factor; (C) direct suicide inquiry using therapeutic communication — asking directly about suicidal thoughts does NOT increase risk and is evidence-based per Joint Commission and SPRC guidelines; (D) psychiatric consultation and thorough documentation ensure continuity of care and legal protection. Choices E and F are incorrect and potentially dangerous: leaving the patient alone violates safety standards, and prophylactic 4-point restraints are inappropriate, traumatizing, and contraindicated without imminent physical aggression. Choice G ('You have so much to live for') is a non-therapeutic platitude that dismisses the patient's pain, invalidates his experience, and can damage therapeutic rapport — it should never be used with suicidal patients.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 597,
+      "case_id": "case-009",
+      "question_number": 2,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "bow-tie",
+      "question": "Complete the clinical reasoning bow-tie for this patient. Based on the assessment data, identify the correct condition (center), the appropriate nursing actions (left side), and the parameters the nurse will monitor to evaluate effectiveness (right side).",
+      "choices": {
+        "A": "CONDITION — Low suicide risk: patient denies a current specific plan",
+        "B": "CONDITION — High suicide risk: multiple risk factors including prior attempts, means access, medication nonadherence, and active ideation",
+        "C": "CONDITION — Medication nonadherence only: primary problem is stopped sertraline requiring restart",
+        "D": "ACTION — Initiate 1:1 continuous observation and environmental safety measures (remove sharps and ligature risks)",
+        "E": "ACTION — Establish therapeutic rapport using open, non-judgmental communication; perform direct suicide inquiry",
+        "F": "ACTION — Contact psychiatry for emergent evaluation and document comprehensive safety assessment",
+        "G": "PARAMETER — Monitor for verbalization of a specific plan or intent, behavioral cues (withdrawal, agitation, sudden calm), and inquiry about means or escape",
+        "H": "PARAMETER — Assess protective factors including reasons for living, social support, future orientation, and engagement with treatment",
+        "I": "PARAMETER — Monitor vital signs only; psychiatric parameters are outside nursing scope until psychiatry arrives"
+      },
+      "correct": ["B", "D", "E", "F", "G", "H"],
+      "rationale": "CONDITION (B): This patient presents with HIGH suicide risk based on: two prior attempts (strongest predictor of future attempt), recent means access (carbon monoxide in running car in enclosed space), active suicidal ideation ('I've been thinking about it a lot'), medication nonadherence (stopped sertraline 3 weeks ago), and multiple acute psychosocial stressors (divorce, job loss). Low risk (A) is incorrect — denying a current plan does not negate high risk when other factors are present. Nonadherence alone (C) grossly underestimates the clinical picture. ACTIONS (D, E, F): All three are simultaneously appropriate and represent the standard of care. 1:1 observation and environmental safety address immediate physical safety; therapeutic communication with direct inquiry preserves the therapeutic alliance and gathers critical assessment data; psychiatric consultation addresses definitive care and disposition. PARAMETERS (G, H): Effective monitoring requires tracking both escalating risk indicators (verbalizing a plan, behavioral withdrawal, environmental inquiry such as asking about windows/exits) AND protective factors (reasons for living, family connections, willingness to engage) to evaluate the patient's trajectory and inform treatment planning. Vital signs alone (I) are wholly insufficient for psychiatric monitoring.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 598,
+      "case_id": "case-009",
+      "question_number": 3,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "trend",
+      "question": "The nurse documents the following behavioral observations during a 3-hour monitoring period. Review the trend and select the most accurate clinical interpretation and the priority nursing response.\n\nHour 1 (21:00): Patient is tearful and cooperative. Participates in conversation. Denies a specific plan. Agrees to notify nurse if thoughts intensify.\nHour 2 (22:00): Patient becomes quiet. Stops initiating conversation and provides one-word answers. Turns toward the wall when nurse enters. Declines offered snack.\nHour 3 (23:00): Patient requests to use the bathroom alone. Asks, 'Are those windows locked? Can they be opened from the inside?'",
+      "choices": {
+        "A": "The trend indicates improvement — the patient is resting after an emotionally exhausting experience; allow privacy and reduce check-in frequency",
+        "B": "The trend indicates escalating suicide risk — behavioral withdrawal followed by environmental inquiry (window accessibility) is consistent with active planning; notify provider immediately and intensify observation",
+        "C": "The trend is non-specific and requires no immediate intervention; continue routine monitoring per protocol",
+        "D": "The behavioral change is likely medication-related; notify provider to consider restarting sertraline and reassess in the morning",
+        "E": "The patient's question about windows indicates anxiety about the environment, not suicidal intent; reassure and document",
+        "F": "Decrease observation frequency as the patient appears calmer in Hour 3 compared to the tearful state in Hour 1"
+      },
+      "correct": ["B"],
+      "rationale": "The behavioral pattern across these three hours represents a clinically significant escalation in suicide risk, not improvement. This is a classic and dangerous misinterpretation trap: Hour 1 tearfulness (emotional distress externalized) → Hour 2 withdrawal (internalization, disengagement from therapeutic alliance) → Hour 3 environmental inquiry (asking about window locks = assessing means and escape routes) follows a well-documented trajectory toward active planning. The transition from tearful and cooperative to quiet and withdrawn — sometimes called 'sudden calm' or 'resolve' — can indicate the patient has made a decision, which is a critical warning sign. The specific inquiry about window accessibility is not anxiety about the environment; it is means-seeking behavior. Priority actions: (1) Do NOT allow the patient to use the bathroom alone; (2) Notify the provider and charge nurse immediately; (3) Increase to continuous line-of-sight or closer observation; (4) Reassess using Columbia Suicide Severity Rating Scale (C-SSRS); (5) Document the behavioral trend with time-stamped objective observations. Choices A and F (interpret as improvement/rest) and C (non-specific/routine) represent dangerous clinical errors. Choices D and E minimize the significance of the environmental inquiry.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 599,
+      "case_id": "case-009",
+      "question_number": 4,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "priority",
+      "question": "At 23:30, the patient looks at the nurse and says, 'I'm really tired. I just want to sleep. Can you leave me alone for just a few minutes? I promise I won't do anything.' The nurse has been at his bedside for 1:1 observation for the past hour. What is the nurse's PRIORITY action?",
+      "choices": {
+        "A": "Honor the patient's request for privacy; step outside the room but perform a visual check every 5 minutes",
+        "B": "Remain present at the bedside, acknowledge the patient's fatigue therapeutically, and notify the charge nurse of the request; do not leave the patient alone under any circumstances",
+        "C": "Tell the patient that the rules do not allow privacy and document his request as non-compliant behavior",
+        "D": "Agree to leave for 5 minutes as a therapeutic gesture to build trust and demonstrate respect for autonomy",
+        "E": "Contact the physician to request a sedative so the patient can sleep safely under observation",
+        "F": "Step outside and ask a visitor to sit with the patient while the nurse completes documentation"
+      },
+      "correct": ["B"],
+      "rationale": "The priority action is to remain at the bedside while responding therapeutically. 1:1 continuous observation means the nurse does NOT leave the patient alone — not for 5 minutes, not for 1 minute, not based on verbal reassurances or 'promises.' Patients at high suicide risk may request privacy specifically to act on suicidal impulses; reassurances ('I promise I won't do anything') cannot and must not be taken as clinical safety evidence. The correct therapeutic response acknowledges the patient's experience without abandoning safety: for example, 'I hear that you're exhausted — that makes sense after everything you've been through today. I need to stay with you to keep you safe, but I can sit quietly and give you space to rest. Let's see if we can make you more comfortable.' This validates his fatigue while maintaining the safety standard. The charge nurse should be notified of the request to ensure supervisory awareness and to facilitate possible room or position adjustments that increase patient comfort without compromising safety. Choice A (check every 5 min) violates 1:1 standards. Choice D ('therapeutic gesture') rationalizes dangerous abandonment. Choice F (leave with a visitor) is entirely inappropriate — observers must be trained clinical staff. Choice C is dismissive and non-therapeutic. Choice E (sedation) is not indicated based on this request alone.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 600,
+      "case_id": "case-009",
+      "question_number": 5,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "cloze",
+      "question": "Complete the following clinical documentation note by selecting the correct term or phrase for each blank.\n\n'The nurse uses the [BLANK 1] to assess suicide risk in a structured, evidence-based manner by inquiring about [BLANK 2]. The assessment finding that MOST significantly increases the patient's immediate risk level is [BLANK 3], which requires [BLANK 4] as the appropriate clinical response.'",
+      "choices": {
+        "A": "BLANK 1 — PHQ-9 (Patient Health Questionnaire-9)",
+        "B": "BLANK 1 — Columbia Suicide Severity Rating Scale (C-SSRS)",
+        "C": "BLANK 1 — Beck Depression Inventory (BDI)",
+        "D": "BLANK 2 — only current mood and sleep disturbances",
+        "E": "BLANK 2 — ideation intensity, plan specificity, intent to act, and access to means",
+        "F": "BLANK 2 — medication history and family psychiatric background",
+        "G": "BLANK 3 — the patient reporting mild passive ideation with no prior history",
+        "H": "BLANK 3 — a specific, actionable plan with demonstrated access to a lethal means",
+        "I": "BLANK 3 — the patient expressing feelings of hopelessness and worthlessness",
+        "J": "BLANK 4 — outpatient referral to a therapist within 72 hours",
+        "K": "BLANK 4 — immediate psychiatric evaluation and consideration for inpatient psychiatric admission",
+        "L": "BLANK 4 — medication adjustment and discharge with a safety plan"
+      },
+      "correct": ["B", "E", "H", "K"],
+      "rationale": "BLANK 1 — Columbia Suicide Severity Rating Scale (C-SSRS) (B): The C-SSRS is the gold-standard, evidence-based, validated tool recommended by The Joint Commission, SAMHSA, and the FDA for structured suicide risk assessment in clinical settings. It provides a standardized framework for quantifying ideation type, intensity, and behavior. The PHQ-9 (A) screens for depression severity, not suicide risk specifically (item 9 asks a single question). The BDI (C) measures depression but is not a suicide risk assessment tool. BLANK 2 — ideation, plan, intent, and means (E): The C-SSRS specifically assesses the full continuum: passive ideation ('wish to be dead'), active ideation without plan, active ideation with plan, active ideation with plan AND intent, and preparatory behaviors — as well as access to and lethality of means. Mood and sleep alone (D) are insufficient; medication history (F) is relevant but not what the C-SSRS measures. BLANK 3 — specific plan with access to lethal means (H): The combination of a specific, actionable plan AND demonstrated access to a means of that lethality dramatically elevates immediate risk and is the single greatest predictor of near-term attempt. This patient demonstrated access to a highly lethal means (enclosed garage, running vehicle). Passive ideation without history (G) represents low risk. Hopelessness (I) is a significant risk factor but is less immediately actionable than plan + means. BLANK 4 — immediate psychiatric evaluation and inpatient consideration (K): This level of risk requires emergent psychiatric evaluation and strong consideration for inpatient admission to provide a safe, therapeutic environment, medication stabilization, and intensive treatment. Outpatient referral (J) and discharge with safety plan (L) are grossly insufficient for a patient with this risk profile.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 601,
+      "case_id": "case-009",
+      "question_number": 6,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "matrix",
+      "question": "For each nursing action listed below, indicate whether it is INDICATED or CONTRAINDICATED for this patient. Each action represents a distinct clinical decision.",
+      "choices": {
+        "A": "Initiate and maintain 1:1 continuous observation — a trained staff member remains with the patient at all times",
+        "B": "Remove all sharps, ligature risks (belts, cords, call light cords, IV tubing), and potentially harmful objects from the patient's room and reach",
+        "C": "Use therapeutic communication with direct, open-ended suicide inquiry (e.g., 'Are you thinking about ending your life?')",
+        "D": "Apply 4-point physical restraints to prevent self-harm in this high-risk patient",
+        "E": "Allow the patient to keep his personal cell phone unsupervised at the bedside throughout the observation period",
+        "F": "Notify the patient's ex-spouse of his psychiatric status and current suicide attempt without the patient's consent"
+      },
+      "correct": {
+        "indicated": ["A", "B", "C"],
+        "contraindicated": ["D", "E", "F"]
+      },
+      "rationale": "INDICATED — (A) 1:1 Continuous Observation: The standard of care for high-risk suicidal patients. This patient has two prior attempts, active ideation, recent means access, and medication nonadherence — all criteria supporting continuous monitoring. Staff must be trained observers who remain in the room or within arm's reach. (B) Environmental Safety/Means Restriction: Removing ligatures, sharps, and cords from the environment is one of the most evidence-based interventions in suicide prevention. Means restriction has demonstrated reduction in suicide completion rates. This is non-negotiable for any inpatient or ED psychiatric patient. (C) Direct Suicide Inquiry: Clinical evidence and expert consensus (AFSP, SPRC, Joint Commission) confirm that asking directly about suicidal thoughts does NOT increase ideation or risk — it demonstrates care, reduces shame, and opens the therapeutic dialogue necessary for accurate risk assessment. Avoiding the topic is harmful; directness is therapeutic. CONTRAINDICATED — (D) Prophylactic 4-Point Restraints: Physical restraints are traumatizing, associated with worsening psychiatric outcomes, and are ONLY indicated when a patient presents imminent physical danger to self or others that cannot be managed by less restrictive means. Prophylactic restraint for a cooperative, verbally engaging patient is a violation of patient rights and evidence-based psychiatric care standards. (E) Unsupervised Cell Phone Access: While therapeutic engagement with support systems (family calls, text) can be beneficial, an unsupervised cell phone poses risk: the patient could coordinate means access, arrange to leave against medical advice, or use a charging cord as a ligature. Cell phone use should be supervised and considered on a case-by-case basis after risk stratification. (F) Unauthorized Disclosure to Ex-Spouse: Disclosing psychiatric information without consent violates HIPAA. While a narrow exception exists for imminent danger to an identifiable third party (Tarasoff), disclosing to the ex-spouse — who is a psychosocial stressor, not an identifiable victim — is inappropriate. Disclosure may be considered to a support person with patient consent; it may never be made to a potentially estranged party without legal justification and documentation.",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "case_id": "case-014",
+  "title": "Post-Cardiac Catheterization: Femoral Access Site Monitoring",
+  "scenario": "A 62-year-old male is 2 hours post-percutaneous coronary intervention (PCI) via right femoral artery access. A drug-eluting stent was successfully placed in the left anterior descending (LAD) artery for a 90% occlusion found on diagnostic angiography. The patient received a heparin drip during the procedure, which was discontinued 30 minutes ago. He was administered aspirin 325mg and ticagrelor 180mg loading dose per post-PCI protocol. Current vital signs: BP 138/82 mmHg, HR 78 bpm (normal sinus rhythm), RR 16 breaths/min, SpO2 98% on room air, temperature 98.4°F. Assessment of the right groin reveals manual pressure has been applied; a small hematoma measuring 3x3 cm is noted at the puncture site with no active oozing. Right foot is warm to touch, dorsalis pedis and posterior tibial pulses are 2+, and capillary refill is 2 seconds. Pre-procedure creatinine was 1.1 mg/dL; contrast volume used was 180 mL. The patient reports the right leg 'feels numb and tingly.' Urine output for the last hour is 22 mL. The nurse is responsible for post-procedure monitoring and must assess for potential access site and systemic complications.",
+  "questions": [
+    {
+      "id": 626,
+      "case_id": "case-014",
+      "question_number": 1,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "extended-response",
+      "question": "The nurse is planning post-procedure care for this patient following femoral artery PCI. Select ALL assessments and interventions that are essential in the immediate post-catheterization period. Select all that apply.",
+      "choices": {
+        "A": "Assess the access site every 15 minutes for signs of hematoma expansion, active bleeding, or bruising",
+        "B": "Check distal pulses and complete neurovascular status bilaterally (color, warmth, sensation, movement, capillary refill)",
+        "C": "Encourage IV fluid hydration to promote diuresis and prevent contrast-induced nephropathy",
+        "D": "Instruct the patient to ambulate to the hallway immediately to prevent deep vein thrombosis",
+        "E": "Maintain the right leg straight and immobile per post-catheterization protocol for the required hold time",
+        "F": "Monitor for signs of retroperitoneal bleeding including new onset flank or back pain, abdominal rigidity, and unexpected hypotension",
+        "G": "Maintain strict intake and output measurements; report urine output less than 0.5 mL/kg/hr",
+        "H": "Apply a warm compress to the hematoma site to reduce discomfort and promote reabsorption",
+        "I": "Hold aspirin and ticagrelor until the access site is fully healed to reduce bleeding risk",
+        "J": "Obtain a 12-lead ECG and monitor for chest pain, ST changes, or signs of acute stent occlusion"
+      },
+      "correct": ["A", "B", "C", "E", "F", "G", "J"],
+      "rationale": "Post-femoral PCI nursing priorities include: (A) q15min access site checks to catch early hematoma expansion before it becomes life-threatening; (B) bilateral neurovascular checks to detect arterial compromise including loss of pulse, pallor, paresthesia, paralysis, or pain (the 5 P's); (C) IV hydration is the primary prevention for contrast-induced nephropathy (CIN), especially with 180 mL contrast and a borderline creatinine of 1.1; (E) leg immobility is required to prevent re-bleeding at the femoral access site — duration depends on closure method; (F) retroperitoneal hemorrhage is a life-threatening, occult complication of femoral access — early signs include flank/back pain and unexplained hemodynamic instability; (G) urine output monitoring detects CIN early; (J) post-stent ECG monitoring detects acute stent thrombosis. INCORRECT: (D) Ambulation is contraindicated immediately post-femoral access — typically 2–6 hours of bed rest is required. (H) Warm compresses promote vasodilation and can worsen bleeding at a fresh hematoma. (I) Dual antiplatelet therapy (DAPT) with aspirin and ticagrelor is mandatory post-PCI to prevent acute stent thrombosis — holding it risks catastrophic in-stent clotting.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 627,
+      "case_id": "case-014",
+      "question_number": 2,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "bow-tie",
+      "question": "The nurse is evaluating the patient's right groin finding: a 3x3 cm hematoma at the femoral access site with the patient reporting numbness and tingling in the right leg. Using clinical reasoning, complete the following bow-tie analysis by identifying the most likely condition, the two priority nursing actions, and the two parameters to monitor most closely.",
+      "choices": {
+        "A": "Condition: Femoral hematoma — localized blood collection at puncture site, currently stable",
+        "B": "Condition: Retroperitoneal hemorrhage — occult bleed tracking posterior to the peritoneum",
+        "C": "Condition: Femoral artery pseudoaneurysm — pulsatile hematoma from incomplete vessel closure",
+        "D": "Condition: Normal post-procedure finding — hematoma expected, no intervention needed",
+        "E": "Action: Apply manual pressure to the access site and reassess in 15 minutes",
+        "F": "Action: Immediately notify the interventional cardiologist of hematoma size and neurovascular symptoms",
+        "G": "Action: Administer a warm compress and elevate the leg above heart level",
+        "H": "Action: Perform complete bilateral lower extremity neurovascular checks every 15 minutes",
+        "I": "Parameter: Hematoma size and rate of expansion over time",
+        "J": "Parameter: Distal pulse quality and capillary refill in both feet",
+        "K": "Parameter: Patient's pain score on a 0–10 scale only",
+        "L": "Parameter: Patient's appetite and oral intake"
+      },
+      "correct": {
+        "condition": "A",
+        "actions": ["E", "H"],
+        "parameters": ["I", "J"]
+      },
+      "rationale": "CONDITION (A): The current presentation — small 3x3 cm hematoma, hemodynamically stable BP 138/82, intact 2+ distal pulses, warm foot, cap refill 2 sec — is consistent with a localized femoral hematoma, a common and expected post-catheterization finding. However, neurovascular symptoms (numbness/tingling) require close surveillance. Retroperitoneal hemorrhage (B) typically presents with flank/back pain, abdominal pain, and hemodynamic instability — not yet present. Pseudoaneurysm (C) is suspected when a pulsatile mass is present. 'Normal, no intervention needed' (D) is incorrect — a symptomatic hematoma with paresthesias requires active monitoring and may progress. ACTIONS: (E) Manual pressure is the first-line intervention for hematoma control. (H) Bilateral neurovascular checks every 15 minutes are mandatory to detect progressive vascular compromise early. Warm compress (G) is contraindicated. PARAMETERS: (I) Hematoma size is the most direct indicator of expansion. (J) Distal pulses and cap refill are critical for detecting arterial compromise progressing to limb ischemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 628,
+      "case_id": "case-014",
+      "question_number": 3,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "trend",
+      "question": "The nurse documents the following trending data over 90 minutes following the initial assessment. Review the trend and select the best interpretation of what is occurring.\n\n| Parameter | T=0 (Initial) | T=30 min | T=90 min |\n|---|---|---|---|\n| Hematoma size | 3x3 cm | 5x5 cm | 8x7 cm |\n| BP | 138/82 mmHg | 124/74 mmHg | 102/60 mmHg |\n| HR | 78 bpm | 88 bpm | 106 bpm |\n| Right foot cap refill | 2 sec | 3 sec | 5 sec |\n| Right foot pulses | 2+ | 1+ | Weak/doppler only |\n| Pain (right leg) | Mild | Moderate | Severe |\n\nThe patient is now diaphoretic and anxious. What does this trend indicate?",
+      "choices": {
+        "A": "The hematoma is resolving normally; the hemodynamic changes reflect post-procedure stress response and are expected",
+        "B": "The patient is developing contrast-induced nephropathy, evidenced by declining BP and rising HR",
+        "C": "The patient is experiencing an expanding femoral hematoma with progressive vascular compromise, consistent with inadequate hemostasis or pseudoaneurysm formation, requiring immediate intervention",
+        "D": "The hemodynamic changes are caused by a vasovagal response to pain; administration of atropine and IV fluid bolus will resolve the trend",
+        "E": "The patient is experiencing acute in-stent thrombosis of the LAD stent; the leg findings are unrelated",
+        "F": "The patient has retroperitoneal hemorrhage only; the groin hematoma is a normal finding and the hemodynamic deterioration is from the occult bleed"
+      },
+      "correct": "C",
+      "rationale": "This trend demonstrates a classic pattern of expanding femoral hematoma with evolving vascular compromise: (1) Progressive hematoma expansion from 3x3 → 8x7 cm indicates ongoing hemorrhage at the access site — inadequate hemostasis, pseudoaneurysm, or arteriovenous fistula. (2) Declining BP (138/82 → 102/60) and rising HR (78 → 106) indicate hemorrhagic shock — the patient is losing significant blood volume. (3) Deteriorating capillary refill (2 → 5 sec) and weakening distal pulses signal progressive arterial compromise and potential acute limb ischemia. (4) Increasing pain correlates with hematoma expansion compressing surrounding structures and ischemia. This is a CRITICAL emergency requiring immediate interventional cardiologist notification, preparation for surgical or IR vascular intervention (possibly ultrasound-guided thrombin injection for pseudoaneurysm or surgical repair), and resuscitation. INCORRECT: (A) Nothing about this trend is 'normal.' (B) CIN presents with rising creatinine/oliguria, not hemodynamic collapse. (D) Vasovagal responses typically include bradycardia, not tachycardia. (E) Stent thrombosis presents with chest pain/ST elevation. (F) Retroperitoneal hemorrhage is possible concurrently but this trend directly reflects the visible expanding groin hematoma as the primary driver.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 629,
+      "case_id": "case-014",
+      "question_number": 4,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "priority",
+      "question": "On reassessment, the nurse finds the following: Right foot capillary refill is now 5 seconds. Dorsalis pedis and posterior tibial pulses are absent bilaterally on right. Right leg is cool, pale, and mottled from the knee down. The patient reports severe, worsening pain rated 9/10 and states his right foot 'feels completely numb.' BP 98/58 mmHg, HR 112 bpm. Prioritize the following nursing actions by placing them in the correct order of priority (1 = highest priority).",
+      "choices": {
+        "A": "Apply a warm compress to the right foot to promote circulation and relieve numbness",
+        "B": "Immediately notify the interventional cardiologist and vascular surgery of suspected acute limb ischemia — this is a limb-threatening emergency",
+        "C": "Document findings thoroughly in the electronic health record before taking action",
+        "D": "Prepare for emergency vascular intervention (surgical embolectomy, endovascular repair, or IR-guided thrombin injection) — gather consent, IV access, lab draws (CBC, coag, type and screen)",
+        "E": "Apply firm manual pressure to the groin hematoma and call a rapid response / activate emergency protocol",
+        "F": "Administer oral pain medication and reassure the patient that numbness after catheterization is common and will resolve"
+      },
+      "correct": ["B", "E", "D", "C", "F", "A"],
+      "rationale": "PRIORITY 1 — (B): Absent pulses + cool/pale/mottled limb + 5-second cap refill = ACUTE LIMB ISCHEMIA (ALI). This is a surgical/vascular emergency. The 'golden window' for limb salvage is typically 4–6 hours from onset of ischemia. Immediate physician notification is the single most time-critical action. PRIORITY 2 — (E): While activating emergency response, manual pressure controls ongoing hemorrhage contributing to the hematoma and vascular compromise. Rapid Response activation mobilizes additional resources. PRIORITY 3 — (D): Prepare for emergent intervention — surgical or IR. Type and screen, coag panel, consent, large-bore IV access, and NPO status are all time-sensitive preparatory actions. PRIORITY 4 — (C): Documentation is important but follows life/limb-saving actions. NEVER prioritized over intervention in an emergency. INCORRECT: (A) Warm compresses are CONTRAINDICATED in ischemic limbs — heat increases metabolic demand in tissue that is already oxygen-deprived, worsening ischemic injury. (F) Complete absence of pulses with mottling is NOT a normal finding — reassurance without action is dangerous and a failure of duty.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 630,
+      "case_id": "case-014",
+      "question_number": 5,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "cloze",
+      "question": "Complete the following nursing documentation note by selecting the best option for each blank.\n\n'Following femoral artery catheterization with 180 mL of contrast administered, the nurse monitors urine output hourly to detect early signs of [BLANK 1], a complication caused by contrast dye toxicity to the renal tubules. The primary prevention strategy is [BLANK 2]. The patient's current urine output of 22 mL over the past hour is [BLANK 3], which warrants [BLANK 4] to achieve a target urine output of [BLANK 5].'",
+      "choices": {
+        "BLANK_1": {
+          "A": "acute pulmonary edema",
+          "B": "contrast-induced nephropathy (CIN)",
+          "C": "prerenal azotemia from dehydration",
+          "D": "heparin-induced thrombocytopenia"
+        },
+        "BLANK_2": {
+          "A": "administration of furosemide to force diuresis",
+          "B": "holding all nephrotoxic medications for 72 hours",
+          "C": "adequate IV fluid hydration before and after the procedure using isotonic crystalloid",
+          "D": "sodium bicarbonate bolus immediately post-procedure"
+        },
+        "BLANK_3": {
+          "A": "within normal limits for a post-procedure patient",
+          "B": "below the acceptable threshold and consistent with oliguria",
+          "C": "elevated, suggesting fluid overload",
+          "D": "expected given the patient's age and baseline creatinine"
+        },
+        "BLANK_4": {
+          "A": "reassessment in 2 hours with no immediate action required",
+          "B": "oral encouragement of fluids and dietary sodium restriction",
+          "C": "notifying the provider and increasing the IV fluid rate per protocol",
+          "D": "administration of furosemide 40 mg IV to stimulate output"
+        },
+        "BLANK_5": {
+          "A": "at least 30 mL/hr regardless of patient weight",
+          "B": "greater than 0.5 mL/kg/hr",
+          "C": "100 mL/hr for 6 hours post-procedure",
+          "D": "equal to intake to maintain strict euvolemia"
+        }
+      },
+      "correct": {
+        "BLANK_1": "B",
+        "BLANK_2": "C",
+        "BLANK_3": "B",
+        "BLANK_4": "C",
+        "BLANK_5": "B"
+      },
+      "rationale": "BLANK 1 — (B) Contrast-induced nephropathy (CIN): Iodinated contrast dye causes direct renal tubular toxicity and renal vasoconstriction. Risk is elevated with large contrast volumes (>100–150 mL), pre-existing CKD, diabetes, and poor hydration. This patient used 180 mL with baseline Cr 1.1 — borderline elevated risk. BLANK 2 — (C) Adequate IV hydration with isotonic saline (0.9% NaCl or LR) is the gold standard and most evidence-based prevention for CIN. It dilutes contrast, maintains renal perfusion, and promotes diuresis. Furosemide is NOT recommended prophylactically — it can worsen dehydration and concentrate contrast in tubules. BLANK 3 — (B) 22 mL/hr is oliguria. Normal urine output is ≥0.5 mL/kg/hr (approximately 30–50 mL/hr for most adults). At 22 mL/hr, this patient is below the acceptable threshold and at risk for CIN progression. BLANK 4 — (C) The appropriate action is provider notification and IV fluid rate increase. Do not administer furosemide to a patient with oliguria post-contrast — this worsens volume depletion. BLANK 5 — (B) The clinical standard for adequate renal perfusion is ≥0.5 mL/kg/hr. This is weight-based and the most pharmacologically accurate threshold used in critical care and post-procedure nursing.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 631,
+      "case_id": "case-014",
+      "question_number": 6,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "matrix",
+      "question": "The nurse is reviewing post-PCI care orders and nursing interventions. For each intervention listed, classify it as Indicated (appropriate and should be implemented), Contraindicated (harmful and should NOT be implemented), or Not Applicable (irrelevant to this clinical situation).",
+      "choices": {
+        "A": "Perform bilateral lower extremity neurovascular checks (pulses, cap refill, color, sensation, movement) every 15 minutes for the first 2 hours post-procedure",
+        "B": "Encourage the patient to ambulate to the hallway within 1 hour of femoral artery catheterization to prevent DVT",
+        "C": "Administer IV isotonic crystalloid fluid bolus/increased rate to maintain urine output and prevent contrast-induced nephropathy",
+        "D": "Apply a warm compress to the right groin hematoma to reduce pain and promote reabsorption",
+        "E": "Hold aspirin 325mg and ticagrelor for 48–72 hours post-PCI to minimize access site bleeding risk",
+        "F": "Apply continuous firm manual pressure to an expanding femoral hematoma and notify the interventional cardiologist immediately"
+      },
+      "correct": {
+        "A": "Indicated",
+        "B": "Contraindicated",
+        "C": "Indicated",
+        "D": "Contraindicated",
+        "E": "Contraindicated",
+        "F": "Indicated"
+      },
+      "rationale": "A — INDICATED: Bilateral neurovascular checks every 15 minutes are the standard of care post-femoral catheterization. Early detection of pulse loss, prolonged cap refill, pallor, or new paresthesias allows for timely intervention before irreversible limb ischemia occurs. B — CONTRAINDICATED: Femoral artery catheterization requires a period of strict bed rest with the affected leg straight and immobile — typically 2–6 hours depending on closure device used (manual compression requires longer hold). Premature ambulation risks re-opening the arteriotomy site, causing hemorrhage or hematoma expansion. DVT prophylaxis is addressed through other means post-PCI. C — INDICATED: IV hydration is the primary evidence-based intervention to prevent contrast-induced nephropathy. With 180 mL of contrast, borderline creatinine, and oliguria at 22 mL/hr, increasing IV fluid rate is both appropriate and urgent. D — CONTRAINDICATED: Warm compresses cause local vasodilation and increased blood flow, which can actively expand an existing hematoma and promote further bleeding at the femoral puncture site. Cold compresses (if ordered) or continued manual pressure are preferred. E — CONTRAINDICATED: Dual antiplatelet therapy (DAPT) — aspirin + P2Y12 inhibitor (ticagrelor) — is absolutely required post-coronary stenting. Holding DAPT significantly increases the risk of acute in-stent thrombosis, which carries up to 40–50% mortality. The risk of stent thrombosis far outweighs the marginal benefit of reduced access site bleeding. F — INDICATED: Manual pressure is the first-line intervention for an expanding femoral hematoma. Simultaneous notification of the interventional cardiologist is essential, as expansion may indicate pseudoaneurysm formation, AV fistula, or inadequate vessel closure requiring vascular intervention.",
+      "difficulty": "hard"
+    }
+  ]
+}

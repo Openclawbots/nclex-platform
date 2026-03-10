@@ -1,0 +1,162 @@
+{
+  "case_id": "case-011",
+  "title": "Hypertensive Emergency: Malignant Hypertension",
+  "scenario": "A 54-year-old male is brought to the emergency department by his wife after complaining of a severe headache rated 9/10, blurred vision, and nausea for the past several hours. His wife reports he stopped taking his antihypertensive medications — lisinopril and amlodipine — approximately two weeks ago, stating he 'felt fine.' He has a known history of hypertension but no other documented chronic conditions. On arrival, the patient appears confused and disoriented to time and place. Fundoscopic examination reveals bilateral papilledema. Vital signs: BP 228/142 mmHg, HR 96 bpm, RR 18 breaths/min, Temp 37.0°C, SpO2 97% on room air. Labs show creatinine 2.8 mg/dL (baseline unknown) and glucose 118 mg/dL. Urinalysis reveals 3+ proteinuria and RBC casts, consistent with hypertensive nephropathy. ECG shows a left ventricular hypertrophy (LVH) pattern. CT scan of the head shows no hemorrhage and no infarct. The clinical team initiates evaluation for hypertensive emergency with evidence of multi-organ target damage including neurological, renal, and cardiovascular involvement. IV access is established and continuous monitoring is initiated.",
+  "questions": [
+    {
+      "id": 608,
+      "case_id": "case-011",
+      "question_number": 1,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "extended-response",
+      "question": "The nurse is reviewing the patient's presentation to determine whether this represents a hypertensive EMERGENCY or hypertensive urgency. Select ALL findings from the patient's assessment that specifically indicate this is a hypertensive EMERGENCY rather than urgency. Select all that apply.",
+      "choices": {
+        "A": "Bilateral papilledema on fundoscopic examination",
+        "B": "Confusion and altered mental status (hypertensive encephalopathy)",
+        "C": "Severe headache rated 9/10",
+        "D": "3+ proteinuria and RBC casts on urinalysis indicating acute hypertensive nephropathy",
+        "E": "Nausea",
+        "F": "BP >180/120 mmHg with evidence of acute target organ damage"
+      },
+      "correct": ["A", "B", "D", "F"],
+      "rationale": "Hypertensive EMERGENCY is defined as severely elevated BP (typically >180/120 mmHg) WITH evidence of acute end-organ damage. Papilledema (A) indicates increased intracranial pressure and hypertensive retinopathy — a hallmark of emergency. Confusion/encephalopathy (B) indicates cerebral involvement — a defining feature of emergency. Proteinuria with RBC casts (D) signals acute hypertensive nephropathy with glomerular injury. BP >180/120 with target organ damage (F) is the defining criterion. Headache alone (C) and nausea alone (E) — while uncomfortable — can occur in hypertensive urgency (severely elevated BP WITHOUT acute organ damage) and are not sufficient to classify as an emergency. The critical distinction is the presence of acute end-organ damage.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 609,
+      "case_id": "case-011",
+      "question_number": 2,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "bow-tie",
+      "question": "The nurse is completing a clinical bow-tie analysis for this patient. Using the information provided, complete the bow-tie by identifying the correct condition, two priority nursing actions, and two priority monitoring parameters.",
+      "choices": {
+        "A": "Hypertensive emergency with multi-organ target damage",
+        "B": "Hypertensive urgency — no organ damage present",
+        "C": "Acute ischemic stroke — primary neurological event",
+        "D": "Administer IV nicardipine or labetalol infusion as ordered; reduce MAP by no more than 25% in the first hour",
+        "E": "Administer oral nifedipine sublingually for rapid BP reduction",
+        "F": "Insert Foley catheter for strict intake and output monitoring; perform frequent neurological checks (q1hr)",
+        "G": "Monitor MAP and neurological status hourly; monitor urine output, creatinine trend, and vision changes",
+        "H": "Monitor serum glucose every 15 minutes; prepare for immediate thrombolytics",
+        "I": "Discharge patient once BP drops below 160/100 mmHg"
+      },
+      "correct": {
+        "condition": "A",
+        "actions": ["D", "F"],
+        "parameters": ["G"]
+      },
+      "rationale": "CONDITION: This presentation — BP 228/142 with papilledema, encephalopathy, and renal injury — is a hypertensive EMERGENCY (A), not urgency (B). CT ruled out ischemic stroke as the primary event (C). ACTIONS: IV nicardipine or labetalol (D) are first-line IV agents for hypertensive emergency; MAP must be reduced by no more than 25% in the first hour to prevent cerebral ischemia. A Foley catheter (F) enables strict I&O monitoring to track renal perfusion; frequent neuro checks detect deterioration. Oral nifedipine sublingual (E) is CONTRAINDICATED — unpredictable rapid drops risk ischemia. PARAMETERS: MAP hourly, neuro status q1hr, urine output, creatinine trend, and vision changes (G) directly reflect target organ response. Glucose monitoring q15min (H) and thrombolytics (H) are not indicated — CT shows no infarct.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 610,
+      "case_id": "case-011",
+      "question_number": 3,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "trend",
+      "question": "The patient was started on IV nicardipine at 0000. Review the following BP trend data and select the BEST interpretation of the 0200 assessment finding.\n\n| Time  | BP        | MAP    | % MAP Change from Baseline |\n|-------|-----------|--------|-----------------------------|\n| 0000  | 228/142   | 171    | Baseline                    |\n| 0100  | 198/124   | 149    | -13% (within safe range)    |\n| 0200  | 176/108   | 131    | -23% from 0100; -28% total  |\n\nAt 0200, the patient reports NEW right arm weakness and increased confusion. What does this clinical picture indicate?",
+      "choices": {
+        "A": "The BP reduction is therapeutic — new weakness is unrelated and likely positional",
+        "B": "BP has been reduced too aggressively; the new neurological deficits suggest cerebral hypoperfusion due to impaired autoregulation in chronic hypertension",
+        "C": "The nicardipine is not working — BP should be lowered further to 120/80 immediately",
+        "D": "This is expected — confusion always worsens before improving in hypertensive encephalopathy",
+        "E": "The right arm weakness indicates a completed ischemic stroke from the original hypertensive event",
+        "F": "The patient is having a hypovolemic episode — bolus 1L NS immediately"
+      },
+      "correct": "B",
+      "rationale": "By 0200, total MAP reduction from baseline is approximately 28% — exceeding the safe threshold of 25% in the first hour. In chronic hypertension, cerebral autoregulation is reset to tolerate higher pressures. Aggressive BP reduction shifts the autoregulatory curve, reducing cerebral perfusion pressure below the new threshold, causing cerebral ischemia even without 'low' absolute BP. The new right arm weakness and worsening confusion are classic signs of cerebral hypoperfusion. The correct nursing response is to immediately notify the provider and reassess the infusion rate — likely reducing or pausing the nicardipine. This is NOT a completed stroke from the original event (E) — it is an iatrogenic complication of over-treatment. NS bolus (F) is inappropriate and dangerous. Further BP reduction (C) would cause catastrophic ischemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 611,
+      "case_id": "case-011",
+      "question_number": 4,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "priority",
+      "question": "The provider enters a new order: 'Reduce blood pressure to 120/80 mmHg within 2 hours.' The nurse reviews the order before implementation. What is the PRIORITY nursing action?",
+      "choices": {
+        "A": "Implement the order immediately — the provider has authority over nursing judgment",
+        "B": "Increase the nicardipine infusion rate to achieve 120/80 as quickly as possible",
+        "C": "Clarify and question the order with the provider — a target of 120/80 within 2 hours represents dangerous over-reduction that risks cerebral, renal, and coronary ischemia",
+        "D": "Administer a sublingual nifedipine tablet in addition to the IV infusion to reach the target faster",
+        "E": "Document the order as received and implement at the start of the next shift",
+        "F": "Call pharmacy to discontinue the nicardipine and switch to an oral antihypertensive"
+      },
+      "correct": "C",
+      "rationale": "This order is clinically dangerous and must be questioned BEFORE implementation — this is a core nursing responsibility under professional standards and safety protocols. Evidence-based guidelines (JNC, AHA) specify that MAP should be reduced by no more than 25% in the first hour in hypertensive emergency. Normalizing BP to 120/80 within 2 hours represents a reduction of over 50% from baseline MAP — far exceeding safe limits. In a patient with chronic hypertension and impaired autoregulation, this rapid normalization causes cerebral, myocardial, and renal ischemia. The nurse must advocate for patient safety by contacting the provider, citing the guideline, and requesting a revised target. Blindly implementing the order (A, B) violates the nurse's duty to ensure safe orders. Sublingual nifedipine (D) is contraindicated in hypertensive emergency.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 612,
+      "case_id": "case-011",
+      "question_number": 5,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "cloze",
+      "question": "Complete the following nursing knowledge statement by selecting the BEST option for each blank.\n\n'In hypertensive emergency, the nurse knows that MAP should be reduced by no more than [BLANK 1] in the first [BLANK 2] to prevent [BLANK 3], and the preferred route of administration is [BLANK 4] rather than [BLANK 5].'",
+      "choices": {
+        "A": "BLANK 1 — 10%",
+        "B": "BLANK 1 — 25%",
+        "C": "BLANK 1 — 50%",
+        "D": "BLANK 2 — 30 minutes",
+        "E": "BLANK 2 — 1 hour",
+        "F": "BLANK 2 — 6 hours",
+        "G": "BLANK 3 — hypovolemia",
+        "H": "BLANK 3 — cerebral ischemia (and other end-organ ischemia)",
+        "I": "BLANK 3 — rebound hypertension",
+        "J": "BLANK 4 — IV nicardipine or IV labetalol",
+        "K": "BLANK 4 — oral amlodipine",
+        "L": "BLANK 5 — oral or sublingual agents",
+        "M": "BLANK 5 — intramuscular agents"
+      },
+      "correct": ["B", "E", "H", "J", "L"],
+      "rationale": "BLANK 1 — 25% (B): AHA/JNC guidelines specify no more than 25% MAP reduction in the first hour. Reducing by 10% (A) is too conservative; 50% (C) is dangerous. BLANK 2 — 1 hour (E): The 25% limit applies to the first hour specifically. Faster reduction (30 min) is more dangerous; 6 hours is too slow to reference a specific guideline threshold. BLANK 3 — Cerebral ischemia (H): Aggressive BP reduction in chronic hypertension shifts the autoregulatory curve, causing cerebral, myocardial, and renal ischemia — not hypovolemia (G) or rebound HTN (I). BLANK 4 — IV nicardipine or IV labetalol (J): Titratable IV agents allow precise, controlled reduction. Oral amlodipine (K) has unpredictable absorption and no titratability in emergency. BLANK 5 — Oral or sublingual agents (L): Oral/sublingual nifedipine is contraindicated in hypertensive emergency due to unpredictable rapid drops causing ischemia.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 613,
+      "case_id": "case-011",
+      "question_number": 6,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "matrix",
+      "question": "For each intervention listed, indicate whether it is INDICATED or CONTRAINDICATED for this patient with hypertensive emergency.",
+      "choices": {
+        "A": "IV antihypertensive infusion (e.g., nicardipine or labetalol) — INDICATED",
+        "B": "IV antihypertensive infusion (e.g., nicardipine or labetalol) — CONTRAINDICATED",
+        "C": "Oral or sublingual nifedipine for rapid BP reduction — INDICATED",
+        "D": "Oral or sublingual nifedipine for rapid BP reduction — CONTRAINDICATED",
+        "E": "MAP reduction >40% within the first hour — INDICATED",
+        "F": "MAP reduction >40% within the first hour — CONTRAINDICATED",
+        "G": "Foley catheter insertion for strict intake and output monitoring — INDICATED",
+        "H": "Foley catheter insertion for strict intake and output monitoring — CONTRAINDICATED",
+        "I": "CT head to rule out hemorrhage or infarct — INDICATED",
+        "J": "CT head to rule out hemorrhage or infarct — CONTRAINDICATED",
+        "K": "Discharge home with oral antihypertensives today — INDICATED",
+        "L": "Discharge home with oral antihypertensives today — CONTRAINDICATED"
+      },
+      "correct": {
+        "matrix": [
+          { "intervention": "IV antihypertensive infusion (nicardipine or labetalol)", "classification": "INDICATED", "key": "A" },
+          { "intervention": "Oral or sublingual nifedipine for rapid BP reduction", "classification": "CONTRAINDICATED", "key": "D" },
+          { "intervention": "MAP reduction >40% within the first hour", "classification": "CONTRAINDICATED", "key": "F" },
+          { "intervention": "Foley catheter for strict I&O monitoring", "classification": "INDICATED", "key": "G" },
+          { "intervention": "CT head to rule out hemorrhage or infarct", "classification": "INDICATED", "key": "I" },
+          { "intervention": "Discharge home with oral antihypertensives today", "classification": "CONTRAINDICATED", "key": "L" }
+        ]
+      },
+      "rationale": "INDICATED — IV nicardipine/labetalol (A): Titratable IV agents are the standard of care; allow precise, controlled MAP reduction. CONTRAINDICATED — Sublingual nifedipine (D): Produces rapid, unpredictable BP drops; guideline-contraindicated in hypertensive emergency due to ischemia risk. CONTRAINDICATED — MAP >40% reduction in 1 hour (F): Exceeds the safe 25% threshold; risks cerebral, myocardial, and renal ischemia due to impaired autoregulation. INDICATED — Foley catheter (G): Renal perfusion monitoring via strict I&O is critical given creatinine 2.8 and proteinuria indicating nephropathy. INDICATED — CT head (I): Although already completed and negative, CT to rule out hemorrhage/infarct is entirely appropriate and indicated at presentation — guides treatment decisions (e.g., thrombolytics contraindicated if hemorrhage). CONTRAINDICATED — Discharge with oral meds (L): Patient requires ICU-level monitoring, IV titration, and serial organ function assessment; premature discharge risks rebound emergency and death.",
+      "difficulty": "hard"
+    }
+  ]
+}

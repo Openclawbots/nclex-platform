@@ -1,0 +1,191 @@
+{
+  "case_id": "case-020",
+  "title": "Massive Pulmonary Embolism with Hemodynamic Compromise",
+  "scenario": "A 52-year-old female presents on postoperative day 3 following a right total knee replacement. She was receiving enoxaparin 40mg SQ daily for prophylaxis. At 1200, she develops sudden onset dyspnea, right-sided pleuritic chest pain, and intense anxiety. Her morning vitals at 0600 were BP 128/80, HR 88, SpO2 96% on room air. Current vitals: BP 88/52 (down from 102/68 one hour ago), HR 126 (sinus tachycardia), RR 30, SpO2 88% on room air, Temp 37.4°C. Assessment reveals the right calf is warm, tender, and swollen — 3 cm larger in circumference than the left. Wells Score for PE is 7, indicating high clinical probability. ABG results: pH 7.48, PaCO2 28 mmHg, PaO2 54 mmHg — consistent with acute respiratory alkalosis and hypoxemia. EKG shows sinus tachycardia with an S1Q3T3 pattern and signs of new right heart strain. CT Pulmonary Angiography (CT-PA) has been ordered but results are pending. Despite administration of 2L of IV normal saline, blood pressure has not improved. The clinical picture is consistent with massive (high-risk) pulmonary embolism with hemodynamic compromise requiring immediate intervention.",
+  "questions": [
+    {
+      "id": 662,
+      "case_id": "case-020",
+      "question_number": 1,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "extended-response",
+      "question": "The nurse is reviewing the clinical findings for this 52-year-old post-surgical patient. Which findings indicate HIGH-RISK (massive) pulmonary embolism requiring urgent intervention? Select ALL that apply.\n\nA. Systolic blood pressure 88/52 mmHg despite 2L IV fluid resuscitation\nB. SpO2 88% on room air with acute onset dyspnea\nC. EKG: S1Q3T3 pattern with new right heart strain\nD. Wells score of 7 (high clinical probability)\nE. Right-sided pleuritic chest pain as the sole presenting symptom\nF. Mild tachycardia (HR 100) without hemodynamic instability\nG. Low-grade fever (37.4°C) with no other hemodynamic changes\nH. Acute onset in the context of post-surgical hypercoagulable state",
+      "choices": {
+        "A": "Systolic blood pressure 88/52 mmHg despite 2L IV fluid resuscitation",
+        "B": "SpO2 88% on room air with acute onset dyspnea",
+        "C": "EKG: S1Q3T3 pattern with new right heart strain",
+        "D": "Wells score of 7 (high clinical probability)",
+        "E": "Right-sided pleuritic chest pain as the sole presenting symptom",
+        "F": "Mild tachycardia (HR 100) without hemodynamic instability",
+        "G": "Low-grade fever (37.4°C) with no other hemodynamic changes",
+        "H": "Acute onset in the context of post-surgical hypercoagulable state"
+      },
+      "correct": ["A", "B", "C", "D", "H"],
+      "rationale": "MASSIVE (high-risk) PE is defined by hemodynamic instability — sustained SBP <90 mmHg not explained by other causes. (A) BP 88/52 refractory to fluids is the hallmark of massive PE with cardiogenic shock. (B) SpO2 88% with acute dyspnea reflects severe V/Q mismatch and impending respiratory failure. (C) The S1Q3T3 pattern with right heart strain on EKG indicates acute cor pulmonale from increased right ventricular afterload — a hallmark of large PE. (D) Wells score 7 represents high clinical probability (>6 = high), strongly supporting PE diagnosis. (H) Post-surgical state (day 3 post-TKR) is a major risk factor and contextualizes the acute presentation. DISTRACTORS: (E) Pleuritic chest pain alone is more consistent with submassive PE or pulmonary infarction — not the defining criterion for massive PE. (F) Mild tachycardia without hemodynamic instability suggests submassive, not massive PE. (G) Low-grade fever (37.4°C) is nonspecific and does not indicate the severity classification of massive PE.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 663,
+      "case_id": "case-020",
+      "question_number": 2,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "bow-tie",
+      "question": "The nurse is completing a bow-tie clinical judgment analysis for this patient. Using the clinical data provided, complete the bow-tie by selecting the most likely condition, two priority nursing/medical actions, and two parameters to monitor.\n\nCENTER — Most Likely Condition:\nA. Massive (high-risk) pulmonary embolism\nB. Submassive (intermediate-risk) pulmonary embolism\nC. Spontaneous pneumothorax\nD. Acute ST-elevation myocardial infarction (STEMI)\n\nLEFT WINGS — Priority Actions (Select 2):\nE. Initiate therapeutic anticoagulation (unfractionated heparin infusion) immediately\nF. Apply supplemental oxygen and notify provider for thrombolytic therapy consideration\nG. Prepare for emergent surgical embolectomy if thrombolytics are contraindicated\nH. Administer nitroglycerin sublingual for chest pain\nI. Continue prophylactic enoxaparin dosing and monitor\n\nRIGHT WINGS — Parameters to Monitor (Select 2):\nJ. Blood pressure trend and hemodynamic stability\nK. SpO2 and right ventricular strain on echo/EKG\nL. Serum troponin trend only\nM. Urine output as primary hemodynamic indicator\nN. Temperature and WBC for infectious etiology",
+      "choices": {
+        "A": "Massive (high-risk) pulmonary embolism",
+        "B": "Submassive (intermediate-risk) pulmonary embolism",
+        "C": "Spontaneous pneumothorax",
+        "D": "Acute ST-elevation myocardial infarction (STEMI)",
+        "E": "Initiate therapeutic anticoagulation (unfractionated heparin infusion) immediately",
+        "F": "Apply supplemental oxygen and notify provider for thrombolytic therapy consideration",
+        "G": "Prepare for emergent surgical embolectomy if thrombolytics are contraindicated",
+        "H": "Administer nitroglycerin sublingual for chest pain",
+        "I": "Continue prophylactic enoxaparin dosing and monitor",
+        "J": "Blood pressure trend and hemodynamic stability",
+        "K": "SpO2 and right ventricular strain on echo/EKG",
+        "L": "Serum troponin trend only",
+        "M": "Urine output as primary hemodynamic indicator",
+        "N": "Temperature and WBC for infectious etiology"
+      },
+      "correct": {
+        "condition": "A",
+        "actions": ["E", "F"],
+        "parameters": ["J", "K"]
+      },
+      "rationale": "CONDITION: (A) Massive PE — defined by hemodynamic instability (SBP <90) with evidence of right heart strain (S1Q3T3, EKG changes), acute hypoxemia (SpO2 88%), and high Wells score (7) in a post-surgical patient. Submassive PE (B) lacks hemodynamic instability. Pneumothorax (C) would show absent breath sounds, tracheal deviation, and no EKG S1Q3T3 pattern. STEMI (D) would show ST elevation in specific leads without the clinical PE picture. ACTIONS: (E) Therapeutic UFH infusion is first-line anticoagulation for suspected/confirmed massive PE while CT-PA is pending or confirmed — weight-based dosing per protocol. (F) Oxygen corrects hypoxemia; provider notification is mandatory for thrombolytic consideration in massive PE with shock. (G) Embolectomy is correct but only if thrombolytics are absolutely contraindicated — not the first priority. (H) Nitroglycerin is dangerous in massive PE — vasodilation worsens already-compromised preload. (I) Prophylactic dosing is wholly inadequate for therapeutic management. PARAMETERS: (J) BP trend is the defining parameter for massive vs. submassive PE and guides escalation to thrombolytics. (K) SpO2 and RV strain (echo, EKG) reflect the severity of right heart failure and guide intervention urgency.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 664,
+      "case_id": "case-020",
+      "question_number": 3,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "trend",
+      "question": "The nurse reviews the patient's trend data over the past 6 hours. Analyze the trajectory and select the answer that BEST describes the clinical significance and immediate nursing priority.\n\nTIME TREND DATA:\n• BP:   0600: 128/80 → 0900: 112/72 → 1100: 102/68 → 1200: 88/52\n• HR:   0600: 88 → 0900: 102 → 1100: 118 → 1200: 126\n• SpO2: 0600: 96% → 0900: 92% → 1100: 88% → 1200: 84%\n• RR:   0600: 18 → 0900: 24 → 1100: 28 → 1200: 30\n\nA. This trend indicates progressive decompensated cardiogenic shock from massive PE; immediate priority is rapid response activation, continuous hemodynamic monitoring, and preparation for systemic thrombolytics or surgical embolectomy\nB. This trend indicates septic shock from a postoperative wound infection; immediate priority is blood cultures and broad-spectrum antibiotics\nC. This trend indicates hemorrhagic shock from internal bleeding; immediate priority is type and crossmatch and surgical consultation\nD. This trend indicates normal postoperative variation; continue to monitor and report if BP drops below 80 systolic\nE. This trend indicates neurogenic shock; immediate priority is spinal stabilization and vasopressor support",
+      "choices": {
+        "A": "Progressive decompensated cardiogenic shock from massive PE; activate rapid response, prepare for thrombolytics or embolectomy",
+        "B": "Septic shock from postoperative wound infection; obtain blood cultures and start broad-spectrum antibiotics",
+        "C": "Hemorrhagic shock from internal bleeding; type and crossmatch, surgical consultation",
+        "D": "Normal postoperative variation; continue monitoring, report if SBP <80",
+        "E": "Neurogenic shock; spinal stabilization and vasopressor support"
+      },
+      "correct": "A",
+      "rationale": "CORRECT (A): The 6-hour trend shows a classic hemodynamic collapse pattern consistent with massive PE progressing to cardiogenic/obstructive shock. Key trend analysis: BP dropped 40 points systolic (128→88) — a 31% decrease indicating obstructive shock. HR increased 38 bpm (88→126) — compensatory tachycardia as cardiac output falls. SpO2 dropped 12 points (96%→84%) — worsening V/Q mismatch and impaired oxygenation despite presumed supplemental oxygen. RR increased from 18 to 30 — compensatory tachypnea and impending respiratory failure. This trajectory is RAPID and LINEAR — not fluctuating as with sepsis or hemorrhage early on. In context of acute PE presentation, S1Q3T3 on EKG, Wells score 7, and post-surgical status, massive PE with obstructive shock is the diagnosis. Immediate actions: Activate rapid response team, continuous VS q15min, prepare for CT-PA confirmation, and if confirmed — systemic thrombolytics (alteplase) or surgical embolectomy. (B) Septic shock would include fever >38.3°C or <36°C, elevated WBC, positive cultures — not consistent here. (C) Hemorrhagic shock would show external bleeding, falling Hgb, no EKG changes. (D) This is NOT normal variation — a 40-point drop in SBP over 6 hours is an emergency. (E) Neurogenic shock follows spinal cord injury — not applicable.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 665,
+      "case_id": "case-020",
+      "question_number": 4,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "priority",
+      "question": "CT-PA confirms massive bilateral pulmonary embolism. The patient's BP is 82/50 mmHg despite 2L NS bolus. The provider orders alteplase (tPA) 100mg IV infusion over 2 hours. Place the following nursing interventions in ORDER OF PRIORITY (1 = highest, 6 = lowest) during and after the tPA infusion.\n\nA. Establish 1:1 patient monitoring with continuous cardiac telemetry and vital signs every 15 minutes throughout infusion\nB. Implement strict bleeding precautions: avoid IM injections, arterial punctures, and unnecessary invasive procedures during and 24 hours post-infusion\nC. Ensure reversal agents are available at bedside (cryoprecipitate, FFP, antifibrinolytic agents) in case of hemorrhagic emergency\nD. Assess neurological status every 30 minutes to detect early signs of intracranial hemorrhage (the most feared complication)\nE. Monitor IV access site and all puncture sites for signs of hemorrhage every 15 minutes\nF. Document administration time, rate, patient response, and notify provider immediately if SBP drops further or signs of hemorrhage appear",
+      "choices": {
+        "A": "1:1 monitoring with continuous telemetry and VS q15min throughout infusion",
+        "B": "Bleeding precautions: no IM injections, no arterial sticks, avoid invasive procedures",
+        "C": "Reversal agents available at bedside (cryoprecipitate, FFP, antifibrinolytics)",
+        "D": "Neuro assessment q30min for intracranial hemorrhage detection",
+        "E": "Monitor IV sites and all puncture sites for hemorrhage q15min",
+        "F": "Document administration, notify provider for deterioration or hemorrhage"
+      },
+      "correct": ["A", "B", "C", "D", "E", "F"],
+      "correct_order": {
+        "1": "A",
+        "2": "B",
+        "3": "D",
+        "4": "C",
+        "5": "E",
+        "6": "F"
+      },
+      "rationale": "PRIORITY RATIONALE: (1st - A) 1:1 monitoring with continuous telemetry and VS q15min is the highest priority because thrombolytics can cause rapid cardiovascular changes (both improvement and deterioration), and the patient is in active hemodynamic shock. Continuous monitoring enables immediate detection of clinical change. (2nd - B) Bleeding precautions must be implemented IMMEDIATELY before, during, and after infusion — IM injections and arterial sticks during tPA dramatically increase hemorrhagic risk. Prevention supersedes treatment. (3rd - D) Neurological assessment every 30 minutes detects intracranial hemorrhage (ICH), the most devastating and potentially fatal complication of thrombolytics. ICH occurs in ~1-3% of cases and is often fatal. Early detection allows for emergent reversal. (4th - C) Reversal agents (cryoprecipitate replaces fibrinogen depleted by thrombolytics; FFP replaces clotting factors; antifibrinolytics like aminocaproic acid) must be at bedside and ready — not just ordered. (5th - E) Site monitoring for hemorrhage at all puncture sites is continuous nursing surveillance critical during infusion. (6th - F) Documentation and provider notification are essential safety practices but come after direct patient safety interventions are established. NOTE: Recent knee replacement (day 3 post-op) may represent a RELATIVE contraindication to thrombolytics — this was a clinical judgment decision weighing risk of death from massive PE vs. risk of major surgical site bleeding.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 666,
+      "case_id": "case-020",
+      "question_number": 5,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "cloze",
+      "question": "Complete the following clinical statement by selecting the correct option for each blank.\n\n\"Systemic thrombolytics are indicated in pulmonary embolism when the patient develops [BLANK 1], defined as [BLANK 2]. The primary risk of thrombolytic therapy is [BLANK 3], and absolute contraindications include [BLANK 4]. In this patient's case, the recent total knee replacement represents a [BLANK 5] to systemic thrombolytics, requiring individualized clinical judgment weighing the risk of death from massive PE against the risk of major hemorrhage.\"\n\nBLANK 1 — Indication trigger:\nA. Hemodynamic instability (obstructive/cardiogenic shock)\nB. Hypoxemia with SpO2 <94% on room air\nC. Elevated D-dimer above institutional threshold\nD. Any confirmed PE on CT-PA\n\nBLANK 2 — Definition of hemodynamic instability in PE:\nA. SBP <90 mmHg for >15 minutes not explained by other causes (hypovolemia, sepsis, arrhythmia)\nB. HR >100 bpm with dyspnea\nC. MAP <65 mmHg with fever and elevated lactate\nD. SBP <110 mmHg with oxygen requirement\n\nBLANK 3 — Primary risk:\nA. Major bleeding and hemorrhage, including life-threatening intracranial hemorrhage\nB. Anaphylactic reaction to the fibrinolytic agent\nC. Rebound hypercoagulability after infusion\nD. Acute kidney injury from contrast nephropathy\n\nBLANK 4 — Absolute contraindications:\nA. Prior hemorrhagic stroke, active intracranial neoplasm, or intracranial/spinal surgery within 3 months\nB. Prior ischemic stroke within 10 years\nC. Age >75 years with history of hypertension\nD. Platelet count <150,000 or INR >1.5\n\nBLANK 5 — Classification of recent knee replacement:\nA. Relative contraindication\nB. Absolute contraindication\nC. No impact on thrombolytic decision\nD. Indication for higher thrombolytic dose",
+      "choices": {
+        "blank_1": {
+          "A": "Hemodynamic instability (obstructive/cardiogenic shock)",
+          "B": "Hypoxemia with SpO2 <94% on room air",
+          "C": "Elevated D-dimer above institutional threshold",
+          "D": "Any confirmed PE on CT-PA"
+        },
+        "blank_2": {
+          "A": "SBP <90 mmHg for >15 minutes not explained by other causes",
+          "B": "HR >100 bpm with dyspnea",
+          "C": "MAP <65 mmHg with fever and elevated lactate",
+          "D": "SBP <110 mmHg with oxygen requirement"
+        },
+        "blank_3": {
+          "A": "Major bleeding and hemorrhage, including life-threatening intracranial hemorrhage",
+          "B": "Anaphylactic reaction to the fibrinolytic agent",
+          "C": "Rebound hypercoagulability after infusion",
+          "D": "Acute kidney injury from contrast nephropathy"
+        },
+        "blank_4": {
+          "A": "Prior hemorrhagic stroke, active intracranial neoplasm, or intracranial/spinal surgery within 3 months",
+          "B": "Prior ischemic stroke within 10 years",
+          "C": "Age >75 years with history of hypertension",
+          "D": "Platelet count <150,000 or INR >1.5"
+        },
+        "blank_5": {
+          "A": "Relative contraindication",
+          "B": "Absolute contraindication",
+          "C": "No impact on thrombolytic decision",
+          "D": "Indication for higher thrombolytic dose"
+        }
+      },
+      "correct": {
+        "blank_1": "A",
+        "blank_2": "A",
+        "blank_3": "A",
+        "blank_4": "A",
+        "blank_5": "A"
+      },
+      "rationale": "BLANK 1 (A): Systemic thrombolytics are reserved for MASSIVE (high-risk) PE — defined by hemodynamic instability. SpO2 alone, D-dimer elevation, or any PE confirmed on imaging are NOT sufficient criteria for systemic thrombolytics; they guide anticoagulation decisions. BLANK 2 (A): The definition of hemodynamic instability requiring thrombolytic consideration is sustained SBP <90 mmHg for ≥15 minutes that is NOT explained by alternative causes (hypovolemia, arrhythmia, sepsis). This patient's BP of 88/52 refractory to 2L NS meets this criterion. BLANK 3 (A): Major bleeding, particularly intracranial hemorrhage (ICH), is the primary and most feared risk of systemic thrombolytics. ICH occurs in approximately 1-3% of patients receiving full-dose tPA for PE and carries ~50% mortality. This is why the risk-benefit analysis must be individualized. BLANK 4 (A): Absolute contraindications per ACC/AHA guidelines include: prior hemorrhagic stroke at any time, active intracranial malignancy, structural intracranial cerebrovascular disease, and intracranial or spinal surgery within 3 months. Note: recent ischemic stroke within 3 months (not 10 years) is also an absolute contraindication. BLANK 5 (A): Surgery within 3 months (especially recent major surgery like joint replacement) is classified as a RELATIVE contraindication — not absolute. In life-threatening massive PE, the potential mortality benefit may outweigh the bleeding risk, requiring individualized multidisciplinary decision-making (PERT — Pulmonary Embolism Response Team).",
+      "difficulty": "hard"
+    },
+    {
+      "id": 667,
+      "case_id": "case-020",
+      "question_number": 6,
+      "category": "NGN - Case Study",
+      "type": "multiple-choice",
+      "ngn": true,
+      "ngn_type": "matrix",
+      "question": "CT-PA confirms massive bilateral pulmonary embolism. The patient's BP remains 82/50 mmHg. The nurse is reviewing provider orders and planned interventions. For each intervention listed, indicate whether it is INDICATED or CONTRAINDICATED for this patient at this time.\n\n| Intervention | Indicated | Contraindicated |\n|---|---|---|\n| A. Therapeutic anticoagulation with unfractionated heparin (UFH) infusion — weight-based dosing | | |\n| B. Continue prophylactic enoxaparin 40mg SQ daily only — no dose change | | |\n| C. Systemic thrombolytics (alteplase) for confirmed massive PE with refractory shock | | |\n| D. Administer IM injections (e.g., medications, vaccines) during and 24 hours post-tPA infusion | | |\n| E. Continuous hemodynamic monitoring: telemetry, VS q15min, 1:1 nursing | | |\n| F. Encourage ambulation to prevent further DVT progression | | |",
+      "choices": {
+        "A": "Therapeutic anticoagulation with UFH infusion — weight-based dosing",
+        "B": "Continue prophylactic enoxaparin 40mg SQ daily only",
+        "C": "Systemic thrombolytics (alteplase) for confirmed massive PE with refractory shock",
+        "D": "IM injections during and 24 hours post-tPA infusion",
+        "E": "Continuous hemodynamic monitoring: telemetry, VS q15min, 1:1 nursing",
+        "F": "Encourage ambulation to prevent further DVT progression"
+      },
+      "correct": {
+        "A": "Indicated",
+        "B": "Contraindicated",
+        "C": "Indicated",
+        "D": "Contraindicated",
+        "E": "Indicated",
+        "F": "Contraindicated"
+      },
+      "rationale": "INDICATED: (A) Therapeutic UFH infusion is the standard anticoagulation for confirmed massive PE. Weight-based IV heparin (80 units/kg bolus, 18 units/kg/hr infusion) prevents further clot propagation, maintains anticoagulation during thrombolytic therapy, and is titratable. Prophylactic dosing (enoxaparin 40mg) is insufficient for treatment. (C) Systemic alteplase is indicated for massive PE (high-risk PE) defined by hemodynamic instability — this patient's BP 82/50 refractory to 2L NS meets criteria. The clinical team made the decision to proceed despite recent surgery (relative contraindication) because the risk of death from massive PE outweighs bleeding risk. (E) Continuous hemodynamic monitoring (telemetry, q15min VS, 1:1 nursing) is mandatory during tPA infusion and for the post-infusion period to detect hemorrhagic complications, reperfusion changes, and hemodynamic response to therapy. CONTRAINDICATED: (B) Prophylactic-dose enoxaparin is wholly inadequate for treatment of massive PE — therapeutic anticoagulation is required, and SC injections should be avoided during thrombolytic therapy. (D) IM injections are CONTRAINDICATED during tPA infusion and for 24 hours post-infusion — thrombolytics lyse clots at injection sites causing uncontrolled bleeding. All IM medications must be rerouted to IV administration. (F) Ambulation is CONTRAINDICATED — this patient is in hemodynamic shock with BP 82/50, HR 126, and is receiving thrombolytics. Ambulation risks fall, hemodynamic collapse, and clot dislodgement. Strict bed rest with HOB elevated is required until hemodynamically stable.",
+      "difficulty": "hard"
+    }
+  ]
+}
