@@ -33,8 +33,9 @@ export async function POST(req) {
       selected.push(...shuffled.slice(0, cat.count))
     }
 
-    // 2 NGN questions from NGN - Clinical Judgment category
-    const ngnQuestions = allQuestions.filter(q => q.ngn === true)
+    // 2 NGN questions — standalone only (NGN - Clinical Judgment), NOT case study questions
+    // Case study questions lack scenario context when pulled in isolation
+    const ngnQuestions = allQuestions.filter(q => q.ngn === true && q.category === 'NGN - Clinical Judgment')
     const shuffledNgn = ngnQuestions.sort(() => Math.random() - 0.5)
     selected.push(...shuffledNgn.slice(0, 2))
 

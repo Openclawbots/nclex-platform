@@ -90,7 +90,7 @@ export default function SchoolsPage() {
             Updated for April 1, 2026 NCLEX Test Plan
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-            The Only NGN Clinical Case Study Bank Under $20
+            The Most Affordable NGN Clinical Case Study Bank Available
           </h1>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
             667 practice questions — including 20 full NGN clinical case study scenarios — mapped to NCSBN's Clinical Judgment Measurement Model. $19 per student, one-time.
@@ -221,28 +221,18 @@ export default function SchoolsPage() {
               No institutional contract. No minimum seats. No renewal. Students pay $19 individually when they're ready.
             </p>
 
-            <div className="bg-white rounded-xl shadow-sm border p-8 text-left space-y-4">
-              <p className="text-sm text-gray-600 font-medium">Send your request to <a href="mailto:support@nclexprepro.com" className="text-[#1e3a5f] underline">support@nclexprepro.com</a> — or click the button below to open a pre-filled email.</p>
-
-              <div className="space-y-1">
-                <label className="block text-sm font-medium text-gray-700">Your Name</label>
-                <div className="bg-gray-50 border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-400 italic">Include in your email</div>
-              </div>
-              <div className="space-y-1">
-                <label className="block text-sm font-medium text-gray-700">School / Nursing Program</label>
-                <div className="bg-gray-50 border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-400 italic">Include in your email</div>
-              </div>
-              <div className="space-y-1">
-                <label className="block text-sm font-medium text-gray-700">Your Email</label>
-                <div className="bg-gray-50 border border-gray-200 rounded-lg px-4 py-2 text-sm text-gray-400 italic">Reply-to address</div>
-              </div>
-
+            <div className="bg-white rounded-xl shadow-sm border p-8 text-center space-y-4">
+              <div className="text-5xl mb-2">📧</div>
+              <p className="text-gray-700 font-medium">Email us directly at:</p>
+              <p className="text-2xl font-bold text-[#1e3a5f]">support@nclexprepro.com</p>
+              <p className="text-sm text-gray-500">Include your name, school, and program type. We'll send your free director access code within 24 hours.</p>
               <a
                 href={`mailto:support@nclexprepro.com?subject=${mailtoSubject}&body=${mailtoBody}`}
-                className="block w-full text-center bg-[#1e3a5f] text-white font-bold py-4 px-6 rounded-lg hover:bg-[#2a4f7f] transition mt-2"
+                className="block w-full text-center bg-[#1e3a5f] text-white font-bold py-4 px-6 rounded-lg hover:bg-[#2a4f7f] transition mt-4"
               >
-                Send Director Access Request →
+                Open Pre-Filled Email →
               </a>
+              <p className="text-xs text-gray-400 mt-2">Or use promo code <strong className="text-gray-600">DIRECTOR-[YOURSCHOOL]</strong> directly at checkout for instant free access.</p>
             </div>
           </div>
         </section>

@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'About NCLEX PrepPro — Affordable NCLEX Practice Questions',
-  description: 'NCLEX PrepPro offers 497 NCLEX-style practice questions with detailed rationales for just $19. Built by nurses, for nursing students.',
+  title: 'About NCLEX PrepPro — #1 NGN Case Study Bank Under $20',
+  description: 'NCLEX PrepPro offers 667 NCLEX practice questions including 20 NGN clinical case studies mapped to the CJMM framework. Updated for the April 2026 test plan. $19 one-time.',
   alternates: { canonical: 'https://nclexprepro.com/about' },
 };
 
@@ -16,6 +16,7 @@ export default function AboutPage() {
             <Link href="/blog" className="hover:underline">Blog</Link>
             <Link href="/sample" className="hover:underline">Free Sample</Link>
             <Link href="/pricing" className="hover:underline">Pricing</Link>
+            <Link href="/schools" className="hover:underline">For Schools</Link>
           </div>
         </div>
       </nav>
@@ -43,9 +44,9 @@ export default function AboutPage() {
           <h2 className="text-2xl font-bold text-[#1e3a5f] mt-10">What We Offer</h2>
           <div className="grid md:grid-cols-2 gap-6 my-8">
             <div className="bg-white rounded-lg shadow-sm border p-6">
-              <div className="text-3xl mb-3">📝</div>
-              <h3 className="font-bold text-[#1e3a5f] mb-2">497 Practice Questions</h3>
-              <p className="text-sm text-gray-600">Application-level questions that mirror the real NCLEX format, covering all 5 major categories.</p>
+              <div className="text-3xl mb-3">🎯</div>
+              <h3 className="font-bold text-[#1e3a5f] mb-2">667 Practice Questions</h3>
+              <p className="text-sm text-gray-600">Including 170 Next Generation NCLEX (NGN) questions across 20 full clinical case studies. All mapped to the NCSBN CJMM framework and updated for the April 2026 test plan.</p>
             </div>
             <div className="bg-white rounded-lg shadow-sm border p-6">
               <div className="text-3xl mb-3">💡</div>
@@ -54,8 +55,8 @@ export default function AboutPage() {
             </div>
             <div className="bg-white rounded-lg shadow-sm border p-6">
               <div className="text-3xl mb-3">📊</div>
-              <h3 className="font-bold text-[#1e3a5f] mb-2">Category Breakdown</h3>
-              <p className="text-sm text-gray-600">Med-Surg, Pharmacology, Safety, Prioritization, and Select All That Apply (SATA).</p>
+              <h3 className="font-bold text-[#1e3a5f] mb-2">7 Categories + NGN</h3>
+              <p className="text-sm text-gray-600">Med-Surg, Pharmacology, Safety, Prioritization, SATA — plus 20 NGN clinical case studies featuring bow-tie, trend, matrix, and extended response formats.</p>
             </div>
             <div className="bg-white rounded-lg shadow-sm border p-6">
               <div className="text-3xl mb-3">⏱️</div>

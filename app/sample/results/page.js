@@ -134,7 +134,7 @@ export default function SampleResultsPage() {
             </div>
             <div className="text-lg opacity-90 mt-2">
               {passed
-                ? '🎉 Great start — now see if you can hold this across 497 questions'
+                ? '🎉 Great start — now see if you can hold this across 667 questions'
                 : gap > 0
                   ? `📚 You need ${gap} more percentage points to pass (75% threshold)`
                   : '📚 Keep practicing to hit the 75% passing threshold'}
@@ -150,11 +150,11 @@ export default function SampleResultsPage() {
             </div>
             <h2 className="text-2xl font-bold text-[#1e3a5f] mb-2">
               {passed
-                ? `You scored ${pct}% — can you hold it across all 497 questions?`
+                ? `You scored ${pct}% — can you hold it across all 667 questions?`
                 : `You scored ${pct}%. The full bank shows exactly where you're losing points.`}
             </h2>
             <p className="text-gray-500 mb-2">
-              497 NCLEX-style questions · Full rationales · All 5 categories · Instant access
+              667 NCLEX-style questions · Full rationales · All 7 categories including NGN · Instant access
             </p>
             <div className="flex justify-center gap-6 text-sm text-gray-500 mb-6">
               <span>✅ Med-Surg (100q)</span>
@@ -253,7 +253,7 @@ export default function SampleResultsPage() {
         {wrongAnswers.length > 0 && (
           <div className="bg-white rounded-2xl shadow-md p-6">
             <h2 className="text-xl font-bold text-[#1e3a5f] mb-1">Where You Went Wrong</h2>
-            <p className="text-gray-500 text-sm mb-5">Full rationales below — this is what full access looks like for all 497 questions.</p>
+            <p className="text-gray-500 text-sm mb-5">Full rationales below — this is what full access looks like for all 667 questions.</p>
             <div className="space-y-6">
               {wrongAnswers.map((r, i) => (
                 <div key={i} className="border border-red-100 rounded-xl p-5 bg-red-50">
@@ -288,13 +288,13 @@ export default function SampleResultsPage() {
           <div className="bg-green-50 border border-green-200 rounded-2xl p-6 text-center">
             <div className="text-4xl mb-2">🎯</div>
             <div className="text-xl font-bold text-green-700">Perfect Score on the Sample!</div>
-            <div className="text-green-600 mt-1">The full 497-question exam will really test you. Ready?</div>
+            <div className="text-green-600 mt-1">The full 667-question exam will really test you. Ready?</div>
           </div>
         )}
 
         {/* Bottom CTA */}
         <div className="bg-gradient-to-br from-[#1e3a5f] to-[#2a4f7c] rounded-2xl p-8 text-center text-white">
-          <div className="text-2xl font-bold mb-2">Ready to see all 497 questions?</div>
+          <div className="text-2xl font-bold mb-2">Ready to see all 667 questions?</div>
           <p className="text-blue-200 mb-6">
             {pct < 75
               ? `You're ${gap} points away from passing. The full bank shows exactly where to focus.`

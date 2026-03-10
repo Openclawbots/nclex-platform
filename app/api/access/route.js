@@ -36,7 +36,7 @@ export async function POST(req) {
               currency: 'usd',
               product_data: {
                 name: 'NCLEX PrepPro — Full Practice Exam',
-                description: '497 real-style NCLEX questions with detailed rationales',
+                description: '667 NCLEX questions including 170 NGN questions with detailed rationales',
               },
               unit_amount: 1615, // $16.15 = $19 × 0.85
             },
@@ -64,7 +64,7 @@ export async function POST(req) {
             currency: 'usd',
             product_data: {
               name: 'NCLEX PrepPro — Full Practice Exam',
-              description: '497 real-style NCLEX questions with detailed rationales',
+              description: '667 NCLEX questions including 170 NGN questions with detailed rationales',
             },
             unit_amount: unitAmount,
           },

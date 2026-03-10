@@ -116,7 +116,7 @@ export default function LandingPage() {
       <section className="bg-gradient-to-br from-[#1e3a5f] to-[#2a4f7c] text-white py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex flex-wrap justify-center gap-2 mb-6">
-            <span className="inline-block bg-purple-500 bg-opacity-90 text-white text-xs font-bold px-4 py-1.5 rounded-full">🎯 #1 NGN Case Study Bank Under $20</span>
+            <span className="inline-block bg-purple-500 bg-opacity-90 text-white text-xs font-bold px-4 py-1.5 rounded-full">🎯 20 Full NGN Case Studies — Most Affordable Under $20</span>
             <span className="inline-block bg-blue-400 bg-opacity-30 text-blue-100 text-xs font-semibold px-4 py-1.5 rounded-full">✅ Updated for April 2026 Test Plan</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
@@ -134,7 +134,7 @@ export default function LandingPage() {
           <div className="flex flex-wrap justify-center gap-8 mb-12">
             {[
               { num: '667', label: 'Practice Questions' },
-              { num: 'NGN', label: 'Format Included' },
+              { num: '170', label: 'NGN Questions' },
               { num: '7', label: 'Categories Covered' },
             ].map(s => (
               <div key={s.label} className="text-center">

@@ -26,12 +26,17 @@ export async function GET(req) {
     const shuffled = [...allQuestions].sort(() => Math.random() - 0.5)
 
     // Strip correct answers and rationale from client-side data
+    // Include NGN metadata so UI can render badges, multi-select, and scenarios
     const clientQuestions = shuffled.map(q => ({
       id: q.id,
       category: q.category,
       type: q.type,
       question: q.question,
       choices: q.choices,
+      // NGN fields — required for correct rendering
+      ...(q.ngn && { ngn: q.ngn, ngn_type: q.ngn_type }),
+      ...(q.scenario && { scenario: q.scenario }),
+      ...(q.case_id && { case_id: q.case_id }),
     }))
 
     return NextResponse.json({ questions: clientQuestions, userType: result.rows[0].type })
