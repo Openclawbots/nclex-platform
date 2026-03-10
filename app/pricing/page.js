@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'NCLEX PrepPro Pricing — 497 Questions for $19',
-  description: 'Get full access to 497 NCLEX practice questions with detailed rationales for just $19. One-time payment, no subscription. Compare with UWorld, Archer, and more.',
+  title: 'NCLEX PrepPro Pricing — 667 Questions + 20 NGN Case Studies for $19',
+  description: 'Get full access to 667 NCLEX practice questions including 170 NGN questions and 20 clinical case studies for just $19. One-time payment, no subscription. Compare with UWorld, Archer, and more.',
   alternates: { canonical: 'https://nclexprepro.com/pricing' },
 };
 
@@ -15,6 +15,7 @@ export default function PricingPage() {
           <div className="flex gap-4 text-sm">
             <Link href="/blog" className="hover:underline">Blog</Link>
             <Link href="/sample" className="hover:underline">Free Sample</Link>
+            <Link href="/schools" className="hover:underline">For Schools</Link>
             <Link href="/about" className="hover:underline">About</Link>
           </div>
         </div>
@@ -38,7 +39,7 @@ export default function PricingPage() {
               <li className="flex items-start gap-2"><span className="text-green-500 mt-1">✓</span> 10 practice questions</li>
               <li className="flex items-start gap-2"><span className="text-green-500 mt-1">✓</span> Full rationales for wrong answers</li>
               <li className="flex items-start gap-2"><span className="text-green-500 mt-1">✓</span> Score + category breakdown</li>
-              <li className="flex items-start gap-2"><span className="text-green-500 mt-1">✓</span> 2 questions from each category</li>
+              <li className="flex items-start gap-2"><span className="text-green-500 mt-1">✓</span> Includes NGN question preview</li>
               <li className="flex items-start gap-2 text-gray-400"><span className="mt-1">✗</span> Limited to 10 questions</li>
             </ul>
             <Link href="/sample" className="block text-center bg-gray-100 text-gray-800 font-semibold py-3 px-6 rounded-lg hover:bg-gray-200 transition">
@@ -48,8 +49,8 @@ export default function PricingPage() {
 
           {/* Full Access */}
           <div className="bg-white rounded-xl shadow-lg border-2 border-[#1e3a5f] p-8 relative">
-            <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-[#1e3a5f] text-white text-xs font-bold px-4 py-1 rounded-full">
-              BEST VALUE
+            <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-[#1e3a5f] text-white text-xs font-bold px-4 py-1 rounded-full whitespace-nowrap">
+              MOST COMPLETE NGN PREP AT $19
             </div>
             <div className="text-center">
               <h2 className="text-xl font-bold text-[#1e3a5f] mb-2">Full Access</h2>
@@ -57,9 +58,11 @@ export default function PricingPage() {
               <p className="text-gray-500 text-sm mb-6">One-time payment</p>
             </div>
             <ul className="space-y-3 text-gray-700 mb-8">
-              <li className="flex items-start gap-2"><span className="text-green-500 mt-1">✓</span> <strong>497 practice questions</strong></li>
+              <li className="flex items-start gap-2"><span className="text-green-500 mt-1">✓</span> <strong>667 practice questions</strong></li>
               <li className="flex items-start gap-2"><span className="text-green-500 mt-1">✓</span> Detailed rationales for every question</li>
-              <li className="flex items-start gap-2"><span className="text-green-500 mt-1">✓</span> All 5 NCLEX categories covered</li>
+              <li className="flex items-start gap-2"><span className="text-green-500 mt-1">✓</span> All 7 categories including NGN</li>
+              <li className="flex items-start gap-2"><span className="text-green-500 mt-1">✓</span> <strong>20 NGN clinical case studies</strong> — exam-format bow-tie, matrix, trend</li>
+              <li className="flex items-start gap-2"><span className="text-green-500 mt-1">✓</span> Updated for April 2026 NCLEX test plan</li>
               <li className="flex items-start gap-2"><span className="text-green-500 mt-1">✓</span> Timed exam simulation</li>
               <li className="flex items-start gap-2"><span className="text-green-500 mt-1">✓</span> Score breakdown by category</li>
               <li className="flex items-start gap-2"><span className="text-green-500 mt-1">✓</span> Lifetime access — no expiration</li>
@@ -101,10 +104,24 @@ export default function PricingPage() {
                 </tr>
                 <tr className="border-b">
                   <td className="py-3 px-4 font-medium">Questions</td>
-                  <td className="py-3 px-4 text-center bg-green-50">497</td>
+                  <td className="py-3 px-4 text-center bg-green-50 font-bold text-green-700">667 (170 NGN)</td>
                   <td className="py-3 px-4 text-center">2,200+</td>
                   <td className="py-3 px-4 text-center">3,100+</td>
                   <td className="py-3 px-4 text-center">1,000+</td>
+                </tr>
+                <tr className="border-b bg-gray-50">
+                  <td className="py-3 px-4 font-medium">NGN Case Studies</td>
+                  <td className="py-3 px-4 text-center bg-green-50 font-bold text-green-700">20 full cases</td>
+                  <td className="py-3 px-4 text-center">✓ (premium)</td>
+                  <td className="py-3 px-4 text-center">partial</td>
+                  <td className="py-3 px-4 text-center">limited</td>
+                </tr>
+                <tr className="border-b">
+                  <td className="py-3 px-4 font-medium">April 2026 Test Plan</td>
+                  <td className="py-3 px-4 text-center font-bold text-green-600 bg-green-50">✓</td>
+                  <td className="py-3 px-4 text-center">✓</td>
+                  <td className="py-3 px-4 text-center">✓</td>
+                  <td className="py-3 px-4 text-center">partial</td>
                 </tr>
                 <tr className="border-b bg-gray-50">
                   <td className="py-3 px-4 font-medium">Rationales</td>
@@ -129,7 +146,7 @@ export default function PricingPage() {
                 </tr>
                 <tr>
                   <td className="py-3 px-4 font-medium">Cost per Question</td>
-                  <td className="py-3 px-4 text-center font-bold text-green-600 bg-green-50">$0.04</td>
+                  <td className="py-3 px-4 text-center font-bold text-green-600 bg-green-50">$0.03</td>
                   <td className="py-3 px-4 text-center">$0.06–0.20</td>
                   <td className="py-3 px-4 text-center">$0.02–0.13</td>
                   <td className="py-3 px-4 text-center">$0.20–0.50</td>
@@ -147,6 +164,15 @@ export default function PricingPage() {
             Get Started
           </Link>
         </div>
+
+        {/* Schools CTA */}
+        <div className="mt-8 text-center bg-[#f0f7ff] border border-[#1e3a5f]/20 rounded-xl p-8">
+          <h3 className="text-xl font-bold text-[#1e3a5f] mb-2">Nursing Program Director?</h3>
+          <p className="text-gray-600 mb-4">Request free director access for evaluation. No institutional contract required.</p>
+          <Link href="/schools" className="inline-block bg-[#1e3a5f] text-white font-semibold py-3 px-8 rounded-lg hover:bg-[#2a4f7f] transition">
+            Learn More for Schools →
+          </Link>
+        </div>
       </main>
 
       <footer className="bg-gray-50 border-t py-8 mt-16">
@@ -157,6 +183,7 @@ export default function PricingPage() {
             <Link href="/pricing" className="hover:underline">Pricing</Link>
             <Link href="/faq" className="hover:underline">FAQ</Link>
             <Link href="/blog" className="hover:underline">Blog</Link>
+            <Link href="/schools" className="hover:underline">For Schools</Link>
           </div>
         </div>
       </footer>

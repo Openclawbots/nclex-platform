@@ -1,22 +1,22 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'NCLEX PrepPro — Free NCLEX Practice Test | 497 Questions',
-  description: 'Prepare for the NCLEX with 497 real-style practice questions covering Med-Surg, Pharmacology, Safety, Prioritization, and SATA. Free 10-question sample — no signup required.',
-  keywords: 'NCLEX practice test, NCLEX prep, NCLEX questions, nursing exam practice, NCLEX RN, NCLEX PN, free NCLEX test',
+  title: 'NCLEX PrepPro — #1 NGN Case Study Bank | 667 Questions for $19',
+  description: 'The most complete NGN prep under $50. 667 questions including 20 clinical case studies with bow-tie, trend, matrix, and extended response formats. Updated for April 2026 NCLEX test plan. $19 one-time.',
+  keywords: 'NCLEX practice test, NGN NCLEX questions, next generation NCLEX, NCLEX case studies, bow-tie questions, NCLEX 2026, CJMM, NCLEX prep, nursing exam practice',
   metadataBase: new URL('https://nclexprepro.com'),
   alternates: { canonical: 'https://nclexprepro.com' },
   openGraph: {
-    title: 'NCLEX PrepPro — Free NCLEX Practice Test',
-    description: 'Practice with 497 real-style NCLEX questions. Free 10-question sample, no signup needed.',
+    title: 'NCLEX PrepPro — #1 NGN Case Study Bank Under $20',
+    description: '667 questions including 20 NGN clinical case studies. Bow-tie, trend, matrix formats. Updated for April 2026 NCLEX test plan. $19 one-time.',
     url: 'https://nclexprepro.com',
     siteName: 'NCLEX PrepPro',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NCLEX PrepPro — Free NCLEX Practice Test',
-    description: 'Practice with 497 real-style NCLEX questions. Free sample, no signup.',
+    title: 'NCLEX PrepPro — #1 NGN Case Study Bank Under $20',
+    description: '667 NCLEX questions including 20 NGN clinical case studies. Updated for April 2026. $19 one-time.',
   },
 }
 

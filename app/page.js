@@ -115,15 +115,19 @@ export default function LandingPage() {
       {/* Hero */}
       <section className="bg-gradient-to-br from-[#1e3a5f] to-[#2a4f7c] text-white py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-block bg-blue-400 bg-opacity-30 text-blue-100 text-sm font-semibold px-4 py-1 rounded-full mb-6">
-            ✅ Updated for April 2026 NCLEX Test Plan — Includes Next Generation NCLEX (NGN) Questions
+          <div className="flex flex-wrap justify-center gap-2 mb-6">
+            <span className="inline-block bg-purple-500 bg-opacity-90 text-white text-xs font-bold px-4 py-1.5 rounded-full">🎯 #1 NGN Case Study Bank Under $20</span>
+            <span className="inline-block bg-blue-400 bg-opacity-30 text-blue-100 text-xs font-semibold px-4 py-1.5 rounded-full">✅ Updated for April 2026 Test Plan</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
-            Pass the NCLEX.<br />
-            <span className="text-blue-300">Practice with 667 real-style questions.</span>
+            The Most Complete NGN Prep<br />
+            <span className="text-blue-300">at Any Price Under $50.</span>
           </h1>
-          <p className="text-xl text-blue-100 mb-10 max-w-2xl mx-auto">
-            Includes Next Generation NCLEX (NGN) question formats — bow-tie, extended response, trend analysis, and clinical judgment scenarios. Aligned with the April 2026 test plan update.
+          <p className="text-xl text-blue-100 mb-4 max-w-2xl mx-auto">
+            667 questions including <strong>20 full NGN clinical case studies</strong> — the exact format used on the real NCLEX exam. Bow-tie, trend analysis, matrix, extended response, and cloze questions. All mapped to the NCSBN Clinical Judgment Measurement Model (CJMM).
+          </p>
+          <p className="text-blue-200 text-sm mb-10 max-w-xl mx-auto">
+            UWorld has more questions. We have the same NGN formats — for $19 one-time instead of $349/year.
           </p>
 
           {/* Stats */}
@@ -237,6 +241,19 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+
+      {/* Credibility bar */}
+      <div className="bg-white border-y border-gray-100 py-4 px-6">
+        <div className="max-w-4xl mx-auto flex flex-wrap justify-center items-center gap-6 text-sm text-gray-500">
+          <span>🏆 <strong className="text-gray-700">20 Full NGN Case Studies</strong> — same format as the real exam</span>
+          <span className="hidden md:inline text-gray-200">|</span>
+          <span>📋 <strong className="text-gray-700">CJMM-Aligned</strong> — mapped to NCSBN framework</span>
+          <span className="hidden md:inline text-gray-200">|</span>
+          <span>✅ <strong className="text-gray-700">April 2026</strong> test plan updated</span>
+          <span className="hidden md:inline text-gray-200">|</span>
+          <span>🏫 <a href="/schools" className="text-[#1e3a5f] font-semibold hover:underline">For Nursing Programs →</a></span>
+        </div>
+      </div>
 
       {/* NGN Case Studies Section */}
       <section className="py-16 px-6 bg-blue-50 border-y border-blue-100">
