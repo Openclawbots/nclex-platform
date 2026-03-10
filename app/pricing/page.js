@@ -50,7 +50,7 @@ export default function PricingPage() {
           {/* Full Access */}
           <div className="bg-white rounded-xl shadow-lg border-2 border-[#1e3a5f] p-8 relative">
             <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-[#1e3a5f] text-white text-xs font-bold px-4 py-1 rounded-full whitespace-nowrap">
-              MOST COMPLETE NGN PREP AT $19
+              MOST COMPLETE NGN PREP UNDER $50
             </div>
             <div className="text-center">
               <h2 className="text-xl font-bold text-[#1e3a5f] mb-2">Full Access</h2>

@@ -90,7 +90,7 @@ export default function SchoolsPage() {
             Updated for April 1, 2026 NCLEX Test Plan
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-            The Most Affordable NGN Clinical Case Study Bank Available
+            #1 NGN Case Study Bank Under $50
           </h1>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
             667 practice questions — including 20 full NGN clinical case study scenarios — mapped to NCSBN's Clinical Judgment Measurement Model. $19 per student, one-time.

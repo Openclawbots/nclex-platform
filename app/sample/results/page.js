@@ -153,13 +153,16 @@ export default function SampleResultsPage() {
                 ? `You scored ${pct}% — can you hold it across all 667 questions?`
                 : `You scored ${pct}%. The full bank shows exactly where you're losing points.`}
             </h2>
-            <p className="text-gray-500 mb-2">
-              667 NCLEX-style questions · Full rationales · All 7 categories including NGN · Instant access
+            <p className="text-gray-500 mb-1">
+              667 questions · 20 NGN clinical case studies · All 7 categories · Full rationales
             </p>
-            <div className="flex justify-center gap-6 text-sm text-gray-500 mb-6">
-              <span>✅ Med-Surg (100q)</span>
-              <span>✅ Pharmacology (100q)</span>
-              <span>✅ SATA (98q)</span>
+            <p className="text-[#1e3a5f] font-bold mb-4">
+              A $300 value — only $19 one-time. No subscription.
+            </p>
+            <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-500 mb-6">
+              <span>✅ Med-Surg · Pharm · Safety</span>
+              <span>✅ Prioritization · SATA</span>
+              <span>✅ NGN Bow-Tie · Trend · Matrix</span>
             </div>
           </div>
 

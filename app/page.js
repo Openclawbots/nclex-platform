@@ -116,18 +116,18 @@ export default function LandingPage() {
       <section className="bg-gradient-to-br from-[#1e3a5f] to-[#2a4f7c] text-white py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex flex-wrap justify-center gap-2 mb-6">
-            <span className="inline-block bg-purple-500 bg-opacity-90 text-white text-xs font-bold px-4 py-1.5 rounded-full">🎯 20 Full NGN Case Studies — Most Affordable Under $20</span>
+            <span className="inline-block bg-purple-500 bg-opacity-90 text-white text-xs font-bold px-4 py-1.5 rounded-full">🏆 #1 NGN Case Study Bank Under $50</span>
             <span className="inline-block bg-blue-400 bg-opacity-30 text-blue-100 text-xs font-semibold px-4 py-1.5 rounded-full">✅ Updated for April 2026 Test Plan</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
-            The Most Complete NGN Prep<br />
-            <span className="text-blue-300">at Any Price Under $50.</span>
+            Most Complete NGN Prep<br />
+            <span className="text-blue-300">for Under $50.</span>
           </h1>
           <p className="text-xl text-blue-100 mb-4 max-w-2xl mx-auto">
             667 questions including <strong>20 full NGN clinical case studies</strong> — the exact format used on the real NCLEX exam. Bow-tie, trend analysis, matrix, extended response, and cloze questions. All mapped to the NCSBN Clinical Judgment Measurement Model (CJMM).
           </p>
           <p className="text-blue-200 text-sm mb-10 max-w-xl mx-auto">
-            UWorld has more questions. We have the same NGN formats — for $19 one-time instead of $349/year.
+            A <strong className="text-blue-100">$300 value</strong> for only <strong className="text-blue-100">$19</strong>. One-time payment, instant access, no subscription.
           </p>
 
           {/* Stats */}
@@ -151,8 +151,9 @@ export default function LandingPage() {
         <div className="max-w-lg mx-auto">
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
             <div className="bg-[#1e3a5f] text-white p-6 text-center">
-              <div className="text-3xl font-bold">$19</div>
-              <div className="text-blue-200 text-sm mt-1">One-time payment • Instant access</div>
+              <div className="text-xs font-bold text-purple-300 uppercase tracking-widest mb-1">A $300 Value</div>
+              <div className="text-3xl font-bold">Only $19</div>
+              <div className="text-blue-200 text-sm mt-1">One-time payment • Instant access • No subscription</div>
             </div>
             <div className="p-8">
               <div className="space-y-4 mb-6">
@@ -245,7 +246,7 @@ export default function LandingPage() {
       {/* Credibility bar */}
       <div className="bg-white border-y border-gray-100 py-4 px-6">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center items-center gap-6 text-sm text-gray-500">
-          <span>🏆 <strong className="text-gray-700">20 Full NGN Case Studies</strong> — same format as the real exam</span>
+          <span>🏆 <strong className="text-gray-700">#1 NGN Case Study Bank Under $50</strong> — same format as the real exam</span>
           <span className="hidden md:inline text-gray-200">|</span>
           <span>📋 <strong className="text-gray-700">CJMM-Aligned</strong> — mapped to NCSBN framework</span>
           <span className="hidden md:inline text-gray-200">|</span>
