@@ -22,7 +22,13 @@
         "G": "Age greater than 60 years — exceeds the upper age limit for tPA eligibility",
         "H": "Failed bedside water swallow test indicating dysphagia — a contraindication to tPA"
       },
-      "correct": ["A", "B", "C", "D", "F"],
+      "correct": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "F"
+      ],
       "rationale": "tPA (alteplase) eligibility in ischemic stroke requires: symptom onset within 4.5 hours (A — met at 90 min), no hemorrhage on CT (B — met), INR <1.7 (C — met at 1.1), no recent surgery/trauma (D — met), and no prior hemorrhagic stroke (F — met). NIHSS of 14 (E) is NOT an exclusion criterion — tPA is indicated across a broad NIHSS range for ischemic stroke; there is no upper NIHSS cutoff. Age >60 (G) is NOT a contraindication — the 3-hour window originally excluded patients >80, but the 4.5-hour window guidance has evolved; age alone above 60 is not an exclusion. Dysphagia (H) from stroke is NOT a contraindication to IV tPA — it is a swallowing complication requiring NPO status but does not preclude thrombolysis.",
       "difficulty": "hard"
     },
@@ -50,8 +56,16 @@
       },
       "correct": {
         "condition": "B",
-        "actions": ["D", "E", "F"],
-        "parameters": ["I", "J", "K"]
+        "actions": [
+          "D",
+          "E",
+          "F"
+        ],
+        "parameters": [
+          "I",
+          "J",
+          "K"
+        ]
       },
       "rationale": "CONDITION: Acute ischemic stroke (B) is supported by sudden focal neurological deficits (facial droop, arm drift, dysarthria), NIHSS 14, CT negative for hemorrhage, and onset within 90 minutes. Hemorrhagic stroke (A) is excluded by CT findings. TIA (C) is excluded because deficits persist beyond 24 hours and neuroimaging supports infarction. ACTIONS: IV tPA (D) is the cornerstone intervention for eligible ischemic stroke patients within 4.5 hours. BP must be reduced to <185/110 mmHg (E) before tPA to reduce hemorrhagic transformation risk — current BP of 188/104 is borderline and must be addressed. NPO with dysphagia precautions (F) is required given the failed swallow screen to prevent aspiration pneumonia. Aspirin (G) is contraindicated within 24 hours of tPA administration. Restraints (H) are not indicated. PARAMETERS: Neuro checks q15min (I) and BP q15min (J) are mandatory per AHA/ASA tPA monitoring protocol. Hemorrhagic transformation (K) is the most feared complication of tPA — manifested by sudden neurological deterioration, severe headache, vomiting, or BP spike.",
       "difficulty": "hard"
@@ -94,7 +108,12 @@
         "E": "Reposition the patient and dim the lights for comfort",
         "F": "Document findings in the medical record"
       },
-      "correct": ["A", "C", "B", "D"],
+      "correct": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
       "rationale": "This clinical picture — sudden severe headache ('thunderclap'), acute neurological deterioration (NIHSS 8→18), severe hypertension (BP 210/118), vomiting, and lethargy occurring during/after tPA infusion — is hemorrhagic transformation until proven otherwise, a life-threatening emergency. PRIORITY ORDER: (1) Stop tPA infusion immediately (A) — continuing thrombolysis during suspected intracranial hemorrhage dramatically worsens outcomes; this is the most time-critical action. (2) Notify stroke team and physician STAT (C) — simultaneous with or immediately after stopping infusion; the team must respond to manage hemorrhage. (3) Emergency non-contrast CT head (B) — confirms hemorrhagic transformation and guides reversal therapy decisions. (4) STAT labs (D) — fibrinogen, PT/INR, CBC needed to guide cryoprecipitate, fresh frozen plasma, or platelet transfusion for tPA reversal. Repositioning (E) is not a priority and documentation (F), while important, is not a clinical priority over patient safety actions.",
       "difficulty": "hard"
     },
@@ -106,17 +125,23 @@
       "type": "multiple-choice",
       "ngn": true,
       "ngn_type": "cloze",
-      "question": "Complete the following clinical statement by selecting the correct term for each blank. Each blank has one correct answer.\n\n'Before administering IV tPA for acute ischemic stroke, the nurse must verify that blood pressure is below [BLANK 1]. If blood pressure exceeds this threshold, it must be reduced using [BLANK 2] prior to tPA administration. Failure to control hypertension before tPA significantly increases the risk of [BLANK 3]. Additionally, tPA is [BLANK 4] within 24 hours of a prior ischemic stroke treated with aspirin, but antiplatelet therapy should generally be held for [BLANK 5] hours after tPA administration.'\n\nBlank 1 options: A) 160/90 mmHg  B) 185/110 mmHg  C) 200/120 mmHg  D) 140/90 mmHg\nBlank 2 options: A) Metoprolol IV  B) Hydralazine IV  C) Labetalol IV or nicardipine infusion  D) Furosemide IV\nBlank 3 options: A) Ischemic extension  B) Hemorrhagic transformation  C) Cerebral edema  D) Vasospasm\nBlank 4 options: A) Indicated  B) Contraindicated  C) Optional  D) First-line therapy\nBlank 5 options: A) 12  B) 24  C) 48  D) 72",
+      "question": "Complete the nursing handoff note about tPA administration:\n\n\"The nurse administered IV alteplase (tPA) at [TIME]. During infusion, BP is maintained below [VALUE]. For [DURATION] following tPA, the nurse will withhold [MEDICATION] and all anticoagulants, and monitor for signs of [COMPLICATION].\"",
       "choices": {
-        "A": "Blank 1: 185/110 mmHg",
-        "B": "Blank 2: Labetalol IV or nicardipine infusion",
-        "C": "Blank 3: Hemorrhagic transformation",
-        "D": "Blank 4: Contraindicated",
-        "E": "Blank 5: 24",
-        "F": "Blank 1: 160/90 mmHg | Blank 2: Hydralazine | Blank 3: Vasospasm | Blank 4: Indicated | Blank 5: 12"
+        "A": "185/110 mmHg",
+        "B": "160/90 mmHg",
+        "C": "200/100 mmHg",
+        "D": "24 hours",
+        "E": "12 hours",
+        "F": "48 hours",
+        "G": "aspirin and antiplatelet agents",
+        "H": "antihypertensives",
+        "I": "hemorrhagic transformation",
+        "J": "rebound hypertension",
+        "K": "cerebral edema",
+        "L": "hypotension"
       },
-      "correct": ["A", "B", "C", "D", "E"],
-      "rationale": "Blank 1 — 185/110 mmHg: AHA/ASA guidelines require BP <185/110 mmHg before tPA administration. BP above this threshold significantly increases hemorrhagic risk. Blank 2 — Labetalol IV or nicardipine infusion: These are the first-line agents recommended by AHA/ASA for pre-tPA BP management. Labetalol 10–20 mg IV push or nicardipine infusion are preferred. Hydralazine and metoprolol are not first-line for acute stroke BP management. Blank 3 — Hemorrhagic transformation: Uncontrolled hypertension during thrombolysis disrupts the blood-brain barrier at sites of ischemia, converting ischemic infarct to hemorrhagic infarct — the most serious complication of tPA. Blank 4 — Contraindicated: Aspirin (antiplatelet) must be held for 24 hours after tPA to reduce bleeding risk. It is contraindicated, not optional or indicated, during this window. Blank 5 — 24: Per AHA/ASA stroke guidelines, antiplatelet therapy should be withheld for 24 hours following IV tPA to minimize hemorrhagic risk.",
+      "correct": "A,D,G,I",
+      "rationale": "A: BP must be maintained below 185/110 mmHg during tPA infusion to reduce hemorrhagic transformation risk per AHA/ASA guidelines. D: Aspirin and antiplatelet agents are withheld for 24 hours following tPA administration because concurrent use significantly increases bleeding risk, including hemorrhagic transformation. G: Aspirin is the primary antiplatelet agent withheld post-tPA — prior aspirin use is NOT a contraindication to tPA, but aspirin must be held after tPA is given. I: Hemorrhagic transformation (bleeding into the ischemic area) is the primary complication of tPA and requires immediate recognition — signs include sudden neurological deterioration, headache, vomiting, and BP elevation.",
       "difficulty": "hard"
     },
     {
@@ -136,7 +161,14 @@
         "E": "Neuro checks every 15 minutes during tPA — Indicated",
         "F": "Early mobilization if neurologically stable — Indicated"
       },
-      "correct": ["A", "B", "C", "D", "E", "F"],
+      "correct": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
       "rationale": "NPO until dysphagia eval (A — INDICATED): This patient failed the bedside water swallow test. All stroke patients with dysphagia must remain NPO until a formal swallowing evaluation (speech-language pathology) is completed to prevent aspiration pneumonia, which significantly worsens stroke outcomes. Aspirin within 24 hrs of tPA (B — CONTRAINDICATED): Antiplatelet agents within 24 hours of thrombolysis increase hemorrhagic risk. AHA/ASA guidelines explicitly contraindicate aspirin for 24 hours post-tPA. Aspirin is initiated 24–48 hours after tPA if repeat CT shows no hemorrhage. Cardiac monitoring (C — INDICATED): Atrial fibrillation is a common cause of cardioembolic ischemic stroke and may be detected on telemetry. All acute stroke patients require continuous cardiac monitoring for at least 24–48 hours. Aggressive BP to 120/80 (D — CONTRAINDICATED): Post-tPA, permissive hypertension (BP <180/105) is allowed in most guidelines. Aggressively lowering BP to 120/80 may worsen cerebral perfusion in the ischemic penumbra and expand infarct size — this is contraindicated. Neuro checks q15min during tPA (E — INDICATED): AHA/ASA tPA monitoring protocol requires neurological assessments every 15 minutes during infusion and for 2 hours after, then every 30 minutes for 6 hours, then hourly for 16 hours. Early mobilization (F — INDICATED): Early mobilization in neurologically stable stroke patients reduces complications (DVT, pneumonia, pressure injuries, deconditioning) and is supported by stroke rehabilitation guidelines, provided the patient is hemodynamically stable and safely able to participate.",
       "difficulty": "hard"
     }

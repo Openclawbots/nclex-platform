@@ -131,7 +131,7 @@ export default function LandingPage() {
             {[
               { num: '667', label: 'Practice Questions' },
               { num: 'NGN', label: 'Format Included' },
-              { num: '6', label: 'Categories Covered' },
+              { num: '7', label: 'Categories Covered' },
             ].map(s => (
               <div key={s.label} className="text-center">
                 <div className="text-4xl font-bold text-blue-300">{s.num}</div>
@@ -238,17 +238,52 @@ export default function LandingPage() {
         </div>
       </section>
 
+      {/* NGN Case Studies Section */}
+      <section className="py-16 px-6 bg-blue-50 border-y border-blue-100">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-10">
+            <div className="inline-block bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full mb-4">NEW — April 2026 Aligned</div>
+            <h2 className="text-2xl font-bold text-[#1e3a5f]">20 Full NGN Clinical Case Studies</h2>
+            <p className="text-gray-600 mt-2 max-w-2xl mx-auto">The real NCLEX now includes unfolding case studies — one patient scenario with 6 linked clinical judgment questions. We have 20 complete cases covering the highest-yield NCLEX scenarios.</p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+            {['Hip Replacement','Sepsis / SIRS','Diabetic Ketoacidosis','Heart Failure','Acute Stroke / tPA','Pediatric Asthma','Acute Kidney Injury','Postpartum Hemorrhage','Suicidal Patient','Pneumonia + DNI Ethics','Hypertensive Crisis','Acute Pancreatitis','Pediatric Meningitis','Post-Cardiac Cath','Alcohol Withdrawal / DTs','Thyroid Storm','COPD Exacerbation','Burns + Parkland Formula','Sickle Cell / ACS','Pulmonary Embolism'].map(c => (
+              <div key={c} className="bg-white border border-blue-200 rounded-lg px-3 py-2 text-xs text-[#1e3a5f] font-medium text-center shadow-sm">{c}</div>
+            ))}
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
+            {[
+              { icon: '🎯', name: 'Bow-Tie', desc: 'Condition + Actions + Parameters' },
+              { icon: '📊', name: 'Trend Analysis', desc: 'Interpret changing clinical data' },
+              { icon: '☑️', name: 'Extended Response', desc: 'Select all that apply — NGN style' },
+              { icon: '📝', name: 'Cloze / Drop-Down', desc: 'Complete clinical statements' },
+              { icon: '⚖️', name: 'Matrix / Grid', desc: 'Indicated vs. Contraindicated' },
+              { icon: '⚡', name: 'Priority Action', desc: 'What do you do FIRST?' },
+            ].map(f => (
+              <div key={f.name} className="bg-white border border-blue-100 rounded-xl p-4 text-center shadow-sm">
+                <div className="text-2xl mb-1">{f.icon}</div>
+                <div className="font-bold text-[#1e3a5f] text-sm">{f.name}</div>
+                <div className="text-gray-500 text-xs mt-1">{f.desc}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Categories */}
       <section className="py-16 px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold text-[#1e3a5f] text-center mb-10">What's Covered</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <h2 className="text-2xl font-bold text-[#1e3a5f] text-center mb-2">667 Questions Across 7 Categories</h2>
+          <p className="text-gray-500 text-center text-sm mb-10">Mapped to the NCSBN Clinical Judgment Measurement Model (CJMM) and April 2026 test plan</p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              { icon: '🫀', name: 'Med-Surg', desc: 'Medical-Surgical Nursing' },
-              { icon: '💊', name: 'Pharmacology', desc: 'Drug actions & interactions' },
-              { icon: '🛡️', name: 'Safety', desc: 'Patient safety & infection control' },
-              { icon: '📋', name: 'Prioritization', desc: 'NCLEX-style priority questions' },
-              { icon: '✅', name: 'SATA', desc: 'Select All That Apply' },
+              { icon: '🫀', name: 'Med-Surg', desc: '100 questions' },
+              { icon: '💊', name: 'Pharmacology', desc: '100 questions' },
+              { icon: '🛡️', name: 'Safety', desc: '100 questions' },
+              { icon: '📋', name: 'Prioritization', desc: '99 questions' },
+              { icon: '✅', name: 'SATA', desc: '98 questions' },
+              { icon: '🏥', name: 'NGN Case Studies', desc: '120 questions — 20 cases' },
+              { icon: '⚖️', name: 'NGN Clinical Judgment', desc: '50 standalone questions' },
             ].map(cat => (
               <div key={cat.name} className="bg-white border border-gray-200 rounded-xl p-5 text-center shadow-sm hover:shadow-md transition-shadow">
                 <div className="text-3xl mb-2">{cat.icon}</div>
@@ -272,7 +307,7 @@ export default function LandingPage() {
             <div className="text-center mb-6">
               <div className="text-4xl mb-2">🎯</div>
               <h2 className="text-2xl font-bold text-[#1e3a5f]">Try 10 Free Questions</h2>
-              <p className="text-gray-500 text-sm mt-1">2 questions from each category • 10-minute timer • Free rationales on wrong answers</p>
+              <p className="text-gray-500 text-sm mt-1">10 questions across categories • 10-minute timer • Free rationales on wrong answers</p>
             </div>
 
             <div className="space-y-4 mb-5">

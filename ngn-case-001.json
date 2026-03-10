@@ -20,7 +20,12 @@
         "E": "New onset confusion and agitation",
         "F": "JP drain output: 50mL serosanguineous drainage over 4 hours"
       },
-      "correct": ["A", "B", "D", "E"],
+      "correct": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
       "rationale": "Hypotension (BP 102/64) and tachycardia (HR 112) together are classic signs of hemodynamic instability, most likely due to hemorrhage given the significant drop in hemoglobin from 12.4 to 7.8 g/dL. Urine output of 20mL/hr for two consecutive hours (below the critical threshold of 30mL/hr) indicates renal hypoperfusion from decreased circulating volume, requiring urgent intervention. New onset confusion in a previously oriented postoperative patient is a red flag for cerebral hypoperfusion, hypovolemia, or sepsis and demands immediate assessment and provider notification. SpO2 of 94% on supplemental oxygen warrants monitoring and optimization but is less immediately life-threatening than the hemodynamic and neurological changes; the 50mL JP drain output over 4 hours is within expected postoperative limits and does not independently require emergent action.",
       "difficulty": "hard"
     },
@@ -32,7 +37,7 @@
       "type": "multiple-choice",
       "ngn": true,
       "ngn_type": "bow-tie",
-      "question": "Complete the Bow-Tie clinical reasoning diagram for Mrs. Hayes. Select the condition most likely occurring, TWO priority nursing actions to take, and TWO parameters to monitor.",
+      "question": "Complete the Bow-Tie clinical reasoning diagram for Mrs. Hayes. Select the condition most likely occurring, TWO priority nursing actions to take, and THREE parameters to monitor.",
       "choices": {
         "condition": {
           "A": "Hemorrhagic shock / Hypovolemia",
@@ -59,8 +64,15 @@
       },
       "correct": {
         "condition": "A",
-        "nursing_actions": ["A", "B"],
-        "parameters": ["A", "B", "C"]
+        "nursing_actions": [
+          "A",
+          "B"
+        ],
+        "parameters": [
+          "A",
+          "B",
+          "C"
+        ]
       },
       "rationale": "The clinical picture — hypotension, tachycardia, dropping hemoglobin (12.4 → 7.8 g/dL), oliguria, and new confusion in the context of major joint surgery — is most consistent with hemorrhagic shock and hypovolemia. Infection/sepsis could contribute to the low-grade fever (38.4°C) and confusion but does not fully explain the profound hemoglobin drop and hemodynamic instability on POD #1. Immediate priorities are notifying the surgeon (who must evaluate for surgical bleeding and order interventions such as transfusion) and optimizing intravascular volume. Blood pressure trend, hemoglobin/hematocrit, and urine output are the most sensitive indicators for monitoring volume status and response to resuscitation in hemorrhagic shock.",
       "difficulty": "hard"
@@ -82,7 +94,9 @@
         "E": "Pulmonary embolism causing right heart strain and decreased cardiac output",
         "F": "Autonomic dysreflexia triggered by urinary retention"
       },
-      "correct": ["A"],
+      "correct": [
+        "A"
+      ],
       "rationale": "The consistent downward trend in blood pressure (118/76 → 110/70 → 102/64) combined with a compensatory rise in heart rate (88 → 98 → 112 bpm) and progressively decreasing urine output (45 → 30 → 20 mL/hr) over four hours constitutes a classic hemodynamic trajectory of worsening hypovolemia and hemorrhage. The body initially compensates for volume loss by increasing heart rate to maintain cardiac output; as compensation fails, blood pressure drops and renal perfusion is reduced, causing oliguria. This pattern is particularly concerning on POD #1 post-arthroplasty given the documented 4.6 g/dL hemoglobin drop. Prompt surgeon notification and intervention are required — this is not a normal postoperative trend.",
       "difficulty": "hard"
     },
@@ -103,7 +117,9 @@
         "E": "Apply soft wrist restraints to prevent the confused patient from removing the IV",
         "F": "Obtain a stat 12-lead ECG to evaluate the cause of tachycardia"
       },
-      "correct": ["A"],
+      "correct": [
+        "A"
+      ],
       "rationale": "While multiple interventions are needed, the absolute priority is notifying the surgeon because the patient is exhibiting signs of hemorrhagic shock — a life-threatening emergency that requires physician-ordered interventions including potential blood transfusion, surgical evaluation for re-bleeding, and IV fluid resuscitation. The nurse cannot independently order a blood transfusion or significantly alter IV fluid rates without a physician order in most practice settings; delaying this call to perform comfort measures first could be fatal. Using SBAR (Situation, Background, Assessment, Recommendation) ensures the surgeon receives organized, complete information for rapid decision-making. Airway management and IV fluid titration are critical secondary actions but are initiated concurrently with or immediately following the provider notification.",
       "difficulty": "hard"
     },

@@ -9000,7 +9000,7 @@
     "type": "multiple-choice",
     "ngn": true,
     "ngn_type": "bow-tie",
-    "question": "Complete the Bow-Tie clinical reasoning diagram for Mrs. Hayes. Select the condition most likely occurring, TWO priority nursing actions to take, and TWO parameters to monitor.",
+    "question": "Complete the Bow-Tie clinical reasoning diagram for Mrs. Hayes. Select the condition most likely occurring, TWO priority nursing actions to take, and THREE parameters to monitor.",
     "choices": {
       "condition": {
         "A": "Hemorrhagic shock / Hypovolemia",
@@ -9826,23 +9826,21 @@
     "type": "multiple-choice",
     "ngn": true,
     "ngn_type": "cloze",
-    "question": "Complete the following clinical statement by selecting the correct term for each blank. Each blank has one correct answer.\n\n'Before administering IV tPA for acute ischemic stroke, the nurse must verify that blood pressure is below [BLANK 1]. If blood pressure exceeds this threshold, it must be reduced using [BLANK 2] prior to tPA administration. Failure to control hypertension before tPA significantly increases the risk of [BLANK 3]. Additionally, tPA is [BLANK 4] within 24 hours of a prior ischemic stroke treated with aspirin, but antiplatelet therapy should generally be held for [BLANK 5] hours after tPA administration.'\n\nBlank 1 options: A) 160/90 mmHg  B) 185/110 mmHg  C) 200/120 mmHg  D) 140/90 mmHg\nBlank 2 options: A) Metoprolol IV  B) Hydralazine IV  C) Labetalol IV or nicardipine infusion  D) Furosemide IV\nBlank 3 options: A) Ischemic extension  B) Hemorrhagic transformation  C) Cerebral edema  D) Vasospasm\nBlank 4 options: A) Indicated  B) Contraindicated  C) Optional  D) First-line therapy\nBlank 5 options: A) 12  B) 24  C) 48  D) 72",
+    "question": "Complete the nursing handoff note about tPA administration:\n\n\"BP is maintained below [BLANK 1] during tPA infusion. For [BLANK 2] following tPA, the nurse withholds [BLANK 3] and monitors for [BLANK 4].\"",
     "choices": {
-      "A": "Blank 1: 185/110 mmHg",
-      "B": "Blank 2: Labetalol IV or nicardipine infusion",
-      "C": "Blank 3: Hemorrhagic transformation",
-      "D": "Blank 4: Contraindicated",
-      "E": "Blank 5: 24",
-      "F": "Blank 1: 160/90 mmHg | Blank 2: Hydralazine | Blank 3: Vasospasm | Blank 4: Indicated | Blank 5: 12"
+      "A": "185/110 mmHg",
+      "B": "160/90 mmHg",
+      "C": "200/100 mmHg",
+      "D": "24 hours",
+      "E": "12 hours",
+      "F": "48 hours",
+      "G": "aspirin and antiplatelet agents",
+      "H": "all antihypertensives",
+      "I": "hemorrhagic transformation",
+      "J": "rebound hypertension"
     },
-    "correct": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "rationale": "Blank 1 — 185/110 mmHg: AHA/ASA guidelines require BP <185/110 mmHg before tPA administration. BP above this threshold significantly increases hemorrhagic risk. Blank 2 — Labetalol IV or nicardipine infusion: These are the first-line agents recommended by AHA/ASA for pre-tPA BP management. Labetalol 10–20 mg IV push or nicardipine infusion are preferred. Hydralazine and metoprolol are not first-line for acute stroke BP management. Blank 3 — Hemorrhagic transformation: Uncontrolled hypertension during thrombolysis disrupts the blood-brain barrier at sites of ischemia, converting ischemic infarct to hemorrhagic infarct — the most serious complication of tPA. Blank 4 — Contraindicated: Aspirin (antiplatelet) must be held for 24 hours after tPA to reduce bleeding risk. It is contraindicated, not optional or indicated, during this window. Blank 5 — 24: Per AHA/ASA stroke guidelines, antiplatelet therapy should be withheld for 24 hours following IV tPA to minimize hemorrhagic risk.",
+    "correct": "A,D,G,I",
+    "rationale": "A: AHA/ASA guidelines require BP below 185/110 mmHg during tPA to reduce hemorrhagic transformation risk. D: Aspirin and antiplatelets are held for 24 hours post-tPA — prior aspirin USE is not a contraindication to tPA, but aspirin must be withheld AFTER tPA is given. G: Aspirin is the primary agent withheld post-tPA due to additive bleeding risk. I: Hemorrhagic transformation is the primary complication — monitor for sudden neuro deterioration, severe headache, vomiting, and acute BP elevation.",
     "difficulty": "hard"
   },
   {
