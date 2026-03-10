@@ -18,6 +18,10 @@ function TestContent() {
   const startedAt = useRef(new Date().toISOString())
   const timerRef = useRef(null)
 
+  function isMultiSelect(q) {
+    return q.type === 'sata' || (q.ngn && ['extended-response', 'bow-tie', 'matrix'].includes(q.ngn_type))
+  }
+
   useEffect(() => {
     // Get token from URL param or localStorage
     const urlToken = searchParams.get('token')
@@ -68,7 +72,7 @@ function TestContent() {
 
   function selectAnswer(val) {
     const q = questions[current]
-    if (q.type === 'sata') {
+    if (isMultiSelect(q)) {
       setAnswers(prev => {
         const existing = prev[q.id] || []
         if (existing.includes(val)) {
@@ -170,13 +174,24 @@ function TestContent() {
       <div className="flex-1 max-w-3xl mx-auto w-full px-4 py-6">
         <div className="bg-white rounded-2xl shadow-md p-6 md:p-8">
           <div className="flex items-start justify-between mb-4">
-            <span className="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full">
-              {q?.category}
-              {q?.type === 'sata' && ' · Select All That Apply'}
-            </span>
+            <div className="flex flex-wrap gap-2">
+              <span className="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full">
+                {q?.category}
+              </span>
+              {q?.ngn && (
+                <span className="inline-block bg-purple-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+                  🎯 NGN — {q.ngn_type === 'bow-tie' ? 'Bow-Tie' : q.ngn_type === 'extended-response' ? 'Extended Response' : q.ngn_type === 'matrix' ? 'Matrix' : q.ngn_type === 'trend' ? 'Trend Analysis' : q.ngn_type === 'cloze' ? 'Cloze' : 'Clinical Judgment'}
+                </span>
+              )}
+              {q && isMultiSelect(q) && (
+                <span className="inline-block bg-amber-100 text-amber-800 text-xs font-semibold px-3 py-1 rounded-full">
+                  ☑ Select All That Apply
+                </span>
+              )}
+            </div>
             <button
               onClick={toggleFlag}
-              className={`text-sm px-3 py-1 rounded-lg border transition-colors ${
+              className={`ml-2 flex-shrink-0 text-sm px-3 py-1 rounded-lg border transition-colors ${
                 flagged.has(q?.id)
                   ? 'border-orange-400 bg-orange-50 text-orange-600'
                   : 'border-gray-300 text-gray-500 hover:border-orange-400'
@@ -186,12 +201,22 @@ function TestContent() {
             </button>
           </div>
 
+          {q?.scenario && (
+            <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-xl p-4 mb-6">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-blue-600 font-bold text-sm">📋 CLINICAL SCENARIO</span>
+                {q?.case_id && <span className="text-blue-400 text-xs">({q.case_id})</span>}
+              </div>
+              <p className="text-gray-700 text-sm leading-relaxed">{q.scenario}</p>
+            </div>
+          )}
+
           <p className="text-gray-900 text-lg leading-relaxed mb-8 font-medium">{q?.question}</p>
 
           <div className="space-y-3">
             {q?.choices && Object.entries(q.choices).map(([key, val]) => {
-              const isSata = q.type === 'sata'
-              const isSelected = isSata
+              const multi = q && isMultiSelect(q)
+              const isSelected = multi
                 ? (currentAnswer || []).includes(key)
                 : currentAnswer === key
 
@@ -207,9 +232,9 @@ function TestContent() {
                 >
                   <span className="flex items-start gap-3">
                     <span className={`mt-0.5 flex-shrink-0 w-5 h-5 flex items-center justify-center rounded ${
-                      isSata ? 'border-2 border-current' : 'rounded-full border-2 border-current'
+                      multi ? 'border-2 border-current' : 'rounded-full border-2 border-current'
                     } ${isSelected ? 'bg-[#1e3a5f] text-white border-[#1e3a5f]' : 'border-gray-400'}`}>
-                      {isSelected && <span className="text-xs">{isSata ? '✓' : '●'}</span>}
+                      {isSelected && <span className="text-xs">{multi ? '✓' : '●'}</span>}
                     </span>
                     <span><strong>{key}.</strong> {val}</span>
                   </span>
@@ -222,7 +247,7 @@ function TestContent() {
         <div className="flex justify-between mt-6">
           <div className="text-sm text-gray-400">
             {currentAnswer
-              ? (q?.type === 'sata' ? `${(currentAnswer).length} selected` : 'Answer selected')
+              ? (q && isMultiSelect(q) ? `${(currentAnswer).length} selected` : 'Answer selected')
               : 'No answer selected'
             }
           </div>

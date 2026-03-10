@@ -70,19 +70,23 @@ export default function SamplePage() {
     }
   }
 
-  function setAnswer(qId, value) {
-    setAnswers(prev => ({ ...prev, [qId]: value }))
+  function isMultiSelect(q) {
+    return q.type === 'sata' || (q.ngn && ['extended-response', 'bow-tie', 'matrix'].includes(q.ngn_type))
   }
 
-  function toggleSata(qId, choice) {
-    setAnswers(prev => {
-      const current = Array.isArray(prev[qId]) ? prev[qId] : []
-      if (current.includes(choice)) {
-        return { ...prev, [qId]: current.filter(c => c !== choice) }
-      } else {
-        return { ...prev, [qId]: [...current, choice] }
-      }
-    })
+  function handleAnswerClick(q, letter) {
+    if (isMultiSelect(q)) {
+      setAnswers(prev => {
+        const current = Array.isArray(prev[q.id]) ? prev[q.id] : []
+        if (current.includes(letter)) {
+          return { ...prev, [q.id]: current.filter(c => c !== letter) }
+        } else {
+          return { ...prev, [q.id]: [...current, letter] }
+        }
+      })
+    } else {
+      setAnswers(prev => ({ ...prev, [q.id]: letter }))
+    }
   }
 
   const minutes = Math.floor(timeLeft / 60)
@@ -107,7 +111,7 @@ export default function SamplePage() {
         <div className="max-w-4xl mx-auto flex items-center justify-between">
           <div>
             <span className="font-bold text-lg">🏥 NCLEX PrepPro</span>
-            <div className="text-blue-200 text-xs mt-0.5">Sample Exam — 10 of 497 questions</div>
+            <div className="text-blue-200 text-xs mt-0.5">Sample Exam — 10 of 667 questions</div>
           </div>
           <div className={`text-2xl font-mono font-bold px-4 py-2 rounded-lg ${isUrgent ? 'bg-red-600 animate-pulse' : 'bg-blue-800'}`}>
             ⏱ {timeStr}
@@ -142,26 +146,44 @@ export default function SamplePage() {
               <div className="flex-shrink-0 w-8 h-8 bg-[#1e3a5f] text-white rounded-full flex items-center justify-center font-bold text-sm">
                 {idx + 1}
               </div>
-              <div>
-                <span className="text-xs font-semibold text-blue-600 uppercase tracking-wide">{q.category}</span>
-                {q.type === 'sata' && (
-                  <span className="ml-2 text-xs bg-purple-100 text-purple-700 px-2 py-0.5 rounded-full font-semibold">Select All That Apply</span>
+              <div className="flex-1">
+                <div className="flex flex-wrap gap-2 mb-2">
+                  <span className="text-xs font-semibold text-blue-600 uppercase tracking-wide">{q.category}</span>
+                  {q.ngn && (
+                    <span className="text-xs bg-purple-600 text-white px-2 py-0.5 rounded-full font-bold">
+                      🎯 NGN — {q.ngn_type === 'bow-tie' ? 'Bow-Tie' : q.ngn_type === 'extended-response' ? 'Extended Response' : q.ngn_type === 'matrix' ? 'Matrix' : q.ngn_type === 'trend' ? 'Trend Analysis' : q.ngn_type === 'cloze' ? 'Cloze' : 'Clinical Judgment'}
+                    </span>
+                  )}
+                  {isMultiSelect(q) && (
+                    <span className="text-xs bg-amber-100 text-amber-800 px-2 py-0.5 rounded-full font-semibold">☑ Select All That Apply</span>
+                  )}
+                </div>
+
+                {q.scenario && (
+                  <div className="bg-blue-50 border-l-4 border-blue-500 rounded-r-xl p-4 mb-4">
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="text-blue-600 font-bold text-sm">📋 CLINICAL SCENARIO</span>
+                      {q.case_id && <span className="text-blue-400 text-xs">({q.case_id})</span>}
+                    </div>
+                    <p className="text-gray-700 text-sm leading-relaxed">{q.scenario}</p>
+                  </div>
                 )}
+
                 <p className="text-gray-800 font-medium mt-1">{q.question}</p>
               </div>
             </div>
 
             <div className="space-y-2 ml-11">
               {Object.entries(q.choices).map(([letter, text]) => {
-                const isSata = q.type === 'sata'
-                const isSelected = isSata
+                const multi = isMultiSelect(q)
+                const isSelected = multi
                   ? (Array.isArray(answers[q.id]) && answers[q.id].includes(letter))
                   : answers[q.id] === letter
 
                 return (
                   <button
                     key={letter}
-                    onClick={() => isSata ? toggleSata(q.id, letter) : setAnswer(q.id, letter)}
+                    onClick={() => handleAnswerClick(q, letter)}
                     className={`w-full text-left px-4 py-3 rounded-xl border-2 transition-all ${
                       isSelected
                         ? 'border-[#1e3a5f] bg-blue-50 text-[#1e3a5f] font-semibold'

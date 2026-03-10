@@ -2,14 +2,14 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'FAQ — NCLEX PrepPro',
-  description: 'Frequently asked questions about NCLEX PrepPro, our practice questions, pricing, and how to prepare for the NCLEX exam.',
+  description: 'Frequently asked questions about NCLEX PrepPro, our 667 practice questions including NGN formats, pricing, and how to prepare for the NCLEX exam.',
   alternates: { canonical: 'https://nclexprepro.com/faq' },
 };
 
 const faqs = [
   {
     q: 'How many questions does NCLEX PrepPro have?',
-    a: 'We currently offer 497 NCLEX-style practice questions across 5 categories: Med-Surg (100), Pharmacology (100), Safety (100), Prioritization (99), and Select All That Apply (98).',
+    a: 'We currently offer 667 NCLEX-style practice questions across 7 categories: Med-Surg (100), Pharmacology (100), Safety & Infection Control (100), Prioritization & Delegation (99), SATA (98), NGN Clinical Judgment (50), and NGN Case Studies (120 questions across 20 clinical scenarios).',
   },
   {
     q: 'How much does it cost?',
@@ -17,19 +17,27 @@ const faqs = [
   },
   {
     q: 'Is there a free trial?',
-    a: 'Yes! Take our free 10-question sample exam (2 questions from each category) with full rationales. No credit card required — just enter your name and email.',
+    a: 'Yes! Take our free 10-question sample exam. Questions across categories including NGN formats. No credit card required — just enter your name and email.',
   },
   {
     q: 'Do you provide answer rationales?',
     a: 'Yes. Every single question includes a detailed rationale explaining why the correct answer is right and why the other options are wrong. This is where the real learning happens.',
   },
   {
-    q: 'How does NCLEX PrepPro compare to UWorld or Archer Review?',
-    a: "UWorld costs $139-449 and Archer starts at $59. We offer 497 questions with rationales for $19 — one-time, lifetime access. We're designed for students who want quality practice without the premium price tag. Check our pricing page for a detailed comparison.",
+    q: 'What question types are included?',
+    a: 'We include all Next Generation NCLEX (NGN) question formats: bow-tie clinical judgment, extended multiple response, trend analysis, cloze/drop-down, matrix/grid, and priority action — plus traditional multiple choice and SATA. All 170 NGN questions are mapped to NCSBN\'s Clinical Judgment Measurement Model (CJMM) and updated for the April 2026 test plan.',
   },
   {
-    q: 'What question types are included?',
-    a: 'We include standard multiple-choice questions and Select All That Apply (SATA) questions — the two most common question types on the NCLEX. All questions are written at the application and analysis level, matching the difficulty of the real exam.',
+    q: 'What are NGN case studies?',
+    a: 'Next Generation NCLEX case studies present a single patient scenario followed by 6 linked clinical judgment questions in different formats (bow-tie, trend analysis, matrix, etc.). The real NCLEX includes 3 case studies with 6 questions each. NCLEX PrepPro includes 20 complete case study scenarios covering the highest-yield clinical situations: sepsis, stroke, DKA, heart failure, pediatric asthma, acute kidney injury, postpartum hemorrhage, and 13 more.',
+  },
+  {
+    q: 'Is NCLEX PrepPro updated for the April 2026 test plan?',
+    a: 'Yes. The NCSBN updated the NCLEX test plan effective April 1, 2026. Our question bank includes NGN questions aligned with the new emphasis on clinical judgment, updated content category weightings, and the CJMM framework. We recommend confirming the latest specifications at ncsbn.org.',
+  },
+  {
+    q: 'How does NCLEX PrepPro compare to UWorld or Archer Review?',
+    a: "UWorld costs $349/year and Archer starts at $59/month. We offer 667 questions including 20 full NGN clinical case studies — the same format used on the real NCLEX — for $19 one-time. We're the only platform with full NGN case study coverage at this price point. Our bow-tie, matrix, and trend questions are mapped to the NCSBN CJMM framework and updated for the April 2026 test plan.",
   },
   {
     q: 'Does access expire?',
@@ -67,6 +75,7 @@ export default function FAQPage() {
             <Link href="/blog" className="hover:underline">Blog</Link>
             <Link href="/sample" className="hover:underline">Free Sample</Link>
             <Link href="/pricing" className="hover:underline">Pricing</Link>
+            <Link href="/schools" className="hover:underline">For Schools</Link>
           </div>
         </div>
       </nav>
@@ -101,6 +110,7 @@ export default function FAQPage() {
             <Link href="/pricing" className="hover:underline">Pricing</Link>
             <Link href="/faq" className="hover:underline">FAQ</Link>
             <Link href="/blog" className="hover:underline">Blog</Link>
+            <Link href="/schools" className="hover:underline">For Schools</Link>
           </div>
         </div>
       </footer>

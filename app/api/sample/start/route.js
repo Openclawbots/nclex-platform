@@ -13,24 +13,33 @@ export async function POST(req) {
       return NextResponse.json({ error: 'Email is required' }, { status: 400 })
     }
 
-    // Load questions and pick 2 from each category
+    // Load questions: 8 traditional + 2 NGN = 10 total
     const questionsPath = path.join(process.cwd(), 'nclex-questions.json')
     const allQuestions = JSON.parse(fs.readFileSync(questionsPath, 'utf-8'))
 
-    const categories = [
-      'Med-Surg',
-      'Pharmacology',
-      'Safety & Infection Control',
-      'Prioritization & Delegation',
-      'SATA',
+    // 8 traditional questions: 1-2 from each of 5 categories (total 8)
+    const traditionalCategories = [
+      { name: 'Med-Surg', count: 2 },
+      { name: 'Pharmacology', count: 2 },
+      { name: 'Safety & Infection Control', count: 2 },
+      { name: 'Prioritization & Delegation', count: 1 },
+      { name: 'SATA', count: 1 },
     ]
 
     const selected = []
-    for (const cat of categories) {
-      const catQuestions = allQuestions.filter(q => q.category === cat)
+    for (const cat of traditionalCategories) {
+      const catQuestions = allQuestions.filter(q => q.category === cat.name && !q.ngn)
       const shuffled = catQuestions.sort(() => Math.random() - 0.5)
-      selected.push(...shuffled.slice(0, 2))
+      selected.push(...shuffled.slice(0, cat.count))
     }
+
+    // 2 NGN questions from NGN - Clinical Judgment category
+    const ngnQuestions = allQuestions.filter(q => q.ngn === true)
+    const shuffledNgn = ngnQuestions.sort(() => Math.random() - 0.5)
+    selected.push(...shuffledNgn.slice(0, 2))
+
+    // Shuffle the final selection so NGN questions aren't always at the end
+    selected.sort(() => Math.random() - 0.5)
 
     // Store full questions (with answers) server-side
     const sample_token = randomUUID()
@@ -41,13 +50,17 @@ export async function POST(req) {
       [name?.trim() || null, email.trim().toLowerCase(), sample_token, JSON.stringify(selected)]
     )
 
-    // Return questions WITHOUT correct answers
+    // Return questions WITHOUT correct answers, but WITH ngn fields for UI rendering
     const clientQuestions = selected.map(q => ({
       id: q.id,
       category: q.category,
       type: q.type,
       question: q.question,
       choices: q.choices,
+      ngn: q.ngn || false,
+      ngn_type: q.ngn_type || null,
+      scenario: q.scenario || null,
+      case_id: q.case_id || null,
     }))
 
     return NextResponse.json({ sample_token, questions: clientQuestions })
