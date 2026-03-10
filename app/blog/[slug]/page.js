@@ -2,9 +2,8 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { posts, getPost, getAllSlugs } from '@/lib/posts';
 
-export async function generateStaticParams() {
-  return getAllSlugs().map(slug => ({ slug }));
-}
+// Render on demand (SSR) — avoids Railway build timeout from pre-rendering all blog posts
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }) {
   const post = getPost(params.slug);
